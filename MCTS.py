@@ -37,6 +37,7 @@ class MCTS():
         for i in range(self.args.numMCTSSims):
             self.search(canonicalBoard)
 
+
         s = self.game.stringRepresentation(canonicalBoard)
         counts = [self.Nsa[(s, a)] if (s, a) in self.Nsa else 0 for a in range(self.game.getActionSize())]
 
@@ -75,7 +76,7 @@ class MCTS():
         s = self.game.stringRepresentation(canonicalBoard)
 
         if s not in self.Es:
-            self.Es[s] = self.game.getGameEnded(canonicalBoard, 1)
+            self.Es[s] = self.game.getGameEnded(canonicalBoard)
         if self.Es[s] != 0:
             # terminal node
             return -self.Es[s]
@@ -83,7 +84,7 @@ class MCTS():
         if s not in self.Ps:
             # leaf node
             self.Ps[s], v = self.nnet.predict(canonicalBoard)
-            valids = self.game.getValidMoves(canonicalBoard, 1)
+            valids = self.game.getAllMoves(canonicalBoard) # all doesnt work for some reason, but getValidMoves does... 
             self.Ps[s] = self.Ps[s] * valids  # masking invalid moves
             sum_Ps_s = np.sum(self.Ps[s])
             if sum_Ps_s > 0:
@@ -119,9 +120,10 @@ class MCTS():
                     best_act = a
 
         a = best_act
-        next_s, next_player = self.game.getNextState(canonicalBoard, 1, a)
-        next_s = self.game.getCanonicalForm(next_s, next_player)
+        next_s = self.game.getNextState(canonicalBoard, a)
+        next_s = self.game.getCanonicalForm(next_s)
 
+        # assert np.all(canonicalBoard == next_s)
         v = self.search(next_s)
 
         if (s, a) in self.Qsa:

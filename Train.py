@@ -30,12 +30,12 @@ class Train():
         # update self.data
         pass
 
-    def learn(self, numIters):
-        for i in range(numIters):
+    def learn(self):
+        for i in tqdm(range(self.args.numIters)):
             print('------ITER ' + str(i+1) + '------')
             
             p = Play(self.game, self.nnet, self.args)
-            data = p.playGames(self, num=self.args.numEps)
+            data = p.playGames(num=self.args.numEps)
             self.data = data
 
             # shuffle examples before training

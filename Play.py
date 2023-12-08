@@ -4,6 +4,12 @@ from NeuralNet import NeuralNet
 from SudokuGame import SudokuGame
 import numpy as np
 import torch
+import os
+import pandas as pd
+
+def string_2_array(s):
+            n = int(len(s)**0.5)  # Determine the size of the square array
+            return np.array([int(char) for char in s]).reshape(n, n)
 
 class Play(): 
     def __init__(self, game, nnet, args):
@@ -11,11 +17,17 @@ class Play():
         self.nnet = nnet
         self.args = args
         self.mcts = MCTS(self.game, self.nnet, self.args)
+
+        df = pd.read_csv('sudoku-small.csv')
+        
+
+        self.inboard = string_2_array(df.iloc[3]['puzzle'])
+        self.solution = string_2_array(df.iloc[3]['solution'])
     
     def playGame(self):
         augment = False
         data = []
-        board = self.game.getInitBoard()
+        board = self.game.getInitBoard(self.inboard, self.solution)
 
         while True:
             # print(self.board)
@@ -39,6 +51,7 @@ class Play():
                 return [(x[0], x[1], end) for x in data]
 
     def playGames(self, num):
+        print(num)
         # play n games and return data in the form of examples
         examples = []
         for i in range(num):

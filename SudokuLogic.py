@@ -72,28 +72,3 @@ class Board():
     def is_comn(self):
         # if there are no 0's, then the board is won
         return np.all(self.board != 0)
-    
-
-    def two_dim_to_three_dim(board):
-        n = board.shape[0]
-        three_dim_board = np.zeros((n, n, n))
-
-        # Get the coordinates of non-zero elements
-        x, y = np.nonzero(board)
-        
-        # One-hot encode
-        three_dim_board[x, y, board[x, y] - 1] = 1
-
-        return three_dim_board
-    
-    def three_dim_to_two_dim(board):
-        n = board.shape[0]
-        two_dim_board = np.zeros((n, n))
-
-        # Get the coordinates of non-zero elements
-        x, y, z = np.nonzero(board)
-        
-        # One-hot encode
-        two_dim_board[x, y] = z + 1
-
-        return two_dim_board

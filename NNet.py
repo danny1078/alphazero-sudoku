@@ -12,7 +12,7 @@ from NeuralNet import NeuralNet
 import torch
 import torch.optim as optim
 
-from .SudokuNNet import SudokuNNet as onnet
+from SudokuNNet import SudokuNNet as onnet
 
 args = dotdict({
     'lr': 0.001,

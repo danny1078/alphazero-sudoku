@@ -2,7 +2,7 @@ from __future__ import print_function
 import sys
 sys.path.append('..')
 from Game import Game
-from .SudokuLogic import Board
+from SudokuLogic import Board
 import numpy as np
 from itertools import permutations
 
@@ -19,10 +19,12 @@ class SudokuGame(Game):
     def __init__(self, n=9):
         self.n = n
 
-    def getInitBoard(self):
+    def getInitBoard(self, board, solution):
         # Initialize an empty Sudoku board
-        b = Board(self.n)
-        return b.board # np array (n, n)
+        # b = Board(self.n)
+        self.sol = solution
+        self.b = Board(self.n, initial_board=board)
+        return self.b.board
 
     def getBoardSize(self):
         # (a,b) tuple
@@ -33,29 +35,32 @@ class SudokuGame(Game):
         return self.n**3
 
     def getNextState(self, board, action):
-        # Action as (row, col, number) to place on the board
+        # Action as a number from 0 to n ** 3 - 1
         # Apply action to board and return new board state
         new_board = np.copy(board)
-        new_board[action[0], action[1]] = action[2]
-        return new_board
+        new_board[action // (self.n ** 2), (action % (self.n ** 2)) // self.n] = (action % (self.n ** 2)) % self.n + 1
+        self.b.place_number(action // (self.n ** 2), (action % (self.n ** 2)) // self.n, (action % (self.n ** 2)) % self.n + 1)
+        return self.b.board
 
     def getValidMoves(self, board):
         # Return a binary vector where each entry indicates if placing a number (1-9) in a cell (row, col) is valid
-        valid_moves = np.zeros((9, 9, 9))
-        moves = board.get_legal_moves() # list of (x, y, num) tuples
+        valid_moves = np.zeros(self.n ** 3)
+        moves = self.b.get_legal_moves() # list of (x, y, num) tuples
         for x, y, num in moves:
-            valid_moves[x, y, num-1] = 1
+            valid_moves[x * self.n ** 2 + y * self.n + num - 1] = 1
         return valid_moves
 
     def getAllMoves(self, board):
         # Return a list of all moves 
-        all_moves = np.zeros((9, 9, 9))
-        moves = board.get_all_moves() # list of (x, y, num) tuples
+        all_moves = np.zeros(self.n ** 3)
+        moves = self.b.get_all_moves() # list of (x, y, num) tuples
         for x, y, num in moves:
-            all_moves[x, y, num-1] = 1
+            all_moves[x * self.n ** 2 + y * self.n + num - 1] = 1
         return all_moves
 
-    def getGameEnded(self, board, solution):
+    def getGameEnded(self, board):
+        self.display(self.b.board)
+        solution = self.sol
         three_dim_board = self.two_dim_to_three_dim(board)
         # If there are no zeros on the board, the game is over
         if not np.all(board != 0):
@@ -71,7 +76,7 @@ class SudokuGame(Game):
                 return -(errors ** 2)
 
     def getCanonicalForm(self, board):
-        return board
+        return self.b.board
 
     def getSymmetries(self, board, pi):
         # mirror, rotational
@@ -114,6 +119,32 @@ class SudokuGame(Game):
         else:
             return -(errors ** 2)
 
+    @staticmethod
+    def two_dim_to_three_dim(board):
+        n = board.shape[0]
+        three_dim_board = np.zeros((n, n, n))
+
+        # Get the coordinates of non-zero elements
+        x, y = np.nonzero(board)
+        
+        # One-hot encode
+        three_dim_board[x, y, board[x, y] - 1] = 1
+
+        return three_dim_board
+    
+    @staticmethod
+    def three_dim_to_two_dim(board):
+        n = board.shape[0]
+        two_dim_board = np.zeros((n, n))
+
+        # Get the coordinates of non-zero elements
+        x, y, z = np.nonzero(board)
+        
+        # One-hot encode
+        two_dim_board[x, y] = z + 1
+
+        return two_dim_board
+    
     @staticmethod
     def display(board):
         n = board.shape[0]
