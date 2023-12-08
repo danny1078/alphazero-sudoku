@@ -37,8 +37,9 @@ class SudokuGame(Game):
     def getNextState(self, board, action):
         # Action as a number from 0 to n ** 3 - 1
         # Apply action to board and return new board state
-        new_board = np.copy(board)
-        new_board[action // (self.n ** 2), (action % (self.n ** 2)) // self.n] = (action % (self.n ** 2)) % self.n + 1
+        # print("Action: ", action // (self.n ** 2), (action % (self.n ** 2)) // self.n, (action % (self.n ** 2)) % self.n + 1)
+        # new_board = np.copy(board)
+        # new_board[action // (self.n ** 2), (action % (self.n ** 2)) // self.n] = (action % (self.n ** 2)) % self.n + 1
         self.b.place_number(action // (self.n ** 2), (action % (self.n ** 2)) // self.n, (action % (self.n ** 2)) % self.n + 1)
         return self.b.board
 

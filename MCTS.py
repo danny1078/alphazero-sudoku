@@ -123,7 +123,7 @@ class MCTS():
         next_s = self.game.getNextState(canonicalBoard, a)
         next_s = self.game.getCanonicalForm(next_s)
 
-        # assert np.all(canonicalBoard == next_s)
+        assert np.all(canonicalBoard == next_s)
         v = self.search(next_s)
 
         if (s, a) in self.Qsa:
