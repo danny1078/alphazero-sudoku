@@ -66,33 +66,33 @@ class SudokuGame(Game):
             all_moves[x * self.n ** 2 + y * self.n + num - 1] = 1
         return all_moves
 
-    def getGameEnded(self, board):
-        self.display(board)
-        # If there are no zeros on the board, the game is over
-        valid_run = True
-        if not np.all(board != 0):
-            return 0
-        elif valid_run:
-            # count number of zeros
-            count = np.sum(board == 0)
-            if count == 0:
-                return 1e3
-            else:
-                return (81 - count) / 81
-        else:
-            solution = self.sol
-            three_dim_board = self.two_dim_to_three_dim(board)
-            # take the inner product of the board and the solution to get the number of errors
-            elementwise = three_dim_board * solution
-            summed_array = np.sum(elementwise, axis=2) # sum along the third dimension
-            errors = np.size(summed_array) - np.sum(summed_array)
-            if errors == 0:
-                return 1e3
-            else:
-                return -(errors ** 2)
+    # def getGameEnded(self, board):
+    #     self.display(board)
+    #     # If there are no zeros on the board, the game is over
+    #     valid_run = True
+    #     if not np.all(board != 0):
+    #         return 0
+    #     elif valid_run:
+    #         # count number of zeros
+    #         count = np.sum(board == 0)
+    #         if count == 0:
+    #             return 1e3
+    #         else:
+    #             return (81 - count) / 81
+    #     else:
+    #         solution = self.sol
+    #         three_dim_board = self.two_dim_to_three_dim(board)
+    #         # take the inner product of the board and the solution to get the number of errors
+    #         elementwise = three_dim_board * solution
+    #         summed_array = np.sum(elementwise, axis=2) # sum along the third dimension
+    #         errors = np.size(summed_array) - np.sum(summed_array)
+    #         if errors == 0:
+    #             return 1e3
+    #         else:
+    #             return -(errors ** 2)
 
     def getGameEnded2(self, board): # based on number of vacancies, does not use a prescribed solution
-        self.display(board)
+        #self.display(board)
         b = Board(self.n)
         b.board = np.copy(board)
         has_legal_moves = b.has_legal_moves()

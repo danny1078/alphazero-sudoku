@@ -30,10 +30,9 @@ class Play():
 
         while True:
             # print(self.board)
-            temp = int(1e-3)
+            temp = 0
             pi = self.mcts.getActionProb(board, temp=temp)
-            
-            if augment: 
+            if augment:
                 sym = self.game.getSymmetries(board, pi) 
                 for b,p in sym:
                     data.append([b, p, None])
@@ -44,7 +43,8 @@ class Play():
 
             board = self.game.getNextState(board, action)
 
-            end = self.game.getGameEnded(board)
+            end = self.game.getGameEnded2(board)
+            print(end)
             if end != 0:
                 return [(x[0], x[1], end) for x in data]
 

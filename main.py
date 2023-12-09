@@ -5,7 +5,7 @@ from utils import *
 
 args = dotdict({
     'numIters': 1000,
-    'numEps': 100,              # Number of complete self-play games to simulate during a new iteration.
+    'numEps': 10,              # Number of complete self-play games to simulate during a new iteration.
     'tempThreshold': 15,        #
     'maxlenOfQueue': 200000,    # Number of game examples to train the neural networks.
     'numMCTSSims': 25,          # Number of games moves for MCTS to simulate.
