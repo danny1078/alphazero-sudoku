@@ -93,7 +93,9 @@ class SudokuGame(Game):
 
     def getGameEnded2(self, board): # based on number of vacancies, does not use a prescribed solution
         self.display(board)
-        has_legal_moves = board.has_legal_moves()
+        b = Board(self.n)
+        b.board = np.copy(board)
+        has_legal_moves = b.has_legal_moves()
         if has_legal_moves:
             return 0
         else:
