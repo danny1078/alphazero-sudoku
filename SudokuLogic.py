@@ -44,8 +44,13 @@ class Board():
                     moves.append((x, y, num))
         return moves
 
-    def has_legal_moves(self):
-        return any(self.get_legal_moves())
+    def has_legal_moves(self): # avoid cycling through all moves for speed - Danny
+        empty_cells = np.argwhere(self.board == 0)
+        for x, y in empty_cells:
+            for num in range(1, self.n + 1):
+                if self.is_move_legal(x, y, num):
+                    return True
+        return False
 
     def is_move_legal(self, x, y, num):
         return self.is_row_valid(x, num) and \
