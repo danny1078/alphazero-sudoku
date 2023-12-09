@@ -25,19 +25,27 @@ class Train():
         self.data = []
         self.numGames = args.numGames
 
-    def getData(self):
-        # use args to import data of already-played-games / data from self-play
-        # update self.data
-        pass
+    def generatePuzzle(self, solution, num_blanks):
+        # randomly mask num_blanks squares in solution with zeros
+        # return solution and masked solution
+        # solution is a 9x9 numpy array
+        # masked_solution is a 9x9 numpy array
+        masked_solution = solution.copy()
+        mask = np.random.choice(81, num_blanks, replace=False)
+        for i in mask:
+            masked_solution[i // 9][i % 9] = 0
+        return masked_solution
 
-    def learn(self):
+    def learn(self, min_squares=20):
         logger = wandb.init(project="alphazero_sudoku")
+        avg_step = (81 - min_squares) / self.args.numIters
         for i in tqdm(range(self.args.numIters)):
             print('------ITER ' + str(i + 1) + '------')
             # randomly sample self.numGames boards from self.df
             plays = []
             for i in range(self.numGames):
-                puzzle = string_2_array(self.df.sample(1)['puzzle'].values[0])
+                solution = string_2_array(self.df.sample(1)['solution'].values[0])
+                puzzle = self.generatePuzzle(solution, np.floor(81 - i * avg_step))
                 plays.append(Play(self.game, self.nnet, self.args, inboard=puzzle))
 
             with Pool(processes=self.numGames) as p:
