@@ -110,7 +110,7 @@ class SudokuGame(Game):
         # mirror, rotational
         # TODO: add permutation of rows (with rotations = columns) and add permutation of numbers. 
         assert(len(pi) == self.getActionSize())
-        pi_board = np.reshape(pi, (self.n, self.n))
+        pi_board = np.reshape(pi, (self.n, self.n, self.n))
         l = []
         small_perms = list(permutations(range(int(self.n**0.5))))
         big_perms = list(permutations(range(self.n))) # 9! = 362880 !!!!, randomly sample these ones, or don't at all. prob better to just build this invariance in

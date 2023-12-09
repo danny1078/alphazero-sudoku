@@ -24,12 +24,11 @@ class Play():
         self.solution = string_2_array(df.iloc[3]['solution'])
     
     def playGame(self):
-        augment = False
+        augment = True
         data = []
         board = self.game.getInitBoard(self.inboard, self.solution)
 
         while True:
-            # print(self.board)
             temp = 0
             pi = self.mcts.getActionProb(board, temp=temp)
             if augment:
@@ -44,12 +43,10 @@ class Play():
             board = self.game.getNextState(board, action)
 
             end = self.game.getGameEnded2(board)
-            print(end)
             if end != 0:
                 return [(x[0], x[1], end) for x in data]
 
     def playGames(self, num):
-        print(num)
         # play n games and return data in the form of examples
         examples = []
         for i in range(num):
