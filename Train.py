@@ -12,7 +12,7 @@ from MCTS import MCTS
 from Play import Play, string_2_array
 import pandas as pd
 from multiprocessing import Pool
-
+import wandb
 
 class Train():
 
@@ -31,6 +31,7 @@ class Train():
         pass
 
     def learn(self):
+        logger = wandb.init(project="alphazero_sudoku")
         for i in tqdm(range(self.args.numIters)):
             print('------ITER ' + str(i + 1) + '------')
             # randomly sample self.numGames boards from self.df
@@ -43,10 +44,12 @@ class Train():
                 data = p.map(playGame, plays)
                 flat_data = [item for sublist in data for item in sublist]
             self.data = flat_data
-
+            avg_completion = np.mean([x[2] for x in self.data])
+            print('Average completion: ' + str(avg_completion))
+            logger.log({"Average completion": avg_completion})
             # shuffle examples before training
             shuffle(self.data)
-            self.nnet.train(self.data)
+            self.nnet.train(self.data, wandb_logger=logger)
 
 
 def playGame(p):

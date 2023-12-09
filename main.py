@@ -3,8 +3,10 @@ from SudokuGame import SudokuGame as Game
 from NNet import NNetWrapper as nn
 from utils import *
 
+
+
 args = dotdict({
-    'numIters': 1000,
+    'numIters': 50,
     'numEps': 10,              # Number of complete self-play games to simulate during a new iteration.
     'tempThreshold': 15,        #
     'maxlenOfQueue': 200000,    # Number of game examples to train the neural networks.

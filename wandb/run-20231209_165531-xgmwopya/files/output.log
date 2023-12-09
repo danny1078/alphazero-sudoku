@@ -1,0 +1,36 @@
+
+EPOCH ::: 1
+
+
+
+Training Net:  76%|███████▌  | 591/779 [00:07<00:01, 115.02it/s, Loss_pi=6.57e+00, Loss_v=3.77e-01]
+Training Net: 100%|██████████| 779/779 [00:09<00:00, 84.21it/s, Loss_pi=6.56e+00, Loss_v=3.22e-01]
+
+
+
+Training Net:  96%|█████████▌| 744/779 [00:06<00:00, 114.56it/s, Loss_pi=6.53e+00, Loss_v=5.67e-02]
+Training Net: 100%|██████████| 779/779 [00:06<00:00, 114.84it/s, Loss_pi=6.53e+00, Loss_v=5.57e-02]
+
+
+Training Net:  86%|████████▋ | 672/779 [00:05<00:00, 114.03it/s, Loss_pi=6.52e+00, Loss_v=1.54e-02]
+Training Net: 100%|██████████| 779/779 [00:06<00:00, 114.58it/s, Loss_pi=6.52e+00, Loss_v=1.45e-02]
+
+
+Training Net: 100%|██████████| 779/779 [00:07<00:00, 110.77it/s, Loss_pi=6.52e+00, Loss_v=5.07e-03]
+Training Net:   2%|▏         | 12/779 [00:00<00:07, 109.05it/s, Loss_pi=6.52e+00, Loss_v=3.23e-03]
+
+Training Net:  35%|███▌      | 274/779 [00:02<00:04, 110.63it/s, Loss_pi=6.52e+00, Loss_v=2.93e-03]
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 40, in <module>
+    main()
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 36, in main
+    t.learn()
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Train.py", line 51, in learn
+    self.nnet.train(self.data)
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\NNet.py", line 77, in train
+    total_loss.backward()
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\torch\_tensor.py", line 492, in backward
+    torch.autograd.backward(
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\torch\autograd\__init__.py", line 251, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

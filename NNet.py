@@ -33,7 +33,7 @@ class NNetWrapper(NeuralNet):
         if args.cuda:
             self.nnet.cuda()
 
-    def train(self, examples):
+    def train(self, examples, wandb_logger):
         """
         examples: list of examples, each example is of form (board, pi, v)
         """
@@ -47,7 +47,7 @@ class NNetWrapper(NeuralNet):
 
             batch_count = int(len(examples) / args.batch_size)
 
-            t = tqdm(range(batch_count), desc='Training Net')
+            t = tqdm(range(batch_count), desc='Training Net', position=0, leave=True)
             for _ in t:
                 sample_ids = np.random.randint(len(examples), size=args.batch_size)
                 boards, pis, vs = list(zip(*[examples[i] for i in sample_ids]))
@@ -74,6 +74,7 @@ class NNetWrapper(NeuralNet):
                 optimizer.zero_grad()
                 total_loss.backward()
                 optimizer.step()
+                wandb_logger.log({"Loss_pi": pi_losses.avg, "Loss_v": v_losses.avg})
 
     def predict(self, board):
         """
