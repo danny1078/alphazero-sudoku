@@ -67,6 +67,7 @@ class SudokuGame(Game):
         return all_moves
 
     def getGameEnded(self, board):
+        self.display(board)
         # If there are no zeros on the board, the game is over
         valid_run = True
         if not np.all(board != 0):
