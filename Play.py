@@ -12,24 +12,20 @@ def string_2_array(s):
             return np.array([int(char) for char in s]).reshape(n, n)
 
 class Play(): 
-    def __init__(self, game, nnet, args):
+    def __init__(self, game, nnet, args, inboard=None):
         self.game = game
         self.nnet = nnet
         self.args = args
         self.mcts = MCTS(self.game, self.nnet, self.args)
+        self.inboard = inboard
 
-        df = pd.read_csv('sudoku-small.csv')
-        
-        self.inboard = string_2_array(df.iloc[3]['puzzle'])
-        self.solution = string_2_array(df.iloc[3]['solution'])
-    
     def playGame(self):
         augment = True
         data = []
-        board = self.game.getInitBoard(self.inboard, self.solution)
+        board = self.inboard
 
         while True:
-            temp = 0
+            temp = 0.5
             pi = self.mcts.getActionProb(board, temp=temp)
             if augment:
                 sym = self.game.getSymmetries(board, pi) 

@@ -9,18 +9,21 @@ import numpy as np
 from tqdm import tqdm
 
 from MCTS import MCTS
-from Play import Play
+from Play import Play, string_2_array
+import pandas as pd
+from multiprocessing import Pool
 
-class Train(): 
+
+class Train():
 
     def __init__(self, game, nnet, args):
+        self.df = pd.read_csv('sudoku-small.csv')
         self.game = game
         self.nnet = nnet
         self.args = args
-        self.mcts = MCTS(self.game, self.nnet, self.args)
         self.trainExamplesHistory = []  # history of examples from args.numItersForTrainExamplesHistory latest iterations
-        self.skipFirstSelfPlay = False  # can be overriden in loadTrainExamples()
         self.data = []
+        self.numGames = args.numGames
 
     def getData(self):
         # use args to import data of already-played-games / data from self-play
@@ -29,14 +32,23 @@ class Train():
 
     def learn(self):
         for i in tqdm(range(self.args.numIters)):
-            print('------ITER ' + str(i+1) + '------')
-            
-            p = Play(self.game, self.nnet, self.args)
-            data = p.playGames(num=self.args.numEps)
-            self.data = data
+            print('------ITER ' + str(i + 1) + '------')
+            # randomly sample self.numGames boards from self.df
+            plays = []
+            for i in range(self.numGames):
+                puzzle = string_2_array(self.df.sample(1)['puzzle'].values[0])
+                plays.append(Play(self.game, self.nnet, self.args, inboard=puzzle))
+
+            with Pool(processes=self.numGames) as p:
+                data = p.map(playGame, plays)
+                flat_data = [item for sublist in data for item in sublist]
+            self.data = flat_data
 
             # shuffle examples before training
             shuffle(self.data)
             self.nnet.train(self.data)
-            
-        pass
+
+
+def playGame(p):
+    data = p.playGame()
+    return data

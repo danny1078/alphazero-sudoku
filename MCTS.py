@@ -45,7 +45,6 @@ class MCTS():
             probs = [0] * len(counts)
             probs[bestA] = 1
             return probs
-        print(temp)
         counts = [x ** (1. / temp) for x in counts]
         counts_sum = float(sum(counts))
         probs = [x / counts_sum for x in counts]

@@ -15,6 +15,7 @@ args = dotdict({
     'load_model': False,
     'load_folder_file': ('/dev/models/8x100x50','best.pth.tar'),
     'numItersForTrainExamplesHistory': 20,
+    'numGames': 32, # number of games to play in parallel = number of workers
 
 })
 
