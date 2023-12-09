@@ -23,8 +23,9 @@ class SudokuGame(Game):
         # Initialize an empty Sudoku board
         # b = Board(self.n)
         self.sol = solution
-        self.b = Board(self.n, initial_board=board)
-        return self.b.board
+        self.sol = None
+        # self.b = Board(self.n, initial_board=board)
+        return board
 
     def getBoardSize(self):
         # (a,b) tuple
@@ -40,33 +41,46 @@ class SudokuGame(Game):
         # print("Action: ", action // (self.n ** 2), (action % (self.n ** 2)) // self.n, (action % (self.n ** 2)) % self.n + 1)
         # new_board = np.copy(board)
         # new_board[action // (self.n ** 2), (action % (self.n ** 2)) // self.n] = (action % (self.n ** 2)) % self.n + 1
-        self.b.place_number(action // (self.n ** 2), (action % (self.n ** 2)) // self.n, (action % (self.n ** 2)) % self.n + 1)
-        return self.b.board
+        b = Board(self.n)
+        b.board = np.copy(board)
+        b.place_number(action // (self.n ** 2), (action % (self.n ** 2)) // self.n, (action % (self.n ** 2)) % self.n + 1)
+        return b.board
 
     def getValidMoves(self, board):
         # Return a binary vector where each entry indicates if placing a number (1-9) in a cell (row, col) is valid
+        b = Board(self.n)
+        b.board = np.copy(board)
         valid_moves = np.zeros(self.n ** 3)
-        moves = self.b.get_legal_moves() # list of (x, y, num) tuples
+        moves = b.get_legal_moves() # list of (x, y, num) tuples
         for x, y, num in moves:
             valid_moves[x * self.n ** 2 + y * self.n + num - 1] = 1
         return valid_moves
 
     def getAllMoves(self, board):
         # Return a list of all moves 
+        b = Board(self.n)
+        b.board = np.copy(board)
         all_moves = np.zeros(self.n ** 3)
-        moves = self.b.get_all_moves() # list of (x, y, num) tuples
+        moves = b.get_all_moves() # list of (x, y, num) tuples
         for x, y, num in moves:
             all_moves[x * self.n ** 2 + y * self.n + num - 1] = 1
         return all_moves
 
     def getGameEnded(self, board):
-        self.display(self.b.board)
-        solution = self.sol
-        three_dim_board = self.two_dim_to_three_dim(board)
         # If there are no zeros on the board, the game is over
+        valid_run = True
         if not np.all(board != 0):
             return 0
+        elif valid_run:
+            # count number of zeros
+            count = np.sum(board == 0)
+            if count == 0:
+                return 1e3
+            else:
+                return (81 - count) / 81
         else:
+            solution = self.sol
+            three_dim_board = self.two_dim_to_three_dim(board)
             # take the inner product of the board and the solution to get the number of errors
             elementwise = three_dim_board * solution
             summed_array = np.sum(elementwise, axis=2) # sum along the third dimension
@@ -76,8 +90,8 @@ class SudokuGame(Game):
             else:
                 return -(errors ** 2)
 
-    def getCanonicalForm(self, board):
-        return self.b.board
+    # def getCanonicalForm(self, board):
+    #     return self.b.board
 
     def getSymmetries(self, board, pi):
         # mirror, rotational

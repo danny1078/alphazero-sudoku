@@ -64,8 +64,11 @@ class Board():
         return num not in self.board[startRow:startRow + self.subgrid_size, startCol:startCol + self.subgrid_size]
 
     def place_number(self, x, y, num):
-        self.board[x, y] = num
-        return True
+        # for allMoves
+        # self.board[x, y] = num
+        # return True
+        
+        # for ValidMoves
         if self.is_move_legal(x, y, num):
             self.board[x, y] = num
             return True

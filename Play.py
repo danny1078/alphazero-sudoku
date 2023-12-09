@@ -20,7 +20,6 @@ class Play():
 
         df = pd.read_csv('sudoku-small.csv')
         
-
         self.inboard = string_2_array(df.iloc[3]['puzzle'])
         self.solution = string_2_array(df.iloc[3]['solution'])
     
@@ -31,20 +30,19 @@ class Play():
 
         while True:
             # print(self.board)
-            canonicalBoard = self.game.getCanonicalForm(board)
             temp = int(1e-3)
-            pi = self.mcts.getActionProb(canonicalBoard, temp=temp)
+            pi = self.mcts.getActionProb(board, temp=temp)
             
             if augment: 
-                sym = self.game.getSymmetries(canonicalBoard, pi) 
+                sym = self.game.getSymmetries(board, pi) 
                 for b,p in sym:
                     data.append([b, p, None])
             
             action = np.random.choice(len(pi), p=pi)
             
-            board = self.game.getNextState(board, action)
+            data.append([board, pi, None])
 
-            data.append([canonicalBoard, pi, None])
+            board = self.game.getNextState(board, action)
 
             end = self.game.getGameEnded(board)
             if end != 0:
