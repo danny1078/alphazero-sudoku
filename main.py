@@ -7,17 +7,17 @@ from utils import *
 
 args = dotdict({
     'numIters': 50,
-    'numEps': 10,              # Number of complete self-play games to simulate during a new iteration.
+    'numEps': 20,              # Number of complete self-play games to simulate during a new iteration.
     'tempThreshold': 15,        #
     'maxlenOfQueue': 200000,    # Number of game examples to train the neural networks.
-    'numMCTSSims': 25,          # Number of games moves for MCTS to simulate.
-    'cpuct': 1,                 # UCB hyperparameter
+    'numMCTSSims': 40,          # Number of games moves for MCTS to simulate.
+    'cpuct': 1.41,                 # UCB hyperparameter
 
     'checkpoint': './temp/',
     'load_model': False,
     'load_folder_file': ('/dev/models/8x100x50','best.pth.tar'),
     'numItersForTrainExamplesHistory': 20,
-    'numGames': 32, # number of games to play in parallel = number of workers
+    'numGames': 50, # number of games to play in one iteration
 
 })
 

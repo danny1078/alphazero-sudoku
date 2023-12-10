@@ -1,0 +1,81 @@
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+
+Training Net:   0%|          | 0/349 [00:00<?, ?it/s]
+Average completion: 0.9621255099008562
+
+Training Net: 100%|██████████| 349/349 [00:04<00:00, 70.00it/s, Loss_pi=6.56e+00, Loss_v=6.51e-01]
+Training Net:  14%|█▍        | 48/349 [00:00<00:02, 113.71it/s, Loss_pi=6.53e+00, Loss_v=4.10e-01]
+
+Training Net:  79%|███████▉  | 276/349 [00:02<00:00, 113.73it/s, Loss_pi=6.51e+00, Loss_v=3.26e-01]
+Training Net: 100%|██████████| 349/349 [00:03<00:00, 114.07it/s, Loss_pi=6.51e+00, Loss_v=3.09e-01]
+Training Net:  48%|████▊     | 168/349 [00:01<00:01, 114.03it/s, Loss_pi=6.48e+00, Loss_v=1.85e-01]
+Training Net: 100%|██████████| 349/349 [00:03<00:00, 114.52it/s, Loss_pi=6.47e+00, Loss_v=1.60e-01]
+
+Training Net:  83%|████████▎ | 288/349 [00:02<00:00, 114.39it/s, Loss_pi=6.45e+00, Loss_v=9.59e-02]
+Training Net: 100%|██████████| 349/349 [00:03<00:00, 114.43it/s, Loss_pi=6.45e+00, Loss_v=9.23e-02]
+Training Net:  48%|████▊     | 168/349 [00:01<00:01, 114.52it/s, Loss_pi=6.44e+00, Loss_v=6.40e-02]
+Training Net: 100%|██████████| 349/349 [00:03<00:00, 114.62it/s, Loss_pi=6.43e+00, Loss_v=5.76e-02]
+
+Training Net:  83%|████████▎ | 288/349 [00:02<00:00, 113.61it/s, Loss_pi=6.43e+00, Loss_v=3.92e-02]
+Training Net: 100%|██████████| 349/349 [00:03<00:00, 113.51it/s, Loss_pi=6.43e+00, Loss_v=3.81e-02]
+Training Net:  48%|████▊     | 166/349 [00:01<00:01, 113.89it/s, Loss_pi=6.42e+00, Loss_v=2.87e-02]
+Training Net: 100%|██████████| 349/349 [00:03<00:00, 114.11it/s, Loss_pi=6.42e+00, Loss_v=2.64e-02]
+
+Training Net:  83%|████████▎ | 288/349 [00:02<00:00, 114.73it/s, Loss_pi=6.41e+00, Loss_v=1.93e-02]
+Training Net: 100%|██████████| 349/349 [00:03<00:00, 114.36it/s, Loss_pi=6.41e+00, Loss_v=1.88e-02]
+Training Net:  48%|████▊     | 168/349 [00:01<00:01, 114.72it/s, Loss_pi=6.41e+00, Loss_v=1.51e-02]
+
+Training Net: 100%|██████████| 349/349 [00:03<00:00, 114.53it/s, Loss_pi=6.41e+00, Loss_v=1.39e-02]
+Training Net:  65%|██████▌   | 228/349 [00:01<00:01, 114.53it/s, Loss_pi=6.41e+00, Loss_v=1.09e-02]
+Training Net: 100%|██████████| 349/349 [00:03<00:00, 114.41it/s, Loss_pi=6.41e+00, Loss_v=1.04e-02]
+  2%|▏         | 1/50 [00:46<38:08, 46.71s/it]
+Average completion: 0.9677743410791233
+
+Training Net:  54%|█████▍    | 192/357 [00:01<00:01, 113.05it/s, Loss_pi=6.68e+00, Loss_v=6.99e-03]
+Training Net: 100%|██████████| 357/357 [00:03<00:00, 113.06it/s, Loss_pi=6.66e+00, Loss_v=5.55e-03]
+
+Training Net:  80%|████████  | 287/357 [00:02<00:00, 113.63it/s, Loss_pi=6.60e+00, Loss_v=2.37e-03]
+Training Net: 100%|██████████| 357/357 [00:03<00:00, 113.09it/s, Loss_pi=6.60e+00, Loss_v=2.28e-03]
+Training Net:  47%|████▋     | 168/357 [00:01<00:01, 114.52it/s, Loss_pi=6.57e+00, Loss_v=1.63e-03]
+Training Net: 100%|██████████| 357/357 [00:03<00:00, 113.92it/s, Loss_pi=6.55e+00, Loss_v=1.53e-03]
+
+Training Net:  77%|███████▋  | 276/357 [00:02<00:00, 113.22it/s, Loss_pi=6.52e+00, Loss_v=1.28e-03]
+Training Net: 100%|██████████| 357/357 [00:03<00:00, 113.75it/s, Loss_pi=6.52e+00, Loss_v=1.26e-03]
+Training Net: 100%|██████████| 357/357 [00:03<00:00, 113.90it/s, Loss_pi=6.49e+00, Loss_v=1.18e-03]
+Training Net:   7%|▋         | 24/357 [00:00<00:02, 113.83it/s, Loss_pi=6.48e+00, Loss_v=1.13e-03]
+
+Training Net:  71%|███████   | 252/357 [00:02<00:00, 112.95it/s, Loss_pi=6.47e+00, Loss_v=1.12e-03]
+Training Net: 100%|██████████| 357/357 [00:03<00:00, 113.62it/s, Loss_pi=6.47e+00, Loss_v=1.12e-03]
+Training Net: 100%|██████████| 357/357 [00:03<00:00, 113.98it/s, Loss_pi=6.45e+00, Loss_v=1.13e-03]
+Training Net:   0%|          | 0/357 [00:00<?, ?it/s, Loss_pi=6.41e+00, Loss_v=1.11e-03]
+
+Training Net:  67%|██████▋   | 240/357 [00:02<00:01, 114.00it/s, Loss_pi=6.44e+00, Loss_v=1.11e-03]
+Training Net: 100%|██████████| 357/357 [00:03<00:00, 113.93it/s, Loss_pi=6.44e+00, Loss_v=1.11e-03]
+
+Training Net:  77%|███████▋  | 276/357 [00:02<00:00, 111.51it/s, Loss_pi=6.42e+00, Loss_v=1.12e-03]
+Training Net: 100%|██████████| 357/357 [00:03<00:00, 112.97it/s, Loss_pi=6.42e+00, Loss_v=1.11e-03]
+Training Net:  44%|████▎     | 156/357 [00:01<00:01, 113.99it/s, Loss_pi=6.41e+00, Loss_v=1.08e-03]
+Training Net: 100%|██████████| 357/357 [00:03<00:00, 114.28it/s, Loss_pi=6.41e+00, Loss_v=1.11e-03]
+  4%|▍         | 2/50 [01:46<42:32, 53.17s/it]
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 40, in <module>
+    main()
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 36, in main
+    t.learn()
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Train.py", line 55, in learn
+    data = p.map(playGame, plays)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\multiprocessing\pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\multiprocessing\pool.py", line 768, in get
+    self.wait(timeout)
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\multiprocessing\pool.py", line 765, in wait
+    self._event.wait(timeout)
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\threading.py", line 622, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt

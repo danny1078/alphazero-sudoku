@@ -1,0 +1,348 @@
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+
+Training Net:   0%|          | 0/38 [00:00<?, ?it/s]
+Average completion: 1.0
+Training Net: 100%|██████████| 38/38 [00:02<00:00, 17.96it/s, Loss_pi=6.58e+00, Loss_v=9.64e-01]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 112.57it/s, Loss_pi=6.54e+00, Loss_v=8.91e-01]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 114.15it/s, Loss_pi=6.51e+00, Loss_v=8.24e-01]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 114.23it/s, Loss_pi=6.48e+00, Loss_v=7.60e-01]
+Training Net:  32%|███▏      | 12/38 [00:00<00:00, 114.81it/s, Loss_pi=6.45e+00, Loss_v=7.13e-01]
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 113.86it/s, Loss_pi=6.45e+00, Loss_v=7.02e-01]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 114.28it/s, Loss_pi=6.42e+00, Loss_v=6.48e-01]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 114.13it/s, Loss_pi=6.39e+00, Loss_v=5.98e-01]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 112.46it/s, Loss_pi=6.36e+00, Loss_v=5.52e-01]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 113.83it/s, Loss_pi=6.33e+00, Loss_v=5.10e-01]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 115.12it/s, Loss_pi=6.31e+00, Loss_v=4.71e-01]
+  2%|▏         | 1/50 [00:21<17:30, 21.43s/it]
+EPOCH ::: 6
+EPOCH ::: 7
+EPOCH ::: 8
+EPOCH ::: 9
+EPOCH ::: 10
+
+Training Net:  92%|█████████▏| 70/76 [00:00<00:00, 112.93it/s, Loss_pi=6.60e+00, Loss_v=4.12e-01]
+Average completion: 1.0
+EPOCH ::: 1
+Training Net: 100%|██████████| 76/76 [00:00<00:00, 111.48it/s, Loss_pi=6.60e+00, Loss_v=4.10e-01]
+Training Net: 100%|██████████| 76/76 [00:00<00:00, 114.50it/s, Loss_pi=6.55e+00, Loss_v=3.36e-01]
+Training Net: 100%|██████████| 76/76 [00:00<00:00, 114.27it/s, Loss_pi=6.51e+00, Loss_v=2.78e-01]
+Training Net: 100%|██████████| 76/76 [00:00<00:00, 113.77it/s, Loss_pi=6.47e+00, Loss_v=2.31e-01]
+Training Net:   0%|          | 0/76 [00:00<?, ?it/s]
+EPOCH ::: 3
+EPOCH ::: 4
+Training Net: 100%|██████████| 76/76 [00:00<00:00, 114.45it/s, Loss_pi=6.43e+00, Loss_v=1.95e-01]
+Training Net: 100%|██████████| 76/76 [00:00<00:00, 114.44it/s, Loss_pi=6.39e+00, Loss_v=1.65e-01]
+Training Net: 100%|██████████| 76/76 [00:00<00:00, 114.48it/s, Loss_pi=6.35e+00, Loss_v=1.41e-01]
+Training Net:   0%|          | 0/76 [00:00<?, ?it/s, Loss_pi=6.35e+00, Loss_v=1.30e-01]
+EPOCH ::: 6
+EPOCH ::: 7
+Training Net: 100%|██████████| 76/76 [00:00<00:00, 114.26it/s, Loss_pi=6.33e+00, Loss_v=1.22e-01]
+Training Net: 100%|██████████| 76/76 [00:00<00:00, 114.28it/s, Loss_pi=6.29e+00, Loss_v=1.06e-01]
+Training Net: 100%|██████████| 76/76 [00:00<00:00, 113.90it/s, Loss_pi=6.26e+00, Loss_v=9.30e-02]
+  4%|▍         | 2/50 [00:43<17:32, 21.94s/it]
+EPOCH ::: 9
+EPOCH ::: 10
+
+Training Net:  82%|████████▏ | 93/114 [00:00<00:00, 112.83it/s, Loss_pi=6.69e+00, Loss_v=7.38e-02]
+Average completion: 1.0
+Training Net: 100%|██████████| 114/114 [00:01<00:00, 111.98it/s, Loss_pi=6.69e+00, Loss_v=7.26e-02]
+Training Net: 100%|██████████| 114/114 [00:00<00:00, 114.21it/s, Loss_pi=6.63e+00, Loss_v=5.13e-02]
+Training Net:  84%|████████▍ | 96/114 [00:00<00:00, 114.23it/s, Loss_pi=6.58e+00, Loss_v=3.82e-02]
+EPOCH ::: 2
+Training Net: 100%|██████████| 114/114 [00:00<00:00, 114.00it/s, Loss_pi=6.58e+00, Loss_v=3.79e-02]
+Training Net: 100%|██████████| 114/114 [00:01<00:00, 113.79it/s, Loss_pi=6.53e+00, Loss_v=2.91e-02]
+Training Net:  95%|█████████▍| 108/114 [00:00<00:00, 109.61it/s, Loss_pi=6.49e+00, Loss_v=2.30e-02]
+EPOCH ::: 4
+Training Net: 100%|██████████| 114/114 [00:01<00:00, 111.79it/s, Loss_pi=6.49e+00, Loss_v=2.29e-02]
+Training Net: 100%|██████████| 114/114 [00:01<00:00, 113.23it/s, Loss_pi=6.45e+00, Loss_v=1.85e-02]
+Training Net:  95%|█████████▍| 108/114 [00:00<00:00, 114.02it/s, Loss_pi=6.41e+00, Loss_v=1.53e-02]
+EPOCH ::: 6
+Training Net: 100%|██████████| 114/114 [00:01<00:00, 113.95it/s, Loss_pi=6.41e+00, Loss_v=1.52e-02]
+Training Net: 100%|██████████| 114/114 [00:00<00:00, 114.19it/s, Loss_pi=6.38e+00, Loss_v=1.28e-02]
+Training Net: 100%|██████████| 114/114 [00:00<00:00, 114.23it/s, Loss_pi=6.35e+00, Loss_v=1.08e-02]
+Training Net:   0%|          | 0/114 [00:00<?, ?it/s, Loss_pi=6.37e+00, Loss_v=9.98e-03]
+EPOCH ::: 8
+Training Net: 100%|██████████| 114/114 [00:00<00:00, 114.41it/s, Loss_pi=6.32e+00, Loss_v=9.28e-03]
+  6%|▌         | 3/50 [01:10<19:05, 24.36s/it]
+EPOCH ::: 10
+Training Net: 100%|██████████| 153/153 [00:01<00:00, 114.39it/s, Loss_pi=6.64e+00, Loss_v=6.63e-03]
+Training Net:   8%|▊         | 12/153 [00:00<00:01, 115.82it/s, Loss_pi=6.62e+00, Loss_v=4.97e-03]
+Average completion: 1.0
+Training Net: 100%|██████████| 153/153 [00:01<00:00, 113.47it/s, Loss_pi=6.59e+00, Loss_v=4.12e-03]
+Training Net:  55%|█████▍    | 84/153 [00:00<00:00, 113.62it/s, Loss_pi=6.56e+00, Loss_v=3.00e-03]
+EPOCH ::: 2
+Training Net: 100%|██████████| 153/153 [00:01<00:00, 113.60it/s, Loss_pi=6.55e+00, Loss_v=2.81e-03]
+Training Net:  71%|███████   | 108/153 [00:01<00:00, 113.21it/s, Loss_pi=6.52e+00, Loss_v=2.12e-03]
+Training Net: 100%|██████████| 153/153 [00:01<00:00, 113.58it/s, Loss_pi=6.52e+00, Loss_v=2.05e-03]
+Training Net: 100%|██████████| 153/153 [00:01<00:00, 114.25it/s, Loss_pi=6.48e+00, Loss_v=1.55e-03]
+Training Net:  24%|██▎       | 36/153 [00:00<00:01, 113.97it/s, Loss_pi=6.46e+00, Loss_v=1.33e-03]
+EPOCH ::: 5
+Training Net: 100%|██████████| 153/153 [00:01<00:00, 113.98it/s, Loss_pi=6.45e+00, Loss_v=1.22e-03]
+Training Net:  71%|███████   | 108/153 [00:01<00:00, 113.37it/s, Loss_pi=6.45e+00, Loss_v=1.00e-03]
+Training Net: 100%|██████████| 153/153 [00:01<00:00, 113.25it/s, Loss_pi=6.44e+00, Loss_v=9.82e-04]
+Training Net: 100%|██████████| 153/153 [00:01<00:00, 113.53it/s, Loss_pi=6.41e+00, Loss_v=8.07e-04]
+Training Net:  24%|██▎       | 36/153 [00:00<00:01, 112.50it/s, Loss_pi=6.40e+00, Loss_v=7.16e-04]
+EPOCH ::: 8
+Training Net: 100%|██████████| 153/153 [00:01<00:00, 113.01it/s, Loss_pi=6.39e+00, Loss_v=6.73e-04]
+Training Net:  78%|███████▊  | 120/153 [00:01<00:00, 113.50it/s, Loss_pi=6.38e+00, Loss_v=5.79e-04]
+Training Net: 100%|██████████| 153/153 [00:01<00:00, 113.53it/s, Loss_pi=6.38e+00, Loss_v=5.70e-04]
+  8%|▊         | 4/50 [01:42<20:43, 27.03s/it]
+
+Training Net:  94%|█████████▍| 180/191 [00:01<00:00, 113.29it/s, Loss_pi=6.80e+00, Loss_v=3.79e-04]
+Average completion: 1.0
+EPOCH ::: 1
+Training Net: 100%|██████████| 191/191 [00:01<00:00, 113.56it/s, Loss_pi=6.80e+00, Loss_v=3.79e-04]
+Training Net: 100%|██████████| 191/191 [00:01<00:00, 113.45it/s, Loss_pi=6.73e+00, Loss_v=2.13e-04]
+Training Net:  19%|█▉        | 36/191 [00:00<00:01, 112.17it/s, Loss_pi=6.71e+00, Loss_v=1.60e-04]
+Training Net: 100%|██████████| 191/191 [00:01<00:00, 113.26it/s, Loss_pi=6.67e+00, Loss_v=1.38e-04]
+Training Net:  38%|███▊      | 72/191 [00:00<00:01, 112.71it/s, Loss_pi=6.63e+00, Loss_v=1.06e-04]
+Training Net: 100%|██████████| 191/191 [00:01<00:00, 112.87it/s, Loss_pi=6.61e+00, Loss_v=9.63e-05]
+Training Net:  57%|█████▋    | 108/191 [00:01<00:00, 112.09it/s, Loss_pi=6.59e+00, Loss_v=7.51e-05]
+Training Net: 100%|██████████| 191/191 [00:01<00:00, 112.97it/s, Loss_pi=6.58e+00, Loss_v=7.12e-05]
+Training Net:  82%|████████▏ | 156/191 [00:01<00:00, 113.70it/s, Loss_pi=6.55e+00, Loss_v=5.60e-05]
+Training Net: 100%|██████████| 191/191 [00:01<00:00, 113.85it/s, Loss_pi=6.54e+00, Loss_v=5.48e-05]
+Training Net: 100%|██████████| 191/191 [00:01<00:00, 113.50it/s, Loss_pi=6.50e+00, Loss_v=4.33e-05]
+Training Net:   0%|          | 0/191 [00:00<?, ?it/s, Loss_pi=6.49e+00, Loss_v=3.87e-05]
+Training Net: 100%|██████████| 191/191 [00:01<00:00, 114.04it/s, Loss_pi=6.47e+00, Loss_v=3.51e-05]
+Training Net:  19%|█▉        | 36/191 [00:00<00:01, 113.74it/s, Loss_pi=6.45e+00, Loss_v=3.10e-05]
+EPOCH ::: 8
+Training Net: 100%|██████████| 191/191 [00:01<00:00, 113.43it/s, Loss_pi=6.44e+00, Loss_v=2.89e-05]
+Training Net:  44%|████▍     | 84/191 [00:00<00:00, 112.88it/s, Loss_pi=6.44e+00, Loss_v=2.53e-05]
+Training Net: 100%|██████████| 191/191 [00:01<00:00, 112.85it/s, Loss_pi=6.43e+00, Loss_v=2.41e-05]
+ 10%|█         | 5/50 [02:17<22:24, 29.88s/it]
+
+Training Net:  21%|██        | 48/229 [00:00<00:01, 111.59it/s, Loss_pi=6.83e+00, Loss_v=1.99e-05]
+Average completion: 1.0
+
+Training Net:  94%|█████████▍| 216/229 [00:02<00:00, 113.88it/s, Loss_pi=6.81e+00, Loss_v=1.51e-05]
+Training Net: 100%|██████████| 229/229 [00:02<00:00, 112.92it/s, Loss_pi=6.81e+00, Loss_v=1.51e-05]
+Training Net: 100%|██████████| 229/229 [00:02<00:00, 113.22it/s, Loss_pi=6.75e+00, Loss_v=7.80e-06]
+Training Net:   0%|          | 0/229 [00:00<?, ?it/s]
+Training Net: 100%|██████████| 229/229 [00:02<00:00, 113.66it/s, Loss_pi=6.69e+00, Loss_v=4.80e-06]
+Training Net:   0%|          | 0/229 [00:00<?, ?it/s, Loss_pi=6.72e+00, Loss_v=3.88e-06]
+Training Net: 100%|██████████| 229/229 [00:02<00:00, 113.34it/s, Loss_pi=6.65e+00, Loss_v=3.26e-06]
+Training Net:   0%|          | 0/229 [00:00<?, ?it/s, Loss_pi=6.54e+00, Loss_v=2.73e-06]
+Training Net: 100%|██████████| 229/229 [00:02<00:00, 114.33it/s, Loss_pi=6.61e+00, Loss_v=2.36e-06]
+Training Net:   0%|          | 0/229 [00:00<?, ?it/s, Loss_pi=6.64e+00, Loss_v=2.02e-06]
+Training Net: 100%|██████████| 229/229 [00:02<00:00, 114.12it/s, Loss_pi=6.58e+00, Loss_v=1.78e-06]
+Training Net:   0%|          | 0/229 [00:00<?, ?it/s, Loss_pi=6.59e+00, Loss_v=1.55e-06]
+Training Net: 100%|██████████| 229/229 [00:02<00:00, 114.24it/s, Loss_pi=6.54e+00, Loss_v=1.39e-06]
+Training Net:   5%|▌         | 12/229 [00:00<00:01, 112.57it/s, Loss_pi=6.53e+00, Loss_v=1.22e-06]
+Training Net: 100%|██████████| 229/229 [00:02<00:00, 114.03it/s, Loss_pi=6.52e+00, Loss_v=1.11e-06]
+Training Net:   5%|▌         | 12/229 [00:00<00:01, 112.91it/s, Loss_pi=6.49e+00, Loss_v=9.87e-07]
+Training Net: 100%|██████████| 229/229 [00:02<00:00, 113.90it/s, Loss_pi=6.50e+00, Loss_v=9.01e-07]
+Training Net:   5%|▌         | 12/229 [00:00<00:01, 115.12it/s, Loss_pi=6.52e+00, Loss_v=8.08e-07]
+Training Net: 100%|██████████| 229/229 [00:02<00:00, 114.32it/s, Loss_pi=6.48e+00, Loss_v=7.43e-07]
+ 12%|█▏        | 6/50 [02:55<24:07, 32.89s/it]
+
+Training Net:  31%|███       | 83/266 [00:00<00:01, 113.59it/s, Loss_pi=6.90e+00, Loss_v=5.64e-02]
+Average completion: 0.9712643678160919
+Training Net: 100%|██████████| 266/266 [00:02<00:00, 113.86it/s, Loss_pi=6.85e+00, Loss_v=5.66e-02]
+Training Net:  23%|██▎       | 60/266 [00:00<00:01, 114.72it/s, Loss_pi=6.81e+00, Loss_v=3.85e-02]
+Training Net: 100%|██████████| 266/266 [00:02<00:00, 114.39it/s, Loss_pi=6.77e+00, Loss_v=5.33e-02]
+Training Net:   9%|▉         | 24/266 [00:00<00:02, 114.93it/s, Loss_pi=6.73e+00, Loss_v=6.93e-02]
+
+Training Net: 100%|██████████| 266/266 [00:02<00:00, 114.33it/s, Loss_pi=6.71e+00, Loss_v=5.74e-02]
+Training Net:  81%|████████  | 216/266 [00:01<00:00, 114.69it/s, Loss_pi=6.64e+00, Loss_v=5.87e-02]
+Training Net: 100%|██████████| 266/266 [00:02<00:00, 114.22it/s, Loss_pi=6.64e+00, Loss_v=5.80e-02]
+Training Net:  72%|███████▏  | 192/266 [00:01<00:00, 114.88it/s, Loss_pi=6.59e+00, Loss_v=5.25e-02]
+EPOCH ::: 5
+Training Net: 100%|██████████| 266/266 [00:02<00:00, 114.55it/s, Loss_pi=6.59e+00, Loss_v=5.28e-02]
+Training Net:  59%|█████▊    | 156/266 [00:01<00:00, 114.26it/s, Loss_pi=6.56e+00, Loss_v=5.57e-02]
+Training Net: 100%|██████████| 266/266 [00:02<00:00, 114.28it/s, Loss_pi=6.55e+00, Loss_v=5.79e-02]
+Training Net:  23%|██▎       | 60/266 [00:00<00:01, 114.48it/s, Loss_pi=6.52e+00, Loss_v=5.54e-02]
+Training Net: 100%|██████████| 266/266 [00:02<00:00, 114.52it/s, Loss_pi=6.51e+00, Loss_v=6.10e-02]
+Training Net:   9%|▉         | 24/266 [00:00<00:02, 112.87it/s, Loss_pi=6.51e+00, Loss_v=5.46e-02]
+Training Net: 100%|██████████| 266/266 [00:02<00:00, 113.99it/s, Loss_pi=6.48e+00, Loss_v=5.84e-02]
+
+Training Net:  86%|████████▌ | 228/266 [00:02<00:00, 113.65it/s, Loss_pi=6.46e+00, Loss_v=5.68e-02]
+Training Net: 100%|██████████| 266/266 [00:02<00:00, 113.96it/s, Loss_pi=6.46e+00, Loss_v=5.83e-02]
+Training Net:  72%|███████▏  | 192/266 [00:01<00:00, 113.62it/s, Loss_pi=6.44e+00, Loss_v=4.95e-02]
+Training Net: 100%|██████████| 266/266 [00:02<00:00, 113.30it/s, Loss_pi=6.44e+00, Loss_v=5.17e-02]
+ 14%|█▍        | 7/50 [03:38<25:53, 36.13s/it]
+Average completion: 0.9698492462311558
+
+Training Net:  47%|████▋     | 142/304 [00:01<00:01, 113.43it/s, Loss_pi=6.84e+00, Loss_v=6.11e-02]
+Training Net: 100%|██████████| 304/304 [00:02<00:00, 113.16it/s, Loss_pi=6.81e+00, Loss_v=5.75e-02]
+Training Net: 100%|██████████| 304/304 [00:02<00:00, 113.17it/s, Loss_pi=6.73e+00, Loss_v=6.31e-02]
+Training Net:   0%|          | 0/304 [00:00<?, ?it/s, Loss_pi=6.77e+00, Loss_v=8.89e-04]
+
+Training Net:  75%|███████▌  | 228/304 [00:02<00:00, 113.19it/s, Loss_pi=6.68e+00, Loss_v=5.92e-02]
+Training Net: 100%|██████████| 304/304 [00:02<00:00, 113.55it/s, Loss_pi=6.68e+00, Loss_v=5.71e-02]
+Training Net:  51%|█████▏    | 156/304 [00:01<00:01, 113.52it/s, Loss_pi=6.63e+00, Loss_v=6.85e-02]
+Training Net: 100%|██████████| 304/304 [00:02<00:00, 113.23it/s, Loss_pi=6.62e+00, Loss_v=5.87e-02]
+Training Net: 100%|██████████| 304/304 [00:02<00:00, 113.79it/s, Loss_pi=6.59e+00, Loss_v=5.89e-02]
+Training Net:   4%|▍         | 12/304 [00:00<00:02, 115.01it/s, Loss_pi=6.55e+00, Loss_v=8.17e-02]
+
+Training Net: 100%|██████████| 304/304 [00:02<00:00, 113.81it/s, Loss_pi=6.54e+00, Loss_v=5.49e-02]
+Training Net:  36%|███▌      | 108/304 [00:01<00:01, 114.10it/s, Loss_pi=6.53e+00, Loss_v=5.15e-02]
+EPOCH ::: 7
+Training Net: 100%|██████████| 304/304 [00:02<00:00, 114.09it/s, Loss_pi=6.53e+00, Loss_v=6.17e-02]
+
+Training Net: 100%|██████████| 304/304 [00:02<00:00, 113.63it/s, Loss_pi=6.50e+00, Loss_v=6.21e-02]
+Training Net:  63%|██████▎   | 192/304 [00:01<00:00, 114.50it/s, Loss_pi=6.49e+00, Loss_v=5.52e-02]
+EPOCH ::: 9
+Training Net: 100%|██████████| 304/304 [00:02<00:00, 114.28it/s, Loss_pi=6.48e+00, Loss_v=5.73e-02]
+Training Net:  39%|███▉      | 120/304 [00:01<00:01, 113.84it/s, Loss_pi=6.48e+00, Loss_v=5.45e-02]
+Training Net: 100%|██████████| 304/304 [00:02<00:00, 114.16it/s, Loss_pi=6.47e+00, Loss_v=5.85e-02]
+
+Training Net:  13%|█▎        | 46/341 [00:00<00:02, 111.60it/s, Loss_pi=6.89e+00, Loss_v=1.21e-01]
+Average completion: 0.9372197309417041
+
+Training Net:  80%|████████  | 274/341 [00:02<00:00, 113.98it/s, Loss_pi=6.85e+00, Loss_v=1.19e-01]
+Training Net: 100%|██████████| 341/341 [00:03<00:00, 113.42it/s, Loss_pi=6.85e+00, Loss_v=1.18e-01]
+Training Net: 100%|██████████| 341/341 [00:02<00:00, 114.18it/s, Loss_pi=6.73e+00, Loss_v=1.22e-01]
+Training Net:  18%|█▊        | 60/341 [00:00<00:02, 114.79it/s, Loss_pi=6.71e+00, Loss_v=1.04e-01]
+
+Training Net: 100%|██████████| 341/341 [00:02<00:00, 114.25it/s, Loss_pi=6.68e+00, Loss_v=1.21e-01]
+Training Net:  53%|█████▎    | 180/341 [00:01<00:01, 114.08it/s, Loss_pi=6.63e+00, Loss_v=1.26e-01]
+EPOCH ::: 4
+Training Net: 100%|██████████| 341/341 [00:02<00:00, 113.94it/s, Loss_pi=6.62e+00, Loss_v=1.25e-01]
+
+Training Net:  88%|████████▊ | 300/341 [00:02<00:00, 114.67it/s, Loss_pi=6.57e+00, Loss_v=1.28e-01]
+Training Net: 100%|██████████| 341/341 [00:02<00:00, 114.28it/s, Loss_pi=6.57e+00, Loss_v=1.30e-01]
+Training Net:  56%|█████▋    | 192/341 [00:01<00:01, 113.84it/s, Loss_pi=6.54e+00, Loss_v=1.14e-01]
+Training Net: 100%|██████████| 341/341 [00:02<00:00, 114.23it/s, Loss_pi=6.53e+00, Loss_v=1.10e-01]
+
+Training Net: 100%|██████████| 341/341 [00:02<00:00, 113.88it/s, Loss_pi=6.50e+00, Loss_v=1.17e-01]
+Training Net:  46%|████▌     | 156/341 [00:01<00:01, 113.73it/s, Loss_pi=6.49e+00, Loss_v=1.17e-01]
+EPOCH ::: 8
+Training Net: 100%|██████████| 341/341 [00:02<00:00, 113.90it/s, Loss_pi=6.48e+00, Loss_v=1.16e-01]
+
+Training Net: 100%|██████████| 341/341 [00:02<00:00, 113.83it/s, Loss_pi=6.46e+00, Loss_v=1.08e-01]
+Training Net:  49%|████▉     | 168/341 [00:01<00:01, 113.70it/s, Loss_pi=6.45e+00, Loss_v=1.20e-01]
+Training Net: 100%|██████████| 341/341 [00:03<00:00, 113.34it/s, Loss_pi=6.44e+00, Loss_v=1.21e-01]
+ 18%|█▊        | 9/50 [05:15<29:16, 42.83s/it]
+
+Training Net:  35%|███▍      | 132/378 [00:01<00:02, 113.64it/s, Loss_pi=6.81e+00, Loss_v=1.68e-01]
+Average completion: 0.902834008097166
+
+Training Net:  98%|█████████▊| 372/378 [00:03<00:00, 113.86it/s, Loss_pi=6.80e+00, Loss_v=1.77e-01]
+Training Net: 100%|██████████| 378/378 [00:03<00:00, 113.22it/s, Loss_pi=6.80e+00, Loss_v=1.77e-01]
+Training Net:  57%|█████▋    | 216/378 [00:01<00:01, 113.09it/s, Loss_pi=6.73e+00, Loss_v=1.75e-01]
+Training Net: 100%|██████████| 378/378 [00:03<00:00, 113.30it/s, Loss_pi=6.71e+00, Loss_v=1.84e-01]
+
+Training Net:  79%|███████▉  | 300/378 [00:02<00:00, 114.10it/s, Loss_pi=6.66e+00, Loss_v=1.93e-01]
+Training Net: 100%|██████████| 378/378 [00:03<00:00, 113.44it/s, Loss_pi=6.66e+00, Loss_v=1.93e-01]
+Training Net:  41%|████▏     | 156/378 [00:01<00:01, 113.26it/s, Loss_pi=6.62e+00, Loss_v=1.89e-01]
+Training Net: 100%|██████████| 378/378 [00:03<00:00, 113.56it/s, Loss_pi=6.61e+00, Loss_v=1.83e-01]
+
+Training Net:  63%|██████▎   | 240/378 [00:02<00:01, 113.84it/s, Loss_pi=6.58e+00, Loss_v=1.81e-01]
+Training Net: 100%|██████████| 378/378 [00:03<00:00, 113.63it/s, Loss_pi=6.58e+00, Loss_v=1.84e-01]
+
+Training Net:  70%|██████▉   | 264/378 [00:02<00:01, 113.26it/s, Loss_pi=6.55e+00, Loss_v=1.77e-01]
+Training Net: 100%|██████████| 378/378 [00:03<00:00, 113.45it/s, Loss_pi=6.54e+00, Loss_v=1.80e-01]
+Training Net:  32%|███▏      | 120/378 [00:01<00:02, 113.44it/s, Loss_pi=6.55e+00, Loss_v=1.84e-01]
+
+Training Net: 100%|██████████| 378/378 [00:03<00:00, 113.61it/s, Loss_pi=6.53e+00, Loss_v=1.89e-01]
+Training Net:  54%|█████▍    | 204/378 [00:01<00:01, 112.96it/s, Loss_pi=6.51e+00, Loss_v=1.89e-01]
+Training Net: 100%|██████████| 378/378 [00:03<00:00, 113.74it/s, Loss_pi=6.51e+00, Loss_v=1.84e-01]
+
+Training Net:  76%|███████▌  | 288/378 [00:02<00:00, 113.80it/s, Loss_pi=6.49e+00, Loss_v=1.93e-01]
+Training Net: 100%|██████████| 378/378 [00:03<00:00, 114.21it/s, Loss_pi=6.49e+00, Loss_v=1.93e-01]
+Training Net:  38%|███▊      | 144/378 [00:01<00:02, 114.01it/s, Loss_pi=6.48e+00, Loss_v=1.81e-01]
+Training Net: 100%|██████████| 378/378 [00:03<00:00, 114.06it/s, Loss_pi=6.48e+00, Loss_v=1.73e-01]
+ 20%|██        | 10/50 [06:10<30:58, 46.46s/it]
+Average completion: 0.9340659340659341
+Training Net:   0%|          | 0/418 [00:00<?, ?it/s, Loss_pi=6.81e+00, Loss_v=1.27e-01]
+Training Net:  57%|█████▋    | 240/418 [00:02<00:01, 114.22it/s, Loss_pi=6.79e+00, Loss_v=1.35e-01]
+Training Net:  57%|█████▋    | 240/418 [00:02<00:01, 114.22it/s, Loss_pi=6.79e+00, Loss_v=1.35e-01]
+Training Net:  11%|█▏        | 48/418 [00:00<00:03, 114.42it/s, Loss_pi=6.71e+00, Loss_v=1.41e-01]]
+Training Net:  66%|██████▌   | 276/418 [00:02<00:01, 113.83it/s, Loss_pi=6.71e+00, Loss_v=1.25e-01]
+Training Net:  66%|██████▌   | 276/418 [00:02<00:01, 113.83it/s, Loss_pi=6.71e+00, Loss_v=1.25e-01]
+Training Net:  23%|██▎       | 96/418 [00:00<00:02, 113.65it/s, Loss_pi=6.67e+00, Loss_v=1.22e-01]]
+Training Net:  78%|███████▊  | 324/418 [00:02<00:00, 113.99it/s, Loss_pi=6.66e+00, Loss_v=1.30e-01]
+Training Net:  78%|███████▊  | 324/418 [00:02<00:00, 113.99it/s, Loss_pi=6.66e+00, Loss_v=1.30e-01]
+Training Net:  20%|██        | 84/418 [00:00<00:02, 114.35it/s, Loss_pi=6.61e+00, Loss_v=1.28e-01]]
+Training Net:  75%|███████▍  | 312/418 [00:02<00:00, 114.95it/s, Loss_pi=6.60e+00, Loss_v=1.34e-01]
+Training Net:  75%|███████▍  | 312/418 [00:02<00:00, 114.95it/s, Loss_pi=6.60e+00, Loss_v=1.34e-01]
+Training Net:  32%|███▏      | 132/418 [00:01<00:02, 113.92it/s, Loss_pi=6.59e+00, Loss_v=1.25e-01]
+Training Net:  86%|████████▌ | 360/418 [00:03<00:00, 113.90it/s, Loss_pi=6.58e+00, Loss_v=1.22e-01]
+Training Net:  86%|████████▌ | 360/418 [00:03<00:00, 113.90it/s, Loss_pi=6.58e+00, Loss_v=1.22e-01]
+Training Net:  43%|████▎     | 180/418 [00:01<00:02, 114.17it/s, Loss_pi=6.55e+00, Loss_v=1.19e-01]
+Training Net:  43%|████▎     | 180/418 [00:01<00:02, 114.17it/s, Loss_pi=6.55e+00, Loss_v=1.19e-01]
+Training Net:  98%|█████████▊| 408/418 [00:03<00:00, 113.88it/s, Loss_pi=6.56e+00, Loss_v=1.20e-01]
+Training Net:  55%|█████▍    | 228/418 [00:02<00:01, 112.84it/s, Loss_pi=6.54e+00, Loss_v=1.26e-01]
+Training Net:  55%|█████▍    | 228/418 [00:02<00:01, 112.84it/s, Loss_pi=6.54e+00, Loss_v=1.26e-01]
+Training Net:   9%|▊         | 36/418 [00:00<00:03, 113.56it/s, Loss_pi=6.53e+00, Loss_v=1.35e-01]]
+Training Net:  63%|██████▎   | 264/418 [00:02<00:01, 113.43it/s, Loss_pi=6.52e+00, Loss_v=1.31e-01]
+Training Net:  63%|██████▎   | 264/418 [00:02<00:01, 113.43it/s, Loss_pi=6.52e+00, Loss_v=1.31e-01]
+Training Net:  20%|██        | 84/418 [00:00<00:02, 112.53it/s, Loss_pi=6.54e+00, Loss_v=1.40e-01]]
+Training Net:  75%|███████▍  | 312/418 [00:02<00:00, 113.22it/s, Loss_pi=6.52e+00, Loss_v=1.34e-01]
+Training Net:  75%|███████▍  | 312/418 [00:02<00:00, 113.22it/s, Loss_pi=6.52e+00, Loss_v=1.34e-01]
+Training Net:  29%|██▊       | 120/418 [00:01<00:02, 113.30it/s, Loss_pi=6.50e+00, Loss_v=1.43e-01]
+Training Net:  83%|████████▎ | 348/418 [00:03<00:00, 113.60it/s, Loss_pi=6.51e+00, Loss_v=1.32e-01]
+Training Net:  83%|████████▎ | 348/418 [00:03<00:00, 113.60it/s, Loss_pi=6.51e+00, Loss_v=1.32e-01]
+ 22%|██▏       | 11/50 [07:08<32:38, 50.22s/it]0:00, 113.38it/s, Loss_pi=6.50e+00, Loss_v=1.30e-01]
+ 22%|██▏       | 11/50 [07:08<32:38, 50.22s/it]0:00, 113.38it/s, Loss_pi=6.50e+00, Loss_v=1.30e-01]
+Average completion: 0.868020304568528
+Training Net:   6%|▌         | 27/452 [00:00<00:06, 69.77it/s, Loss_pi=6.92e+00, Loss_v=2.60e-01]1]
+Training Net:  56%|█████▋    | 255/452 [00:02<00:01, 113.32it/s, Loss_pi=6.88e+00, Loss_v=2.43e-01]
+Training Net:  56%|█████▋    | 255/452 [00:02<00:01, 113.32it/s, Loss_pi=6.88e+00, Loss_v=2.43e-01]
+Training Net:   8%|▊         | 36/452 [00:00<00:03, 113.49it/s, Loss_pi=6.78e+00, Loss_v=2.36e-01]]
+Training Net:  58%|█████▊    | 264/452 [00:02<00:01, 112.25it/s, Loss_pi=6.76e+00, Loss_v=2.46e-01]
+Training Net:  58%|█████▊    | 264/452 [00:02<00:01, 112.25it/s, Loss_pi=6.76e+00, Loss_v=2.46e-01]
+Training Net:  11%|█         | 48/452 [00:00<00:03, 113.00it/s, Loss_pi=6.71e+00, Loss_v=2.29e-01]]
+Training Net:  61%|██████    | 276/452 [00:02<00:01, 113.72it/s, Loss_pi=6.68e+00, Loss_v=2.41e-01]
+Training Net:  61%|██████    | 276/452 [00:02<00:01, 113.72it/s, Loss_pi=6.68e+00, Loss_v=2.41e-01]
+Training Net:  11%|█         | 48/452 [00:00<00:03, 113.22it/s, Loss_pi=6.66e+00, Loss_v=2.43e-01]]
+Training Net:  64%|██████▎   | 288/452 [00:02<00:01, 112.51it/s, Loss_pi=6.64e+00, Loss_v=2.52e-01]
+Training Net:  64%|██████▎   | 288/452 [00:02<00:01, 112.51it/s, Loss_pi=6.64e+00, Loss_v=2.52e-01]
+Training Net:  13%|█▎        | 60/452 [00:00<00:03, 114.25it/s, Loss_pi=6.59e+00, Loss_v=2.34e-01]]
+Training Net:  66%|██████▋   | 300/452 [00:02<00:01, 114.77it/s, Loss_pi=6.59e+00, Loss_v=2.47e-01]
+Training Net:  66%|██████▋   | 300/452 [00:02<00:01, 114.77it/s, Loss_pi=6.59e+00, Loss_v=2.47e-01]
+Training Net:  16%|█▌        | 72/452 [00:00<00:03, 114.50it/s, Loss_pi=6.57e+00, Loss_v=2.35e-01]]
+Training Net:  69%|██████▉   | 312/452 [00:02<00:01, 114.27it/s, Loss_pi=6.56e+00, Loss_v=2.50e-01]
+Training Net:  69%|██████▉   | 312/452 [00:02<00:01, 114.27it/s, Loss_pi=6.56e+00, Loss_v=2.50e-01]
+Training Net:   8%|▊         | 36/452 [00:00<00:03, 113.77it/s, Loss_pi=6.53e+00, Loss_v=2.74e-01]]
+Training Net:  58%|█████▊    | 264/452 [00:02<00:01, 114.04it/s, Loss_pi=6.53e+00, Loss_v=2.56e-01]
+Training Net:  58%|█████▊    | 264/452 [00:02<00:01, 114.04it/s, Loss_pi=6.53e+00, Loss_v=2.56e-01]
+Training Net:  11%|█         | 48/452 [00:00<00:03, 114.46it/s, Loss_pi=6.50e+00, Loss_v=2.73e-01]]
+Training Net:  61%|██████    | 276/452 [00:02<00:01, 113.83it/s, Loss_pi=6.51e+00, Loss_v=2.46e-01]
+Training Net:  61%|██████    | 276/452 [00:02<00:01, 113.83it/s, Loss_pi=6.51e+00, Loss_v=2.46e-01]
+Training Net:  13%|█▎        | 60/452 [00:00<00:03, 114.83it/s, Loss_pi=6.51e+00, Loss_v=2.53e-01]]
+Training Net:  64%|██████▎   | 288/452 [00:02<00:01, 114.44it/s, Loss_pi=6.50e+00, Loss_v=2.41e-01]
+Training Net:  64%|██████▎   | 288/452 [00:02<00:01, 114.44it/s, Loss_pi=6.50e+00, Loss_v=2.41e-01]
+Training Net:  16%|█▌        | 72/452 [00:00<00:03, 114.04it/s, Loss_pi=6.48e+00, Loss_v=2.30e-01]]
+Training Net:  66%|██████▋   | 300/452 [00:02<00:01, 114.19it/s, Loss_pi=6.48e+00, Loss_v=2.47e-01]
+Training Net:  66%|██████▋   | 300/452 [00:02<00:01, 114.19it/s, Loss_pi=6.48e+00, Loss_v=2.47e-01]
+ 24%|██▍       | 12/50 [08:11<34:11, 53.99s/it]0:00, 114.17it/s, Loss_pi=6.49e+00, Loss_v=2.48e-01]
+ 24%|██▍       | 12/50 [08:11<34:11, 53.99s/it]0:00, 114.17it/s, Loss_pi=6.49e+00, Loss_v=2.48e-01]
+Average completion: 0.8367346938775511
+Training Net:  15%|█▌        | 74/487 [00:00<00:03, 104.73it/s, Loss_pi=6.79e+00, Loss_v=3.01e-01]]
+Training Net:  64%|██████▍   | 314/487 [00:02<00:01, 113.08it/s, Loss_pi=6.77e+00, Loss_v=3.08e-01]
+Training Net:  64%|██████▍   | 314/487 [00:02<00:01, 113.08it/s, Loss_pi=6.77e+00, Loss_v=3.08e-01]
+Training Net:  12%|█▏        | 60/487 [00:00<00:03, 113.86it/s, Loss_pi=6.70e+00, Loss_v=2.90e-01]]
+Training Net:  59%|█████▉    | 288/487 [00:02<00:01, 113.38it/s, Loss_pi=6.70e+00, Loss_v=2.94e-01]
+Training Net:  59%|█████▉    | 288/487 [00:02<00:01, 113.38it/s, Loss_pi=6.70e+00, Loss_v=2.94e-01]
+Training Net:   7%|▋         | 35/487 [00:00<00:04, 112.84it/s, Loss_pi=6.65e+00, Loss_v=2.97e-01]]
+Training Net:  42%|████▏     | 203/487 [00:01<00:02, 113.61it/s, Loss_pi=6.64e+00, Loss_v=2.92e-01]
+Training Net:  83%|████████▎ | 406/487 [00:03<00:00, 113.53it/s, Loss_pi=6.63e+00, Loss_v=2.94e-01]
+Training Net:  83%|████████▎ | 406/487 [00:03<00:00, 113.53it/s, Loss_pi=6.63e+00, Loss_v=2.94e-01]
+Training Net:  30%|██▉       | 144/487 [00:01<00:03, 111.89it/s, Loss_pi=6.62e+00, Loss_v=2.95e-01]
+Training Net:  76%|███████▋  | 372/487 [00:03<00:01, 113.05it/s, Loss_pi=6.60e+00, Loss_v=3.11e-01]
+Training Net:  76%|███████▋  | 372/487 [00:03<00:01, 113.05it/s, Loss_pi=6.60e+00, Loss_v=3.11e-01]
+Training Net:  25%|██▍       | 120/487 [00:01<00:03, 112.25it/s, Loss_pi=6.57e+00, Loss_v=2.99e-01]
+Training Net:  71%|███████▏  | 348/487 [00:03<00:01, 113.12it/s, Loss_pi=6.57e+00, Loss_v=2.96e-01]
+Training Net:  71%|███████▏  | 348/487 [00:03<00:01, 113.12it/s, Loss_pi=6.57e+00, Loss_v=2.96e-01]
+Training Net:  20%|█▉        | 96/487 [00:00<00:03, 112.73it/s, Loss_pi=6.56e+00, Loss_v=2.86e-01]]
+Training Net:  67%|██████▋   | 324/487 [00:02<00:01, 112.02it/s, Loss_pi=6.55e+00, Loss_v=2.99e-01]
+Training Net:  67%|██████▋   | 324/487 [00:02<00:01, 112.02it/s, Loss_pi=6.55e+00, Loss_v=2.99e-01]
+Training Net:  12%|█▏        | 60/487 [00:00<00:03, 112.35it/s, Loss_pi=6.53e+00, Loss_v=3.03e-01]]
+Training Net:  59%|█████▉    | 288/487 [00:02<00:01, 112.57it/s, Loss_pi=6.53e+00, Loss_v=3.19e-01]
+Training Net:  59%|█████▉    | 288/487 [00:02<00:01, 112.57it/s, Loss_pi=6.53e+00, Loss_v=3.19e-01]
+Training Net:   7%|▋         | 36/487 [00:00<00:04, 112.63it/s, Loss_pi=6.52e+00, Loss_v=2.67e-01]]
+Training Net:  54%|█████▍    | 264/487 [00:02<00:01, 113.04it/s, Loss_pi=6.52e+00, Loss_v=2.81e-01]
+Training Net:   0%|          | 0/487 [00:00<?, ?it/s, Loss_pi=6.53e+00, Loss_v=3.60e-01]v=2.91e-01]
+Training Net:   0%|          | 0/487 [00:00<?, ?it/s, Loss_pi=6.53e+00, Loss_v=3.60e-01]v=2.91e-01]
+Training Net:  37%|███▋      | 180/487 [00:01<00:02, 112.80it/s, Loss_pi=6.51e+00, Loss_v=3.06e-01]
+Training Net:  84%|████████▍ | 408/487 [00:03<00:00, 112.67it/s, Loss_pi=6.51e+00, Loss_v=2.96e-01]
+Training Net:  84%|████████▍ | 408/487 [00:03<00:00, 112.67it/s, Loss_pi=6.51e+00, Loss_v=2.96e-01]
+Training Net:  32%|███▏      | 155/487 [00:01<00:02, 112.69it/s, Loss_pi=6.50e+00, Loss_v=3.09e-01]
+Training Net:  79%|███████▊  | 383/487 [00:03<00:00, 113.13it/s, Loss_pi=6.50e+00, Loss_v=3.04e-01]
+Training Net:  79%|███████▊  | 383/487 [00:03<00:00, 113.13it/s, Loss_pi=6.50e+00, Loss_v=3.04e-01]
+ 26%|██▌       | 13/50 [09:18<35:49, 58.10s/it]0:00, 112.96it/s, Loss_pi=6.50e+00, Loss_v=3.00e-01]

@@ -1,0 +1,15 @@
+  0%|          | 0/50 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 40, in <module>
+    main()
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 36, in main
+    t.learn()
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Train.py", line 48, in learn
+    puzzle = self.generatePuzzle(solution, np.floor(81 - i * avg_step))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Train.py", line 34, in generatePuzzle
+    mask = np.random.choice(81, num_blanks, replace=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy\\random\\mtrand.pyx", line 1027, in numpy.random.mtrand.RandomState.choice
+TypeError: expected a sequence of integers or a single integer, got '81.0'
+------ITER 1------

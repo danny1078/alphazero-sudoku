@@ -70,7 +70,10 @@ class SudokuGame(Game):
             return 0
         else:
             zeros_count = np.sum(board == 0)
-            return (81 - zeros_count) / 81
+            if zeros_count == 0:
+                return 1
+            else:
+                return -1
 
 
     # def getCanonicalForm(self, board):

@@ -1,0 +1,50 @@
+
+------ITER 1------
+  0%|          | 0/50 [00:00<?, ?it/s]
+Average completion: -0.8149466192170819
+
+
+
+
+Training Net:  75%|███████▌  | 646/860 [00:07<00:01, 115.37it/s, Loss_pi=6.57e+00, Loss_v=6.56e-01]
+Training Net: 100%|██████████| 860/860 [00:09<00:00, 88.80it/s, Loss_pi=6.56e+00, Loss_v=6.00e-01]
+
+
+
+Training Net:  84%|████████▎ | 720/860 [00:06<00:01, 113.78it/s, Loss_pi=6.54e+00, Loss_v=3.72e-01]
+Training Net: 100%|██████████| 860/860 [00:07<00:00, 114.63it/s, Loss_pi=6.54e+00, Loss_v=3.71e-01]
+
+
+
+Training Net:  92%|█████████▏| 792/860 [00:06<00:00, 114.31it/s, Loss_pi=6.53e+00, Loss_v=3.40e-01]
+Training Net: 100%|██████████| 860/860 [00:07<00:00, 114.09it/s, Loss_pi=6.53e+00, Loss_v=3.39e-01]
+
+
+
+Training Net:  93%|█████████▎| 801/860 [00:07<00:00, 114.44it/s, Loss_pi=6.53e+00, Loss_v=3.37e-01]
+Training Net: 100%|██████████| 860/860 [00:07<00:00, 114.28it/s, Loss_pi=6.53e+00, Loss_v=3.38e-01]
+
+
+Training Net: 100%|██████████| 860/860 [00:07<00:00, 113.89it/s, Loss_pi=6.53e+00, Loss_v=3.33e-01]
+Training Net:   0%|          | 0/860 [00:00<?, ?it/s, Loss_pi=6.53e+00, Loss_v=3.21e-01]
+
+
+
+Training Net:  82%|████████▏ | 708/860 [00:06<00:01, 114.44it/s, Loss_pi=6.53e+00, Loss_v=3.33e-01]
+Training Net: 100%|██████████| 860/860 [00:07<00:00, 114.27it/s, Loss_pi=6.53e+00, Loss_v=3.32e-01]
+
+
+
+Training Net:  90%|████████▉ | 773/860 [00:06<00:00, 112.65it/s, Loss_pi=6.53e+00, Loss_v=3.36e-01]
+  0%|          | 0/50 [01:34<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 40, in <module>
+    main()
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 36, in main
+    t.learn()
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Train.py", line 65, in learn
+    self.nnet.train(self.data, wandb_logger=logger)
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\NNet.py", line 55, in train
+    target_pis = torch.FloatTensor(np.array(pis))
+                                   ^^^^^^^^^^^^^
+KeyboardInterrupt

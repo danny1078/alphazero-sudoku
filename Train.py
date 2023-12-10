@@ -13,11 +13,13 @@ from Play import Play, string_2_array
 import pandas as pd
 from multiprocessing import Pool
 import wandb
+from SudokuGame import SudokuGame
+
 
 class Train():
 
     def __init__(self, game, nnet, args):
-        self.df = pd.read_csv('sudoku-small.csv')
+        self.df = pd.read_csv('sudoku.csv')
         self.game = game
         self.nnet = nnet
         self.args = args
@@ -39,22 +41,25 @@ class Train():
     def learn(self, min_squares=20):
         logger = wandb.init(project="alphazero_sudoku")
         avg_step = (81 - min_squares) / self.args.numIters
-        for i in tqdm(range(self.args.numIters)):
-            print('------ITER ' + str(i + 1) + '------')
+        for idx1 in tqdm(range(self.args.numIters)):
+            print('------ITER ' + str(idx1 + 1) + '------')
             # randomly sample self.numGames boards from self.df
             plays = []
-            for i in range(self.numGames):
+            num_blanks = np.random.randint(1, 81 - min_squares, size=self.numGames)
+            for idx2 in range(self.numGames):
                 solution = string_2_array(self.df.sample(1)['solution'].values[0])
-                puzzle = self.generatePuzzle(solution, np.floor(81 - i * avg_step))
+                #puzzle = self.generatePuzzle(solution, int(np.floor(i * avg_step) + 1))
+                puzzle = self.generatePuzzle(solution, num_blanks[idx2])
                 plays.append(Play(self.game, self.nnet, self.args, inboard=puzzle))
 
-            with Pool(processes=self.numGames) as p:
+            with Pool(processes=32) as p:
                 data = p.map(playGame, plays)
                 flat_data = [item for sublist in data for item in sublist]
             self.data = flat_data
             avg_completion = np.mean([x[2] for x in self.data])
-            print('Average completion: ' + str(avg_completion))
-            logger.log({"Average completion": avg_completion})
+            print('Average Score: ' + str(avg_completion))
+            logger.log({"Average score": avg_completion,
+                       "Number of blanks": num_blanks.mean()})
             # shuffle examples before training
             shuffle(self.data)
             self.nnet.train(self.data, wandb_logger=logger)
