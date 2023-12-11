@@ -80,10 +80,11 @@ class MCTS():
 
         if s not in self.Ps:
             # leaf node
-            self.Ps[s], v = self.nnet.predict(board)
-            # valids = self.game.getAllMoves(board) 
-            valids = self.game.getValidMoves(board)
+            self.Ps[s], v = self.nnet.predict(SudokuGame.two_dim_to_three_dim(board))
+            valids = self.game.getAllMoves(board)
+            # valids = self.game.getValidMoves(board)
             self.Ps[s] = self.Ps[s] * valids  # masking invalid moves
+            print(self.Ps[s], v)
             sum_Ps_s = np.sum(self.Ps[s])
             if sum_Ps_s > 0:
                 self.Ps[s] /= sum_Ps_s  # renormalize
@@ -118,7 +119,9 @@ class MCTS():
 
         a = best_act
         temp = board.copy()
+
         next_s = self.game.getNextState(board, a)
+
 
         assert not np.all(temp == next_s)
 

@@ -1,0 +1,313 @@
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+
+Training Net:   0%|          | 0/765 [00:00<?, ?it/s]
+Average Score: 0.9923703703703705
+percentage of perfect games: 0.934
+
+
+Training Net: 100%|██████████| 765/765 [00:06<00:00, 114.81it/s, Loss_pi=6.58e+00, Loss_v=1.67e+01]
+
+Training Net:  46%|████▋     | 355/765 [00:02<00:02, 178.14it/s, Loss_pi=6.56e+00, Loss_v=9.04e+00]
+
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 174.92it/s, Loss_pi=6.55e+00, Loss_v=7.59e+00]
+Training Net:  39%|███▊      | 295/765 [00:01<00:02, 162.13it/s, Loss_pi=6.54e+00, Loss_v=4.51e+00]
+
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 162.51it/s, Loss_pi=6.54e+00, Loss_v=3.77e+00]
+Training Net:  13%|█▎        | 102/765 [00:00<00:04, 163.24it/s, Loss_pi=6.54e+00, Loss_v=2.60e+00]
+
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 160.37it/s, Loss_pi=6.53e+00, Loss_v=2.08e+00]
+Training Net:   0%|          | 0/765 [00:00<?, ?it/s, Loss_pi=6.53e+00, Loss_v=1.54e+00]
+
+
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 161.78it/s, Loss_pi=6.53e+00, Loss_v=1.23e+00]
+  2%|▏         | 1/50 [02:18<1:53:11, 138.60s/it]
+
+Training Net:  29%|██▉       | 225/765 [00:01<00:03, 161.01it/s, Loss_pi=6.60e+00, Loss_v=8.09e-01]
+Average Score: 0.9945185185185186
+percentage of perfect games: 0.954
+
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 160.68it/s, Loss_pi=6.59e+00, Loss_v=5.83e-01]
+Training Net:  16%|█▌        | 122/765 [00:00<00:03, 162.45it/s, Loss_pi=6.57e+00, Loss_v=3.29e-01]
+
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 164.12it/s, Loss_pi=6.56e+00, Loss_v=2.55e-01]
+
+Training Net:  45%|████▍     | 343/765 [00:02<00:02, 157.22it/s, Loss_pi=6.55e+00, Loss_v=1.73e-01]
+
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 163.12it/s, Loss_pi=6.55e+00, Loss_v=1.56e-01]
+Training Net:  24%|██▍       | 187/765 [00:01<00:03, 158.20it/s, Loss_pi=6.54e+00, Loss_v=1.21e-01]
+
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 162.69it/s, Loss_pi=6.53e+00, Loss_v=1.12e-01]
+Training Net:  13%|█▎        | 101/765 [00:00<00:04, 160.50it/s, Loss_pi=6.54e+00, Loss_v=9.60e-02]
+
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 160.86it/s, Loss_pi=6.53e+00, Loss_v=9.01e-02]
+  4%|▍         | 2/50 [04:30<1:47:32, 134.44s/it]
+------ITER 3------
+Average Score: 0.9952592592592594
+percentage of perfect games: 0.96
+
+
+Training Net:  67%|██████▋   | 513/765 [00:02<00:01, 184.59it/s, Loss_pi=6.61e+00, Loss_v=7.09e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 183.25it/s, Loss_pi=6.60e+00, Loss_v=6.89e-02]
+
+Training Net:  67%|██████▋   | 514/765 [00:02<00:01, 192.51it/s, Loss_pi=6.58e+00, Loss_v=5.71e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 190.44it/s, Loss_pi=6.57e+00, Loss_v=5.79e-02]
+
+Training Net:  68%|██████▊   | 519/765 [00:02<00:01, 181.06it/s, Loss_pi=6.55e+00, Loss_v=5.63e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 184.04it/s, Loss_pi=6.55e+00, Loss_v=5.59e-02]
+
+Training Net:  66%|██████▋   | 508/765 [00:02<00:01, 182.12it/s, Loss_pi=6.54e+00, Loss_v=5.60e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 186.93it/s, Loss_pi=6.54e+00, Loss_v=5.55e-02]
+
+Training Net:  54%|█████▍    | 414/765 [00:02<00:01, 191.24it/s, Loss_pi=6.53e+00, Loss_v=5.85e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 185.88it/s, Loss_pi=6.53e+00, Loss_v=5.74e-02]
+  6%|▌         | 3/50 [06:35<1:42:09, 130.41s/it]
+Average Score: 0.9931111111111112
+percentage of perfect games: 0.938
+
+
+Training Net:  57%|█████▋    | 439/765 [00:02<00:01, 189.48it/s, Loss_pi=6.62e+00, Loss_v=7.39e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 188.60it/s, Loss_pi=6.61e+00, Loss_v=7.34e-02]
+
+Training Net:  57%|█████▋    | 439/765 [00:02<00:01, 191.03it/s, Loss_pi=6.58e+00, Loss_v=7.08e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 186.41it/s, Loss_pi=6.58e+00, Loss_v=7.04e-02]
+
+Training Net:  46%|████▋     | 355/765 [00:01<00:02, 189.22it/s, Loss_pi=6.57e+00, Loss_v=7.06e-02]
+Training Net: 100%|██████████| 765/765 [00:03<00:00, 192.94it/s, Loss_pi=6.56e+00, Loss_v=7.12e-02]
+
+Training Net:  54%|█████▍    | 413/765 [00:02<00:01, 210.59it/s, Loss_pi=6.55e+00, Loss_v=7.30e-02]
+Training Net: 100%|██████████| 765/765 [00:03<00:00, 209.10it/s, Loss_pi=6.55e+00, Loss_v=7.30e-02]
+
+Training Net:  64%|██████▎   | 487/765 [00:02<00:01, 198.92it/s, Loss_pi=6.54e+00, Loss_v=7.06e-02]
+Training Net: 100%|██████████| 765/765 [00:03<00:00, 192.37it/s, Loss_pi=6.54e+00, Loss_v=7.23e-02]
+  8%|▊         | 4/50 [08:37<1:37:25, 127.07s/it]
+Average Score: 0.9962962962962965
+percentage of perfect games: 0.968
+
+
+Training Net:  70%|███████   | 536/765 [00:03<00:01, 154.96it/s, Loss_pi=6.60e+00, Loss_v=4.37e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 154.50it/s, Loss_pi=6.60e+00, Loss_v=4.30e-02]
+
+
+Training Net:  91%|█████████▏| 699/765 [00:04<00:00, 157.23it/s, Loss_pi=6.57e+00, Loss_v=4.21e-02]
+Training Net: 100%|██████████| 765/765 [00:05<00:00, 151.91it/s, Loss_pi=6.57e+00, Loss_v=4.26e-02]
+
+Training Net:  76%|███████▋  | 585/765 [00:03<00:01, 155.47it/s, Loss_pi=6.56e+00, Loss_v=4.24e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 154.54it/s, Loss_pi=6.56e+00, Loss_v=4.22e-02]
+
+
+Training Net:  89%|████████▉ | 681/765 [00:04<00:00, 156.43it/s, Loss_pi=6.55e+00, Loss_v=4.37e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 154.82it/s, Loss_pi=6.55e+00, Loss_v=4.40e-02]
+
+Training Net:  72%|███████▏  | 551/765 [00:03<00:01, 153.65it/s, Loss_pi=6.54e+00, Loss_v=4.16e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 154.65it/s, Loss_pi=6.54e+00, Loss_v=4.12e-02]
+ 10%|█         | 5/50 [10:53<1:37:39, 130.21s/it]
+Average Score: 0.9925185185185186
+percentage of perfect games: 0.936
+
+
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 161.42it/s, Loss_pi=6.59e+00, Loss_v=8.50e-02]
+Training Net:   4%|▍         | 34/765 [00:00<00:04, 164.39it/s, Loss_pi=6.58e+00, Loss_v=8.75e-02]
+
+
+Training Net:  81%|████████  | 619/765 [00:03<00:00, 167.03it/s, Loss_pi=6.57e+00, Loss_v=8.52e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 164.68it/s, Loss_pi=6.56e+00, Loss_v=8.48e-02]
+
+Training Net:  69%|██████▉   | 531/765 [00:03<00:01, 161.26it/s, Loss_pi=6.55e+00, Loss_v=8.55e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 164.31it/s, Loss_pi=6.55e+00, Loss_v=8.52e-02]
+
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 165.42it/s, Loss_pi=6.54e+00, Loss_v=8.71e-02]
+Training Net:   2%|▏         | 16/765 [00:00<00:04, 154.00it/s, Loss_pi=6.53e+00, Loss_v=8.93e-02]
+
+
+Training Net:  92%|█████████▏| 701/765 [00:04<00:00, 160.87it/s, Loss_pi=6.53e+00, Loss_v=8.54e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 163.86it/s, Loss_pi=6.53e+00, Loss_v=8.57e-02]
+ 12%|█▏        | 6/50 [13:00<1:34:47, 129.27s/it]
+Average Score: 0.9923703703703705
+percentage of perfect games: 0.936
+
+
+
+Training Net:  90%|█████████ | 692/765 [00:04<00:00, 165.95it/s, Loss_pi=6.58e+00, Loss_v=8.87e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 157.39it/s, Loss_pi=6.58e+00, Loss_v=8.89e-02]
+
+Training Net:  76%|███████▌  | 581/765 [00:03<00:01, 158.08it/s, Loss_pi=6.55e+00, Loss_v=8.65e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 158.00it/s, Loss_pi=6.55e+00, Loss_v=8.73e-02]
+
+
+Training Net:  92%|█████████▏| 704/765 [00:04<00:00, 155.96it/s, Loss_pi=6.53e+00, Loss_v=8.86e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 159.13it/s, Loss_pi=6.53e+00, Loss_v=8.90e-02]
+
+Training Net:  78%|███████▊  | 594/765 [00:03<00:01, 158.21it/s, Loss_pi=6.52e+00, Loss_v=8.65e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 157.19it/s, Loss_pi=6.52e+00, Loss_v=8.75e-02]
+
+Training Net:  62%|██████▏   | 477/765 [00:03<00:01, 155.20it/s, Loss_pi=6.52e+00, Loss_v=8.95e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 158.62it/s, Loss_pi=6.51e+00, Loss_v=9.08e-02]
+ 14%|█▍        | 7/50 [15:10<1:32:39, 129.28s/it]
+Average Score: 0.9927407407407407
+percentage of perfect games: 0.934
+
+
+Training Net: 100%|██████████| 765/765 [00:05<00:00, 146.38it/s, Loss_pi=6.59e+00, Loss_v=7.43e-02]
+Training Net:   0%|          | 0/765 [00:00<?, ?it/s, Loss_pi=6.56e+00, Loss_v=6.40e-02]
+
+
+Training Net:  83%|████████▎ | 638/765 [00:04<00:00, 150.64it/s, Loss_pi=6.56e+00, Loss_v=7.47e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 154.53it/s, Loss_pi=6.56e+00, Loss_v=7.52e-02]
+
+Training Net:  65%|██████▌   | 501/765 [00:03<00:01, 144.64it/s, Loss_pi=6.54e+00, Loss_v=7.28e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 153.31it/s, Loss_pi=6.54e+00, Loss_v=7.34e-02]
+
+
+Training Net:  86%|████████▌ | 656/765 [00:04<00:00, 151.30it/s, Loss_pi=6.52e+00, Loss_v=7.51e-02]
+Training Net: 100%|██████████| 765/765 [00:05<00:00, 152.60it/s, Loss_pi=6.52e+00, Loss_v=7.47e-02]
+
+Training Net: 100%|██████████| 765/765 [00:05<00:00, 150.14it/s, Loss_pi=6.51e+00, Loss_v=7.52e-02]
+ 16%|█▌        | 8/50 [17:22<1:31:07, 130.18s/it]
+------ITER 9------
+Average Score: 0.9888888888888888
+percentage of perfect games: 0.904
+
+
+Training Net:  69%|██████▉   | 528/765 [00:03<00:01, 146.97it/s, Loss_pi=6.57e+00, Loss_v=1.19e-01]
+Training Net: 100%|██████████| 765/765 [00:05<00:00, 150.91it/s, Loss_pi=6.56e+00, Loss_v=1.20e-01]
+
+
+Training Net:  82%|████████▏ | 628/765 [00:04<00:00, 154.26it/s, Loss_pi=6.54e+00, Loss_v=1.17e-01]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 153.41it/s, Loss_pi=6.54e+00, Loss_v=1.18e-01]
+
+Training Net:  66%|██████▌   | 503/765 [00:03<00:01, 152.76it/s, Loss_pi=6.52e+00, Loss_v=1.19e-01]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 153.46it/s, Loss_pi=6.52e+00, Loss_v=1.18e-01]
+
+
+Training Net:  89%|████████▊ | 678/765 [00:04<00:00, 152.39it/s, Loss_pi=6.52e+00, Loss_v=1.17e-01]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 153.14it/s, Loss_pi=6.52e+00, Loss_v=1.17e-01]
+
+Training Net:  73%|███████▎  | 556/765 [00:03<00:01, 155.12it/s, Loss_pi=6.51e+00, Loss_v=1.18e-01]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 155.73it/s, Loss_pi=6.51e+00, Loss_v=1.17e-01]
+ 18%|█▊        | 9/50 [19:30<1:28:26, 129.42s/it]
+Average Score: 0.9911111111111112
+percentage of perfect games: 0.926
+
+
+Training Net:  78%|███████▊  | 598/765 [00:03<00:01, 149.98it/s, Loss_pi=6.58e+00, Loss_v=1.03e-01]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 155.24it/s, Loss_pi=6.57e+00, Loss_v=1.03e-01]
+
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 162.18it/s, Loss_pi=6.55e+00, Loss_v=1.05e-01]
+Training Net:   9%|▉         | 70/765 [00:00<00:04, 161.79it/s, Loss_pi=6.53e+00, Loss_v=1.01e-01]
+
+
+Training Net:  86%|████████▌ | 657/765 [00:04<00:00, 162.86it/s, Loss_pi=6.53e+00, Loss_v=9.91e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 163.81it/s, Loss_pi=6.53e+00, Loss_v=1.00e-01]
+
+Training Net:  74%|███████▍  | 565/765 [00:03<00:01, 164.34it/s, Loss_pi=6.52e+00, Loss_v=1.03e-01]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 163.54it/s, Loss_pi=6.52e+00, Loss_v=1.05e-01]
+
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 160.98it/s, Loss_pi=6.51e+00, Loss_v=1.08e-01]
+ 20%|██        | 10/50 [21:38<1:26:03, 129.08s/it]
+------ITER 11------
+Average Score: 0.9914074074074074
+percentage of perfect games: 0.926
+
+
+Training Net:  68%|██████▊   | 522/765 [00:03<00:01, 146.24it/s, Loss_pi=6.59e+00, Loss_v=9.77e-02]
+Training Net: 100%|██████████| 765/765 [00:05<00:00, 147.18it/s, Loss_pi=6.58e+00, Loss_v=9.67e-02]
+
+
+Training Net:  90%|████████▉ | 685/765 [00:04<00:00, 150.76it/s, Loss_pi=6.56e+00, Loss_v=9.47e-02]
+Training Net: 100%|██████████| 765/765 [00:05<00:00, 151.24it/s, Loss_pi=6.56e+00, Loss_v=9.51e-02]
+
+Training Net:  72%|███████▏  | 551/765 [00:03<00:01, 154.89it/s, Loss_pi=6.54e+00, Loss_v=9.48e-02]
+Training Net: 100%|██████████| 765/765 [00:05<00:00, 152.31it/s, Loss_pi=6.54e+00, Loss_v=9.59e-02]
+
+
+Training Net:  84%|████████▍ | 644/765 [00:04<00:00, 148.70it/s, Loss_pi=6.53e+00, Loss_v=9.53e-02]
+Training Net: 100%|██████████| 765/765 [00:05<00:00, 152.62it/s, Loss_pi=6.53e+00, Loss_v=9.48e-02]
+
+Training Net:  66%|██████▌   | 502/765 [00:03<00:01, 158.22it/s, Loss_pi=6.53e+00, Loss_v=9.67e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 153.85it/s, Loss_pi=6.53e+00, Loss_v=9.47e-02]
+ 22%|██▏       | 11/50 [23:50<1:24:26, 129.92s/it]
+Average Score: 0.9914074074074074
+percentage of perfect games: 0.924
+
+
+Training Net:  70%|███████   | 536/765 [00:03<00:01, 149.58it/s, Loss_pi=6.57e+00, Loss_v=8.90e-02]
+Training Net: 100%|██████████| 765/765 [00:05<00:00, 152.88it/s, Loss_pi=6.57e+00, Loss_v=8.96e-02]
+
+
+Training Net:  94%|█████████▎| 716/765 [00:04<00:00, 153.98it/s, Loss_pi=6.54e+00, Loss_v=9.10e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 154.85it/s, Loss_pi=6.54e+00, Loss_v=9.09e-02]
+
+Training Net:  77%|███████▋  | 587/765 [00:03<00:01, 151.51it/s, Loss_pi=6.53e+00, Loss_v=8.86e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 154.60it/s, Loss_pi=6.52e+00, Loss_v=8.90e-02]
+
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 154.85it/s, Loss_pi=6.51e+00, Loss_v=9.14e-02]
+Training Net:   2%|▏         | 17/765 [00:00<00:04, 166.67it/s, Loss_pi=6.51e+00, Loss_v=8.56e-02]
+
+
+Training Net:  74%|███████▍  | 569/765 [00:03<00:01, 154.51it/s, Loss_pi=6.51e+00, Loss_v=9.23e-02]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 155.14it/s, Loss_pi=6.51e+00, Loss_v=9.19e-02]
+ 24%|██▍       | 12/50 [25:59<1:22:12, 129.80s/it]
+Average Score: 0.9871851851851852
+percentage of perfect games: 0.888
+
+
+Training Net:  67%|██████▋   | 512/765 [00:03<00:01, 155.42it/s, Loss_pi=6.54e+00, Loss_v=1.33e-01]
+Training Net: 100%|██████████| 765/765 [00:05<00:00, 152.19it/s, Loss_pi=6.53e+00, Loss_v=1.33e-01]
+
+
+Training Net:  91%|█████████ | 697/765 [00:04<00:00, 154.60it/s, Loss_pi=6.51e+00, Loss_v=1.33e-01]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 154.33it/s, Loss_pi=6.51e+00, Loss_v=1.33e-01]
+
+Training Net:  64%|██████▍   | 491/765 [00:03<00:01, 157.11it/s, Loss_pi=6.50e+00, Loss_v=1.34e-01]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 155.30it/s, Loss_pi=6.50e+00, Loss_v=1.34e-01]
+
+
+Training Net:  89%|████████▉ | 679/765 [00:04<00:00, 155.15it/s, Loss_pi=6.49e+00, Loss_v=1.33e-01]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 153.27it/s, Loss_pi=6.49e+00, Loss_v=1.32e-01]
+
+Training Net:  73%|███████▎  | 559/765 [00:03<00:01, 154.55it/s, Loss_pi=6.49e+00, Loss_v=1.32e-01]
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 155.81it/s, Loss_pi=6.49e+00, Loss_v=1.34e-01]
+ 26%|██▌       | 13/50 [28:08<1:19:48, 129.41s/it]
+Average Score: 0.9854814814814814
+percentage of perfect games: 0.876
+
+
+Training Net: 100%|██████████| 765/765 [00:05<00:00, 151.18it/s, Loss_pi=6.54e+00, Loss_v=1.57e-01]
+Training Net:  19%|█▉        | 145/765 [00:00<00:03, 156.32it/s, Loss_pi=6.53e+00, Loss_v=1.50e-01]
+
+
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 153.16it/s, Loss_pi=6.51e+00, Loss_v=1.55e-01]
+Training Net:  32%|███▏      | 245/765 [00:01<00:03, 154.85it/s, Loss_pi=6.50e+00, Loss_v=1.64e-01]
+
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 153.36it/s, Loss_pi=6.49e+00, Loss_v=1.60e-01]
+Training Net:  15%|█▍        | 111/765 [00:00<00:04, 156.82it/s, Loss_pi=6.49e+00, Loss_v=1.52e-01]
+
+
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 153.93it/s, Loss_pi=6.48e+00, Loss_v=1.56e-01]
+Training Net:  38%|███▊      | 292/765 [00:01<00:03, 151.79it/s, Loss_pi=6.48e+00, Loss_v=1.59e-01]
+
+Training Net: 100%|██████████| 765/765 [00:05<00:00, 152.05it/s, Loss_pi=6.48e+00, Loss_v=1.60e-01]
+ 28%|██▊       | 14/50 [30:16<1:17:22, 128.96s/it]
+
+Training Net:  15%|█▌        | 115/765 [00:00<00:04, 154.44it/s, Loss_pi=6.57e+00, Loss_v=1.70e-01]
+Average Score: 0.9832592592592594
+percentage of perfect games: 0.854
+
+
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 153.66it/s, Loss_pi=6.55e+00, Loss_v=1.70e-01]
+Training Net:  41%|████      | 310/765 [00:02<00:02, 157.37it/s, Loss_pi=6.53e+00, Loss_v=1.69e-01]
+
+Training Net: 100%|██████████| 765/765 [00:04<00:00, 154.15it/s, Loss_pi=6.52e+00, Loss_v=1.67e-01]
+Training Net:  23%|██▎       | 177/765 [00:01<00:03, 147.36it/s, Loss_pi=6.51e+00, Loss_v=1.70e-01]
+
+
+Training Net: 100%|██████████| 765/765 [00:05<00:00, 152.88it/s, Loss_pi=6.50e+00, Loss_v=1.68e-01]
+Training Net:  35%|███▌      | 270/765 [00:01<00:03, 149.39it/s, Loss_pi=6.50e+00, Loss_v=1.69e-01]
+
+Training Net: 100%|██████████| 765/765 [00:05<00:00, 151.22it/s, Loss_pi=6.50e+00, Loss_v=1.70e-01]
+Training Net:  17%|█▋        | 127/765 [00:00<00:04, 155.21it/s, Loss_pi=6.50e+00, Loss_v=1.65e-01]
+
+
+Training Net: 100%|██████████| 765/765 [00:05<00:00, 152.23it/s, Loss_pi=6.49e+00, Loss_v=1.65e-01]
+ 30%|███       | 15/50 [32:27<1:15:33, 129.54s/it]

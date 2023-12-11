@@ -15,12 +15,12 @@ import torch.optim as optim
 from SudokuNNet import SudokuNNet as onnet
 
 args = dotdict({
-    'lr': 0.001,
+    'lr': 1e-2,
     'dropout': 0.3,
-    'epochs': 10,
+    'epochs': 100,
     'batch_size': 64,
     'cuda': torch.cuda.is_available(),
-    'num_channels': 512,
+    'num_channels': 128,
 })
 
 
@@ -61,6 +61,9 @@ class NNetWrapper(NeuralNet):
 
                 # compute output
                 out_pi, out_v = self.nnet(boards)
+                # if epoch == 80:
+                #     print(torch.exp(out_pi[0]), target_pis[0])
+
                 l_pi = self.loss_pi(target_pis, out_pi)
                 l_v = self.loss_v(target_vs, out_v)
                 total_loss = l_pi + l_v
@@ -86,7 +89,7 @@ class NNetWrapper(NeuralNet):
         # preparing input
         board = torch.FloatTensor(board.astype(np.float64))
         if args.cuda: board = board.contiguous().cuda()
-        board = board.view(1, self.board_x, self.board_y)
+        board = board.view(self.board_x + 1, self.board_x, self.board_y)
         self.nnet.eval()
         with torch.no_grad():
             pi, v = self.nnet(board)

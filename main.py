@@ -10,7 +10,7 @@ args = dotdict({
     'numEps': 20,              # Number of complete self-play games to simulate during a new iteration.
     'tempThreshold': 15,        #
     'maxlenOfQueue': 200000,    # Number of game examples to train the neural networks.
-    'numMCTSSims': 40,          # Number of games moves for MCTS to simulate.
+    'numMCTSSims': 1000,          # Number of games moves for MCTS to simulate.
     'cpuct': 1.41,                 # UCB hyperparameter
 
     'checkpoint': './temp/',

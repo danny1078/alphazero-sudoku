@@ -26,7 +26,8 @@ class Train():
         self.trainExamplesHistory = []  # history of examples from args.numItersForTrainExamplesHistory latest iterations
         self.data = []
         self.numGames = args.numGames
-
+        self.min_squares = 20
+        self.num_blanks = np.random.randint(1, 81 - self.min_squares, size=self.numGames)
     def generatePuzzle(self, solution, num_blanks):
         # randomly mask num_blanks squares in solution with zeros
         # return solution and masked solution
@@ -38,18 +39,18 @@ class Train():
             masked_solution[i // 9][i % 9] = 0
         return masked_solution
 
-    def learn(self, min_squares=20):
+    def learn(self):
         logger = wandb.init(project="alphazero_sudoku")
-        avg_step = (81 - min_squares) / self.args.numIters
         for idx1 in tqdm(range(self.args.numIters)):
             print('------ITER ' + str(idx1 + 1) + '------')
             # randomly sample self.numGames boards from self.df
             plays = []
-            num_blanks = np.random.randint(1, 81 - min_squares, size=self.numGames)
+
             for idx2 in range(self.numGames):
                 solution = string_2_array(self.df.sample(1)['solution'].values[0])
                 #puzzle = self.generatePuzzle(solution, int(np.floor(i * avg_step) + 1))
-                puzzle = self.generatePuzzle(solution, num_blanks[idx2])
+                #puzzle = self.generatePuzzle(solution, int(np.floor(0.5 * idx1+1)))
+                puzzle = self.generatePuzzle(solution, 1)
                 plays.append(Play(self.game, self.nnet, self.args, inboard=puzzle))
 
             with Pool(processes=32) as p:
@@ -59,8 +60,9 @@ class Train():
             avg_completion = np.mean([x[2] for x in self.data])
             print('Average Score: ' + str(avg_completion))
             logger.log({"Average score": avg_completion,
-                       "Number of blanks": num_blanks.mean()})
+                        "Percentage of perfect games": np.mean([x[2] == 1 for x in self.data])})
             # shuffle examples before training
+            print('percentage of perfect games: ' + str(np.mean([x[2] == 1 for x in self.data])))
             shuffle(self.data)
             self.nnet.train(self.data, wandb_logger=logger)
 

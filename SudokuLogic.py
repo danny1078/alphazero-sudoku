@@ -74,10 +74,7 @@ class Board():
         # return True
         
         # for ValidMoves
-        if self.is_move_legal(x, y, num):
-            self.board[x, y] = num
-            return True
-        return False
+        self.board[x, y] = num
     
     def is_comn(self):
         # if there are no 0's, then the board is won

@@ -1,0 +1,223 @@
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+Training Net: 0it [00:00, ?it/s]?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+  2%|▏         | 1/50 [00:06<05:01,  6.16s/it]
+Average Score: 1.0
+percentage of perfect games: 1.0
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+------ITER 2------
+Average Score: 1.0
+percentage of perfect games: 1.0
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 0it [00:00, ?it/s]01,  6.16s/it]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+  4%|▍         | 2/50 [00:12<04:53,  6.12s/it]
+Average Score: 1.0
+percentage of perfect games: 1.0
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 0it [00:00, ?it/s]53,  6.12s/it]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+  6%|▌         | 3/50 [00:18<04:50,  6.18s/it]
+Average Score: 1.0
+percentage of perfect games: 1.0
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 0it [00:00, ?it/s]50,  6.18s/it]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+  8%|▊         | 4/50 [00:24<04:46,  6.22s/it]
+Average Score: 1.0
+percentage of perfect games: 1.0
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 0it [00:00, ?it/s]46,  6.22s/it]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+ 10%|█         | 5/50 [00:31<04:42,  6.27s/it]
+Average Score: 1.0
+percentage of perfect games: 1.0
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 0it [00:00, ?it/s]42,  6.27s/it]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+ 12%|█▏        | 6/50 [00:37<04:35,  6.26s/it]
+Average Score: 1.0
+percentage of perfect games: 1.0
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 0it [00:00, ?it/s]35,  6.26s/it]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+ 14%|█▍        | 7/50 [00:44<04:37,  6.46s/it]
+Average Score: 1.0
+percentage of perfect games: 1.0
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 0it [00:00, ?it/s]37,  6.46s/it]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+ 16%|█▌        | 8/50 [00:50<04:34,  6.52s/it]
+Average Score: 1.0
+percentage of perfect games: 1.0
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 0it [00:00, ?it/s]34,  6.52s/it]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+ 18%|█▊        | 9/50 [00:57<04:33,  6.67s/it]
+Average Score: 1.0
+percentage of perfect games: 1.0
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 0it [00:00, ?it/s]33,  6.67s/it]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+ 20%|██        | 10/50 [01:03<04:19,  6.48s/it]
+Average Score: 1.0
+percentage of perfect games: 1.0
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 0it [00:00, ?it/s]:19,  6.48s/it]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+ 22%|██▏       | 11/50 [01:10<04:07,  6.34s/it]
+Average Score: 1.0
+percentage of perfect games: 1.0
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 0it [00:00, ?it/s]:07,  6.34s/it]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+ 24%|██▍       | 12/50 [01:16<04:00,  6.34s/it]
+Average Score: 1.0
+percentage of perfect games: 1.0
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 0it [00:00, ?it/s]:00,  6.34s/it]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+ 26%|██▌       | 13/50 [01:22<03:53,  6.32s/it]
+Average Score: 1.0
+percentage of perfect games: 1.0
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 0it [00:00, ?it/s]:53,  6.32s/it]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+ 28%|██▊       | 14/50 [01:28<03:46,  6.30s/it]
+Average Score: 1.0
+percentage of perfect games: 1.0
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 0it [00:00, ?it/s]:46,  6.30s/it]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+ 30%|███       | 15/50 [01:35<03:46,  6.46s/it]
+Average Score: 1.0
+percentage of perfect games: 1.0
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 0it [00:00, ?it/s]:46,  6.46s/it]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+ 32%|███▏      | 16/50 [01:42<03:38,  6.43s/it]
+Average Score: 1.0
+percentage of perfect games: 1.0
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 0it [00:00, ?it/s]:38,  6.43s/it]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]
+Training Net: 0it [00:00, ?it/s]

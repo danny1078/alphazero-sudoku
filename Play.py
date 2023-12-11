@@ -29,15 +29,15 @@ class Play():
             pi = self.mcts.getActionProb(board, temp=temp)
             if augment:
                 sym = self.game.getSymmetries(board, pi) 
-                for b,p in sym:
-                    data.append([b, p, None])
-            
+                for b, p in sym:
+                    data.append([SudokuGame.two_dim_to_three_dim(b), p, None])
             action = np.random.choice(len(pi), p=pi)
             
-            data.append([board, pi, None])
-
+            data.append([SudokuGame.two_dim_to_three_dim(board), pi, None])
+            #SudokuGame.display(board)
+            #print(pi)
             board = self.game.getNextState(board, action)
-
+            #SudokuGame.display(board)
             end = self.game.getGameEnded2(board)
             if end != 0:
                 return [(x[0], x[1], end) for x in data]
