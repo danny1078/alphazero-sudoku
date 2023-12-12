@@ -7,19 +7,22 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
+import numpy as np
+from vit import VisionTransformer
 
-class SudokuNNet(nn.Module):
+class SudokuNNet_old(nn.Module):
     def __init__(self, game, args):
         # game parameters
         self.board_x, self.board_y = game.getBoardSize()
         self.action_size = game.getActionSize()
         self.args = args
+        self.subgrid_size = int(self.board_x ** 0.5)
 
-        super(SudokuNNet, self).__init__()
+        super(SudokuNNet_old, self).__init__()
         # Convolution layers
-        self.conv_3_3 = nn.Conv2d(self.board_x + 1, args.num_channels, 3, stride=3)
-        self.conv_1_9 = nn.Conv2d(self.board_x + 1, args.num_channels, (1, 9), stride=1)
-        self.conv_9_1 = nn.Conv2d(self.board_x + 1, args.num_channels, (9, 1), stride=1)
+        self.conv_3_3 = nn.Conv2d(self.board_x + 1, args.num_channels, self.subgrid_size, stride=self.subgrid_size)
+        self.conv_1_9 = nn.Conv2d(self.board_x + 1, args.num_channels, (1, self.board_x), stride=1)
+        self.conv_9_1 = nn.Conv2d(self.board_x + 1, args.num_channels, (self.board_x, 1), stride=1)
 
         # Batch normalization for convolution layers
         self.bn1 = nn.BatchNorm2d(args.num_channels)
@@ -65,4 +68,99 @@ class SudokuNNet(nn.Module):
         policy = self.policy_head(fc2_out)
         value = self.value_head(fc2_out)
 
-        return F.log_softmax(policy, dim=1), torch.sigmoid(value)
+        return F.log_softmax(policy, dim=1), torch.exp(3) * torch.sigmoid(value)
+
+class PositionalEncoding(nn.Module):
+
+    def __init__(self, d_model, dropout=0.1, max_len=128):
+        super(PositionalEncoding, self).__init__()
+        self.dropout = nn.Dropout(p=dropout)
+
+        pe = torch.zeros(max_len, d_model)
+        position = torch.arange(0, max_len, dtype=torch.float).unsqueeze(1)
+        div_term = torch.exp(torch.arange(0, d_model, 2).float() * (-np.log(10000.0) / d_model))
+        pe[:, 0::2] = torch.sin(position * div_term)
+        pe[:, 1::2] = torch.cos(position * div_term)
+        pe = pe.unsqueeze(0).transpose(0, 1)
+        self.register_buffer('pe', pe)
+
+    def forward(self, x):
+        x = x + self.pe[:x.size(0), :]
+        return self.dropout(x)
+
+class SudokuNNet_vit(nn.Module):
+    def __init__(self, game, args):
+        super(SudokuNNet_vit, self).__init__()
+        # Game parameters
+        self.board_x, self.board_y = game.getBoardSize()
+        self.action_size = game.getActionSize()
+        self.args = args
+        self.subgrid_size = int(self.board_x ** 0.5)
+        # Initialize the Vision Transformer
+        self.num_classes = 512
+        self.vit = VisionTransformer(
+            image_size=self.board_x,
+            patch_size=self.subgrid_size,
+            num_classes=self.num_classes,
+            hidden_dim=self.board_x + 1,
+            num_heads=5,
+            mlp_dim=512,
+            dropout=0,
+            num_layers=8,
+        )
+        # Output heads for policy and value
+
+        self.policy_head = nn.Linear(self.num_classes, 128)
+        self.policy_head2 = nn.Linear(128, self.action_size)
+        self.value_head = nn.Linear(self.num_classes, 128)
+        self.value_head2 = nn.Linear(128, 1)
+
+    def forward(self, s):
+        # Pass the input through the Vision Transformer
+        transformer_out = self.vit(s)
+
+        # Output heads for policy and value
+        policy = torch.relu(self.policy_head(transformer_out))
+        policy = self.policy_head2(policy)
+        value = torch.relu(self.value_head(transformer_out))
+        value = self.value_head2(value)
+
+        return F.log_softmax(policy, dim=1), torch.tanh(value)
+
+
+class SudokuNNet(nn.Module):
+    def __init__(self, game, args):
+        super(SudokuNNet, self).__init__()
+        self.board_x, self.board_y = game.getBoardSize()
+        self.action_size = game.getActionSize()
+
+        # Expanded network layers
+        self.fc1 = nn.Linear(self.board_x * self.board_y * (self.board_x + 1), 1024)
+        self.bn1 = nn.BatchNorm1d(1024)
+        self.fc2 = nn.Linear(1024, 1024)
+        self.bn2 = nn.BatchNorm1d(1024)
+        self.fc3 = nn.Linear(1024, 512)
+        self.bn3 = nn.BatchNorm1d(512)
+        self.fc4 = nn.Linear(512, 256)
+        self.bn4 = nn.BatchNorm1d(256)
+
+        # Policy and value heads
+        self.policy_head = nn.Linear(256, self.action_size)
+        self.value_head = nn.Linear(256, 1)
+
+    def forward(self, s):
+        # Flatten the input
+        s = s.view(s.size(0), -1)
+
+        # Forward pass through the network
+        x = F.relu(self.bn1(self.fc1(s)))
+        x = F.relu(self.bn2(self.fc2(x)))
+        x = F.relu(self.bn3(self.fc3(x)))
+        x = F.relu(self.bn4(self.fc4(x)))
+
+        # Output heads for policy and value
+        policy = self.policy_head(x)
+        value = self.value_head(x)
+
+        return F.log_softmax(policy, dim=1), torch.tanh(value)
+

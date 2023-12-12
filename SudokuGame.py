@@ -20,6 +20,9 @@ class SudokuGame(Game):
         self.n = n
         self.subgrid_size = int(n ** 0.5)
 
+    def getN(self):
+        return self.n
+
     def getInitBoard(self, board):
         return board
 
@@ -88,7 +91,7 @@ class SudokuGame(Game):
                     sum_satisfied += 1
         if sum_satisfied == 0:
             return -1e-5
-        return sum_satisfied / (3 * self.n)
+        return sum_satisfied / (3 * self.n) * 2 - 1 + 1e-5
 
     # def getCanonicalForm(self, board):
     #     return self.b.board

@@ -1,0 +1,15 @@
+  0%|          | 0/50 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 40, in <module>
+    main()
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 36, in main
+    t.learn()
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Train.py", line 52, in learn
+    solution = string_2_array(self.df.sample(1)['solution'].values[0])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Play.py", line 12, in string_2_array
+    return np.array([int(char) for char in s]).reshape(n, n)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'numpy.int64' object is not iterable
+------ITER 1------
+3142421313242431

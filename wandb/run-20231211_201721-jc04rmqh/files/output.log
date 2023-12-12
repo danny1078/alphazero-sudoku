@@ -1,0 +1,752 @@
+
+------ITER 1------
+  0%|          | 0/50 [00:00<?, ?it/s]
+Average Score: 0.995
+percentage of perfect games: 0.98
+
+Training Net:   0%|          | 0/26 [00:00<?, ?it/s]
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+Training Net: 100%|██████████| 26/26 [00:02<00:00, 12.15it/s, Loss_pi=4.16e+00, Loss_v=2.44e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.79it/s, Loss_pi=4.16e+00, Loss_v=2.38e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.35it/s, Loss_pi=4.16e+00, Loss_v=2.30e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 87.08it/s, Loss_pi=4.15e+00, Loss_v=2.24e-01]
+Training Net:  69%|██████▉   | 18/26 [00:00<00:00, 86.72it/s, Loss_pi=4.15e+00, Loss_v=2.20e-01]
+EPOCH ::: 6
+EPOCH ::: 7
+EPOCH ::: 8
+EPOCH ::: 9
+EPOCH ::: 10
+EPOCH ::: 11
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.11it/s, Loss_pi=4.15e+00, Loss_v=2.19e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.47it/s, Loss_pi=4.15e+00, Loss_v=2.14e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 87.29it/s, Loss_pi=4.15e+00, Loss_v=2.08e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.60it/s, Loss_pi=4.15e+00, Loss_v=2.01e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 87.13it/s, Loss_pi=4.15e+00, Loss_v=1.96e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.99it/s, Loss_pi=4.15e+00, Loss_v=1.91e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.00it/s, Loss_pi=4.14e+00, Loss_v=1.86e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.33it/s, Loss_pi=4.14e+00, Loss_v=1.81e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.54it/s, Loss_pi=4.14e+00, Loss_v=1.74e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 87.10it/s, Loss_pi=4.14e+00, Loss_v=1.71e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.19it/s, Loss_pi=4.14e+00, Loss_v=1.67e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.29it/s, Loss_pi=4.14e+00, Loss_v=1.62e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 76.03it/s, Loss_pi=4.13e+00, Loss_v=1.57e-01]
+Training Net:  69%|██████▉   | 18/26 [00:00<00:00, 80.10it/s, Loss_pi=4.14e+00, Loss_v=1.53e-01]
+EPOCH ::: 13
+EPOCH ::: 14
+EPOCH ::: 15
+EPOCH ::: 16
+EPOCH ::: 17
+EPOCH ::: 18
+EPOCH ::: 19
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 79.08it/s, Loss_pi=4.14e+00, Loss_v=1.53e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 74.33it/s, Loss_pi=4.14e+00, Loss_v=1.50e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 78.79it/s, Loss_pi=4.14e+00, Loss_v=1.46e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 80.94it/s, Loss_pi=4.14e+00, Loss_v=1.41e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 80.95it/s, Loss_pi=4.13e+00, Loss_v=1.38e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 81.90it/s, Loss_pi=4.13e+00, Loss_v=1.34e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 81.88it/s, Loss_pi=4.13e+00, Loss_v=1.30e-01]
+Training Net:   0%|          | 0/26 [00:00<?, ?it/s, Loss_pi=4.14e+00, Loss_v=1.29e-01]
+EPOCH ::: 21
+EPOCH ::: 22
+EPOCH ::: 23
+EPOCH ::: 24
+EPOCH ::: 25
+EPOCH ::: 26
+EPOCH ::: 27
+EPOCH ::: 28
+EPOCH ::: 29
+EPOCH ::: 30
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 79.88it/s, Loss_pi=4.13e+00, Loss_v=1.26e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 81.10it/s, Loss_pi=4.14e+00, Loss_v=1.23e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 78.79it/s, Loss_pi=4.13e+00, Loss_v=1.20e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 77.52it/s, Loss_pi=4.13e+00, Loss_v=1.16e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 80.98it/s, Loss_pi=4.13e+00, Loss_v=1.14e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 87.98it/s, Loss_pi=4.13e+00, Loss_v=1.11e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.10it/s, Loss_pi=4.13e+00, Loss_v=1.07e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.97it/s, Loss_pi=4.12e+00, Loss_v=1.04e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.12it/s, Loss_pi=4.12e+00, Loss_v=1.01e-01]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.73it/s, Loss_pi=4.12e+00, Loss_v=9.93e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 87.58it/s, Loss_pi=4.13e+00, Loss_v=9.73e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.66it/s, Loss_pi=4.13e+00, Loss_v=9.42e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.92it/s, Loss_pi=4.13e+00, Loss_v=9.19e-02]
+Training Net:   0%|          | 0/26 [00:00<?, ?it/s, Loss_pi=4.12e+00, Loss_v=9.03e-02]
+EPOCH ::: 32
+EPOCH ::: 33
+EPOCH ::: 34
+EPOCH ::: 35
+EPOCH ::: 36
+EPOCH ::: 37
+EPOCH ::: 38
+EPOCH ::: 39
+EPOCH ::: 40
+EPOCH ::: 41
+EPOCH ::: 42
+EPOCH ::: 43
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.70it/s, Loss_pi=4.13e+00, Loss_v=8.94e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 87.78it/s, Loss_pi=4.12e+00, Loss_v=8.71e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 88.28it/s, Loss_pi=4.13e+00, Loss_v=8.48e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.42it/s, Loss_pi=4.13e+00, Loss_v=8.31e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 87.88it/s, Loss_pi=4.13e+00, Loss_v=8.07e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 88.00it/s, Loss_pi=4.13e+00, Loss_v=7.88e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.48it/s, Loss_pi=4.13e+00, Loss_v=7.68e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 71.58it/s, Loss_pi=4.13e+00, Loss_v=7.46e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 77.66it/s, Loss_pi=4.13e+00, Loss_v=7.29e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 80.26it/s, Loss_pi=4.12e+00, Loss_v=7.12e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 75.59it/s, Loss_pi=4.12e+00, Loss_v=6.96e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 69.26it/s, Loss_pi=4.13e+00, Loss_v=6.75e-02]
+Training Net:  62%|██████▏   | 16/26 [00:00<00:00, 69.43it/s, Loss_pi=4.12e+00, Loss_v=6.67e-02]
+EPOCH ::: 45
+EPOCH ::: 46
+EPOCH ::: 47
+EPOCH ::: 48
+EPOCH ::: 49
+EPOCH ::: 50
+EPOCH ::: 51
+EPOCH ::: 52
+EPOCH ::: 53
+EPOCH ::: 54
+EPOCH ::: 55
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 67.52it/s, Loss_pi=4.13e+00, Loss_v=6.62e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 70.96it/s, Loss_pi=4.13e+00, Loss_v=6.43e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.10it/s, Loss_pi=4.12e+00, Loss_v=6.30e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.99it/s, Loss_pi=4.12e+00, Loss_v=6.15e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.78it/s, Loss_pi=4.12e+00, Loss_v=5.99e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 88.47it/s, Loss_pi=4.13e+00, Loss_v=5.86e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 82.60it/s, Loss_pi=4.13e+00, Loss_v=5.72e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.99it/s, Loss_pi=4.12e+00, Loss_v=5.60e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.52it/s, Loss_pi=4.13e+00, Loss_v=5.48e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 87.87it/s, Loss_pi=4.13e+00, Loss_v=5.35e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 82.68it/s, Loss_pi=4.13e+00, Loss_v=5.22e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.87it/s, Loss_pi=4.12e+00, Loss_v=5.10e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 79.63it/s, Loss_pi=4.13e+00, Loss_v=5.01e-02]
+Training Net:  31%|███       | 8/26 [00:00<00:00, 79.14it/s, Loss_pi=4.13e+00, Loss_v=4.93e-02]
+EPOCH ::: 57
+EPOCH ::: 58
+EPOCH ::: 59
+EPOCH ::: 60
+EPOCH ::: 61
+EPOCH ::: 62
+EPOCH ::: 63
+EPOCH ::: 64
+EPOCH ::: 65
+EPOCH ::: 66
+EPOCH ::: 67
+EPOCH ::: 68
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 77.47it/s, Loss_pi=4.12e+00, Loss_v=4.88e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.41it/s, Loss_pi=4.13e+00, Loss_v=4.76e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 75.01it/s, Loss_pi=4.13e+00, Loss_v=4.64e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 80.99it/s, Loss_pi=4.12e+00, Loss_v=4.60e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 81.92it/s, Loss_pi=4.12e+00, Loss_v=4.43e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.40it/s, Loss_pi=4.13e+00, Loss_v=4.37e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 82.61it/s, Loss_pi=4.12e+00, Loss_v=4.24e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 81.33it/s, Loss_pi=4.12e+00, Loss_v=4.19e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 82.20it/s, Loss_pi=4.13e+00, Loss_v=4.06e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 80.82it/s, Loss_pi=4.13e+00, Loss_v=4.00e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.04it/s, Loss_pi=4.13e+00, Loss_v=3.91e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.72it/s, Loss_pi=4.12e+00, Loss_v=3.84e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.87it/s, Loss_pi=4.13e+00, Loss_v=3.73e-02]
+Training Net:   0%|          | 0/26 [00:00<?, ?it/s, Loss_pi=4.12e+00, Loss_v=3.71e-02]
+EPOCH ::: 70
+EPOCH ::: 71
+EPOCH ::: 72
+EPOCH ::: 73
+EPOCH ::: 74
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 82.70it/s, Loss_pi=4.12e+00, Loss_v=3.70e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.59it/s, Loss_pi=4.13e+00, Loss_v=3.59e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.85it/s, Loss_pi=4.12e+00, Loss_v=3.53e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.78it/s, Loss_pi=4.12e+00, Loss_v=3.44e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.40it/s, Loss_pi=4.13e+00, Loss_v=3.37e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.80it/s, Loss_pi=4.12e+00, Loss_v=3.31e-02]
+Training Net:  69%|██████▉   | 18/26 [00:00<00:00, 83.12it/s, Loss_pi=4.12e+00, Loss_v=3.24e-02]
+EPOCH ::: 76
+EPOCH ::: 77
+EPOCH ::: 78
+EPOCH ::: 79
+EPOCH ::: 80
+EPOCH ::: 81
+EPOCH ::: 82
+EPOCH ::: 83
+EPOCH ::: 84
+EPOCH ::: 85
+EPOCH ::: 86
+EPOCH ::: 87
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 82.73it/s, Loss_pi=4.12e+00, Loss_v=3.23e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 77.98it/s, Loss_pi=4.12e+00, Loss_v=3.18e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 80.01it/s, Loss_pi=4.13e+00, Loss_v=3.11e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.93it/s, Loss_pi=4.12e+00, Loss_v=3.05e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.97it/s, Loss_pi=4.12e+00, Loss_v=3.00e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.64it/s, Loss_pi=4.13e+00, Loss_v=2.91e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.56it/s, Loss_pi=4.11e+00, Loss_v=2.87e-02]
+Training Net:   0%|          | 0/26 [00:00<?, ?it/s, Loss_pi=4.13e+00, Loss_v=2.84e-02]
+EPOCH ::: 89
+EPOCH ::: 90
+EPOCH ::: 91
+EPOCH ::: 92
+EPOCH ::: 93
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 82.58it/s, Loss_pi=4.12e+00, Loss_v=2.82e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.98it/s, Loss_pi=4.12e+00, Loss_v=2.76e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.31it/s, Loss_pi=4.13e+00, Loss_v=2.70e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.19it/s, Loss_pi=4.12e+00, Loss_v=2.66e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.56it/s, Loss_pi=4.12e+00, Loss_v=2.61e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.85it/s, Loss_pi=4.12e+00, Loss_v=2.55e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.06it/s, Loss_pi=4.13e+00, Loss_v=2.51e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.73it/s, Loss_pi=4.12e+00, Loss_v=2.46e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 82.68it/s, Loss_pi=4.13e+00, Loss_v=2.41e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.90it/s, Loss_pi=4.12e+00, Loss_v=2.37e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.29it/s, Loss_pi=4.13e+00, Loss_v=2.32e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.58it/s, Loss_pi=4.12e+00, Loss_v=2.28e-02]
+  2%|▏         | 1/50 [00:41<34:01, 41.66s/it]
+EPOCH ::: 95
+EPOCH ::: 96
+EPOCH ::: 97
+EPOCH ::: 98
+EPOCH ::: 99
+EPOCH ::: 100
+------ITER 2------
+Average Score: 0.985
+percentage of perfect games: 0.94
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 80.87it/s, Loss_pi=4.19e+00, Loss_v=2.08e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 80.87it/s, Loss_pi=4.19e+00, Loss_v=2.08e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 82.56it/s, Loss_pi=4.17e+00, Loss_v=2.00e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.56it/s, Loss_pi=4.18e+00, Loss_v=1.92e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.36it/s, Loss_pi=4.17e+00, Loss_v=1.85e-02]
+Training Net:  69%|██████▉   | 18/26 [00:00<00:00, 86.56it/s, Loss_pi=4.17e+00, Loss_v=1.79e-02]
+EPOCH ::: 7
+EPOCH ::: 8
+EPOCH ::: 9
+EPOCH ::: 10
+EPOCH ::: 11
+EPOCH ::: 12
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.98it/s, Loss_pi=4.15e+00, Loss_v=1.50e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 82.98it/s, Loss_pi=4.17e+00, Loss_v=1.72e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.02it/s, Loss_pi=4.17e+00, Loss_v=1.66e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.42it/s, Loss_pi=4.17e+00, Loss_v=1.60e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.81it/s, Loss_pi=4.16e+00, Loss_v=1.55e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.98it/s, Loss_pi=4.15e+00, Loss_v=1.50e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.80it/s, Loss_pi=4.15e+00, Loss_v=1.45e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.08it/s, Loss_pi=4.16e+00, Loss_v=1.40e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.03it/s, Loss_pi=4.15e+00, Loss_v=1.37e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 82.26it/s, Loss_pi=4.14e+00, Loss_v=1.33e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 81.53it/s, Loss_pi=4.14e+00, Loss_v=1.29e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 82.55it/s, Loss_pi=4.14e+00, Loss_v=1.25e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.80it/s, Loss_pi=4.15e+00, Loss_v=1.21e-02]
+Training Net:  69%|██████▉   | 18/26 [00:00<00:00, 83.16it/s, Loss_pi=4.15e+00, Loss_v=1.20e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.08it/s, Loss_pi=4.16e+00, Loss_v=1.40e-02]
+EPOCH ::: 14
+EPOCH ::: 15
+EPOCH ::: 16
+EPOCH ::: 17
+EPOCH ::: 18
+EPOCH ::: 19
+EPOCH ::: 20
+EPOCH ::: 21
+EPOCH ::: 22
+EPOCH ::: 23
+EPOCH ::: 24
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 81.93it/s, Loss_pi=4.14e+00, Loss_v=1.15e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.07it/s, Loss_pi=4.13e+00, Loss_v=1.12e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.00it/s, Loss_pi=4.14e+00, Loss_v=1.08e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 75.47it/s, Loss_pi=4.14e+00, Loss_v=1.08e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.78it/s, Loss_pi=4.14e+00, Loss_v=1.04e-02]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.47it/s, Loss_pi=4.13e+00, Loss_v=1.02e-02]
+Training Net:   0%|          | 0/26 [00:00<?, ?it/s, Loss_pi=4.13e+00, Loss_v=9.90e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 81.93it/s, Loss_pi=4.14e+00, Loss_v=1.15e-02]
+EPOCH ::: 26
+EPOCH ::: 27
+EPOCH ::: 28
+EPOCH ::: 29
+EPOCH ::: 30
+EPOCH ::: 31
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 78.24it/s, Loss_pi=4.13e+00, Loss_v=9.77e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 78.35it/s, Loss_pi=4.13e+00, Loss_v=9.55e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 79.03it/s, Loss_pi=4.13e+00, Loss_v=9.36e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 81.49it/s, Loss_pi=4.13e+00, Loss_v=9.08e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.84it/s, Loss_pi=4.12e+00, Loss_v=8.72e-03]
+Training Net:  35%|███▍      | 9/26 [00:00<00:00, 85.80it/s, Loss_pi=4.13e+00, Loss_v=8.29e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.02it/s, Loss_pi=4.13e+00, Loss_v=8.40e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 81.44it/s, Loss_pi=4.13e+00, Loss_v=8.22e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 79.63it/s, Loss_pi=4.13e+00, Loss_v=8.08e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.46it/s, Loss_pi=4.12e+00, Loss_v=7.90e-03]
+Training Net:  69%|██████▉   | 18/26 [00:00<00:00, 85.93it/s, Loss_pi=4.12e+00, Loss_v=7.86e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.02it/s, Loss_pi=4.13e+00, Loss_v=8.40e-03]
+EPOCH ::: 33
+EPOCH ::: 34
+EPOCH ::: 35
+EPOCH ::: 36
+EPOCH ::: 37
+EPOCH ::: 38
+EPOCH ::: 39
+EPOCH ::: 40
+EPOCH ::: 41
+EPOCH ::: 42
+EPOCH ::: 43
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.84it/s, Loss_pi=4.12e+00, Loss_v=7.32e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 81.47it/s, Loss_pi=4.12e+00, Loss_v=7.08e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.19it/s, Loss_pi=4.11e+00, Loss_v=7.11e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.10it/s, Loss_pi=4.11e+00, Loss_v=6.88e-03]
+Training Net:  35%|███▍      | 9/26 [00:00<00:00, 82.94it/s, Loss_pi=4.12e+00, Loss_v=7.00e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.84it/s, Loss_pi=4.12e+00, Loss_v=7.32e-03]
+EPOCH ::: 45
+EPOCH ::: 46
+EPOCH ::: 47
+EPOCH ::: 48
+EPOCH ::: 49
+EPOCH ::: 50
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.75it/s, Loss_pi=4.12e+00, Loss_v=6.42e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.81it/s, Loss_pi=4.10e+00, Loss_v=6.67e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.09it/s, Loss_pi=4.12e+00, Loss_v=6.72e-03]
+Training Net:  69%|██████▉   | 18/26 [00:00<00:00, 84.47it/s, Loss_pi=4.12e+00, Loss_v=6.35e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 81.78it/s, Loss_pi=4.12e+00, Loss_v=6.03e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 77.68it/s, Loss_pi=4.13e+00, Loss_v=5.90e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.42it/s, Loss_pi=4.11e+00, Loss_v=5.87e-03]
+Training Net:   0%|          | 0/26 [00:00<?, ?it/s, Loss_pi=4.11e+00, Loss_v=6.16e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 81.78it/s, Loss_pi=4.12e+00, Loss_v=6.03e-03]
+EPOCH ::: 52
+EPOCH ::: 53
+EPOCH ::: 54
+EPOCH ::: 55
+EPOCH ::: 56
+EPOCH ::: 57
+EPOCH ::: 58
+EPOCH ::: 59
+EPOCH ::: 60
+EPOCH ::: 61
+EPOCH ::: 62
+EPOCH ::: 63
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.40it/s, Loss_pi=4.11e+00, Loss_v=5.91e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.99it/s, Loss_pi=4.11e+00, Loss_v=5.76e-03]
+Training Net:  69%|██████▉   | 18/26 [00:00<00:00, 84.82it/s, Loss_pi=4.10e+00, Loss_v=5.39e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 67.06it/s, Loss_pi=4.11e+00, Loss_v=5.79e-03]
+Training Net:  85%|████████▍ | 22/26 [00:00<00:00, 67.81it/s, Loss_pi=4.11e+00, Loss_v=5.43e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 67.06it/s, Loss_pi=4.11e+00, Loss_v=5.79e-03]
+EPOCH ::: 65
+EPOCH ::: 66
+EPOCH ::: 67
+EPOCH ::: 68
+EPOCH ::: 69
+EPOCH ::: 70
+EPOCH ::: 71
+EPOCH ::: 72
+EPOCH ::: 73
+EPOCH ::: 74
+EPOCH ::: 75
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.97it/s, Loss_pi=4.11e+00, Loss_v=5.08e-03]
+Training Net:  35%|███▍      | 9/26 [00:00<00:00, 83.52it/s, Loss_pi=4.11e+00, Loss_v=4.98e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.97it/s, Loss_pi=4.11e+00, Loss_v=5.08e-03]
+EPOCH ::: 77
+EPOCH ::: 78
+EPOCH ::: 79
+EPOCH ::: 80
+EPOCH ::: 81
+Training Net:  69%|██████▉   | 18/26 [00:00<00:00, 83.56it/s, Loss_pi=4.11e+00, Loss_v=4.49e-03]
+Training Net:  69%|██████▉   | 18/26 [00:00<00:00, 83.56it/s, Loss_pi=4.11e+00, Loss_v=4.49e-03]
+EPOCH ::: 83
+EPOCH ::: 84
+EPOCH ::: 85
+EPOCH ::: 86
+EPOCH ::: 87
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.67it/s, Loss_pi=4.11e+00, Loss_v=4.42e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.67it/s, Loss_pi=4.11e+00, Loss_v=4.42e-03]
+EPOCH ::: 89
+EPOCH ::: 90
+EPOCH ::: 91
+EPOCH ::: 92
+EPOCH ::: 93
+EPOCH ::: 94
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 79.92it/s, Loss_pi=4.12e+00, Loss_v=4.42e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 73.03it/s, Loss_pi=4.10e+00, Loss_v=4.08e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 73.03it/s, Loss_pi=4.10e+00, Loss_v=4.08e-03]
+EPOCH ::: 96
+EPOCH ::: 97
+EPOCH ::: 98
+EPOCH ::: 99
+EPOCH ::: 100
+------ITER 3------
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 73.03it/s, Loss_pi=4.10e+00, Loss_v=4.08e-03]
+Average Score: 0.9833333333333333
+percentage of perfect games: 0.94
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 81.06it/s, Loss_pi=4.21e+00, Loss_v=4.87e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 81.06it/s, Loss_pi=4.21e+00, Loss_v=4.87e-03]
+EPOCH ::: 5
+EPOCH ::: 6
+EPOCH ::: 7
+EPOCH ::: 8
+EPOCH ::: 9
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.75it/s, Loss_pi=4.18e+00, Loss_v=4.30e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.75it/s, Loss_pi=4.18e+00, Loss_v=4.30e-03]
+EPOCH ::: 11
+EPOCH ::: 12
+EPOCH ::: 13
+EPOCH ::: 14
+EPOCH ::: 15
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.45it/s, Loss_pi=4.18e+00, Loss_v=4.27e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.45it/s, Loss_pi=4.18e+00, Loss_v=4.27e-03]
+EPOCH ::: 17
+EPOCH ::: 18
+EPOCH ::: 19
+EPOCH ::: 20
+EPOCH ::: 21
+EPOCH ::: 22
+EPOCH ::: 23
+EPOCH ::: 24
+EPOCH ::: 25
+EPOCH ::: 26
+EPOCH ::: 27
+EPOCH ::: 28
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 78.97it/s, Loss_pi=4.17e+00, Loss_v=4.05e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.64it/s, Loss_pi=4.16e+00, Loss_v=4.31e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.64it/s, Loss_pi=4.16e+00, Loss_v=4.31e-03]
+EPOCH ::: 30
+EPOCH ::: 31
+EPOCH ::: 32
+EPOCH ::: 33
+EPOCH ::: 34
+EPOCH ::: 35
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.90it/s, Loss_pi=4.15e+00, Loss_v=4.32e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.90it/s, Loss_pi=4.15e+00, Loss_v=4.32e-03]
+EPOCH ::: 37
+EPOCH ::: 38
+EPOCH ::: 39
+EPOCH ::: 40
+EPOCH ::: 41
+EPOCH ::: 42
+EPOCH ::: 43
+EPOCH ::: 44
+EPOCH ::: 45
+EPOCH ::: 46
+EPOCH ::: 47
+EPOCH ::: 48
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.36it/s, Loss_pi=4.16e+00, Loss_v=4.87e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.57it/s, Loss_pi=4.16e+00, Loss_v=4.43e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.57it/s, Loss_pi=4.16e+00, Loss_v=4.43e-03]
+EPOCH ::: 50
+EPOCH ::: 51
+EPOCH ::: 52
+EPOCH ::: 53
+EPOCH ::: 54
+EPOCH ::: 55
+EPOCH ::: 56
+EPOCH ::: 57
+EPOCH ::: 58
+EPOCH ::: 59
+EPOCH ::: 60
+EPOCH ::: 61
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.65it/s, Loss_pi=4.15e+00, Loss_v=4.76e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.59it/s, Loss_pi=4.15e+00, Loss_v=3.68e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.59it/s, Loss_pi=4.15e+00, Loss_v=3.68e-03]
+EPOCH ::: 63
+EPOCH ::: 64
+EPOCH ::: 65
+EPOCH ::: 66
+EPOCH ::: 67
+EPOCH ::: 68
+EPOCH ::: 69
+EPOCH ::: 70
+EPOCH ::: 71
+EPOCH ::: 72
+EPOCH ::: 73
+EPOCH ::: 74
+EPOCH ::: 75
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 87.37it/s, Loss_pi=4.14e+00, Loss_v=4.62e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.62it/s, Loss_pi=4.15e+00, Loss_v=4.40e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.62it/s, Loss_pi=4.15e+00, Loss_v=4.40e-03]
+EPOCH ::: 77
+EPOCH ::: 78
+EPOCH ::: 79
+EPOCH ::: 80
+EPOCH ::: 81
+EPOCH ::: 82
+EPOCH ::: 83
+EPOCH ::: 84
+EPOCH ::: 85
+EPOCH ::: 86
+EPOCH ::: 87
+EPOCH ::: 88
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.29it/s, Loss_pi=4.15e+00, Loss_v=4.61e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.72it/s, Loss_pi=4.15e+00, Loss_v=4.36e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.72it/s, Loss_pi=4.15e+00, Loss_v=4.36e-03]
+EPOCH ::: 90
+EPOCH ::: 91
+EPOCH ::: 92
+EPOCH ::: 93
+EPOCH ::: 94
+EPOCH ::: 95
+EPOCH ::: 96
+EPOCH ::: 97
+EPOCH ::: 98
+EPOCH ::: 99
+EPOCH ::: 100
+------ITER 4------
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.03it/s, Loss_pi=4.14e+00, Loss_v=2.41e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.03it/s, Loss_pi=4.14e+00, Loss_v=2.41e-03]
+Average Score: 0.99
+percentage of perfect games: 0.96
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.61it/s, Loss_pi=4.14e+00, Loss_v=2.41e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 83.61it/s, Loss_pi=4.14e+00, Loss_v=2.41e-03]
+EPOCH ::: 7
+EPOCH ::: 8
+EPOCH ::: 9
+EPOCH ::: 10
+EPOCH ::: 11
+EPOCH ::: 12
+EPOCH ::: 13
+EPOCH ::: 14
+EPOCH ::: 15
+EPOCH ::: 16
+EPOCH ::: 17
+EPOCH ::: 18
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.94it/s, Loss_pi=4.13e+00, Loss_v=2.13e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 88.01it/s, Loss_pi=4.12e+00, Loss_v=2.66e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 88.01it/s, Loss_pi=4.12e+00, Loss_v=2.66e-03]
+EPOCH ::: 20
+EPOCH ::: 21
+EPOCH ::: 22
+EPOCH ::: 23
+EPOCH ::: 24
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.54it/s, Loss_pi=4.12e+00, Loss_v=2.29e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.54it/s, Loss_pi=4.12e+00, Loss_v=2.29e-03]
+EPOCH ::: 26
+EPOCH ::: 27
+EPOCH ::: 28
+EPOCH ::: 29
+EPOCH ::: 30
+EPOCH ::: 31
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 87.58it/s, Loss_pi=4.12e+00, Loss_v=2.59e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 87.58it/s, Loss_pi=4.12e+00, Loss_v=2.59e-03]
+EPOCH ::: 33
+EPOCH ::: 34
+EPOCH ::: 35
+EPOCH ::: 36
+EPOCH ::: 37
+EPOCH ::: 38
+EPOCH ::: 39
+EPOCH ::: 40
+EPOCH ::: 41
+EPOCH ::: 42
+EPOCH ::: 43
+EPOCH ::: 44
+Training Net:  69%|██████▉   | 18/26 [00:00<00:00, 87.80it/s, Loss_pi=4.11e+00, Loss_v=2.94e-03]
+Training Net:  35%|███▍      | 9/26 [00:00<00:00, 89.03it/s, Loss_pi=4.11e+00, Loss_v=2.74e-03]]
+Training Net:  35%|███▍      | 9/26 [00:00<00:00, 89.03it/s, Loss_pi=4.11e+00, Loss_v=2.74e-03]]
+EPOCH ::: 46
+EPOCH ::: 47
+EPOCH ::: 48
+EPOCH ::: 49
+EPOCH ::: 50
+EPOCH ::: 51
+Training Net:   0%|          | 0/26 [00:00<?, ?it/s, Loss_pi=4.10e+00, Loss_v=2.03e-03]2.55e-03]
+Training Net:   0%|          | 0/26 [00:00<?, ?it/s, Loss_pi=4.10e+00, Loss_v=2.03e-03]2.55e-03]
+EPOCH ::: 53
+EPOCH ::: 54
+EPOCH ::: 55
+EPOCH ::: 56
+EPOCH ::: 57
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.81it/s, Loss_pi=4.10e+00, Loss_v=2.04e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.81it/s, Loss_pi=4.10e+00, Loss_v=2.04e-03]
+EPOCH ::: 59
+EPOCH ::: 60
+EPOCH ::: 61
+EPOCH ::: 62
+EPOCH ::: 63
+EPOCH ::: 64
+EPOCH ::: 65
+EPOCH ::: 66
+EPOCH ::: 67
+EPOCH ::: 68
+EPOCH ::: 69
+EPOCH ::: 70
+EPOCH ::: 71
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.09it/s, Loss_pi=4.10e+00, Loss_v=2.83e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.95it/s, Loss_pi=4.11e+00, Loss_v=2.31e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.95it/s, Loss_pi=4.11e+00, Loss_v=2.31e-03]
+EPOCH ::: 73
+EPOCH ::: 74
+EPOCH ::: 75
+EPOCH ::: 76
+EPOCH ::: 77
+EPOCH ::: 78
+EPOCH ::: 79
+EPOCH ::: 80
+EPOCH ::: 81
+EPOCH ::: 82
+EPOCH ::: 83
+EPOCH ::: 84
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 87.00it/s, Loss_pi=4.10e+00, Loss_v=1.97e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 87.56it/s, Loss_pi=4.10e+00, Loss_v=2.86e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 87.56it/s, Loss_pi=4.10e+00, Loss_v=2.86e-03]
+EPOCH ::: 86
+EPOCH ::: 87
+EPOCH ::: 88
+EPOCH ::: 89
+EPOCH ::: 90
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.90it/s, Loss_pi=4.10e+00, Loss_v=1.93e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.90it/s, Loss_pi=4.10e+00, Loss_v=1.93e-03]
+EPOCH ::: 92
+EPOCH ::: 93
+EPOCH ::: 94
+EPOCH ::: 95
+EPOCH ::: 96
+EPOCH ::: 97
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 81.09it/s, Loss_pi=4.11e+00, Loss_v=2.52e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 81.09it/s, Loss_pi=4.11e+00, Loss_v=2.52e-03]
+EPOCH ::: 99
+EPOCH ::: 100
+------ITER 5------
+Average Score: 0.99
+percentage of perfect games: 0.96
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 81.09it/s, Loss_pi=4.11e+00, Loss_v=2.52e-03]
+EPOCH ::: 4
+EPOCH ::: 5
+EPOCH ::: 6
+EPOCH ::: 7
+EPOCH ::: 8
+EPOCH ::: 9
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 78.85it/s, Loss_pi=4.19e+00, Loss_v=1.66e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.64it/s, Loss_pi=4.16e+00, Loss_v=2.28e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.64it/s, Loss_pi=4.16e+00, Loss_v=2.28e-03]
+EPOCH ::: 11
+EPOCH ::: 12
+EPOCH ::: 13
+EPOCH ::: 14
+EPOCH ::: 15
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 87.00it/s, Loss_pi=4.15e+00, Loss_v=2.59e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 87.00it/s, Loss_pi=4.15e+00, Loss_v=2.59e-03]
+EPOCH ::: 17
+EPOCH ::: 18
+EPOCH ::: 19
+EPOCH ::: 20
+EPOCH ::: 21
+EPOCH ::: 22
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.72it/s, Loss_pi=4.12e+00, Loss_v=2.38e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.72it/s, Loss_pi=4.12e+00, Loss_v=2.38e-03]
+EPOCH ::: 24
+EPOCH ::: 25
+EPOCH ::: 26
+EPOCH ::: 27
+EPOCH ::: 28
+EPOCH ::: 29
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.74it/s, Loss_pi=4.11e+00, Loss_v=2.62e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.74it/s, Loss_pi=4.11e+00, Loss_v=2.62e-03]
+EPOCH ::: 31
+EPOCH ::: 32
+EPOCH ::: 33
+EPOCH ::: 34
+EPOCH ::: 35
+EPOCH ::: 36
+EPOCH ::: 37
+EPOCH ::: 38
+EPOCH ::: 39
+EPOCH ::: 40
+EPOCH ::: 41
+EPOCH ::: 42
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.46it/s, Loss_pi=4.12e+00, Loss_v=2.21e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.46it/s, Loss_pi=4.12e+00, Loss_v=2.21e-03]
+EPOCH ::: 44
+EPOCH ::: 45
+EPOCH ::: 46
+EPOCH ::: 47
+EPOCH ::: 48
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.39it/s, Loss_pi=4.11e+00, Loss_v=2.24e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.39it/s, Loss_pi=4.11e+00, Loss_v=2.24e-03]
+EPOCH ::: 50
+EPOCH ::: 51
+EPOCH ::: 52
+EPOCH ::: 53
+EPOCH ::: 54
+EPOCH ::: 55
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.23it/s, Loss_pi=4.10e+00, Loss_v=2.48e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.23it/s, Loss_pi=4.10e+00, Loss_v=2.48e-03]
+EPOCH ::: 57
+EPOCH ::: 58
+EPOCH ::: 59
+EPOCH ::: 60
+EPOCH ::: 61
+EPOCH ::: 62
+EPOCH ::: 63
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.23it/s, Loss_pi=4.10e+00, Loss_v=2.48e-03]
+EPOCH ::: 64
+EPOCH ::: 65
+EPOCH ::: 66
+EPOCH ::: 67
+EPOCH ::: 68
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.78it/s, Loss_pi=4.09e+00, Loss_v=2.10e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.78it/s, Loss_pi=4.09e+00, Loss_v=2.10e-03]
+EPOCH ::: 70
+EPOCH ::: 71
+EPOCH ::: 72
+EPOCH ::: 73
+EPOCH ::: 74
+EPOCH ::: 75
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.47it/s, Loss_pi=4.10e+00, Loss_v=2.86e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 86.47it/s, Loss_pi=4.10e+00, Loss_v=2.86e-03]
+EPOCH ::: 77
+EPOCH ::: 78
+EPOCH ::: 79
+EPOCH ::: 80
+EPOCH ::: 81
+EPOCH ::: 82
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 87.10it/s, Loss_pi=4.08e+00, Loss_v=2.55e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 87.10it/s, Loss_pi=4.08e+00, Loss_v=2.55e-03]
+EPOCH ::: 84
+EPOCH ::: 85
+EPOCH ::: 86
+EPOCH ::: 87
+EPOCH ::: 88
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 87.43it/s, Loss_pi=4.08e+00, Loss_v=2.69e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 87.43it/s, Loss_pi=4.08e+00, Loss_v=2.69e-03]
+EPOCH ::: 90
+EPOCH ::: 91
+EPOCH ::: 92
+EPOCH ::: 93
+EPOCH ::: 94
+EPOCH ::: 95
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.69it/s, Loss_pi=4.10e+00, Loss_v=2.45e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 85.69it/s, Loss_pi=4.10e+00, Loss_v=2.45e-03]
+EPOCH ::: 97
+EPOCH ::: 98
+EPOCH ::: 99
+EPOCH ::: 100
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 87.18it/s, Loss_pi=4.08e+00, Loss_v=2.87e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 87.18it/s, Loss_pi=4.08e+00, Loss_v=2.87e-03]
+Average Score: 0.985
+percentage of perfect games: 0.94
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+EPOCH ::: 6
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.48it/s, Loss_pi=4.24e+00, Loss_v=3.96e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 84.48it/s, Loss_pi=4.24e+00, Loss_v=3.96e-03]
+EPOCH ::: 8
+EPOCH ::: 9
+EPOCH ::: 10
+EPOCH ::: 11
+EPOCH ::: 12
+EPOCH ::: 13
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 80.34it/s, Loss_pi=4.20e+00, Loss_v=3.58e-03]
+Training Net: 100%|██████████| 26/26 [00:00<00:00, 80.34it/s, Loss_pi=4.20e+00, Loss_v=3.58e-03]
+EPOCH ::: 15
+EPOCH ::: 16
+EPOCH ::: 17
+EPOCH ::: 18
+EPOCH ::: 19
+Training Net:  69%|██████▉   | 18/26 [00:00<00:00, 78.77it/s, Loss_pi=4.18e+00, Loss_v=3.54e-03]

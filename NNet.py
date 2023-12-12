@@ -13,11 +13,12 @@ import torch
 import torch.optim as optim
 
 from SudokuNNet import SudokuNNet as onnet
+from sklearn.model_selection import train_test_split
 
 args = dotdict({
-    'lr': 1e-2,
+    'lr': 0.2,
     'dropout': 0.3,
-    'epochs': 100,
+    'epochs': 10,
     'batch_size': 64,
     'cuda': torch.cuda.is_available(),
     'num_channels': 128,
@@ -37,6 +38,9 @@ class NNetWrapper(NeuralNet):
         """
         examples: list of examples, each example is of form (board, pi, v)
         """
+        # Split the examples into training and validation sets
+        train_examples, val_examples = train_test_split(examples, test_size=0.2)
+
         optimizer = optim.Adam(self.nnet.parameters())
 
         for epoch in range(args.epochs):
@@ -45,39 +49,65 @@ class NNetWrapper(NeuralNet):
             pi_losses = AverageMeter()
             v_losses = AverageMeter()
 
-            batch_count = int(len(examples) / args.batch_size)
-
+            # Training phase
+            batch_count = int(len(train_examples) / args.batch_size)
             t = tqdm(range(batch_count), desc='Training Net', position=0, leave=True)
             for _ in t:
-                sample_ids = np.random.randint(len(examples), size=args.batch_size)
-                boards, pis, vs = list(zip(*[examples[i] for i in sample_ids]))
+                sample_ids = np.random.randint(len(train_examples), size=args.batch_size)
+                boards, pis, vs = list(zip(*[train_examples[i] for i in sample_ids]))
                 boards = torch.FloatTensor(np.array(boards).astype(np.float64))
                 target_pis = torch.FloatTensor(np.array(pis))
                 target_vs = torch.FloatTensor(np.array(vs).astype(np.float64))
 
-                # predict
                 if args.cuda:
                     boards, target_pis, target_vs = boards.contiguous().cuda(), target_pis.contiguous().cuda(), target_vs.contiguous().cuda()
 
-                # compute output
                 out_pi, out_v = self.nnet(boards)
-                # if epoch == 80:
-                #     print(torch.exp(out_pi[0]), target_pis[0])
-
                 l_pi = self.loss_pi(target_pis, out_pi)
                 l_v = self.loss_v(target_vs, out_v)
-                total_loss = l_pi + l_v
+                total_loss = l_pi
 
-                # record loss
                 pi_losses.update(l_pi.item(), boards.size(0))
                 v_losses.update(l_v.item(), boards.size(0))
-                t.set_postfix(Loss_pi=pi_losses, Loss_v=v_losses)
+                t.set_postfix(Loss_pi=pi_losses.avg, Loss_v=v_losses.avg)
 
-                # compute gradient and do SGD step
                 optimizer.zero_grad()
                 total_loss.backward()
                 optimizer.step()
                 wandb_logger.log({"Loss_pi": pi_losses.avg, "Loss_v": v_losses.avg})
+
+            # Validation phase
+            self.nnet.eval()
+            with torch.no_grad():
+                val_pi_losses = AverageMeter()
+                val_v_losses = AverageMeter()
+                max_policy_elements = []
+
+                for board, pi, v in val_examples:
+                    board = torch.FloatTensor(board.astype(np.float64)).unsqueeze(0)
+                    target_pi = torch.FloatTensor(np.array(pi)).unsqueeze(0)
+                    target_v = torch.FloatTensor(np.array(v).astype(np.float64)).unsqueeze(0)
+
+                    if args.cuda:
+                        board, target_pi, target_v = board.cuda(), target_pi.cuda(), target_v.cuda()
+
+                    out_pi, out_v = self.nnet(board)
+                    l_pi = self.loss_pi(target_pi, out_pi)
+                    l_v = self.loss_v(target_v, out_v)
+
+                    val_pi_losses.update(l_pi.item(), board.size(0))
+                    val_v_losses.update(l_v.item(), board.size(0))
+
+                    max_policy_elements.append(torch.max(torch.exp(out_pi)).item())
+
+                # Update tqdm with validation losses
+                t.set_postfix(Loss_pi=pi_losses.avg, Loss_v=v_losses.avg, Val_loss_pi=val_pi_losses.avg,
+                              Val_loss_v=val_v_losses.avg)
+
+                # Calculate and print statistics for policy's max element
+                max_policy_mean = np.mean(max_policy_elements)
+                max_policy_std = np.std(max_policy_elements)
+                print(f"Validation - Mean of max policy element: {max_policy_mean:.4f}, Std Dev: {max_policy_std:.4f}")
 
     def predict(self, board):
         """
@@ -89,7 +119,7 @@ class NNetWrapper(NeuralNet):
         # preparing input
         board = torch.FloatTensor(board.astype(np.float64))
         if args.cuda: board = board.contiguous().cuda()
-        board = board.view(self.board_x + 1, self.board_x, self.board_y)
+        board = board.view(-1, self.board_x + 1, self.board_x, self.board_y)
         self.nnet.eval()
         with torch.no_grad():
             pi, v = self.nnet(board)

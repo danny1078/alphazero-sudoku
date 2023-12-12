@@ -8,8 +8,8 @@ import os
 import pandas as pd
 
 def string_2_array(s):
-            n = int(len(s)**0.5)  # Determine the size of the square array
-            return np.array([int(char) for char in s]).reshape(n, n)
+    n = int(len(str(s))**0.5)  # Determine the size of the square array
+    return np.array([int(char) for char in str(s)]).reshape(n, n)
 
 class Play(): 
     def __init__(self, game, nnet, args, inboard=None):
@@ -20,19 +20,24 @@ class Play():
         self.inboard = inboard
 
     def playGame(self):
-        augment = True
+        augment = False
         data = []
         board = self.inboard
 
         while True:
-            temp = 0.5
+            temp = 0
             pi = self.mcts.getActionProb(board, temp=temp)
+
             if augment:
                 sym = self.game.getSymmetries(board, pi) 
                 for b, p in sym:
                     data.append([SudokuGame.two_dim_to_three_dim(b), p, None])
             action = np.random.choice(len(pi), p=pi)
-            
+
+            legals = self.game.getValidMoves(board)
+            pi = pi * legals  # masking invalid moves
+            pi = pi / np.sum(pi)
+
             data.append([SudokuGame.two_dim_to_three_dim(board), pi, None])
             #SudokuGame.display(board)
             #print(pi)
