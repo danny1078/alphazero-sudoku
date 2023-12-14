@@ -12,14 +12,19 @@ from NeuralNet import NeuralNet
 import torch
 import torch.optim as optim
 
-from SudokuNNet import SudokuNNet as onnet
+# from SudokuNNet import SudokuNNet as onnet
+from PureMLP import SudokuNN as onnet
 from sklearn.model_selection import train_test_split
+from SudokuGame import SudokuGame as Game
+from Play import Play, string_2_array
+import random
+import pandas as pd
 
 args = dotdict({
     'lr': 0.2,
     'dropout': 0.3,
-    'epochs': 10,
-    'batch_size': 64,
+    'epochs': 100,
+    'batch_size': 256,
     'cuda': torch.cuda.is_available(),
     'num_channels': 128,
 })
@@ -27,50 +32,57 @@ args = dotdict({
 
 class NNetWrapper(NeuralNet):
     def __init__(self, game):
-        self.nnet = onnet(game, args)
+        self.nnet = onnet(game)#, args)
         self.board_x, self.board_y = game.getBoardSize()
         self.action_size = game.getActionSize()
 
         if args.cuda:
             self.nnet.cuda()
 
-    def train(self, examples, wandb_logger):
+    def train_old(self, examples, wandb_logger):
         """
         examples: list of examples, each example is of form (board, pi, v)
         """
         # Split the examples into training and validation sets
         train_examples, val_examples = train_test_split(examples, test_size=0.2)
+        train_boards = [x[0] for x in train_examples]
+        train_pis = [x[1] for x in train_examples]
+        train_vs = [x[2] for x in train_examples]
+        val_boards = [x[0] for x in val_examples]
+        val_pis = [x[1] for x in val_examples]
+        val_vs = [x[2] for x in val_examples]
+        # print(train_boards[0].shape)
+        # print(SudokuGame.three_dim_to_two_dim(train_boards[0]))
+        # s = SudokuGame(n=4)
+        # action = np.random.choice(len(train_pis[0]), p=train_pis[0])
+        # print(action)
+        # next_board = s.getNextState(SudokuGame.three_dim_to_two_dim(train_boards[0]), action)
+        # print(next_board)
 
-        optimizer = optim.Adam(self.nnet.parameters())
-
-        for epoch in range(args.epochs):
-            print('EPOCH ::: ' + str(epoch + 1))
+        optimizer = optim.Adam(self.nnet.parameters(), lr=args.lr)
+        t = tqdm(range(args.epochs), desc='Training Net', position=0, leave=True)
+        for epoch in t:
             self.nnet.train()
             pi_losses = AverageMeter()
             v_losses = AverageMeter()
 
             # Training phase
             batch_count = int(len(train_examples) / args.batch_size)
-            t = tqdm(range(batch_count), desc='Training Net', position=0, leave=True)
-            for _ in t:
-                sample_ids = np.random.randint(len(train_examples), size=args.batch_size)
-                boards, pis, vs = list(zip(*[train_examples[i] for i in sample_ids]))
-                boards = torch.FloatTensor(np.array(boards).astype(np.float64))
-                target_pis = torch.FloatTensor(np.array(pis))
-                target_vs = torch.FloatTensor(np.array(vs).astype(np.float64))
+            for i in range(batch_count):
+                boards = torch.FloatTensor(np.array(train_boards).astype(np.float64))[i * args.batch_size: (i + 1) * args.batch_size]
+                target_pis = torch.FloatTensor(np.array(train_pis))[i * args.batch_size: (i + 1) * args.batch_size]
+                target_vs = torch.FloatTensor(np.array(train_vs).astype(np.float64))[i * args.batch_size: (i + 1) * args.batch_size]
 
                 if args.cuda:
                     boards, target_pis, target_vs = boards.contiguous().cuda(), target_pis.contiguous().cuda(), target_vs.contiguous().cuda()
 
                 out_pi, out_v = self.nnet(boards)
+                # print dimensions of target and out pis
                 l_pi = self.loss_pi(target_pis, out_pi)
                 l_v = self.loss_v(target_vs, out_v)
-                total_loss = l_pi
-
+                total_loss = l_pi + 1e2 * l_v
                 pi_losses.update(l_pi.item(), boards.size(0))
                 v_losses.update(l_v.item(), boards.size(0))
-                t.set_postfix(Loss_pi=pi_losses.avg, Loss_v=v_losses.avg)
-
                 optimizer.zero_grad()
                 total_loss.backward()
                 optimizer.step()
@@ -101,15 +113,95 @@ class NNetWrapper(NeuralNet):
                     max_policy_elements.append(torch.max(torch.exp(out_pi)).item())
 
                 # Update tqdm with validation losses
+                max_policy = np.max(max_policy_elements)
                 t.set_postfix(Loss_pi=pi_losses.avg, Loss_v=v_losses.avg, Val_loss_pi=val_pi_losses.avg,
-                              Val_loss_v=val_v_losses.avg)
+                              Val_loss_v=val_v_losses.avg, Max_policy=max_policy)
 
-                # Calculate and print statistics for policy's max element
-                max_policy_mean = np.mean(max_policy_elements)
-                max_policy_std = np.std(max_policy_elements)
-                print(f"Validation - Mean of max policy element: {max_policy_mean:.4f}, Std Dev: {max_policy_std:.4f}")
+    def try_train(self, model, examples, wandb_logger):
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        # Split the examples into training and validation sets
+        train_examples, val_examples = train_test_split(examples, test_size=0.2)
+        train_boards = [x[0] for x in train_examples]
+        train_pis = [x[1] for x in train_examples]
+        train_vs = [x[2] for x in train_examples]
+        val_boards = [x[0] for x in val_examples]
+        val_pis = [x[1] for x in val_examples]
+        val_vs = [x[2] for x in val_examples]
 
-    def predict(self, board):
+        optimizer = optim.Adam(model.parameters(), lr=args.lr)
+
+        model.to(device)
+        model.train()
+        num_iters = 1000
+        batch_size = 256
+        losses = []
+        num_epochs = 10
+
+        with tqdm(total=num_iters, desc="Training") as pbar:  # Wrap the loop with tqdm
+            for _ in range(num_iters):
+                # get a list of batch_size puzzles and solutions
+                selected_indices = random.sample(range(len(train_boards)), batch_size)
+                puzzles = [train_boards[i] for i in selected_indices]
+
+                target = [train_pis[i] for i in selected_indices]
+                target_values = [train_vs[i] for i in selected_indices]
+
+                # print(Game.three_dim_to_two_dim(puzzles[0]))
+                # print(target[0])
+                # print(Game.three_dim_to_two_dim(puzzles[1]))
+                # print(target[1])
+                # assert False
+                # to numpy
+                puzzles = np.array(puzzles)
+                # print(puzzles.shape)
+                puzzles = np.transpose(puzzles, (0, 1, 3, 2))
+                # print(puzzles.shape)
+                # assert False
+
+                target = np.array(target)
+
+                target_values = np.array(target_values)
+
+                # to torch
+                puzzles = torch.tensor(puzzles, dtype=torch.float32).to(device)
+                target = torch.tensor(target, dtype=torch.float32).to(device)
+                target_values = torch.tensor(target_values, dtype=torch.float32).to(device)
+
+                if args.cuda:
+                    puzzles, target = puzzles.contiguous().cuda(), target.contiguous().cuda()
+                    target_values = target_values.contiguous().cuda()
+
+                for i in range(num_epochs):
+                    output, values = model(puzzles)
+
+                    loss_p = self.loss_pi(output, target)
+                    loss_val = self.loss_v(values, target_values)
+                    loss = loss_p + 1e2 * loss_val
+                    optimizer.zero_grad()
+                    loss.backward()
+                    optimizer.step()
+                    losses.append(loss.item())
+                    output_max = torch.max(torch.exp(output))
+                    # Update the progress bar description
+                    pbar.set_description(f"Training (Loss: {loss_p.item():.4f}, output_max: {output_max.item()}, loss_val: {loss_val.item()})")
+                    pbar.update(1)
+                    wandb_logger.log({"Loss": loss_p.item(), "Loss_val": loss_val.item()})
+
+                model.eval()
+                with torch.no_grad():
+                    puzzles = torch.tensor(np.array(val_boards), dtype=torch.float32).to(device)
+                    target = torch.tensor(np.array(val_pis), dtype=torch.float32).to(device)
+                    target = target.view(target.size(0), -1)
+
+                    output, _ = model(puzzles)
+
+                    loss = self.loss_pi(output, target)
+                    wandb_logger.log({"Val Loss": loss.item()})
+                    model.train()
+
+        print(losses[0], losses[-1])
+
+    def predict(self, board, model):
         """
         board: np array with board
         """
@@ -120,9 +212,9 @@ class NNetWrapper(NeuralNet):
         board = torch.FloatTensor(board.astype(np.float64))
         if args.cuda: board = board.contiguous().cuda()
         board = board.view(-1, self.board_x + 1, self.board_x, self.board_y)
-        self.nnet.eval()
+        model.eval()
         with torch.no_grad():
-            pi, v = self.nnet(board)
+            pi, v = model(board)
 
         # print('PREDICTION TIME TAKEN : {0:03f}'.format(time.time()-start))
         return torch.exp(pi).data.cpu().numpy()[0], v.data.cpu().numpy()[0]
@@ -152,3 +244,100 @@ class NNetWrapper(NeuralNet):
         map_location = None if args.cuda else 'cpu'
         checkpoint = torch.load(filepath, map_location=map_location)
         self.nnet.load_state_dict(checkpoint['state_dict'])
+
+
+    def train(self, model, wandb_logger):
+        def generatePuzzle(solution, num_blanks):
+            # randomly mask num_blanks squares in solution with zeros
+            # return solution and masked solution
+            # solution is a 9x9 numpy array
+            # masked_solution is a 9x9 numpy array
+            gameN = 4
+            masked_solution = solution.copy()
+            mask = np.random.choice((gameN ** 2), num_blanks, replace=False)
+            for i in mask:
+                masked_solution[i // gameN][i % gameN] = 0
+            return masked_solution
+
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.nnet.to(device)
+        g = Game(4)
+        df = pd.read_csv('sudoku-4.csv')
+        #hold out 100 samples for validation
+        df_train = df.sample(frac=1)
+        df_val = df_train[:100]
+        df_train = df_train[100:]
+
+        optimizer = torch.optim.Adam(self.nnet.parameters(), lr=0.2)
+        self.nnet.train()
+        num_iters = 1000
+        batch_size = 256
+        losses = []
+
+        with tqdm(total=num_iters, desc="Training") as pbar:  # Wrap the loop with tqdm
+            for _ in range(num_iters):
+
+                solutions = []
+                for _ in range(batch_size):
+                    solutions.append(string_2_array(df_train.sample(1)['solution'].values[0]))
+                puzzles = []
+                for i in range(batch_size):
+                    twodim = generatePuzzle(solutions[i], 1)
+                    threedim = Game.two_dim_to_three_dim(twodim)
+                    puzzles.append(threedim)
+
+                puzzles = torch.tensor(np.array(puzzles), dtype=torch.float32).to(device)
+                numpy_targ = np.array([Game.two_dim_to_three_dim(solutions[i])[1:, :, :] for i in range(batch_size)])
+                target = torch.tensor(numpy_targ, dtype=torch.float32).to(device)
+                target = target.view(target.size(0), -1)
+                target = target - puzzles[:, 1:, :, :].view(target.size(0), -1)
+
+                # Step 1: Generate noise
+                noise = torch.rand(target.size(), device=device) * 0.01  # Small positive noise
+
+                # Step 2: Normalize the noise for each batch
+                noise_sum = noise.sum(dim=1, keepdim=True)
+                epsilon = 0.01  # Small value
+                noise = noise / noise_sum * epsilon
+
+                # Step 3: Add noise to target
+                target = target + noise
+
+                # Step 4: Normalize target so that the sum of each batch is 1
+                target_sum = target.sum(dim=1, keepdim=True)
+                target = target / target_sum
+
+                for i in range(10):
+                    output, _ = self.nnet(puzzles)
+                    loss = self.loss_pi(output, target)
+                    optimizer.zero_grad()
+                    loss.backward()
+                    optimizer.step()
+                    losses.append(loss.item())
+                    output_max = torch.max(torch.exp(output))
+                    # Update the progress bar description
+                    pbar.set_description(f"Training (Loss: {loss.item():.4f}, output_max: {output_max.item()})")
+                    pbar.update(1)
+                    wandb_logger.log({"Loss": loss.item()})
+                self.nnet.eval()
+                with torch.no_grad():
+                    solutions = []
+                    for _ in range(batch_size):
+                        solutions.append(string_2_array(df_val.sample(1)['solution'].values[0]))
+                    puzzles = []
+                    for i in range(batch_size):
+                        twodim = generatePuzzle(solutions[i], 1)
+                        threedim = Game.two_dim_to_three_dim(twodim)
+                        puzzles.append(threedim)
+
+                    puzzles = torch.tensor(np.array(puzzles), dtype=torch.float32).to(device)
+                    output, _ = self.nnet(puzzles)
+
+                    numpy_targ = np.array([Game.two_dim_to_three_dim(solutions[i])[1:, :, :] for i in range(batch_size)])
+                    target = torch.tensor(numpy_targ, dtype=torch.float32).to(device)
+                    target = target.view(target.size(0), -1)
+                    target = target - puzzles[:, 1:, :, :].view(target.size(0), -1)
+                    loss = self.loss_pi(output, target)
+                    wandb_logger.log({"Val Loss": loss.item()})
+                    self.nnet.train()
+        print(losses[0], losses[-1])

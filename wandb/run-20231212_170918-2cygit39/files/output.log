@@ -1,0 +1,21 @@
+
+  0%|          | 0/1 [00:00<?, ?it/s]
+------ITER 1------
+Average Score: 1.0000099999999998
+percentage of perfect games: 1.0
+mean and std of values:  1.0000099999999998 2.220446049250313e-16
+  0%|          | 0/1 [00:24<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 40, in <module>
+    main()
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 36, in main
+    t.learn()
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Train.py", line 71, in learn
+    self.nnet.train(self.data, wandb_logger=logger)
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\NNet.py", line 51, in train
+    print(SudokuGame.three_dim_to_two_dim(train_boards[0]))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\SudokuGame.py", line 166, in three_dim_to_two_dim
+    two_dim_board[x, y] = z + 1
+    ~~~~~~~~~~~~~^^^^^^
+IndexError: index 4 is out of bounds for axis 0 with size 4

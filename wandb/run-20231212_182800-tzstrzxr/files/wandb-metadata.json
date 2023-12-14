@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.11.5",
+    "heartbeatAt": "2023-12-12T23:28:01.266422",
+    "startedAt": "2023-12-12T23:28:00.450554",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\Danny Han\\Desktop\\alphazero-sudoku\\main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/danny1078/alphazero-sudoku.git",
+        "commit": "fd31c5aeeea7c6fc071c64ac0be78c4d6d6bd43c"
+    },
+    "email": "handanny2014@gmail.com",
+    "root": "C:/Users/Danny Han/Desktop/alphazero-sudoku",
+    "host": "danny",
+    "username": "Danny Han",
+    "executable": "C:\\Users\\Danny Han\\anaconda3\\envs\\ESE-5460_23\\python.exe",
+    "cpu_count": 16,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 4501.0,
+        "min": 0.0,
+        "max": 4501.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4501.0,
+            "min": 0.0,
+            "max": 4501.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1862.9023399353027,
+            "used": 345.1233787536621
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4080",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4080",
+            "memory_total": 17171480576
+        }
+    ],
+    "memory": {
+        "total": 63.13631820678711
+    }
+}

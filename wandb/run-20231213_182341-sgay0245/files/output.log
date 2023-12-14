@@ -1,0 +1,57 @@
+
+
+Training (Loss: 2.7530, output_max: 0.981148898601532):   1%|          | 9/1000 [00:05<1:22:37,  5.00s/it]
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+
+Training (Loss: 1.5213, output_max: 0.9997846484184265):   2%|▏         | 19/1000 [00:09<11:52,  1.38it/s]
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+Training (Loss: 1.5213, output_max: 0.9997846484184265):   2%|▏         | 20/1000 [00:11<09:39,  1.69it/s]
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\PureMLP.py", line 163, in <module>
+    main(model)
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\PureMLP.py", line 94, in main
+    solutions.append(string_2_array(df_train.sample(1)['solution'].values[0]))
+                                    ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\pandas\core\generic.py", line 5858, in sample
+    sampled_indices = sample.sample(obj_len, size, replace, weights, rs)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\pandas\core\sample.py", line 151, in sample
+    return random_state.choice(obj_len, size=size, replace=replace, p=weights).astype(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

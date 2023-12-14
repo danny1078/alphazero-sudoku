@@ -1,0 +1,32 @@
+
+  0%|          | 0/100 [00:00<?, ?it/s]
+  0%|          | 0/100 [00:15<?, ?it/s]
+multiprocessing.pool.RemoteTraceback:
+"""
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\multiprocessing\pool.py", line 48, in mapstar
+    return list(map(*args))
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Train.py", line 77, in playGame
+    data = p.playGame()
+           ^^^^^^^^^^^^
+TypeError: Play.playGame() missing 1 required positional argument: 'model'
+"""
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 41, in <module>
+    main()
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 37, in main
+    t.learn(model)
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Train.py", line 60, in learn
+    data = p.map(playGame, plays)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\multiprocessing\pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\multiprocessing\pool.py", line 774, in get
+    raise self._value
+TypeError: Play.playGame() missing 1 required positional argument: 'model'

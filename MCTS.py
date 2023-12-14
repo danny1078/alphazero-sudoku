@@ -26,7 +26,7 @@ class MCTS():
         self.Es = {}  # stores game.getGameEnded ended for board s
         self.Vs = {}  # stores game.getValidMoves for board s
 
-    def getActionProb(self, board, temp=1.):
+    def getActionProb(self, board, model, temp=1.):
         """
         This function performs numMCTSSims simulations of MCTS starting from
         board.
@@ -36,7 +36,7 @@ class MCTS():
                    proportional to Nsa[(s,a)]**(1./temp)
         """
         for i in range(self.args.numMCTSSims):
-            self.search(board)
+            self.search(board, model)
         s = self.game.stringRepresentation(board)
         counts = [self.Nsa[(s, a)] if (s, a) in self.Nsa else 0 for a in range(self.game.getActionSize())]
         if temp == 0:
@@ -50,7 +50,7 @@ class MCTS():
         probs = [x / counts_sum for x in counts]
         return probs
 
-    def search(self, board):
+    def search(self, board, model):
         """
         This function performs one iteration of MCTS. It is recursively called
         till a leaf node is found. The action chosen at each node is one that
@@ -80,7 +80,7 @@ class MCTS():
 
         if s not in self.Ps:
             # leaf node
-            self.Ps[s], v = self.nnet.predict(SudokuGame.two_dim_to_three_dim(board))
+            self.Ps[s], v = self.nnet.predict(SudokuGame.two_dim_to_three_dim(board), model)
             valids = self.game.getAllMoves(board)
             # valids = self.game.getValidMoves(board)
             self.Ps[s] = self.Ps[s] * valids  # masking invalid moves
@@ -125,7 +125,7 @@ class MCTS():
 
         assert not np.all(temp == next_s)
 
-        v = self.search(next_s)
+        v = self.search(next_s, model)
 
         if (s, a) in self.Qsa:
             self.Qsa[(s, a)] = (self.Nsa[(s, a)] * self.Qsa[(s, a)] + v) / (self.Nsa[(s, a)] + 1)

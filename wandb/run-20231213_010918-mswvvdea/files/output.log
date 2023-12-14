@@ -1,0 +1,13 @@
+
+Training:   0%|          | 0/1000 [00:04<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\PureMLP.py", line 148, in <module>
+    main(model)
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\PureMLP.py", line 110, in main
+    assert False
+AssertionError
+tensor([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 1., 0.], device='cuda:0')
+torch.Size([64])

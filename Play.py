@@ -19,14 +19,14 @@ class Play():
         self.mcts = MCTS(self.game, self.nnet, self.args)
         self.inboard = inboard
 
-    def playGame(self):
+    def playGame(self, model):
         augment = False
         data = []
         board = self.inboard
 
         while True:
-            temp = 0
-            pi = self.mcts.getActionProb(board, temp=temp)
+            temp = 0.5
+            pi = self.mcts.getActionProb(board, model, temp=temp)
 
             if augment:
                 sym = self.game.getSymmetries(board, pi) 
@@ -35,8 +35,9 @@ class Play():
             action = np.random.choice(len(pi), p=pi)
 
             legals = self.game.getValidMoves(board)
-            pi = pi * legals  # masking invalid moves
-            pi = pi / np.sum(pi)
+            # pi = pi * legals  # masking invalid moves
+            # if np.sum(pi) > 0:
+            #     pi = pi / np.sum(pi)
 
             data.append([SudokuGame.two_dim_to_three_dim(board), pi, None])
             #SudokuGame.display(board)
@@ -47,9 +48,9 @@ class Play():
             if end != 0:
                 return [(x[0], x[1], end) for x in data]
 
-    def playGames(self, num):
+    def playGames(self, model, num):
         # play n games and return data in the form of examples
         examples = []
         for i in range(num):
-            examples += self.playGame()
+            examples += self.playGame(model)
         return examples

@@ -40,8 +40,8 @@ class SudokuGame(Game):
         # print("Action: ", action // (self.n ** 2), (action % (self.n ** 2)) // self.n, (action % (self.n ** 2)) % self.n + 1)
         # new_board = np.copy(board)
         # new_board[action // (self.n ** 2), (action % (self.n ** 2)) // self.n] = (action % (self.n ** 2)) % self.n + 1
-        b = Board(self.n)
-        b.board = np.copy(board)
+        b = Board(self.n, board.copy())
+        # b.board = np.copy(board)
         b.place_number(action // (self.n ** 2), (action % (self.n ** 2)) // self.n, (action % (self.n ** 2)) % self.n + 1)
         return b.board
 
@@ -156,14 +156,14 @@ class SudokuGame(Game):
     
     @staticmethod
     def three_dim_to_two_dim(board):
-        n = board.shape[0]
+        n = board.shape[1]
         two_dim_board = np.zeros((n, n))
 
         # Get the coordinates of non-zero elements
-        x, y, z = np.nonzero(board)
+        z, x, y = np.nonzero(board)
         
         # One-hot encode
-        two_dim_board[x, y] = z + 1
+        two_dim_board[x, y] = z
 
         return two_dim_board
     

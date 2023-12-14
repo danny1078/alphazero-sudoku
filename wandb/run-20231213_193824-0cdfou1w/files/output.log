@@ -1,0 +1,12 @@
+
+Training:   0%|          | 0/1000 [00:04<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\PureMLP.py", line 170, in <module>
+    main(model)
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\PureMLP.py", line 108, in main
+    print(Game.three_dim_to_two_dim(puzzles[0]))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\SudokuGame.py", line 163, in three_dim_to_two_dim
+    z, x, y = np.nonzero(board)
+    ^^^^^^^
+ValueError: too many values to unpack (expected 3)

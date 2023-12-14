@@ -5,6 +5,7 @@ from collections import deque
 from pickle import Pickler, Unpickler
 from random import shuffle
 
+import NNet
 import numpy as np
 from tqdm import tqdm
 
@@ -40,8 +41,9 @@ class Train():
             masked_solution[i // self.game.getN()][i % self.game.getN()] = 0
         return masked_solution
 
-    def learn(self):
+    def learn(self, model):
         logger = wandb.init(project="alphazero_sudoku")
+
         for idx1 in tqdm(range(self.args.numIters)):
             print('------ITER ' + str(idx1 + 1) + '------')
             # randomly sample self.numGames boards from self.df
@@ -55,7 +57,8 @@ class Train():
                 plays.append(Play(self.game, self.nnet, self.args, inboard=puzzle))
 
             with Pool(processes=32) as p:
-                data = p.map(playGame, plays)
+                listt = [(p, model) for p in plays]
+                data = p.map(playGame, listt)
                 flat_data = [item for sublist in data for item in sublist]
             self.data = flat_data
             avg_completion = np.mean([x[2] for x in self.data])
@@ -68,9 +71,10 @@ class Train():
             values = np.array([x[2] for x in self.data])
             print("mean and std of values: ", np.mean(values), np.std(values))
 
-            self.nnet.train(self.data, wandb_logger=logger)
+            self.nnet.try_train(model, self.data, wandb_logger=logger)
 
 
-def playGame(p):
-    data = p.playGame()
+def playGame(tup):
+    p, model = tup
+    data = p.playGame(model)
     return data

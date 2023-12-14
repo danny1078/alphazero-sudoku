@@ -1,0 +1,99 @@
+
+
+Training (Loss: 3.0265, output_max: 0.9573537111282349):   1%|          | 9/1000 [00:05<1:24:49,  5.14s/it]
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+
+Training (Loss: 2.7334, output_max: 0.9718096852302551):   2%|▏         | 15/1000 [00:09<12:09,  1.35it/s]
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+
+Training (Loss: 1.5949, output_max: 0.9997658133506775):   2%|▏         | 19/1000 [00:09<12:06,  1.35it/s]
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+
+Training (Loss: 0.7425, output_max: 0.9999990463256836):   3%|▎         | 29/1000 [00:13<09:04,  1.78it/s]
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+torch.Size([256, 64])
+Training (Loss: 0.3708, output_max: 0.9999733567237854):   4%|▍         | 40/1000 [00:18<07:32,  2.12it/s]
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\PureMLP.py", line 172, in <module>
+    main(model)
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\PureMLP.py", line 96, in main
+    solutions.append(string_2_array(df_train.sample(1)['solution'].values[0]))
+                                    ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\pandas\core\generic.py", line 5858, in sample
+    sampled_indices = sample.sample(obj_len, size, replace, weights, rs)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\pandas\core\sample.py", line 151, in sample
+    return random_state.choice(obj_len, size=size, replace=replace, p=weights).astype(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

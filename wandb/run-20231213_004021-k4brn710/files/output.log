@@ -1,0 +1,16 @@
+
+Training:   0%|          | 0/1000 [00:05<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\PureMLP.py", line 148, in <module>
+    main(model)
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\PureMLP.py", line 115, in main
+    assert False
+AssertionError
+tensor([[-3.6282, -4.3972, -4.4999,  ..., -3.7470, -3.8847, -4.2383],
+        [-3.5083, -4.6397, -3.8517,  ..., -4.0096, -4.1399, -4.2235],
+        [-4.2204, -3.8876, -4.6934,  ..., -4.0832, -3.3091, -4.3504],
+        ...,
+        [-3.7560, -4.1260, -3.8583,  ..., -4.0909, -3.7388, -4.3767],
+        [-4.2795, -4.4744, -4.2749,  ..., -3.8810, -4.1112, -4.3606],
+        [-4.6903, -3.9851, -4.6109,  ..., -3.5716, -3.7480, -4.3704]],
+       device='cuda:0', grad_fn=<LogSoftmaxBackward0>)
