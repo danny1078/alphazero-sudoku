@@ -1,12 +1,11 @@
 from __future__ import print_function
 import sys
-sys.path.append('..')
-from Game import Game
+sys.path.append('')
 from SudokuLogic import Board
 import numpy as np
 from itertools import permutations
 
-class SudokuGame(Game):
+class SudokuGame():
     # square_content = {
     #     0: '-',
     #     1: 'x',
@@ -91,7 +90,7 @@ class SudokuGame(Game):
                     sum_satisfied += 1
         if sum_satisfied == 0:
             return -1e-5
-        return sum_satisfied / (3 * self.n) * 2 - 1 + 1e-5
+        return sum_satisfied / (3 * self.n)
 
     # def getCanonicalForm(self, board):
     #     return self.b.board

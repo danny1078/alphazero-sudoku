@@ -1,40 +1,35 @@
-from Train import Train
-from SudokuGame import SudokuGame as Game
-from NNet import NNetWrapper as nn
-from utils import *
-from PureMLP import SudokuNN
+import torch
+from Net import Net
+from NetTrainer import train_net
+from Trajectories import get_trajectories
+from SudokuGame import SudokuGame
+import wandb
 
-
-args = dotdict({
+args = {
     'numIters': 100,
-    'numEps': 20,              # Number of complete self-play games to simulate during a new iteration.
-    'tempThreshold': 15,        #
-    'maxlenOfQueue': 200000,    # Number of game examples to train the neural networks.
     'numMCTSSims': 50,          # Number of games moves for MCTS to simulate.
     'cpuct': 1.41,                 # UCB hyperparameter
-
-    'checkpoint': './temp/',
-    'load_model': False,
-    'load_folder_file': ('/dev/models/8x100x50','best.pth.tar'),
-    'numItersForTrainExamplesHistory': 20,
-    'numGames': 500 # number of games to play in one iteration
-
-})
+    'numGames': 5000, # number of games to play in one iteration
+    'lr': 0.2,
+    'epochs': 100,
+    'batch_size': 128,
+    'num_workers': 32,
+    'cuda': torch.cuda.is_available(),
+    'wandb': True
+}
 
 
 def main():
-    g = Game(4) # size of board
+    if args['wandb']:
+        logger = wandb.init(project="alphazero_sudoku")
+    else:
+        logger = None
+    g = SudokuGame(4)
+    net = Net(game=g)
 
-    nnet = nn(g)
-    model = SudokuNN(g)
-
-    if args.load_model: # for loading a partially trained model
-        nnet.load_checkpoint(args.load_folder_file[0], args.load_folder_file[1])
-
-    t = Train(g, nnet, args)
-
-    print('Starting the learning process 🎉')
-    t.learn(model)
+    for _ in range(args['numIters']):
+        data = get_trajectories(net, args)
+        train_net(net, data, args, logger)
 
 
 if __name__ == "__main__":
