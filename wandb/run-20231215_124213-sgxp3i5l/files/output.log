@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 38, in <module>
+    main()
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 33, in main
+    data = get_trajectories(net, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Trajectories.py", line 57, in get_trajectories
+    data += p.playGame()
+            ^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Play.py", line 17, in playGame
+    pi = self.mcts.getActionProb(board, temp=self.args['temp'])
+                                             ~~~~~~~~~^^^^^^^^
+KeyError: 'temp'

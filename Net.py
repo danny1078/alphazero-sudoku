@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-
+import numpy as np
 
 class Net(nn.Module):
     def __init__(self, game):
@@ -42,3 +42,21 @@ class Net(nn.Module):
         value = self.fc6(x)
 
         return F.log_softmax(logits, dim=1), F.sigmoid(value)
+
+    def predict(self, s):
+        """
+        Input:
+            s: a batch of boards
+        Returns:
+            pi: a batch of action probabilities
+            v: a batch of value predictions
+        """
+
+        board = torch.FloatTensor(s.astype(np.float64))
+        if torch.cuda.is_available():
+            board = board.contiguous().cuda()
+        board = torch.unsqueeze(board, 0)
+        self.eval()
+        with torch.no_grad():
+            pi, v = self.forward(board)
+        return torch.exp(pi).data.cpu().numpy()[0], v.data.cpu().numpy()[0]

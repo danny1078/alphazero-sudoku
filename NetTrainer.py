@@ -81,7 +81,7 @@ def loss_pi_with_entropy(targets, log_outputs, lambda_entropy):
     # Cap the entropy penalty at 1 and ensure it's not negative
     entropy_penalty = torch.clamp(entropy_penalty, min=0, max=1.0)
 
-    return cross_entropy_loss + entropy_penalty
+    return cross_entropy_loss
 
 
 def loss_v(targets, outputs):
@@ -98,6 +98,13 @@ class BoardDataset(torch.utils.data.Dataset):
         self.boards = torch.from_numpy(boards_np).contiguous()
         self.pis = torch.from_numpy(pis_np).contiguous()
         self.vs = torch.from_numpy(vs_np).contiguous()
+
+        # Move tensors to GPU if available
+        if cuda:
+            self.boards = self.boards.cuda()
+            self.pis = self.pis.cuda()
+            self.vs = self.vs.cuda()
+
 
     def __len__(self):
         return len(self.boards)
@@ -122,8 +129,7 @@ def makeDataLoader(data, args):
         train_dataset,
         batch_size=args['batch_size'],
         shuffle=True,
-        num_workers=args['num_workers'],
-        pin_memory=args['cuda'],
+        num_workers=0,
         drop_last=True
     )
 
@@ -131,8 +137,7 @@ def makeDataLoader(data, args):
         val_dataset,
         batch_size=args['batch_size'],
         shuffle=False,
-        num_workers=args['num_workers'],
-        pin_memory=args['cuda'],
+        num_workers=0,
         drop_last=False
     )
 

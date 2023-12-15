@@ -2,6 +2,8 @@
 import numpy as np
 import pandas as pd
 from SudokuGame import SudokuGame
+from Play import Play
+from tqdm import tqdm
 
 def generatePuzzle(solution, num_blanks):
     # randomly mask num_blanks squares in solution with zeros
@@ -19,7 +21,7 @@ def string_2_array(s):
     n = int(len(str(s))**0.5)  # Determine the size of the square array
     return np.array([int(char) for char in str(s)]).reshape(n, n)
 
-def get_trajectories(net, args):
+def get_trajectories_test(net, args):
     solutions = []
     df = pd.read_csv('sudoku-4.csv')
     # hold out 100 samples for validation
@@ -40,5 +42,22 @@ def get_trajectories(net, args):
     data = []
     for i in range(args['numGames']):
         data.append([puzzles[i], target[i], 1])
+    return data
 
+def get_trajectories(net, args, logger):
+    data = []
+    df = pd.read_csv('sudoku-4.csv')
+    # hold out 100 samples for validation
+    df_train = df.sample(frac=1)
+
+    for _ in tqdm(range(args['numGames'])):
+        solution = string_2_array(df_train.sample(1)['solution'].values[0])
+        board = generatePuzzle(solution, 2)
+        p = Play(net, board, args)
+        data += p.playGame()
+
+    percent_perfect_games = np.mean([x[2] == 1 for x in data])
+    avg_score = np.mean([x[2] for x in data])
+    logger.log({"Average score": avg_score,
+                "Percentage of perfect games": percent_perfect_games})
     return data
