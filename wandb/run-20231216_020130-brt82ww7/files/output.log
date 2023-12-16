@@ -1,0 +1,81 @@
+
+
+
+100%|██████████| 500/500 [00:09<00:00, 50.75it/s]
+
+Training Net: 100%|██████████| 15/15 [00:01<00:00, 12.50it/s, Loss_pi=4.14, Loss_v=0.0163, Max_policy=0.0287, Val_loss_pi=4.18, Val_loss_v=0.0191]
+
+ 42%|████▏     | 208/500 [00:10<00:15, 19.27it/s]
+multiprocessing.pool.RemoteTraceback:
+"""
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Trajectories.py", line 92, in play_game
+    return play.playGame()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Play.py", line 17, in playGame
+    pi = self.mcts.getActionProb(board, temp=self.args['temp'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\MCTS.py", line 39, in getActionProb
+    self.search(board)
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\MCTS.py", line 125, in search
+    v = self.search(next_s)
+        ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\MCTS.py", line 83, in search
+    self.Ps[s], v = self.net.predict(SudokuGame.two_dim_to_three_dim(board))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Net.py", line 62, in predict
+    return torch.exp(pi).data.cpu().numpy()[0], v.data.cpu().numpy()[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+"""
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Trajectories.py", line 82, in get_trajectories_multiprocessing
+    for result in tqdm(pool.imap(play_game, plays), total=len(plays)):
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\tqdm\std.py", line 1178, in __iter__
+    for obj in iterable:
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\multiprocessing\pool.py", line 873, in next
+    raise value
+RuntimeError: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 44, in <module>
+    main()
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 39, in main
+    data = get_trajectories_multiprocessing(net, args, logger)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Trajectories.py", line 81, in get_trajectories_multiprocessing
+    with Pool(processes=args['num_workers']) as pool:
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\multiprocessing\pool.py", line 739, in __exit__
+    self.terminate()
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\multiprocessing\pool.py", line 657, in terminate
+    self._terminate()
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\multiprocessing\util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\multiprocessing\pool.py", line 695, in _terminate_pool
+    cls._help_stuff_finish(inqueue, task_handler, len(pool))
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\multiprocessing\pool.py", line 677, in _help_stuff_finish
+    inqueue._reader.recv()
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\multiprocessing\connection.py", line 250, in recv
+    return _ForkingPickler.loads(buf.getbuffer())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\torch\multiprocessing\reductions.py", line 147, in rebuild_cuda_tensor
+    storage = storage_cls._new_shared_cuda(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\torch\storage.py", line 1085, in _new_shared_cuda
+    return torch.UntypedStorage._new_shared_cuda(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: invalid device context
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.

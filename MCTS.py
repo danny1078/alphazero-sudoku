@@ -108,7 +108,7 @@ class MCTS():
                     u = self.Qsa[(s, a)] + self.args['cpuct'] * self.Ps[s][a] * math.sqrt(self.Ns[s]) / (
                             1 + self.Nsa[(s, a)])
                 else:
-                    u = 0.5 + self.args['cpuct'] * self.Ps[s][a] * math.sqrt(self.Ns[s] + EPS)
+                    u = self.args["conf_offset"] + self.args['cpuct'] * self.Ps[s][a] * math.sqrt(self.Ns[s] + EPS)
 
                 if u > cur_best:
                     cur_best = u

@@ -1,0 +1,1144 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:36<00:00, 13.68it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 28.42it/s, Loss_pi=4.82, Loss_v=0.00607, Max_policy=0.241, Val_loss_pi=4.04, Val_loss_v=0.0126]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:29<00:00, 16.92it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 31.43it/s, Loss_pi=4.73, Loss_v=0.00392, Max_policy=0.798, Val_loss_pi=3.84, Val_loss_v=0.00948]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:30<00:00, 16.48it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 28.84it/s, Loss_pi=4.49, Loss_v=0.0023, Max_policy=0.697, Val_loss_pi=3.71, Val_loss_v=0.0135]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:30<00:00, 16.63it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 31.84it/s, Loss_pi=3.45, Loss_v=0.0039, Max_policy=0.902, Val_loss_pi=2.98, Val_loss_v=0.0157]
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:28<00:00, 17.54it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 23.07it/s, Loss_pi=2.39, Loss_v=0.00324, Max_policy=0.838, Val_loss_pi=3.17, Val_loss_v=0.0131]
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:27<00:00, 18.28it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 28.56it/s, Loss_pi=1.92, Loss_v=0.0026, Max_policy=0.96, Val_loss_pi=2.91, Val_loss_v=0.0117]
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:25<00:00, 19.70it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 25.13it/s, Loss_pi=1.6, Loss_v=0.00288, Max_policy=0.988, Val_loss_pi=2.9, Val_loss_v=0.0115]
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:24<00:00, 20.58it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 24.81it/s, Loss_pi=1.48, Loss_v=0.0026, Max_policy=0.997, Val_loss_pi=3.07, Val_loss_v=0.0148]
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:23<00:00, 21.43it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 28.39it/s, Loss_pi=1.23, Loss_v=0.0028, Max_policy=0.999, Val_loss_pi=2.28, Val_loss_v=0.0151]
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:23<00:00, 21.28it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 28.89it/s, Loss_pi=1.3, Loss_v=0.00231, Max_policy=1, Val_loss_pi=2.06, Val_loss_v=0.0131]
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:23<00:00, 21.20it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 26.79it/s, Loss_pi=1.22, Loss_v=0.0028, Max_policy=1, Val_loss_pi=2.13, Val_loss_v=0.0133]
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:23<00:00, 21.46it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 27.91it/s, Loss_pi=1.08, Loss_v=0.00289, Max_policy=1, Val_loss_pi=2.12, Val_loss_v=0.017]
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:22<00:00, 22.40it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 26.91it/s, Loss_pi=0.985, Loss_v=0.00276, Max_policy=1, Val_loss_pi=1.96, Val_loss_v=0.0138]
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:22<00:00, 22.22it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 26.30it/s, Loss_pi=0.812, Loss_v=0.00246, Max_policy=1, Val_loss_pi=1.67, Val_loss_v=0.0129]
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:22<00:00, 21.81it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 29.84it/s, Loss_pi=0.817, Loss_v=0.0025, Max_policy=1, Val_loss_pi=1.71, Val_loss_v=0.0104]
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:22<00:00, 22.43it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 22.97it/s, Loss_pi=0.725, Loss_v=0.00366, Max_policy=1, Val_loss_pi=1.43, Val_loss_v=0.0103]
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:21<00:00, 22.83it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 25.00it/s, Loss_pi=0.757, Loss_v=0.00232, Max_policy=1, Val_loss_pi=1.16, Val_loss_v=0.0107]
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:21<00:00, 23.18it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 25.36it/s, Loss_pi=0.662, Loss_v=0.00249, Max_policy=1, Val_loss_pi=1.18, Val_loss_v=0.012]
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:21<00:00, 22.96it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 26.51it/s, Loss_pi=0.576, Loss_v=0.00215, Max_policy=1, Val_loss_pi=1.53, Val_loss_v=0.0122]
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:21<00:00, 23.52it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 26.81it/s, Loss_pi=0.649, Loss_v=0.00229, Max_policy=1, Val_loss_pi=1.13, Val_loss_v=0.0122]
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 23.89it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 27.29it/s, Loss_pi=0.585, Loss_v=0.00321, Max_policy=1, Val_loss_pi=0.867, Val_loss_v=0.0131]
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:21<00:00, 23.12it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 29.12it/s, Loss_pi=0.46, Loss_v=0.00179, Max_policy=1, Val_loss_pi=0.788, Val_loss_v=0.00999]
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:21<00:00, 23.52it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 29.94it/s, Loss_pi=0.493, Loss_v=0.00233, Max_policy=1, Val_loss_pi=0.806, Val_loss_v=0.00926]
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 23.82it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 26.32it/s, Loss_pi=0.428, Loss_v=0.00157, Max_policy=1, Val_loss_pi=0.611, Val_loss_v=0.00954]
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:21<00:00, 23.66it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 25.37it/s, Loss_pi=0.442, Loss_v=0.00198, Max_policy=1, Val_loss_pi=1.06, Val_loss_v=0.00771]
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 24.00it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 26.66it/s, Loss_pi=0.408, Loss_v=0.00114, Max_policy=1, Val_loss_pi=0.772, Val_loss_v=0.00723]
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 24.23it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 26.91it/s, Loss_pi=0.32, Loss_v=0.00156, Max_policy=1, Val_loss_pi=0.638, Val_loss_v=0.0065]
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 24.46it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 25.94it/s, Loss_pi=0.309, Loss_v=0.000954, Max_policy=1, Val_loss_pi=0.781, Val_loss_v=0.00776]
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 23.94it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 26.72it/s, Loss_pi=0.306, Loss_v=0.00141, Max_policy=1, Val_loss_pi=0.321, Val_loss_v=0.00645]
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 24.38it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 22.68it/s, Loss_pi=0.329, Loss_v=0.00119, Max_policy=1, Val_loss_pi=0.889, Val_loss_v=0.00575]
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 24.42it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 26.97it/s, Loss_pi=0.274, Loss_v=0.00136, Max_policy=1, Val_loss_pi=0.477, Val_loss_v=0.00763]
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 24.23it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 27.63it/s, Loss_pi=0.287, Loss_v=0.00174, Max_policy=1, Val_loss_pi=0.763, Val_loss_v=0.00397]
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:21<00:00, 23.62it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 26.49it/s, Loss_pi=0.257, Loss_v=0.00114, Max_policy=1, Val_loss_pi=0.477, Val_loss_v=0.00598]
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 24.58it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 26.61it/s, Loss_pi=0.228, Loss_v=0.00171, Max_policy=1, Val_loss_pi=0.538, Val_loss_v=0.00494]
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 24.30it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 26.21it/s, Loss_pi=0.205, Loss_v=0.00105, Max_policy=1, Val_loss_pi=0.38, Val_loss_v=0.00432]
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:22<00:00, 22.65it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 23.81it/s, Loss_pi=0.231, Loss_v=0.000882, Max_policy=1, Val_loss_pi=0.399, Val_loss_v=0.00474]
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:21<00:00, 23.20it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 27.57it/s, Loss_pi=0.171, Loss_v=0.00133, Max_policy=1, Val_loss_pi=0.266, Val_loss_v=0.00322]
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 24.10it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 27.34it/s, Loss_pi=0.233, Loss_v=0.00116, Max_policy=1, Val_loss_pi=0.468, Val_loss_v=0.0047]
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 24.11it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 28.06it/s, Loss_pi=0.192, Loss_v=0.00101, Max_policy=1, Val_loss_pi=0.299, Val_loss_v=0.00489]
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 24.22it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 24.83it/s, Loss_pi=0.199, Loss_v=0.000941, Max_policy=1, Val_loss_pi=0.346, Val_loss_v=0.00466]
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 24.42it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 28.00it/s, Loss_pi=0.153, Loss_v=0.000811, Max_policy=1, Val_loss_pi=0.402, Val_loss_v=0.00357]
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 24.89it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 27.70it/s, Loss_pi=0.291, Loss_v=0.00107, Max_policy=1, Val_loss_pi=0.286, Val_loss_v=0.00304]
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 24.80it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 26.69it/s, Loss_pi=0.134, Loss_v=0.000603, Max_policy=1, Val_loss_pi=0.362, Val_loss_v=0.00226]
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 24.54it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 27.65it/s, Loss_pi=0.149, Loss_v=0.000925, Max_policy=1, Val_loss_pi=0.307, Val_loss_v=0.00291]
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 24.76it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 26.74it/s, Loss_pi=0.164, Loss_v=0.000932, Max_policy=1, Val_loss_pi=0.298, Val_loss_v=0.00155]
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 23.93it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 27.19it/s, Loss_pi=0.124, Loss_v=0.000989, Max_policy=1, Val_loss_pi=0.39, Val_loss_v=0.00313]
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 24.40it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 27.35it/s, Loss_pi=0.164, Loss_v=0.000689, Max_policy=1, Val_loss_pi=0.292, Val_loss_v=0.0017]
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 24.98it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 25.53it/s, Loss_pi=0.134, Loss_v=0.00058, Max_policy=1, Val_loss_pi=0.188, Val_loss_v=0.00221]
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 24.82it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 27.13it/s, Loss_pi=0.178, Loss_v=0.000796, Max_policy=1, Val_loss_pi=0.227, Val_loss_v=0.0019]
+
+
+
+
+
+
+
+
+
+100%|██████████| 500/500 [00:20<00:00, 24.56it/s]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 28.68it/s, Loss_pi=0.0829, Loss_v=0.000576, Max_policy=1, Val_loss_pi=0.166, Val_loss_v=0.00164]
+ 13%|█▎        | 63/500 [00:02<00:18, 23.73it/s]
+ 22%|██▏       | 111/500 [00:04<00:16, 23.12it/s]
+ 32%|███▏      | 160/500 [00:06<00:13, 25.22it/s]
+ 42%|████▏     | 212/500 [00:08<00:11, 24.22it/s]
+ 52%|█████▏    | 260/500 [00:10<00:09, 24.53it/s]
+ 62%|██████▏   | 312/500 [00:12<00:07, 24.39it/s]
+ 73%|███████▎  | 363/500 [00:14<00:05, 24.96it/s]
+ 82%|████████▏ | 412/500 [00:16<00:03, 25.44it/s]
+ 92%|█████████▏| 460/500 [00:18<00:01, 23.20it/s]
+Training Net:  60%|██████    | 9/15 [00:00<00:00, 26.06it/s, Loss_pi=0.215, Loss_v=0.000959, Max_policy=1, Val_loss_pi=0.213, Val_loss_v=0.00264]
+  8%|▊         | 41/500 [00:01<00:17, 25.74it/s]0, 26.32it/s, Loss_pi=0.196, Loss_v=0.000764, Max_policy=1, Val_loss_pi=0.185, Val_loss_v=0.0031]
+ 19%|█▊        | 93/500 [00:03<00:15, 26.74it/s]0, 26.32it/s, Loss_pi=0.196, Loss_v=0.000764, Max_policy=1, Val_loss_pi=0.185, Val_loss_v=0.0031]
+ 28%|██▊       | 141/500 [00:05<00:14, 24.83it/s], 26.32it/s, Loss_pi=0.196, Loss_v=0.000764, Max_policy=1, Val_loss_pi=0.185, Val_loss_v=0.0031]
+ 38%|███▊      | 189/500 [00:07<00:12, 24.81it/s], 26.32it/s, Loss_pi=0.196, Loss_v=0.000764, Max_policy=1, Val_loss_pi=0.185, Val_loss_v=0.0031]
+ 48%|████▊     | 240/500 [00:09<00:09, 26.83it/s], 26.32it/s, Loss_pi=0.196, Loss_v=0.000764, Max_policy=1, Val_loss_pi=0.185, Val_loss_v=0.0031]
+ 58%|█████▊    | 288/500 [00:11<00:08, 25.44it/s], 26.32it/s, Loss_pi=0.196, Loss_v=0.000764, Max_policy=1, Val_loss_pi=0.185, Val_loss_v=0.0031]
+ 68%|██████▊   | 340/500 [00:13<00:06, 23.42it/s], 26.32it/s, Loss_pi=0.196, Loss_v=0.000764, Max_policy=1, Val_loss_pi=0.185, Val_loss_v=0.0031]
+ 78%|███████▊  | 388/500 [00:15<00:04, 24.97it/s], 26.32it/s, Loss_pi=0.196, Loss_v=0.000764, Max_policy=1, Val_loss_pi=0.185, Val_loss_v=0.0031]
+ 88%|████████▊ | 439/500 [00:17<00:02, 25.17it/s], 26.32it/s, Loss_pi=0.196, Loss_v=0.000764, Max_policy=1, Val_loss_pi=0.185, Val_loss_v=0.0031]
+ 98%|█████████▊| 490/500 [00:19<00:00, 24.45it/s], 26.32it/s, Loss_pi=0.196, Loss_v=0.000764, Max_policy=1, Val_loss_pi=0.185, Val_loss_v=0.0031]
+  4%|▍         | 19/500 [00:00<00:17, 28.05it/s]0, 27.20it/s, Loss_pi=0.189, Loss_v=0.000867, Max_policy=1, Val_loss_pi=0.226, Val_loss_v=0.00331]
+ 14%|█▍        | 71/500 [00:02<00:16, 25.80it/s]0, 27.20it/s, Loss_pi=0.189, Loss_v=0.000867, Max_policy=1, Val_loss_pi=0.226, Val_loss_v=0.00331]
+ 24%|██▍       | 119/500 [00:04<00:14, 25.65it/s], 27.20it/s, Loss_pi=0.189, Loss_v=0.000867, Max_policy=1, Val_loss_pi=0.226, Val_loss_v=0.00331]
+ 34%|███▍      | 170/500 [00:06<00:12, 27.26it/s], 27.20it/s, Loss_pi=0.189, Loss_v=0.000867, Max_policy=1, Val_loss_pi=0.226, Val_loss_v=0.00331]
+ 44%|████▎     | 218/500 [00:08<00:10, 26.58it/s], 27.20it/s, Loss_pi=0.189, Loss_v=0.000867, Max_policy=1, Val_loss_pi=0.226, Val_loss_v=0.00331]
+ 54%|█████▍    | 269/500 [00:10<00:08, 26.60it/s], 27.20it/s, Loss_pi=0.189, Loss_v=0.000867, Max_policy=1, Val_loss_pi=0.226, Val_loss_v=0.00331]
+ 63%|██████▎   | 317/500 [00:12<00:06, 26.24it/s], 27.20it/s, Loss_pi=0.189, Loss_v=0.000867, Max_policy=1, Val_loss_pi=0.226, Val_loss_v=0.00331]
+ 73%|███████▎  | 366/500 [00:14<00:05, 23.89it/s], 27.20it/s, Loss_pi=0.189, Loss_v=0.000867, Max_policy=1, Val_loss_pi=0.226, Val_loss_v=0.00331]
+ 82%|████████▏ | 411/500 [00:16<00:04, 21.43it/s], 27.20it/s, Loss_pi=0.189, Loss_v=0.000867, Max_policy=1, Val_loss_pi=0.226, Val_loss_v=0.00331]
+ 92%|█████████▏| 462/500 [00:18<00:01, 25.67it/s], 27.20it/s, Loss_pi=0.189, Loss_v=0.000867, Max_policy=1, Val_loss_pi=0.226, Val_loss_v=0.00331]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 25.92it/s, Loss_pi=0.157, Loss_v=0.001, Max_policy=1, Val_loss_pi=0.17, Val_loss_v=0.00261]
+  9%|▊         | 43/500 [00:01<00:19, 23.56it/s]0, 25.92it/s, Loss_pi=0.157, Loss_v=0.001, Max_policy=1, Val_loss_pi=0.17, Val_loss_v=0.00261]
+ 18%|█▊        | 91/500 [00:03<00:17, 23.89it/s]0, 25.92it/s, Loss_pi=0.157, Loss_v=0.001, Max_policy=1, Val_loss_pi=0.17, Val_loss_v=0.00261]
+ 29%|██▊       | 143/500 [00:05<00:14, 24.53it/s], 25.92it/s, Loss_pi=0.157, Loss_v=0.001, Max_policy=1, Val_loss_pi=0.17, Val_loss_v=0.00261]
+ 38%|███▊      | 192/500 [00:07<00:12, 24.57it/s], 25.92it/s, Loss_pi=0.157, Loss_v=0.001, Max_policy=1, Val_loss_pi=0.17, Val_loss_v=0.00261]
+ 49%|████▊     | 243/500 [00:09<00:09, 26.15it/s], 25.92it/s, Loss_pi=0.157, Loss_v=0.001, Max_policy=1, Val_loss_pi=0.17, Val_loss_v=0.00261]
+ 58%|█████▊    | 291/500 [00:11<00:09, 21.88it/s], 25.92it/s, Loss_pi=0.157, Loss_v=0.001, Max_policy=1, Val_loss_pi=0.17, Val_loss_v=0.00261]
+ 68%|██████▊   | 339/500 [00:13<00:07, 21.07it/s], 25.92it/s, Loss_pi=0.157, Loss_v=0.001, Max_policy=1, Val_loss_pi=0.17, Val_loss_v=0.00261]
+ 79%|███████▊  | 393/500 [00:15<00:04, 26.17it/s], 25.92it/s, Loss_pi=0.157, Loss_v=0.001, Max_policy=1, Val_loss_pi=0.17, Val_loss_v=0.00261]
+ 88%|████████▊ | 438/500 [00:17<00:02, 21.17it/s], 25.92it/s, Loss_pi=0.157, Loss_v=0.001, Max_policy=1, Val_loss_pi=0.17, Val_loss_v=0.00261]
+ 98%|█████████▊| 490/500 [00:19<00:00, 25.26it/s], 25.92it/s, Loss_pi=0.157, Loss_v=0.001, Max_policy=1, Val_loss_pi=0.17, Val_loss_v=0.00261]
+  3%|▎         | 15/500 [00:00<00:23, 20.98it/s]0, 26.56it/s, Loss_pi=0.104, Loss_v=0.000569, Max_policy=1, Val_loss_pi=0.236, Val_loss_v=0.00266]
+ 14%|█▎        | 68/500 [00:02<00:17, 24.86it/s]0, 26.56it/s, Loss_pi=0.104, Loss_v=0.000569, Max_policy=1, Val_loss_pi=0.236, Val_loss_v=0.00266]
+ 23%|██▎       | 117/500 [00:04<00:18, 20.89it/s], 26.56it/s, Loss_pi=0.104, Loss_v=0.000569, Max_policy=1, Val_loss_pi=0.236, Val_loss_v=0.00266]
+ 32%|███▏      | 160/500 [00:06<00:14, 24.27it/s], 26.56it/s, Loss_pi=0.104, Loss_v=0.000569, Max_policy=1, Val_loss_pi=0.236, Val_loss_v=0.00266]
+ 42%|████▏     | 211/500 [00:08<00:13, 21.80it/s], 26.56it/s, Loss_pi=0.104, Loss_v=0.000569, Max_policy=1, Val_loss_pi=0.236, Val_loss_v=0.00266]
+ 52%|█████▏    | 260/500 [00:10<00:09, 25.11it/s], 26.56it/s, Loss_pi=0.104, Loss_v=0.000569, Max_policy=1, Val_loss_pi=0.236, Val_loss_v=0.00266]
+ 62%|██████▏   | 312/500 [00:12<00:07, 23.59it/s], 26.56it/s, Loss_pi=0.104, Loss_v=0.000569, Max_policy=1, Val_loss_pi=0.236, Val_loss_v=0.00266]
+ 73%|███████▎  | 363/500 [00:14<00:05, 25.84it/s], 26.56it/s, Loss_pi=0.104, Loss_v=0.000569, Max_policy=1, Val_loss_pi=0.236, Val_loss_v=0.00266]
+ 83%|████████▎ | 413/500 [00:16<00:03, 23.45it/s], 26.56it/s, Loss_pi=0.104, Loss_v=0.000569, Max_policy=1, Val_loss_pi=0.236, Val_loss_v=0.00266]
+ 93%|█████████▎| 465/500 [00:18<00:01, 25.10it/s], 26.56it/s, Loss_pi=0.104, Loss_v=0.000569, Max_policy=1, Val_loss_pi=0.236, Val_loss_v=0.00266]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 27.43it/s, Loss_pi=0.176, Loss_v=0.00076, Max_policy=1, Val_loss_pi=0.197, Val_loss_v=0.00317]
+  9%|▉         | 46/500 [00:01<00:17, 25.43it/s]0, 27.43it/s, Loss_pi=0.176, Loss_v=0.00076, Max_policy=1, Val_loss_pi=0.197, Val_loss_v=0.00317]
+ 18%|█▊        | 92/500 [00:03<00:15, 26.61it/s]0, 27.43it/s, Loss_pi=0.176, Loss_v=0.00076, Max_policy=1, Val_loss_pi=0.197, Val_loss_v=0.00317]
+ 29%|██▊       | 143/500 [00:05<00:14, 24.94it/s], 27.43it/s, Loss_pi=0.176, Loss_v=0.00076, Max_policy=1, Val_loss_pi=0.197, Val_loss_v=0.00317]
+ 39%|███▉      | 195/500 [00:07<00:11, 25.89it/s], 27.43it/s, Loss_pi=0.176, Loss_v=0.00076, Max_policy=1, Val_loss_pi=0.197, Val_loss_v=0.00317]
+ 49%|████▊     | 243/500 [00:09<00:12, 20.89it/s], 27.43it/s, Loss_pi=0.176, Loss_v=0.00076, Max_policy=1, Val_loss_pi=0.197, Val_loss_v=0.00317]
+ 58%|█████▊    | 291/500 [00:11<00:08, 24.68it/s], 27.43it/s, Loss_pi=0.176, Loss_v=0.00076, Max_policy=1, Val_loss_pi=0.197, Val_loss_v=0.00317]
+ 69%|██████▊   | 343/500 [00:13<00:06, 26.04it/s], 27.43it/s, Loss_pi=0.176, Loss_v=0.00076, Max_policy=1, Val_loss_pi=0.197, Val_loss_v=0.00317]
+ 78%|███████▊  | 389/500 [00:15<00:04, 25.67it/s], 27.43it/s, Loss_pi=0.176, Loss_v=0.00076, Max_policy=1, Val_loss_pi=0.197, Val_loss_v=0.00317]
+ 88%|████████▊ | 441/500 [00:17<00:02, 27.48it/s], 27.43it/s, Loss_pi=0.176, Loss_v=0.00076, Max_policy=1, Val_loss_pi=0.197, Val_loss_v=0.00317]
+ 98%|█████████▊| 491/500 [00:19<00:00, 26.77it/s], 27.43it/s, Loss_pi=0.176, Loss_v=0.00076, Max_policy=1, Val_loss_pi=0.197, Val_loss_v=0.00317]
+  4%|▎         | 18/500 [00:00<00:19, 24.76it/s]0, 25.14it/s, Loss_pi=0.149, Loss_v=0.000483, Max_policy=1, Val_loss_pi=0.422, Val_loss_v=0.00228]
+ 13%|█▎        | 66/500 [00:02<00:16, 26.37it/s]0, 25.14it/s, Loss_pi=0.149, Loss_v=0.000483, Max_policy=1, Val_loss_pi=0.422, Val_loss_v=0.00228]
+ 23%|██▎       | 117/500 [00:04<00:14, 26.55it/s], 25.14it/s, Loss_pi=0.149, Loss_v=0.000483, Max_policy=1, Val_loss_pi=0.422, Val_loss_v=0.00228]
+ 33%|███▎      | 166/500 [00:06<00:13, 24.99it/s], 25.14it/s, Loss_pi=0.149, Loss_v=0.000483, Max_policy=1, Val_loss_pi=0.422, Val_loss_v=0.00228]
+ 44%|████▎     | 218/500 [00:08<00:10, 26.24it/s], 25.14it/s, Loss_pi=0.149, Loss_v=0.000483, Max_policy=1, Val_loss_pi=0.422, Val_loss_v=0.00228]
+ 54%|█████▍    | 269/500 [00:10<00:09, 25.52it/s], 25.14it/s, Loss_pi=0.149, Loss_v=0.000483, Max_policy=1, Val_loss_pi=0.422, Val_loss_v=0.00228]
+ 63%|██████▎   | 317/500 [00:12<00:07, 25.62it/s], 25.14it/s, Loss_pi=0.149, Loss_v=0.000483, Max_policy=1, Val_loss_pi=0.422, Val_loss_v=0.00228]
+ 73%|███████▎  | 365/500 [00:14<00:05, 25.76it/s], 25.14it/s, Loss_pi=0.149, Loss_v=0.000483, Max_policy=1, Val_loss_pi=0.422, Val_loss_v=0.00228]
+ 83%|████████▎ | 413/500 [00:16<00:03, 25.94it/s], 25.14it/s, Loss_pi=0.149, Loss_v=0.000483, Max_policy=1, Val_loss_pi=0.422, Val_loss_v=0.00228]
+ 93%|█████████▎| 465/500 [00:18<00:01, 27.56it/s], 25.14it/s, Loss_pi=0.149, Loss_v=0.000483, Max_policy=1, Val_loss_pi=0.422, Val_loss_v=0.00228]
+Training Net:  80%|████████  | 12/15 [00:00<00:00, 25.63it/s, Loss_pi=0.126, Loss_v=0.000783, Max_policy=1, Val_loss_pi=0.27, Val_loss_v=0.00275]
+  5%|▌         | 27/500 [00:01<00:20, 23.12it/s]0, 25.19it/s, Loss_pi=0.13, Loss_v=0.000667, Max_policy=1, Val_loss_pi=0.283, Val_loss_v=0.00267]
+ 14%|█▍        | 72/500 [00:03<00:18, 22.79it/s]0, 25.19it/s, Loss_pi=0.13, Loss_v=0.000667, Max_policy=1, Val_loss_pi=0.283, Val_loss_v=0.00267]
+ 24%|██▍       | 121/500 [00:05<00:15, 23.90it/s], 25.19it/s, Loss_pi=0.13, Loss_v=0.000667, Max_policy=1, Val_loss_pi=0.283, Val_loss_v=0.00267]
+ 34%|███▍      | 170/500 [00:07<00:15, 21.34it/s], 25.19it/s, Loss_pi=0.13, Loss_v=0.000667, Max_policy=1, Val_loss_pi=0.283, Val_loss_v=0.00267]
+ 44%|████▍     | 222/500 [00:09<00:11, 23.58it/s], 25.19it/s, Loss_pi=0.13, Loss_v=0.000667, Max_policy=1, Val_loss_pi=0.283, Val_loss_v=0.00267]
+ 54%|█████▍    | 270/500 [00:11<00:09, 23.42it/s], 25.19it/s, Loss_pi=0.13, Loss_v=0.000667, Max_policy=1, Val_loss_pi=0.283, Val_loss_v=0.00267]
+ 64%|██████▍   | 319/500 [00:13<00:07, 23.78it/s], 25.19it/s, Loss_pi=0.13, Loss_v=0.000667, Max_policy=1, Val_loss_pi=0.283, Val_loss_v=0.00267]
+ 74%|███████▎  | 368/500 [00:15<00:05, 22.85it/s], 25.19it/s, Loss_pi=0.13, Loss_v=0.000667, Max_policy=1, Val_loss_pi=0.283, Val_loss_v=0.00267]
+ 84%|████████▍ | 419/500 [00:17<00:03, 24.28it/s], 25.19it/s, Loss_pi=0.13, Loss_v=0.000667, Max_policy=1, Val_loss_pi=0.283, Val_loss_v=0.00267]
+ 94%|█████████▍| 470/500 [00:19<00:01, 24.99it/s], 25.19it/s, Loss_pi=0.13, Loss_v=0.000667, Max_policy=1, Val_loss_pi=0.283, Val_loss_v=0.00267]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 27.51it/s, Loss_pi=0.162, Loss_v=0.000847, Max_policy=1, Val_loss_pi=0.521, Val_loss_v=0.00413]
+  9%|▉         | 46/500 [00:01<00:16, 26.93it/s]0, 27.51it/s, Loss_pi=0.162, Loss_v=0.000847, Max_policy=1, Val_loss_pi=0.521, Val_loss_v=0.00413]
+ 19%|█▉        | 97/500 [00:03<00:16, 23.99it/s]0, 27.51it/s, Loss_pi=0.162, Loss_v=0.000847, Max_policy=1, Val_loss_pi=0.521, Val_loss_v=0.00413]
+ 30%|██▉       | 148/500 [00:05<00:13, 26.08it/s], 27.51it/s, Loss_pi=0.162, Loss_v=0.000847, Max_policy=1, Val_loss_pi=0.521, Val_loss_v=0.00413]
+ 40%|███▉      | 199/500 [00:07<00:11, 25.82it/s], 27.51it/s, Loss_pi=0.162, Loss_v=0.000847, Max_policy=1, Val_loss_pi=0.521, Val_loss_v=0.00413]
+ 50%|████▉     | 248/500 [00:09<00:09, 25.78it/s], 27.51it/s, Loss_pi=0.162, Loss_v=0.000847, Max_policy=1, Val_loss_pi=0.521, Val_loss_v=0.00413]
+ 59%|█████▉    | 296/500 [00:11<00:07, 25.79it/s], 27.51it/s, Loss_pi=0.162, Loss_v=0.000847, Max_policy=1, Val_loss_pi=0.521, Val_loss_v=0.00413]
+ 69%|██████▉   | 345/500 [00:13<00:06, 25.64it/s], 27.51it/s, Loss_pi=0.162, Loss_v=0.000847, Max_policy=1, Val_loss_pi=0.521, Val_loss_v=0.00413]
+ 79%|███████▉  | 396/500 [00:15<00:04, 25.99it/s], 27.51it/s, Loss_pi=0.162, Loss_v=0.000847, Max_policy=1, Val_loss_pi=0.521, Val_loss_v=0.00413]
+ 89%|████████▉ | 445/500 [00:17<00:02, 25.40it/s], 27.51it/s, Loss_pi=0.162, Loss_v=0.000847, Max_policy=1, Val_loss_pi=0.521, Val_loss_v=0.00413]
+ 98%|█████████▊| 490/500 [00:19<00:00, 21.32it/s], 27.51it/s, Loss_pi=0.162, Loss_v=0.000847, Max_policy=1, Val_loss_pi=0.521, Val_loss_v=0.00413]
+  4%|▍         | 19/500 [00:00<00:17, 27.30it/s]0, 25.74it/s, Loss_pi=0.122, Loss_v=0.000967, Max_policy=1, Val_loss_pi=0.331, Val_loss_v=0.00207]
+ 14%|█▍        | 72/500 [00:02<00:15, 28.13it/s]0, 25.74it/s, Loss_pi=0.122, Loss_v=0.000967, Max_policy=1, Val_loss_pi=0.331, Val_loss_v=0.00207]
+ 25%|██▍       | 123/500 [00:04<00:13, 27.96it/s], 25.74it/s, Loss_pi=0.122, Loss_v=0.000967, Max_policy=1, Val_loss_pi=0.331, Val_loss_v=0.00207]
+ 35%|███▍      | 173/500 [00:06<00:12, 27.06it/s], 25.74it/s, Loss_pi=0.122, Loss_v=0.000967, Max_policy=1, Val_loss_pi=0.331, Val_loss_v=0.00207]
+ 45%|████▌     | 227/500 [00:08<00:09, 27.86it/s], 25.74it/s, Loss_pi=0.122, Loss_v=0.000967, Max_policy=1, Val_loss_pi=0.331, Val_loss_v=0.00207]
+ 55%|█████▌    | 277/500 [00:10<00:08, 27.21it/s], 25.74it/s, Loss_pi=0.122, Loss_v=0.000967, Max_policy=1, Val_loss_pi=0.331, Val_loss_v=0.00207]
+ 66%|██████▌   | 328/500 [00:12<00:07, 23.64it/s], 25.74it/s, Loss_pi=0.122, Loss_v=0.000967, Max_policy=1, Val_loss_pi=0.331, Val_loss_v=0.00207]
+ 75%|███████▍  | 373/500 [00:14<00:05, 25.16it/s], 25.74it/s, Loss_pi=0.122, Loss_v=0.000967, Max_policy=1, Val_loss_pi=0.331, Val_loss_v=0.00207]
+ 85%|████████▍ | 424/500 [00:16<00:03, 25.21it/s], 25.74it/s, Loss_pi=0.122, Loss_v=0.000967, Max_policy=1, Val_loss_pi=0.331, Val_loss_v=0.00207]
+ 94%|█████████▍| 469/500 [00:18<00:01, 24.45it/s], 25.74it/s, Loss_pi=0.122, Loss_v=0.000967, Max_policy=1, Val_loss_pi=0.331, Val_loss_v=0.00207]
+  0%|          | 0/500 [00:00<?, ?it/s]0:00<00:00, 26.24it/s, Loss_pi=0.117, Loss_v=0.000763, Max_policy=1, Val_loss_pi=0.156, Val_loss_v=0.00135]
+  9%|▉         | 47/500 [00:01<00:19, 23.20it/s]0, 26.24it/s, Loss_pi=0.117, Loss_v=0.000763, Max_policy=1, Val_loss_pi=0.156, Val_loss_v=0.00135]
+ 20%|█▉        | 98/500 [00:04<00:16, 24.45it/s]0, 26.24it/s, Loss_pi=0.117, Loss_v=0.000763, Max_policy=1, Val_loss_pi=0.156, Val_loss_v=0.00135]
+ 29%|██▊       | 143/500 [00:05<00:14, 24.58it/s], 26.24it/s, Loss_pi=0.117, Loss_v=0.000763, Max_policy=1, Val_loss_pi=0.156, Val_loss_v=0.00135]
+ 39%|███▉      | 194/500 [00:08<00:13, 22.59it/s], 26.24it/s, Loss_pi=0.117, Loss_v=0.000763, Max_policy=1, Val_loss_pi=0.156, Val_loss_v=0.00135]
+ 48%|████▊     | 239/500 [00:10<00:11, 23.12it/s], 26.24it/s, Loss_pi=0.117, Loss_v=0.000763, Max_policy=1, Val_loss_pi=0.156, Val_loss_v=0.00135]
+ 58%|█████▊    | 288/500 [00:11<00:08, 25.89it/s], 26.24it/s, Loss_pi=0.117, Loss_v=0.000763, Max_policy=1, Val_loss_pi=0.156, Val_loss_v=0.00135]
+ 67%|██████▋   | 336/500 [00:13<00:06, 25.03it/s], 26.24it/s, Loss_pi=0.117, Loss_v=0.000763, Max_policy=1, Val_loss_pi=0.156, Val_loss_v=0.00135]
+ 77%|███████▋  | 387/500 [00:15<00:04, 25.64it/s], 26.24it/s, Loss_pi=0.117, Loss_v=0.000763, Max_policy=1, Val_loss_pi=0.156, Val_loss_v=0.00135]
+ 87%|████████▋ | 436/500 [00:17<00:02, 23.24it/s], 26.24it/s, Loss_pi=0.117, Loss_v=0.000763, Max_policy=1, Val_loss_pi=0.156, Val_loss_v=0.00135]
+ 97%|█████████▋| 485/500 [00:19<00:00, 22.93it/s], 26.24it/s, Loss_pi=0.117, Loss_v=0.000763, Max_policy=1, Val_loss_pi=0.156, Val_loss_v=0.00135]
+  3%|▎         | 15/500 [00:00<00:19, 25.39it/s]0, 26.59it/s, Loss_pi=0.146, Loss_v=0.000354, Max_policy=1, Val_loss_pi=0.214, Val_loss_v=0.00186]
+ 12%|█▏        | 60/500 [00:02<00:20, 21.64it/s]0, 26.59it/s, Loss_pi=0.146, Loss_v=0.000354, Max_policy=1, Val_loss_pi=0.214, Val_loss_v=0.00186]
+ 23%|██▎       | 113/500 [00:04<00:15, 24.51it/s], 26.59it/s, Loss_pi=0.146, Loss_v=0.000354, Max_policy=1, Val_loss_pi=0.214, Val_loss_v=0.00186]
+ 32%|███▏      | 158/500 [00:06<00:15, 22.02it/s], 26.59it/s, Loss_pi=0.146, Loss_v=0.000354, Max_policy=1, Val_loss_pi=0.214, Val_loss_v=0.00186]
+ 41%|████▏     | 207/500 [00:08<00:12, 23.68it/s], 26.59it/s, Loss_pi=0.146, Loss_v=0.000354, Max_policy=1, Val_loss_pi=0.214, Val_loss_v=0.00186]
+ 51%|█████     | 255/500 [00:10<00:10, 22.76it/s], 26.59it/s, Loss_pi=0.146, Loss_v=0.000354, Max_policy=1, Val_loss_pi=0.214, Val_loss_v=0.00186]
+ 61%|██████    | 303/500 [00:12<00:07, 24.86it/s], 26.59it/s, Loss_pi=0.146, Loss_v=0.000354, Max_policy=1, Val_loss_pi=0.214, Val_loss_v=0.00186]
+ 70%|███████   | 351/500 [00:14<00:07, 21.11it/s], 26.59it/s, Loss_pi=0.146, Loss_v=0.000354, Max_policy=1, Val_loss_pi=0.214, Val_loss_v=0.00186]
+ 80%|████████  | 402/500 [00:16<00:03, 24.95it/s], 26.59it/s, Loss_pi=0.146, Loss_v=0.000354, Max_policy=1, Val_loss_pi=0.214, Val_loss_v=0.00186]
+ 90%|█████████ | 450/500 [00:18<00:02, 23.76it/s], 26.59it/s, Loss_pi=0.146, Loss_v=0.000354, Max_policy=1, Val_loss_pi=0.214, Val_loss_v=0.00186]
+Training Net:   0%|          | 0/15 [00:00<?, ?it/s]6.59it/s, Loss_pi=0.146, Loss_v=0.000354, Max_policy=1, Val_loss_pi=0.214, Val_loss_v=0.00186]
+  5%|▌         | 27/500 [00:01<00:19, 23.89it/s]0, 27.94it/s, Loss_pi=0.13, Loss_v=0.000887, Max_policy=1, Val_loss_pi=0.102, Val_loss_v=0.00271]
+ 16%|█▌        | 78/500 [00:03<00:16, 25.49it/s]0, 27.94it/s, Loss_pi=0.13, Loss_v=0.000887, Max_policy=1, Val_loss_pi=0.102, Val_loss_v=0.00271]
+ 25%|██▌       | 127/500 [00:05<00:15, 23.77it/s], 27.94it/s, Loss_pi=0.13, Loss_v=0.000887, Max_policy=1, Val_loss_pi=0.102, Val_loss_v=0.00271]
+ 36%|███▌      | 178/500 [00:07<00:12, 25.23it/s], 27.94it/s, Loss_pi=0.13, Loss_v=0.000887, Max_policy=1, Val_loss_pi=0.102, Val_loss_v=0.00271]
+ 45%|████▌     | 226/500 [00:09<00:10, 25.52it/s], 27.94it/s, Loss_pi=0.13, Loss_v=0.000887, Max_policy=1, Val_loss_pi=0.102, Val_loss_v=0.00271]
+ 55%|█████▌    | 277/500 [00:11<00:08, 25.10it/s], 27.94it/s, Loss_pi=0.13, Loss_v=0.000887, Max_policy=1, Val_loss_pi=0.102, Val_loss_v=0.00271]
+ 65%|██████▌   | 325/500 [00:13<00:06, 26.32it/s], 27.94it/s, Loss_pi=0.13, Loss_v=0.000887, Max_policy=1, Val_loss_pi=0.102, Val_loss_v=0.00271]
+ 75%|███████▍  | 373/500 [00:15<00:05, 24.40it/s], 27.94it/s, Loss_pi=0.13, Loss_v=0.000887, Max_policy=1, Val_loss_pi=0.102, Val_loss_v=0.00271]
+ 84%|████████▍ | 421/500 [00:17<00:03, 25.26it/s], 27.94it/s, Loss_pi=0.13, Loss_v=0.000887, Max_policy=1, Val_loss_pi=0.102, Val_loss_v=0.00271]
+ 95%|█████████▍| 473/500 [00:19<00:01, 26.01it/s], 27.94it/s, Loss_pi=0.13, Loss_v=0.000887, Max_policy=1, Val_loss_pi=0.102, Val_loss_v=0.00271]
+  0%|          | 0/500 [00:00<?, ?it/s]0:00<00:00, 27.71it/s, Loss_pi=0.197, Loss_v=0.000978, Max_policy=1, Val_loss_pi=0.256, Val_loss_v=0.00242]
+ 10%|█         | 52/500 [00:02<00:18, 23.84it/s]0, 27.71it/s, Loss_pi=0.197, Loss_v=0.000978, Max_policy=1, Val_loss_pi=0.256, Val_loss_v=0.00242]
+ 20%|██        | 101/500 [00:04<00:15, 25.80it/s], 27.71it/s, Loss_pi=0.197, Loss_v=0.000978, Max_policy=1, Val_loss_pi=0.256, Val_loss_v=0.00242]
+ 29%|██▉       | 146/500 [00:06<00:15, 23.09it/s], 27.71it/s, Loss_pi=0.197, Loss_v=0.000978, Max_policy=1, Val_loss_pi=0.256, Val_loss_v=0.00242]
+ 39%|███▉      | 194/500 [00:07<00:12, 24.96it/s], 27.71it/s, Loss_pi=0.197, Loss_v=0.000978, Max_policy=1, Val_loss_pi=0.256, Val_loss_v=0.00242]
+ 49%|████▉     | 246/500 [00:10<00:09, 26.64it/s], 27.71it/s, Loss_pi=0.197, Loss_v=0.000978, Max_policy=1, Val_loss_pi=0.256, Val_loss_v=0.00242]
+ 59%|█████▉    | 294/500 [00:12<00:08, 24.28it/s], 27.71it/s, Loss_pi=0.197, Loss_v=0.000978, Max_policy=1, Val_loss_pi=0.256, Val_loss_v=0.00242]
+ 69%|██████▉   | 345/500 [00:14<00:05, 25.84it/s], 27.71it/s, Loss_pi=0.197, Loss_v=0.000978, Max_policy=1, Val_loss_pi=0.256, Val_loss_v=0.00242]
+ 79%|███████▊  | 393/500 [00:16<00:04, 26.64it/s], 27.71it/s, Loss_pi=0.197, Loss_v=0.000978, Max_policy=1, Val_loss_pi=0.256, Val_loss_v=0.00242]
+ 88%|████████▊ | 441/500 [00:17<00:02, 26.77it/s], 27.71it/s, Loss_pi=0.197, Loss_v=0.000978, Max_policy=1, Val_loss_pi=0.256, Val_loss_v=0.00242]
+ 98%|█████████▊| 492/500 [00:20<00:00, 22.19it/s], 27.71it/s, Loss_pi=0.197, Loss_v=0.000978, Max_policy=1, Val_loss_pi=0.256, Val_loss_v=0.00242]
+  4%|▍         | 19/500 [00:00<00:17, 28.17it/s]0, 25.75it/s, Loss_pi=0.0739, Loss_v=0.000664, Max_policy=1, Val_loss_pi=0.134, Val_loss_v=0.00191]
+ 13%|█▎        | 67/500 [00:02<00:19, 22.39it/s]0, 25.75it/s, Loss_pi=0.0739, Loss_v=0.000664, Max_policy=1, Val_loss_pi=0.134, Val_loss_v=0.00191]
+ 23%|██▎       | 115/500 [00:04<00:15, 25.19it/s], 25.75it/s, Loss_pi=0.0739, Loss_v=0.000664, Max_policy=1, Val_loss_pi=0.134, Val_loss_v=0.00191]
+ 33%|███▎      | 167/500 [00:06<00:13, 25.50it/s], 25.75it/s, Loss_pi=0.0739, Loss_v=0.000664, Max_policy=1, Val_loss_pi=0.134, Val_loss_v=0.00191]
+ 43%|████▎     | 213/500 [00:08<00:14, 20.19it/s], 25.75it/s, Loss_pi=0.0739, Loss_v=0.000664, Max_policy=1, Val_loss_pi=0.134, Val_loss_v=0.00191]
+ 53%|█████▎    | 265/500 [00:10<00:08, 26.91it/s], 25.75it/s, Loss_pi=0.0739, Loss_v=0.000664, Max_policy=1, Val_loss_pi=0.134, Val_loss_v=0.00191]
+ 63%|██████▎   | 313/500 [00:12<00:07, 24.08it/s], 25.75it/s, Loss_pi=0.0739, Loss_v=0.000664, Max_policy=1, Val_loss_pi=0.134, Val_loss_v=0.00191]
+ 72%|███████▏  | 361/500 [00:14<00:06, 21.12it/s], 25.75it/s, Loss_pi=0.0739, Loss_v=0.000664, Max_policy=1, Val_loss_pi=0.134, Val_loss_v=0.00191]
+ 82%|████████▏ | 409/500 [00:16<00:03, 25.30it/s], 25.75it/s, Loss_pi=0.0739, Loss_v=0.000664, Max_policy=1, Val_loss_pi=0.134, Val_loss_v=0.00191]
+ 92%|█████████▏| 461/500 [00:18<00:01, 27.73it/s], 25.75it/s, Loss_pi=0.0739, Loss_v=0.000664, Max_policy=1, Val_loss_pi=0.134, Val_loss_v=0.00191]
+Training Net:  87%|████████▋ | 13/15 [00:00<00:00, 28.64it/s, Loss_pi=0.302, Loss_v=0.000914, Max_policy=1, Val_loss_pi=0.356, Val_loss_v=0.00396]]
+  9%|▊         | 43/500 [00:01<00:17, 25.99it/s]0, 27.24it/s, Loss_pi=0.158, Loss_v=0.00101, Max_policy=1, Val_loss_pi=0.248, Val_loss_v=0.00361] ]
+ 19%|█▉        | 96/500 [00:03<00:16, 24.50it/s]0, 27.24it/s, Loss_pi=0.158, Loss_v=0.00101, Max_policy=1, Val_loss_pi=0.248, Val_loss_v=0.00361] ]
+ 28%|██▊       | 142/500 [00:05<00:16, 21.51it/s], 27.24it/s, Loss_pi=0.158, Loss_v=0.00101, Max_policy=1, Val_loss_pi=0.248, Val_loss_v=0.00361] ]
+ 39%|███▉      | 194/500 [00:07<00:12, 25.36it/s], 27.24it/s, Loss_pi=0.158, Loss_v=0.00101, Max_policy=1, Val_loss_pi=0.248, Val_loss_v=0.00361] ]
+ 48%|████▊     | 242/500 [00:09<00:11, 23.45it/s], 27.24it/s, Loss_pi=0.158, Loss_v=0.00101, Max_policy=1, Val_loss_pi=0.248, Val_loss_v=0.00361] ]
+ 58%|█████▊    | 290/500 [00:11<00:08, 24.78it/s], 27.24it/s, Loss_pi=0.158, Loss_v=0.00101, Max_policy=1, Val_loss_pi=0.248, Val_loss_v=0.00361] ]
+ 68%|██████▊   | 341/500 [00:13<00:05, 27.41it/s], 27.24it/s, Loss_pi=0.158, Loss_v=0.00101, Max_policy=1, Val_loss_pi=0.248, Val_loss_v=0.00361] ]
+ 78%|███████▊  | 390/500 [00:15<00:04, 23.78it/s], 27.24it/s, Loss_pi=0.158, Loss_v=0.00101, Max_policy=1, Val_loss_pi=0.248, Val_loss_v=0.00361] ]
+ 88%|████████▊ | 442/500 [00:17<00:02, 24.24it/s], 27.24it/s, Loss_pi=0.158, Loss_v=0.00101, Max_policy=1, Val_loss_pi=0.248, Val_loss_v=0.00361] ]
+ 98%|█████████▊| 490/500 [00:19<00:00, 25.91it/s], 27.24it/s, Loss_pi=0.158, Loss_v=0.00101, Max_policy=1, Val_loss_pi=0.248, Val_loss_v=0.00361] ]
+  4%|▎         | 18/500 [00:00<00:23, 20.43it/s]0, 28.38it/s, Loss_pi=0.0923, Loss_v=0.000588, Max_policy=1, Val_loss_pi=0.0801, Val_loss_v=0.00173]
+ 13%|█▎        | 66/500 [00:02<00:18, 23.27it/s]0, 28.38it/s, Loss_pi=0.0923, Loss_v=0.000588, Max_policy=1, Val_loss_pi=0.0801, Val_loss_v=0.00173]
+ 23%|██▎       | 114/500 [00:04<00:16, 23.13it/s], 28.38it/s, Loss_pi=0.0923, Loss_v=0.000588, Max_policy=1, Val_loss_pi=0.0801, Val_loss_v=0.00173]
+ 32%|███▏      | 162/500 [00:06<00:13, 24.49it/s], 28.38it/s, Loss_pi=0.0923, Loss_v=0.000588, Max_policy=1, Val_loss_pi=0.0801, Val_loss_v=0.00173]
+ 43%|████▎     | 213/500 [00:08<00:12, 23.36it/s], 28.38it/s, Loss_pi=0.0923, Loss_v=0.000588, Max_policy=1, Val_loss_pi=0.0801, Val_loss_v=0.00173]
+ 53%|█████▎    | 264/500 [00:10<00:09, 23.76it/s], 28.38it/s, Loss_pi=0.0923, Loss_v=0.000588, Max_policy=1, Val_loss_pi=0.0801, Val_loss_v=0.00173]
+ 63%|██████▎   | 315/500 [00:12<00:07, 23.52it/s], 28.38it/s, Loss_pi=0.0923, Loss_v=0.000588, Max_policy=1, Val_loss_pi=0.0801, Val_loss_v=0.00173]
+ 73%|███████▎  | 365/500 [00:14<00:05, 22.89it/s], 28.38it/s, Loss_pi=0.0923, Loss_v=0.000588, Max_policy=1, Val_loss_pi=0.0801, Val_loss_v=0.00173]
+ 83%|████████▎ | 416/500 [00:16<00:03, 25.23it/s], 28.38it/s, Loss_pi=0.0923, Loss_v=0.000588, Max_policy=1, Val_loss_pi=0.0801, Val_loss_v=0.00173]
+ 93%|█████████▎| 464/500 [00:18<00:01, 24.15it/s], 28.38it/s, Loss_pi=0.0923, Loss_v=0.000588, Max_policy=1, Val_loss_pi=0.0801, Val_loss_v=0.00173]
+Training Net:  87%|████████▋ | 13/15 [00:00<00:00, 25.86it/s, Loss_pi=0.102, Loss_v=0.000644, Max_policy=1, Val_loss_pi=0.0628, Val_loss_v=0.00178]
+  8%|▊         | 39/500 [00:01<00:18, 25.04it/s]0, 24.64it/s, Loss_pi=0.0944, Loss_v=0.000815, Max_policy=1, Val_loss_pi=0.0729, Val_loss_v=0.00187]
+ 18%|█▊        | 91/500 [00:03<00:16, 25.01it/s]0, 24.64it/s, Loss_pi=0.0944, Loss_v=0.000815, Max_policy=1, Val_loss_pi=0.0729, Val_loss_v=0.00187]
+ 28%|██▊       | 138/500 [00:05<00:14, 24.14it/s], 24.64it/s, Loss_pi=0.0944, Loss_v=0.000815, Max_policy=1, Val_loss_pi=0.0729, Val_loss_v=0.00187]
+ 38%|███▊      | 189/500 [00:07<00:12, 25.09it/s], 24.64it/s, Loss_pi=0.0944, Loss_v=0.000815, Max_policy=1, Val_loss_pi=0.0729, Val_loss_v=0.00187]
+ 48%|████▊     | 241/500 [00:09<00:10, 24.52it/s], 24.64it/s, Loss_pi=0.0944, Loss_v=0.000815, Max_policy=1, Val_loss_pi=0.0729, Val_loss_v=0.00187]
+ 57%|█████▋    | 287/500 [00:11<00:08, 24.05it/s], 24.64it/s, Loss_pi=0.0944, Loss_v=0.000815, Max_policy=1, Val_loss_pi=0.0729, Val_loss_v=0.00187]
+ 67%|██████▋   | 333/500 [00:13<00:06, 23.98it/s], 24.64it/s, Loss_pi=0.0944, Loss_v=0.000815, Max_policy=1, Val_loss_pi=0.0729, Val_loss_v=0.00187]
+ 77%|███████▋  | 383/500 [00:15<00:04, 25.89it/s], 24.64it/s, Loss_pi=0.0944, Loss_v=0.000815, Max_policy=1, Val_loss_pi=0.0729, Val_loss_v=0.00187]
+ 87%|████████▋ | 435/500 [00:17<00:02, 23.15it/s], 24.64it/s, Loss_pi=0.0944, Loss_v=0.000815, Max_policy=1, Val_loss_pi=0.0729, Val_loss_v=0.00187]
+ 97%|█████████▋| 487/500 [00:19<00:00, 25.70it/s], 24.64it/s, Loss_pi=0.0944, Loss_v=0.000815, Max_policy=1, Val_loss_pi=0.0729, Val_loss_v=0.00187]
+  3%|▎         | 15/500 [00:00<00:18, 26.14it/s]0, 28.62it/s, Loss_pi=0.178, Loss_v=0.0007, Max_policy=1, Val_loss_pi=0.259, Val_loss_v=0.00227]  7]
+ 13%|█▎        | 65/500 [00:02<00:16, 26.99it/s]0, 28.62it/s, Loss_pi=0.178, Loss_v=0.0007, Max_policy=1, Val_loss_pi=0.259, Val_loss_v=0.00227]  7]
+ 23%|██▎       | 114/500 [00:04<00:15, 24.89it/s], 28.62it/s, Loss_pi=0.178, Loss_v=0.0007, Max_policy=1, Val_loss_pi=0.259, Val_loss_v=0.00227]  7]
+ 32%|███▏      | 162/500 [00:06<00:14, 23.92it/s], 28.62it/s, Loss_pi=0.178, Loss_v=0.0007, Max_policy=1, Val_loss_pi=0.259, Val_loss_v=0.00227]  7]
+ 42%|████▏     | 208/500 [00:08<00:11, 24.43it/s], 28.62it/s, Loss_pi=0.178, Loss_v=0.0007, Max_policy=1, Val_loss_pi=0.259, Val_loss_v=0.00227]  7]
+ 51%|█████▏    | 257/500 [00:10<00:10, 23.07it/s], 28.62it/s, Loss_pi=0.178, Loss_v=0.0007, Max_policy=1, Val_loss_pi=0.259, Val_loss_v=0.00227]  7]
+ 61%|██████    | 306/500 [00:12<00:08, 23.82it/s], 28.62it/s, Loss_pi=0.178, Loss_v=0.0007, Max_policy=1, Val_loss_pi=0.259, Val_loss_v=0.00227]  7]
+ 71%|███████   | 354/500 [00:14<00:05, 25.35it/s], 28.62it/s, Loss_pi=0.178, Loss_v=0.0007, Max_policy=1, Val_loss_pi=0.259, Val_loss_v=0.00227]  7]
+ 81%|████████  | 403/500 [00:16<00:04, 23.60it/s], 28.62it/s, Loss_pi=0.178, Loss_v=0.0007, Max_policy=1, Val_loss_pi=0.259, Val_loss_v=0.00227]  7]
+ 91%|█████████ | 454/500 [00:18<00:01, 26.01it/s], 28.62it/s, Loss_pi=0.178, Loss_v=0.0007, Max_policy=1, Val_loss_pi=0.259, Val_loss_v=0.00227]  7]
+Training Net:  20%|██        | 3/15 [00:00<00:00, 23.69it/s, Loss_pi=0.255, Loss_v=0.00321, Max_policy=1, Val_loss_pi=0.29, Val_loss_v=0.00458]]  7]
+  6%|▌         | 29/500 [00:01<00:21, 21.75it/s]0, 26.18it/s, Loss_pi=0.0929, Loss_v=0.000642, Max_policy=1, Val_loss_pi=0.186, Val_loss_v=0.00336]]
+ 16%|█▌        | 80/500 [00:03<00:17, 24.60it/s]0, 26.18it/s, Loss_pi=0.0929, Loss_v=0.000642, Max_policy=1, Val_loss_pi=0.186, Val_loss_v=0.00336]]
+ 25%|██▌       | 125/500 [00:05<00:16, 22.69it/s], 26.18it/s, Loss_pi=0.0929, Loss_v=0.000642, Max_policy=1, Val_loss_pi=0.186, Val_loss_v=0.00336]]
+ 35%|███▌      | 177/500 [00:07<00:12, 25.00it/s], 26.18it/s, Loss_pi=0.0929, Loss_v=0.000642, Max_policy=1, Val_loss_pi=0.186, Val_loss_v=0.00336]]
+ 46%|████▌     | 228/500 [00:09<00:11, 24.64it/s], 26.18it/s, Loss_pi=0.0929, Loss_v=0.000642, Max_policy=1, Val_loss_pi=0.186, Val_loss_v=0.00336]]
+ 55%|█████▌    | 276/500 [00:11<00:08, 25.18it/s], 26.18it/s, Loss_pi=0.0929, Loss_v=0.000642, Max_policy=1, Val_loss_pi=0.186, Val_loss_v=0.00336]]
+ 65%|██████▍   | 324/500 [00:13<00:07, 24.52it/s], 26.18it/s, Loss_pi=0.0929, Loss_v=0.000642, Max_policy=1, Val_loss_pi=0.186, Val_loss_v=0.00336]]
+ 75%|███████▍  | 373/500 [00:15<00:04, 26.71it/s], 26.18it/s, Loss_pi=0.0929, Loss_v=0.000642, Max_policy=1, Val_loss_pi=0.186, Val_loss_v=0.00336]]
+ 84%|████████▍ | 421/500 [00:17<00:03, 22.78it/s], 26.18it/s, Loss_pi=0.0929, Loss_v=0.000642, Max_policy=1, Val_loss_pi=0.186, Val_loss_v=0.00336]]
+ 95%|█████████▌| 476/500 [00:19<00:00, 26.88it/s], 26.18it/s, Loss_pi=0.0929, Loss_v=0.000642, Max_policy=1, Val_loss_pi=0.186, Val_loss_v=0.00336]]
+  0%|          | 0/500 [00:00<?, ?it/s]0:00<00:00, 26.46it/s, Loss_pi=0.106, Loss_v=0.000949, Max_policy=1, Val_loss_pi=0.198, Val_loss_v=0.00232]]]
+ 10%|▉         | 48/500 [00:02<00:19, 22.74it/s]0, 26.46it/s, Loss_pi=0.106, Loss_v=0.000949, Max_policy=1, Val_loss_pi=0.198, Val_loss_v=0.00232]]]
+ 19%|█▉        | 96/500 [00:03<00:15, 25.92it/s]0, 26.46it/s, Loss_pi=0.106, Loss_v=0.000949, Max_policy=1, Val_loss_pi=0.198, Val_loss_v=0.00232]]]
+ 29%|██▉       | 144/500 [00:06<00:13, 26.42it/s], 26.46it/s, Loss_pi=0.106, Loss_v=0.000949, Max_policy=1, Val_loss_pi=0.198, Val_loss_v=0.00232]]]
+ 38%|███▊      | 192/500 [00:08<00:13, 22.64it/s], 26.46it/s, Loss_pi=0.106, Loss_v=0.000949, Max_policy=1, Val_loss_pi=0.198, Val_loss_v=0.00232]]]
+ 48%|████▊     | 240/500 [00:09<00:11, 23.24it/s], 26.46it/s, Loss_pi=0.106, Loss_v=0.000949, Max_policy=1, Val_loss_pi=0.198, Val_loss_v=0.00232]]]
+ 57%|█████▋    | 286/500 [00:11<00:09, 23.36it/s], 26.46it/s, Loss_pi=0.106, Loss_v=0.000949, Max_policy=1, Val_loss_pi=0.198, Val_loss_v=0.00232]]]
+ 68%|██████▊   | 340/500 [00:14<00:06, 26.58it/s], 26.46it/s, Loss_pi=0.106, Loss_v=0.000949, Max_policy=1, Val_loss_pi=0.198, Val_loss_v=0.00232]]]
+ 78%|███████▊  | 388/500 [00:15<00:04, 24.93it/s], 26.46it/s, Loss_pi=0.106, Loss_v=0.000949, Max_policy=1, Val_loss_pi=0.198, Val_loss_v=0.00232]]]
+ 88%|████████▊ | 440/500 [00:17<00:02, 25.29it/s], 26.46it/s, Loss_pi=0.106, Loss_v=0.000949, Max_policy=1, Val_loss_pi=0.198, Val_loss_v=0.00232]]]
+ 98%|█████████▊| 491/500 [00:19<00:00, 22.98it/s], 26.46it/s, Loss_pi=0.106, Loss_v=0.000949, Max_policy=1, Val_loss_pi=0.198, Val_loss_v=0.00232]]]
+  4%|▎         | 18/500 [00:00<00:20, 23.38it/s]0, 27.34it/s, Loss_pi=0.124, Loss_v=0.000779, Max_policy=1, Val_loss_pi=0.15, Val_loss_v=0.00208]  ]
+ 14%|█▎        | 68/500 [00:02<00:17, 25.21it/s]0, 27.34it/s, Loss_pi=0.124, Loss_v=0.000779, Max_policy=1, Val_loss_pi=0.15, Val_loss_v=0.00208]  ]
+ 23%|██▎       | 117/500 [00:04<00:16, 23.41it/s], 27.34it/s, Loss_pi=0.124, Loss_v=0.000779, Max_policy=1, Val_loss_pi=0.15, Val_loss_v=0.00208]  ]
+ 33%|███▎      | 165/500 [00:06<00:13, 24.88it/s], 27.34it/s, Loss_pi=0.124, Loss_v=0.000779, Max_policy=1, Val_loss_pi=0.15, Val_loss_v=0.00208]  ]
+ 43%|████▎     | 214/500 [00:08<00:12, 23.65it/s], 27.34it/s, Loss_pi=0.124, Loss_v=0.000779, Max_policy=1, Val_loss_pi=0.15, Val_loss_v=0.00208]  ]
+ 52%|█████▏    | 262/500 [00:10<00:09, 25.76it/s], 27.34it/s, Loss_pi=0.124, Loss_v=0.000779, Max_policy=1, Val_loss_pi=0.15, Val_loss_v=0.00208]  ]
+ 62%|██████▏   | 310/500 [00:12<00:07, 24.28it/s], 27.34it/s, Loss_pi=0.124, Loss_v=0.000779, Max_policy=1, Val_loss_pi=0.15, Val_loss_v=0.00208]  ]
+ 72%|███████▏  | 359/500 [00:14<00:05, 24.91it/s], 27.34it/s, Loss_pi=0.124, Loss_v=0.000779, Max_policy=1, Val_loss_pi=0.15, Val_loss_v=0.00208]  ]
+ 82%|████████▏ | 410/500 [00:16<00:03, 22.92it/s], 27.34it/s, Loss_pi=0.124, Loss_v=0.000779, Max_policy=1, Val_loss_pi=0.15, Val_loss_v=0.00208]  ]
+ 92%|█████████▏| 458/500 [00:18<00:01, 25.94it/s], 27.34it/s, Loss_pi=0.124, Loss_v=0.000779, Max_policy=1, Val_loss_pi=0.15, Val_loss_v=0.00208]  ]
+Training Net:  60%|██████    | 9/15 [00:00<00:00, 25.41it/s, Loss_pi=0.117, Loss_v=0.000986, Max_policy=1, Val_loss_pi=0.216, Val_loss_v=0.00264]  ]
+  7%|▋         | 36/500 [00:01<00:17, 26.10it/s]0, 26.59it/s, Loss_pi=0.0872, Loss_v=0.000707, Max_policy=1, Val_loss_pi=0.214, Val_loss_v=0.00238]]
+ 17%|█▋        | 85/500 [00:03<00:18, 22.11it/s]0, 26.59it/s, Loss_pi=0.0872, Loss_v=0.000707, Max_policy=1, Val_loss_pi=0.214, Val_loss_v=0.00238]]
+ 27%|██▋       | 136/500 [00:05<00:13, 26.83it/s], 26.59it/s, Loss_pi=0.0872, Loss_v=0.000707, Max_policy=1, Val_loss_pi=0.214, Val_loss_v=0.00238]]
+ 38%|███▊      | 190/500 [00:07<00:11, 27.25it/s], 26.59it/s, Loss_pi=0.0872, Loss_v=0.000707, Max_policy=1, Val_loss_pi=0.214, Val_loss_v=0.00238]]
+ 48%|████▊     | 238/500 [00:09<00:09, 26.66it/s], 26.59it/s, Loss_pi=0.0872, Loss_v=0.000707, Max_policy=1, Val_loss_pi=0.214, Val_loss_v=0.00238]]
+ 57%|█████▋    | 286/500 [00:11<00:09, 23.61it/s], 26.59it/s, Loss_pi=0.0872, Loss_v=0.000707, Max_policy=1, Val_loss_pi=0.214, Val_loss_v=0.00238]]
+ 67%|██████▋   | 335/500 [00:13<00:06, 25.35it/s], 26.59it/s, Loss_pi=0.0872, Loss_v=0.000707, Max_policy=1, Val_loss_pi=0.214, Val_loss_v=0.00238]]
+ 77%|███████▋  | 383/500 [00:15<00:04, 26.76it/s], 26.59it/s, Loss_pi=0.0872, Loss_v=0.000707, Max_policy=1, Val_loss_pi=0.214, Val_loss_v=0.00238]]
+ 87%|████████▋ | 434/500 [00:17<00:02, 23.54it/s], 26.59it/s, Loss_pi=0.0872, Loss_v=0.000707, Max_policy=1, Val_loss_pi=0.214, Val_loss_v=0.00238]]
+ 97%|█████████▋| 483/500 [00:19<00:00, 24.01it/s], 26.59it/s, Loss_pi=0.0872, Loss_v=0.000707, Max_policy=1, Val_loss_pi=0.214, Val_loss_v=0.00238]]
+  2%|▏         | 12/500 [00:00<00:18, 25.79it/s]0, 26.42it/s, Loss_pi=0.135, Loss_v=0.000863, Max_policy=1, Val_loss_pi=0.24, Val_loss_v=0.00179] ]]
+ 12%|█▏        | 60/500 [00:02<00:19, 23.10it/s]0, 26.42it/s, Loss_pi=0.135, Loss_v=0.000863, Max_policy=1, Val_loss_pi=0.24, Val_loss_v=0.00179] ]]
+ 22%|██▏       | 112/500 [00:04<00:14, 26.89it/s], 26.42it/s, Loss_pi=0.135, Loss_v=0.000863, Max_policy=1, Val_loss_pi=0.24, Val_loss_v=0.00179] ]]
+ 32%|███▏      | 161/500 [00:06<00:13, 25.85it/s], 26.42it/s, Loss_pi=0.135, Loss_v=0.000863, Max_policy=1, Val_loss_pi=0.24, Val_loss_v=0.00179] ]]
+ 41%|████      | 206/500 [00:08<00:13, 21.88it/s], 26.42it/s, Loss_pi=0.135, Loss_v=0.000863, Max_policy=1, Val_loss_pi=0.24, Val_loss_v=0.00179] ]]
+ 51%|█████     | 254/500 [00:10<00:10, 24.42it/s], 26.42it/s, Loss_pi=0.135, Loss_v=0.000863, Max_policy=1, Val_loss_pi=0.24, Val_loss_v=0.00179] ]]
+ 62%|██████▏   | 308/500 [00:12<00:07, 25.91it/s], 26.42it/s, Loss_pi=0.135, Loss_v=0.000863, Max_policy=1, Val_loss_pi=0.24, Val_loss_v=0.00179] ]]
+ 72%|███████▏  | 359/500 [00:14<00:05, 25.85it/s], 26.42it/s, Loss_pi=0.135, Loss_v=0.000863, Max_policy=1, Val_loss_pi=0.24, Val_loss_v=0.00179] ]]
+ 82%|████████▏ | 410/500 [00:16<00:03, 23.85it/s], 26.42it/s, Loss_pi=0.135, Loss_v=0.000863, Max_policy=1, Val_loss_pi=0.24, Val_loss_v=0.00179] ]]
+ 92%|█████████▏| 458/500 [00:18<00:01, 25.25it/s], 26.42it/s, Loss_pi=0.135, Loss_v=0.000863, Max_policy=1, Val_loss_pi=0.24, Val_loss_v=0.00179] ]]
+Training Net:  60%|██████    | 9/15 [00:00<00:00, 25.78it/s, Loss_pi=0.0847, Loss_v=0.00052, Max_policy=1, Val_loss_pi=0.204, Val_loss_v=0.00184] ]]
+  8%|▊         | 40/500 [00:01<00:17, 26.47it/s]0, 25.86it/s, Loss_pi=0.107, Loss_v=0.000644, Max_policy=1, Val_loss_pi=0.262, Val_loss_v=0.00228] ]
+ 17%|█▋        | 85/500 [00:03<00:16, 24.45it/s]0, 25.86it/s, Loss_pi=0.107, Loss_v=0.000644, Max_policy=1, Val_loss_pi=0.262, Val_loss_v=0.00228] ]
+ 28%|██▊       | 138/500 [00:05<00:13, 26.60it/s], 25.86it/s, Loss_pi=0.107, Loss_v=0.000644, Max_policy=1, Val_loss_pi=0.262, Val_loss_v=0.00228] ]
+ 38%|███▊      | 190/500 [00:07<00:11, 26.39it/s], 25.86it/s, Loss_pi=0.107, Loss_v=0.000644, Max_policy=1, Val_loss_pi=0.262, Val_loss_v=0.00228] ]
+ 47%|████▋     | 237/500 [00:09<00:11, 22.97it/s], 25.86it/s, Loss_pi=0.107, Loss_v=0.000644, Max_policy=1, Val_loss_pi=0.262, Val_loss_v=0.00228] ]
+ 57%|█████▋    | 287/500 [00:11<00:08, 25.14it/s], 25.86it/s, Loss_pi=0.107, Loss_v=0.000644, Max_policy=1, Val_loss_pi=0.262, Val_loss_v=0.00228] ]
+ 67%|██████▋   | 336/500 [00:13<00:06, 25.39it/s], 25.86it/s, Loss_pi=0.107, Loss_v=0.000644, Max_policy=1, Val_loss_pi=0.262, Val_loss_v=0.00228] ]
+ 77%|███████▋  | 385/500 [00:15<00:05, 21.73it/s], 25.86it/s, Loss_pi=0.107, Loss_v=0.000644, Max_policy=1, Val_loss_pi=0.262, Val_loss_v=0.00228] ]
+ 87%|████████▋ | 434/500 [00:17<00:02, 22.40it/s], 25.86it/s, Loss_pi=0.107, Loss_v=0.000644, Max_policy=1, Val_loss_pi=0.262, Val_loss_v=0.00228] ]
+ 96%|█████████▌| 480/500 [00:19<00:00, 23.60it/s], 25.86it/s, Loss_pi=0.107, Loss_v=0.000644, Max_policy=1, Val_loss_pi=0.262, Val_loss_v=0.00228] ]
+  2%|▏         | 9/500 [00:00<00:19, 25.76it/s]00, 26.61it/s, Loss_pi=0.208, Loss_v=0.00089, Max_policy=1, Val_loss_pi=0.184, Val_loss_v=0.00235]  ]
+ 12%|█▏        | 61/500 [00:02<00:17, 25.09it/s]0, 26.61it/s, Loss_pi=0.208, Loss_v=0.00089, Max_policy=1, Val_loss_pi=0.184, Val_loss_v=0.00235]  ]
+ 22%|██▏       | 112/500 [00:04<00:14, 26.52it/s], 26.61it/s, Loss_pi=0.208, Loss_v=0.00089, Max_policy=1, Val_loss_pi=0.184, Val_loss_v=0.00235]  ]
+ 33%|███▎      | 164/500 [00:06<00:13, 25.57it/s], 26.61it/s, Loss_pi=0.208, Loss_v=0.00089, Max_policy=1, Val_loss_pi=0.184, Val_loss_v=0.00235]  ]
+ 43%|████▎     | 213/500 [00:08<00:12, 22.85it/s], 26.61it/s, Loss_pi=0.208, Loss_v=0.00089, Max_policy=1, Val_loss_pi=0.184, Val_loss_v=0.00235]  ]
+ 52%|█████▏    | 258/500 [00:10<00:09, 25.71it/s], 26.61it/s, Loss_pi=0.208, Loss_v=0.00089, Max_policy=1, Val_loss_pi=0.184, Val_loss_v=0.00235]  ]
+ 62%|██████▏   | 309/500 [00:12<00:07, 25.52it/s], 26.61it/s, Loss_pi=0.208, Loss_v=0.00089, Max_policy=1, Val_loss_pi=0.184, Val_loss_v=0.00235]  ]
+ 72%|███████▏  | 361/500 [00:14<00:05, 27.76it/s], 26.61it/s, Loss_pi=0.208, Loss_v=0.00089, Max_policy=1, Val_loss_pi=0.184, Val_loss_v=0.00235]  ]
+ 82%|████████▏ | 410/500 [00:16<00:03, 26.23it/s], 26.61it/s, Loss_pi=0.208, Loss_v=0.00089, Max_policy=1, Val_loss_pi=0.184, Val_loss_v=0.00235]  ]
+ 92%|█████████▏| 458/500 [00:18<00:01, 25.29it/s], 26.61it/s, Loss_pi=0.208, Loss_v=0.00089, Max_policy=1, Val_loss_pi=0.184, Val_loss_v=0.00235]  ]
+Training Net:  60%|██████    | 9/15 [00:00<00:00, 23.32it/s, Loss_pi=0.123, Loss_v=0.00105, Max_policy=1, Val_loss_pi=0.107, Val_loss_v=0.00256]   ]
+  7%|▋         | 37/500 [00:01<00:17, 25.93it/s]0, 24.15it/s, Loss_pi=0.0945, Loss_v=0.000428, Max_policy=1, Val_loss_pi=0.19, Val_loss_v=0.00344] ]
+ 17%|█▋        | 87/500 [00:03<00:17, 24.28it/s]0, 24.15it/s, Loss_pi=0.0945, Loss_v=0.000428, Max_policy=1, Val_loss_pi=0.19, Val_loss_v=0.00344] ]
+ 27%|██▋       | 136/500 [00:05<00:14, 25.52it/s], 24.15it/s, Loss_pi=0.0945, Loss_v=0.000428, Max_policy=1, Val_loss_pi=0.19, Val_loss_v=0.00344] ]
+ 37%|███▋      | 183/500 [00:07<00:12, 24.73it/s], 24.15it/s, Loss_pi=0.0945, Loss_v=0.000428, Max_policy=1, Val_loss_pi=0.19, Val_loss_v=0.00344] ]
+ 47%|████▋     | 234/500 [00:09<00:10, 25.88it/s], 24.15it/s, Loss_pi=0.0945, Loss_v=0.000428, Max_policy=1, Val_loss_pi=0.19, Val_loss_v=0.00344] ]
+ 57%|█████▋    | 283/500 [00:11<00:09, 23.21it/s], 24.15it/s, Loss_pi=0.0945, Loss_v=0.000428, Max_policy=1, Val_loss_pi=0.19, Val_loss_v=0.00344] ]
+ 67%|██████▋   | 335/500 [00:13<00:06, 25.62it/s], 24.15it/s, Loss_pi=0.0945, Loss_v=0.000428, Max_policy=1, Val_loss_pi=0.19, Val_loss_v=0.00344] ]
+ 77%|███████▋  | 387/500 [00:15<00:04, 25.91it/s], 24.15it/s, Loss_pi=0.0945, Loss_v=0.000428, Max_policy=1, Val_loss_pi=0.19, Val_loss_v=0.00344] ]
+ 87%|████████▋ | 436/500 [00:17<00:02, 25.78it/s], 24.15it/s, Loss_pi=0.0945, Loss_v=0.000428, Max_policy=1, Val_loss_pi=0.19, Val_loss_v=0.00344] ]
+ 96%|█████████▋| 482/500 [00:19<00:00, 23.03it/s], 24.15it/s, Loss_pi=0.0945, Loss_v=0.000428, Max_policy=1, Val_loss_pi=0.19, Val_loss_v=0.00344] ]
+  2%|▏         | 9/500 [00:00<00:19, 24.80it/s]00, 28.80it/s, Loss_pi=0.11, Loss_v=0.000801, Max_policy=1, Val_loss_pi=0.243, Val_loss_v=0.00123]  ]
+ 12%|█▏        | 62/500 [00:02<00:16, 26.99it/s]0, 28.80it/s, Loss_pi=0.11, Loss_v=0.000801, Max_policy=1, Val_loss_pi=0.243, Val_loss_v=0.00123]  ]
+ 22%|██▏       | 112/500 [00:04<00:17, 22.28it/s], 28.80it/s, Loss_pi=0.11, Loss_v=0.000801, Max_policy=1, Val_loss_pi=0.243, Val_loss_v=0.00123]  ]
+ 32%|███▏      | 160/500 [00:06<00:15, 22.59it/s], 28.80it/s, Loss_pi=0.11, Loss_v=0.000801, Max_policy=1, Val_loss_pi=0.243, Val_loss_v=0.00123]  ]
+ 39%|███▉      | 197/500 [00:07<00:12, 24.17it/s], 28.80it/s, Loss_pi=0.11, Loss_v=0.000801, Max_policy=1, Val_loss_pi=0.243, Val_loss_v=0.00123]  ]
+ 48%|████▊     | 242/500 [00:09<00:11, 22.66it/s], 28.80it/s, Loss_pi=0.11, Loss_v=0.000801, Max_policy=1, Val_loss_pi=0.243, Val_loss_v=0.00123]  ]
+ 59%|█████▊    | 293/500 [00:11<00:07, 26.60it/s], 28.80it/s, Loss_pi=0.11, Loss_v=0.000801, Max_policy=1, Val_loss_pi=0.243, Val_loss_v=0.00123]  ]
+ 68%|██████▊   | 342/500 [00:13<00:07, 22.04it/s], 28.80it/s, Loss_pi=0.11, Loss_v=0.000801, Max_policy=1, Val_loss_pi=0.243, Val_loss_v=0.00123]  ]
+ 79%|███████▊  | 393/500 [00:15<00:04, 21.69it/s], 28.80it/s, Loss_pi=0.11, Loss_v=0.000801, Max_policy=1, Val_loss_pi=0.243, Val_loss_v=0.00123]  ]
+ 88%|████████▊ | 441/500 [00:17<00:02, 25.82it/s], 28.80it/s, Loss_pi=0.11, Loss_v=0.000801, Max_policy=1, Val_loss_pi=0.243, Val_loss_v=0.00123]  ]
+ 99%|█████████▊| 493/500 [00:19<00:00, 25.13it/s], 28.80it/s, Loss_pi=0.11, Loss_v=0.000801, Max_policy=1, Val_loss_pi=0.243, Val_loss_v=0.00123]  ]
+  5%|▍         | 24/500 [00:00<00:17, 27.27it/s]0, 25.90it/s, Loss_pi=0.148, Loss_v=0.000982, Max_policy=1, Val_loss_pi=0.0835, Val_loss_v=0.00149]]
+ 15%|█▍        | 73/500 [00:02<00:17, 24.81it/s]0, 25.90it/s, Loss_pi=0.148, Loss_v=0.000982, Max_policy=1, Val_loss_pi=0.0835, Val_loss_v=0.00149]]
+ 25%|██▌       | 125/500 [00:04<00:16, 23.06it/s], 25.90it/s, Loss_pi=0.148, Loss_v=0.000982, Max_policy=1, Val_loss_pi=0.0835, Val_loss_v=0.00149]]
+ 35%|███▌      | 176/500 [00:06<00:13, 23.79it/s], 25.90it/s, Loss_pi=0.148, Loss_v=0.000982, Max_policy=1, Val_loss_pi=0.0835, Val_loss_v=0.00149]]
+ 45%|████▍     | 224/500 [00:08<00:11, 24.39it/s], 25.90it/s, Loss_pi=0.148, Loss_v=0.000982, Max_policy=1, Val_loss_pi=0.0835, Val_loss_v=0.00149]]
+ 55%|█████▍    | 273/500 [00:10<00:09, 24.60it/s], 25.90it/s, Loss_pi=0.148, Loss_v=0.000982, Max_policy=1, Val_loss_pi=0.0835, Val_loss_v=0.00149]]
+ 65%|██████▍   | 323/500 [00:12<00:06, 26.14it/s], 25.90it/s, Loss_pi=0.148, Loss_v=0.000982, Max_policy=1, Val_loss_pi=0.0835, Val_loss_v=0.00149]]
+ 75%|███████▍  | 374/500 [00:14<00:04, 26.28it/s], 25.90it/s, Loss_pi=0.148, Loss_v=0.000982, Max_policy=1, Val_loss_pi=0.0835, Val_loss_v=0.00149]]
+ 85%|████████▍ | 423/500 [00:16<00:03, 24.98it/s], 25.90it/s, Loss_pi=0.148, Loss_v=0.000982, Max_policy=1, Val_loss_pi=0.0835, Val_loss_v=0.00149]]
+ 95%|█████████▌| 475/500 [00:18<00:01, 24.61it/s], 25.90it/s, Loss_pi=0.148, Loss_v=0.000982, Max_policy=1, Val_loss_pi=0.0835, Val_loss_v=0.00149]]
+  0%|          | 0/500 [00:00<?, ?it/s]0:00<00:00, 28.61it/s, Loss_pi=0.171, Loss_v=0.00116, Max_policy=1, Val_loss_pi=0.195, Val_loss_v=0.00297]  ]
+ 10%|█         | 51/500 [00:02<00:21, 21.00it/s]0, 28.61it/s, Loss_pi=0.171, Loss_v=0.00116, Max_policy=1, Val_loss_pi=0.195, Val_loss_v=0.00297]  ]
+ 20%|██        | 100/500 [00:04<00:15, 25.48it/s], 28.61it/s, Loss_pi=0.171, Loss_v=0.00116, Max_policy=1, Val_loss_pi=0.195, Val_loss_v=0.00297]  ]
+ 29%|██▉       | 145/500 [00:06<00:14, 23.91it/s], 28.61it/s, Loss_pi=0.171, Loss_v=0.00116, Max_policy=1, Val_loss_pi=0.195, Val_loss_v=0.00297]  ]
+ 39%|███▉      | 196/500 [00:08<00:12, 25.05it/s], 28.61it/s, Loss_pi=0.171, Loss_v=0.00116, Max_policy=1, Val_loss_pi=0.195, Val_loss_v=0.00297]  ]
+ 49%|████▉     | 244/500 [00:10<00:11, 23.18it/s], 28.61it/s, Loss_pi=0.171, Loss_v=0.00116, Max_policy=1, Val_loss_pi=0.195, Val_loss_v=0.00297]  ]
+ 58%|█████▊    | 292/500 [00:12<00:08, 24.16it/s], 28.61it/s, Loss_pi=0.171, Loss_v=0.00116, Max_policy=1, Val_loss_pi=0.195, Val_loss_v=0.00297]  ]
+ 69%|██████▊   | 343/500 [00:14<00:06, 25.18it/s], 28.61it/s, Loss_pi=0.171, Loss_v=0.00116, Max_policy=1, Val_loss_pi=0.195, Val_loss_v=0.00297]  ]
+ 78%|███████▊  | 391/500 [00:16<00:04, 24.83it/s], 28.61it/s, Loss_pi=0.171, Loss_v=0.00116, Max_policy=1, Val_loss_pi=0.195, Val_loss_v=0.00297]  ]
+ 87%|████████▋ | 436/500 [00:18<00:02, 23.32it/s], 28.61it/s, Loss_pi=0.171, Loss_v=0.00116, Max_policy=1, Val_loss_pi=0.195, Val_loss_v=0.00297]  ]
+ 97%|█████████▋| 485/500 [00:20<00:00, 24.71it/s], 28.61it/s, Loss_pi=0.171, Loss_v=0.00116, Max_policy=1, Val_loss_pi=0.195, Val_loss_v=0.00297]  ]
+  3%|▎         | 15/500 [00:00<00:19, 25.48it/s]0, 26.30it/s, Loss_pi=0.0874, Loss_v=0.000833, Max_policy=1, Val_loss_pi=0.105, Val_loss_v=0.000996]
+ 13%|█▎        | 65/500 [00:02<00:17, 25.33it/s]0, 26.30it/s, Loss_pi=0.0874, Loss_v=0.000833, Max_policy=1, Val_loss_pi=0.105, Val_loss_v=0.000996]
+ 23%|██▎       | 113/500 [00:04<00:17, 22.62it/s], 26.30it/s, Loss_pi=0.0874, Loss_v=0.000833, Max_policy=1, Val_loss_pi=0.105, Val_loss_v=0.000996]
+ 32%|███▏      | 162/500 [00:06<00:13, 26.00it/s], 26.30it/s, Loss_pi=0.0874, Loss_v=0.000833, Max_policy=1, Val_loss_pi=0.105, Val_loss_v=0.000996]
+ 43%|████▎     | 213/500 [00:08<00:10, 26.86it/s], 26.30it/s, Loss_pi=0.0874, Loss_v=0.000833, Max_policy=1, Val_loss_pi=0.105, Val_loss_v=0.000996]
+ 52%|█████▏    | 261/500 [00:10<00:09, 26.29it/s], 26.30it/s, Loss_pi=0.0874, Loss_v=0.000833, Max_policy=1, Val_loss_pi=0.105, Val_loss_v=0.000996]
+ 61%|██████▏   | 307/500 [00:12<00:07, 24.79it/s], 26.30it/s, Loss_pi=0.0874, Loss_v=0.000833, Max_policy=1, Val_loss_pi=0.105, Val_loss_v=0.000996]
+ 71%|███████   | 356/500 [00:14<00:05, 24.93it/s], 26.30it/s, Loss_pi=0.0874, Loss_v=0.000833, Max_policy=1, Val_loss_pi=0.105, Val_loss_v=0.000996]
+ 81%|████████  | 406/500 [00:16<00:03, 26.55it/s], 26.30it/s, Loss_pi=0.0874, Loss_v=0.000833, Max_policy=1, Val_loss_pi=0.105, Val_loss_v=0.000996]
+ 92%|█████████▏| 459/500 [00:18<00:01, 24.39it/s], 26.30it/s, Loss_pi=0.0874, Loss_v=0.000833, Max_policy=1, Val_loss_pi=0.105, Val_loss_v=0.000996]
+Training Net:  60%|██████    | 9/15 [00:00<00:00, 26.53it/s, Loss_pi=0.0796, Loss_v=0.000672, Max_policy=1, Val_loss_pi=0.139, Val_loss_v=0.00124] ]
+  8%|▊         | 40/500 [00:01<00:17, 25.99it/s]0, 27.98it/s, Loss_pi=0.0541, Loss_v=0.000515, Max_policy=1, Val_loss_pi=0.0917, Val_loss_v=0.00121]
+ 18%|█▊        | 91/500 [00:03<00:18, 22.55it/s]0, 27.98it/s, Loss_pi=0.0541, Loss_v=0.000515, Max_policy=1, Val_loss_pi=0.0917, Val_loss_v=0.00121]
+ 28%|██▊       | 139/500 [00:05<00:15, 22.94it/s], 27.98it/s, Loss_pi=0.0541, Loss_v=0.000515, Max_policy=1, Val_loss_pi=0.0917, Val_loss_v=0.00121]
+ 38%|███▊      | 188/500 [00:07<00:13, 23.09it/s], 27.98it/s, Loss_pi=0.0541, Loss_v=0.000515, Max_policy=1, Val_loss_pi=0.0917, Val_loss_v=0.00121]
+ 48%|████▊     | 238/500 [00:09<00:10, 24.51it/s], 27.98it/s, Loss_pi=0.0541, Loss_v=0.000515, Max_policy=1, Val_loss_pi=0.0917, Val_loss_v=0.00121]
+ 58%|█████▊    | 290/500 [00:11<00:08, 24.90it/s], 27.98it/s, Loss_pi=0.0541, Loss_v=0.000515, Max_policy=1, Val_loss_pi=0.0917, Val_loss_v=0.00121]
+ 68%|██████▊   | 338/500 [00:13<00:06, 23.86it/s], 27.98it/s, Loss_pi=0.0541, Loss_v=0.000515, Max_policy=1, Val_loss_pi=0.0917, Val_loss_v=0.00121]
+ 78%|███████▊  | 389/500 [00:15<00:04, 22.36it/s], 27.98it/s, Loss_pi=0.0541, Loss_v=0.000515, Max_policy=1, Val_loss_pi=0.0917, Val_loss_v=0.00121]
+ 87%|████████▋ | 437/500 [00:17<00:02, 22.98it/s], 27.98it/s, Loss_pi=0.0541, Loss_v=0.000515, Max_policy=1, Val_loss_pi=0.0917, Val_loss_v=0.00121]
+ 98%|█████████▊| 491/500 [00:19<00:00, 26.40it/s], 27.98it/s, Loss_pi=0.0541, Loss_v=0.000515, Max_policy=1, Val_loss_pi=0.0917, Val_loss_v=0.00121]
+  3%|▎         | 15/500 [00:00<00:22, 21.21it/s]0, 28.88it/s, Loss_pi=0.0848, Loss_v=0.000931, Max_policy=1, Val_loss_pi=0.263, Val_loss_v=0.00194]]
+ 13%|█▎        | 66/500 [00:02<00:19, 22.55it/s]0, 28.88it/s, Loss_pi=0.0848, Loss_v=0.000931, Max_policy=1, Val_loss_pi=0.263, Val_loss_v=0.00194]]
+ 23%|██▎       | 115/500 [00:04<00:16, 23.40it/s], 28.88it/s, Loss_pi=0.0848, Loss_v=0.000931, Max_policy=1, Val_loss_pi=0.263, Val_loss_v=0.00194]]
+ 33%|███▎      | 166/500 [00:06<00:13, 24.39it/s], 28.88it/s, Loss_pi=0.0848, Loss_v=0.000931, Max_policy=1, Val_loss_pi=0.263, Val_loss_v=0.00194]]
+ 43%|████▎     | 214/500 [00:08<00:10, 26.30it/s], 28.88it/s, Loss_pi=0.0848, Loss_v=0.000931, Max_policy=1, Val_loss_pi=0.263, Val_loss_v=0.00194]]
+ 53%|█████▎    | 266/500 [00:10<00:09, 25.63it/s], 28.88it/s, Loss_pi=0.0848, Loss_v=0.000931, Max_policy=1, Val_loss_pi=0.263, Val_loss_v=0.00194]]
+ 63%|██████▎   | 317/500 [00:12<00:07, 25.03it/s], 28.88it/s, Loss_pi=0.0848, Loss_v=0.000931, Max_policy=1, Val_loss_pi=0.263, Val_loss_v=0.00194]]
+ 72%|███████▏  | 362/500 [00:14<00:05, 23.59it/s], 28.88it/s, Loss_pi=0.0848, Loss_v=0.000931, Max_policy=1, Val_loss_pi=0.263, Val_loss_v=0.00194]]
+ 82%|████████▏ | 410/500 [00:16<00:03, 25.45it/s], 28.88it/s, Loss_pi=0.0848, Loss_v=0.000931, Max_policy=1, Val_loss_pi=0.263, Val_loss_v=0.00194]]
+ 92%|█████████▏| 459/500 [00:18<00:01, 25.23it/s], 28.88it/s, Loss_pi=0.0848, Loss_v=0.000931, Max_policy=1, Val_loss_pi=0.263, Val_loss_v=0.00194]]
+Training Net:  60%|██████    | 9/15 [00:00<00:00, 26.59it/s, Loss_pi=0.102, Loss_v=0.00175, Max_policy=1, Val_loss_pi=0.133, Val_loss_v=0.00366] 4]]
+  7%|▋         | 35/500 [00:01<00:18, 24.83it/s]0, 28.12it/s, Loss_pi=0.0889, Loss_v=0.000804, Max_policy=1, Val_loss_pi=0.143, Val_loss_v=0.00264]]
+ 17%|█▋        | 84/500 [00:03<00:17, 24.23it/s]0, 28.12it/s, Loss_pi=0.0889, Loss_v=0.000804, Max_policy=1, Val_loss_pi=0.143, Val_loss_v=0.00264]]
+ 27%|██▋       | 135/500 [00:05<00:15, 23.23it/s], 28.12it/s, Loss_pi=0.0889, Loss_v=0.000804, Max_policy=1, Val_loss_pi=0.143, Val_loss_v=0.00264]]
+ 36%|███▌      | 180/500 [00:07<00:12, 25.32it/s], 28.12it/s, Loss_pi=0.0889, Loss_v=0.000804, Max_policy=1, Val_loss_pi=0.143, Val_loss_v=0.00264]]
+ 46%|████▌     | 231/500 [00:09<00:10, 24.59it/s], 28.12it/s, Loss_pi=0.0889, Loss_v=0.000804, Max_policy=1, Val_loss_pi=0.143, Val_loss_v=0.00264]]
+ 56%|█████▋    | 282/500 [00:11<00:09, 23.70it/s], 28.12it/s, Loss_pi=0.0889, Loss_v=0.000804, Max_policy=1, Val_loss_pi=0.143, Val_loss_v=0.00264]]
+ 65%|██████▌   | 327/500 [00:13<00:07, 23.51it/s], 28.12it/s, Loss_pi=0.0889, Loss_v=0.000804, Max_policy=1, Val_loss_pi=0.143, Val_loss_v=0.00264]]
+ 76%|███████▌  | 378/500 [00:15<00:04, 25.90it/s], 28.12it/s, Loss_pi=0.0889, Loss_v=0.000804, Max_policy=1, Val_loss_pi=0.143, Val_loss_v=0.00264]]
+ 86%|████████▌ | 428/500 [00:17<00:02, 25.41it/s], 28.12it/s, Loss_pi=0.0889, Loss_v=0.000804, Max_policy=1, Val_loss_pi=0.143, Val_loss_v=0.00264]]
+ 95%|█████████▌| 477/500 [00:19<00:00, 24.88it/s], 28.12it/s, Loss_pi=0.0889, Loss_v=0.000804, Max_policy=1, Val_loss_pi=0.143, Val_loss_v=0.00264]]
+  1%|          | 6/500 [00:00<00:20, 24.66it/s]00, 26.80it/s, Loss_pi=0.0849, Loss_v=0.000398, Max_policy=1, Val_loss_pi=0.115, Val_loss_v=0.000493]
+ 11%|█         | 54/500 [00:02<00:18, 23.87it/s]0, 26.80it/s, Loss_pi=0.0849, Loss_v=0.000398, Max_policy=1, Val_loss_pi=0.115, Val_loss_v=0.000493]
+ 21%|██        | 103/500 [00:04<00:15, 25.72it/s], 26.80it/s, Loss_pi=0.0849, Loss_v=0.000398, Max_policy=1, Val_loss_pi=0.115, Val_loss_v=0.000493]
+ 31%|███       | 154/500 [00:06<00:13, 26.16it/s], 26.80it/s, Loss_pi=0.0849, Loss_v=0.000398, Max_policy=1, Val_loss_pi=0.115, Val_loss_v=0.000493]
+ 40%|████      | 202/500 [00:08<00:11, 26.85it/s], 26.80it/s, Loss_pi=0.0849, Loss_v=0.000398, Max_policy=1, Val_loss_pi=0.115, Val_loss_v=0.000493]
+ 51%|█████     | 253/500 [00:10<00:09, 25.96it/s], 26.80it/s, Loss_pi=0.0849, Loss_v=0.000398, Max_policy=1, Val_loss_pi=0.115, Val_loss_v=0.000493]
+ 61%|██████    | 305/500 [00:12<00:07, 26.05it/s], 26.80it/s, Loss_pi=0.0849, Loss_v=0.000398, Max_policy=1, Val_loss_pi=0.115, Val_loss_v=0.000493]
+ 71%|███████▏  | 357/500 [00:14<00:05, 26.81it/s], 26.80it/s, Loss_pi=0.0849, Loss_v=0.000398, Max_policy=1, Val_loss_pi=0.115, Val_loss_v=0.000493]
+ 80%|████████  | 402/500 [00:16<00:03, 25.09it/s], 26.80it/s, Loss_pi=0.0849, Loss_v=0.000398, Max_policy=1, Val_loss_pi=0.115, Val_loss_v=0.000493]
+ 91%|█████████ | 455/500 [00:18<00:01, 26.56it/s], 26.80it/s, Loss_pi=0.0849, Loss_v=0.000398, Max_policy=1, Val_loss_pi=0.115, Val_loss_v=0.000493]
+Training Net:  20%|██        | 3/15 [00:00<00:00, 22.19it/s, Loss_pi=0.109, Loss_v=0.00163, Max_policy=1, Val_loss_pi=0.0815, Val_loss_v=0.00246]93]
+  6%|▌         | 30/500 [00:01<00:18, 24.94it/s]0, 27.86it/s, Loss_pi=0.134, Loss_v=0.000637, Max_policy=1, Val_loss_pi=0.21, Val_loss_v=0.0032]  3]
+ 16%|█▌        | 80/500 [00:03<00:15, 27.35it/s]0, 27.86it/s, Loss_pi=0.134, Loss_v=0.000637, Max_policy=1, Val_loss_pi=0.21, Val_loss_v=0.0032]  3]
+ 26%|██▌       | 128/500 [00:05<00:16, 21.92it/s], 27.86it/s, Loss_pi=0.134, Loss_v=0.000637, Max_policy=1, Val_loss_pi=0.21, Val_loss_v=0.0032]  3]
+ 36%|███▌      | 179/500 [00:07<00:11, 26.79it/s], 27.86it/s, Loss_pi=0.134, Loss_v=0.000637, Max_policy=1, Val_loss_pi=0.21, Val_loss_v=0.0032]  3]
+ 46%|████▌     | 230/500 [00:09<00:10, 26.35it/s], 27.86it/s, Loss_pi=0.134, Loss_v=0.000637, Max_policy=1, Val_loss_pi=0.21, Val_loss_v=0.0032]  3]
+ 56%|█████▌    | 281/500 [00:11<00:09, 22.35it/s], 27.86it/s, Loss_pi=0.134, Loss_v=0.000637, Max_policy=1, Val_loss_pi=0.21, Val_loss_v=0.0032]  3]
+ 66%|██████▋   | 332/500 [00:13<00:06, 24.17it/s], 27.86it/s, Loss_pi=0.134, Loss_v=0.000637, Max_policy=1, Val_loss_pi=0.21, Val_loss_v=0.0032]  3]
+ 76%|███████▌  | 381/500 [00:15<00:04, 24.00it/s], 27.86it/s, Loss_pi=0.134, Loss_v=0.000637, Max_policy=1, Val_loss_pi=0.21, Val_loss_v=0.0032]  3]
+ 86%|████████▋ | 432/500 [00:17<00:02, 24.87it/s], 27.86it/s, Loss_pi=0.134, Loss_v=0.000637, Max_policy=1, Val_loss_pi=0.21, Val_loss_v=0.0032]  3]
+ 96%|█████████▌| 481/500 [00:19<00:00, 22.78it/s], 27.86it/s, Loss_pi=0.134, Loss_v=0.000637, Max_policy=1, Val_loss_pi=0.21, Val_loss_v=0.0032]  3]
+  2%|▏         | 9/500 [00:00<00:23, 20.89it/s]00, 26.32it/s, Loss_pi=0.15, Loss_v=0.00059, Max_policy=1, Val_loss_pi=0.182, Val_loss_v=0.000825] 3]
+ 12%|█▏        | 60/500 [00:02<00:18, 23.31it/s]0, 26.32it/s, Loss_pi=0.15, Loss_v=0.00059, Max_policy=1, Val_loss_pi=0.182, Val_loss_v=0.000825] 3]
+ 22%|██▏       | 108/500 [00:04<00:16, 23.39it/s], 26.32it/s, Loss_pi=0.15, Loss_v=0.00059, Max_policy=1, Val_loss_pi=0.182, Val_loss_v=0.000825] 3]
+ 32%|███▏      | 162/500 [00:06<00:12, 26.51it/s], 26.32it/s, Loss_pi=0.15, Loss_v=0.00059, Max_policy=1, Val_loss_pi=0.182, Val_loss_v=0.000825] 3]
+ 43%|████▎     | 213/500 [00:08<00:11, 24.86it/s], 26.32it/s, Loss_pi=0.15, Loss_v=0.00059, Max_policy=1, Val_loss_pi=0.182, Val_loss_v=0.000825] 3]
+ 53%|█████▎    | 263/500 [00:10<00:10, 22.20it/s], 26.32it/s, Loss_pi=0.15, Loss_v=0.00059, Max_policy=1, Val_loss_pi=0.182, Val_loss_v=0.000825] 3]
+ 62%|██████▏   | 311/500 [00:12<00:08, 22.50it/s], 26.32it/s, Loss_pi=0.15, Loss_v=0.00059, Max_policy=1, Val_loss_pi=0.182, Val_loss_v=0.000825] 3]
+ 73%|███████▎  | 363/500 [00:14<00:05, 25.96it/s], 26.32it/s, Loss_pi=0.15, Loss_v=0.00059, Max_policy=1, Val_loss_pi=0.182, Val_loss_v=0.000825] 3]
+ 82%|████████▏ | 411/500 [00:16<00:03, 25.65it/s], 26.32it/s, Loss_pi=0.15, Loss_v=0.00059, Max_policy=1, Val_loss_pi=0.182, Val_loss_v=0.000825] 3]
+ 93%|█████████▎| 465/500 [00:18<00:01, 25.28it/s], 26.32it/s, Loss_pi=0.15, Loss_v=0.00059, Max_policy=1, Val_loss_pi=0.182, Val_loss_v=0.000825] 3]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 26.84it/s, Loss_pi=0.151, Loss_v=0.000616, Max_policy=1, Val_loss_pi=0.212, Val_loss_v=0.00157]3]
+  8%|▊         | 42/500 [00:01<00:19, 24.10it/s]0, 26.84it/s, Loss_pi=0.151, Loss_v=0.000616, Max_policy=1, Val_loss_pi=0.212, Val_loss_v=0.00157]3]
+ 19%|█▉        | 94/500 [00:03<00:15, 26.76it/s]0, 26.84it/s, Loss_pi=0.151, Loss_v=0.000616, Max_policy=1, Val_loss_pi=0.212, Val_loss_v=0.00157]3]
+ 28%|██▊       | 139/500 [00:05<00:16, 21.84it/s], 26.84it/s, Loss_pi=0.151, Loss_v=0.000616, Max_policy=1, Val_loss_pi=0.212, Val_loss_v=0.00157]3]
+ 39%|███▊      | 193/500 [00:07<00:12, 25.57it/s], 26.84it/s, Loss_pi=0.151, Loss_v=0.000616, Max_policy=1, Val_loss_pi=0.212, Val_loss_v=0.00157]3]
+ 48%|████▊     | 241/500 [00:09<00:09, 26.02it/s], 26.84it/s, Loss_pi=0.151, Loss_v=0.000616, Max_policy=1, Val_loss_pi=0.212, Val_loss_v=0.00157]3]
+ 58%|█████▊    | 289/500 [00:11<00:08, 24.10it/s], 26.84it/s, Loss_pi=0.151, Loss_v=0.000616, Max_policy=1, Val_loss_pi=0.212, Val_loss_v=0.00157]3]
+ 68%|██████▊   | 338/500 [00:13<00:06, 24.36it/s], 26.84it/s, Loss_pi=0.151, Loss_v=0.000616, Max_policy=1, Val_loss_pi=0.212, Val_loss_v=0.00157]3]
+ 78%|███████▊  | 389/500 [00:15<00:04, 24.62it/s], 26.84it/s, Loss_pi=0.151, Loss_v=0.000616, Max_policy=1, Val_loss_pi=0.212, Val_loss_v=0.00157]3]
+ 88%|████████▊ | 441/500 [00:17<00:02, 27.14it/s], 26.84it/s, Loss_pi=0.151, Loss_v=0.000616, Max_policy=1, Val_loss_pi=0.212, Val_loss_v=0.00157]3]
+ 98%|█████████▊| 492/500 [00:19<00:00, 24.86it/s], 26.84it/s, Loss_pi=0.151, Loss_v=0.000616, Max_policy=1, Val_loss_pi=0.212, Val_loss_v=0.00157]3]
+  4%|▎         | 18/500 [00:00<00:18, 26.33it/s]0, 24.92it/s, Loss_pi=0.0783, Loss_v=0.000471, Max_policy=1, Val_loss_pi=0.114, Val_loss_v=0.00261]
+ 14%|█▍        | 70/500 [00:02<00:17, 25.13it/s]0, 24.92it/s, Loss_pi=0.0783, Loss_v=0.000471, Max_policy=1, Val_loss_pi=0.114, Val_loss_v=0.00261]
+ 23%|██▎       | 116/500 [00:04<00:15, 25.19it/s], 24.92it/s, Loss_pi=0.0783, Loss_v=0.000471, Max_policy=1, Val_loss_pi=0.114, Val_loss_v=0.00261]
+ 34%|███▍      | 171/500 [00:06<00:12, 26.51it/s], 24.92it/s, Loss_pi=0.0783, Loss_v=0.000471, Max_policy=1, Val_loss_pi=0.114, Val_loss_v=0.00261]
+ 45%|████▍     | 223/500 [00:08<00:10, 25.96it/s], 24.92it/s, Loss_pi=0.0783, Loss_v=0.000471, Max_policy=1, Val_loss_pi=0.114, Val_loss_v=0.00261]
+ 54%|█████▍    | 271/500 [00:10<00:08, 25.61it/s], 24.92it/s, Loss_pi=0.0783, Loss_v=0.000471, Max_policy=1, Val_loss_pi=0.114, Val_loss_v=0.00261]
+ 64%|██████▍   | 319/500 [00:12<00:07, 25.35it/s], 24.92it/s, Loss_pi=0.0783, Loss_v=0.000471, Max_policy=1, Val_loss_pi=0.114, Val_loss_v=0.00261]
+ 73%|███████▎  | 367/500 [00:14<00:05, 24.13it/s], 24.92it/s, Loss_pi=0.0783, Loss_v=0.000471, Max_policy=1, Val_loss_pi=0.114, Val_loss_v=0.00261]
+ 83%|████████▎ | 415/500 [00:16<00:03, 26.20it/s], 24.92it/s, Loss_pi=0.0783, Loss_v=0.000471, Max_policy=1, Val_loss_pi=0.114, Val_loss_v=0.00261]
+ 93%|█████████▎| 463/500 [00:18<00:01, 24.77it/s], 24.92it/s, Loss_pi=0.0783, Loss_v=0.000471, Max_policy=1, Val_loss_pi=0.114, Val_loss_v=0.00261]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 27.12it/s, Loss_pi=0.0936, Loss_v=0.000545, Max_policy=1, Val_loss_pi=0.076, Val_loss_v=0.00126]
+  8%|▊         | 39/500 [00:01<00:18, 24.81it/s]0, 27.12it/s, Loss_pi=0.0936, Loss_v=0.000545, Max_policy=1, Val_loss_pi=0.076, Val_loss_v=0.00126]
+ 18%|█▊        | 88/500 [00:03<00:16, 24.64it/s]0, 27.12it/s, Loss_pi=0.0936, Loss_v=0.000545, Max_policy=1, Val_loss_pi=0.076, Val_loss_v=0.00126]
+ 28%|██▊       | 140/500 [00:05<00:13, 27.09it/s], 27.12it/s, Loss_pi=0.0936, Loss_v=0.000545, Max_policy=1, Val_loss_pi=0.076, Val_loss_v=0.00126]
+ 38%|███▊      | 189/500 [00:07<00:12, 25.70it/s], 27.12it/s, Loss_pi=0.0936, Loss_v=0.000545, Max_policy=1, Val_loss_pi=0.076, Val_loss_v=0.00126]
+ 47%|████▋     | 234/500 [00:09<00:11, 23.65it/s], 27.12it/s, Loss_pi=0.0936, Loss_v=0.000545, Max_policy=1, Val_loss_pi=0.076, Val_loss_v=0.00126]
+ 57%|█████▋    | 285/500 [00:11<00:08, 25.38it/s], 27.12it/s, Loss_pi=0.0936, Loss_v=0.000545, Max_policy=1, Val_loss_pi=0.076, Val_loss_v=0.00126]
+ 67%|██████▋   | 336/500 [00:13<00:06, 23.47it/s], 27.12it/s, Loss_pi=0.0936, Loss_v=0.000545, Max_policy=1, Val_loss_pi=0.076, Val_loss_v=0.00126]
+ 77%|███████▋  | 387/500 [00:15<00:04, 24.99it/s], 27.12it/s, Loss_pi=0.0936, Loss_v=0.000545, Max_policy=1, Val_loss_pi=0.076, Val_loss_v=0.00126]
+ 88%|████████▊ | 439/500 [00:17<00:02, 27.41it/s], 27.12it/s, Loss_pi=0.0936, Loss_v=0.000545, Max_policy=1, Val_loss_pi=0.076, Val_loss_v=0.00126]
+ 98%|█████████▊| 488/500 [00:19<00:00, 23.02it/s], 27.12it/s, Loss_pi=0.0936, Loss_v=0.000545, Max_policy=1, Val_loss_pi=0.076, Val_loss_v=0.00126]
+  3%|▎         | 15/500 [00:00<00:23, 20.89it/s]0, 24.69it/s, Loss_pi=0.174, Loss_v=0.000728, Max_policy=1, Val_loss_pi=0.213, Val_loss_v=0.00108]
+ 12%|█▏        | 61/500 [00:02<00:18, 23.87it/s]0, 24.69it/s, Loss_pi=0.174, Loss_v=0.000728, Max_policy=1, Val_loss_pi=0.213, Val_loss_v=0.00108]
+ 22%|██▏       | 112/500 [00:04<00:15, 24.35it/s], 24.69it/s, Loss_pi=0.174, Loss_v=0.000728, Max_policy=1, Val_loss_pi=0.213, Val_loss_v=0.00108]
+ 32%|███▏      | 161/500 [00:06<00:13, 25.62it/s], 24.69it/s, Loss_pi=0.174, Loss_v=0.000728, Max_policy=1, Val_loss_pi=0.213, Val_loss_v=0.00108]
+ 43%|████▎     | 213/500 [00:08<00:11, 23.99it/s], 24.69it/s, Loss_pi=0.174, Loss_v=0.000728, Max_policy=1, Val_loss_pi=0.213, Val_loss_v=0.00108]
+ 53%|█████▎    | 264/500 [00:10<00:09, 23.70it/s], 24.69it/s, Loss_pi=0.174, Loss_v=0.000728, Max_policy=1, Val_loss_pi=0.213, Val_loss_v=0.00108]
+ 63%|██████▎   | 313/500 [00:12<00:07, 24.13it/s], 24.69it/s, Loss_pi=0.174, Loss_v=0.000728, Max_policy=1, Val_loss_pi=0.213, Val_loss_v=0.00108]
+ 73%|███████▎  | 365/500 [00:14<00:05, 24.40it/s], 24.69it/s, Loss_pi=0.174, Loss_v=0.000728, Max_policy=1, Val_loss_pi=0.213, Val_loss_v=0.00108]
+ 83%|████████▎ | 413/500 [00:16<00:03, 24.13it/s], 24.69it/s, Loss_pi=0.174, Loss_v=0.000728, Max_policy=1, Val_loss_pi=0.213, Val_loss_v=0.00108]
+ 92%|█████████▏| 461/500 [00:18<00:01, 22.29it/s], 24.69it/s, Loss_pi=0.174, Loss_v=0.000728, Max_policy=1, Val_loss_pi=0.213, Val_loss_v=0.00108]
+Training Net:  60%|██████    | 9/15 [00:00<00:00, 24.63it/s, Loss_pi=0.0627, Loss_v=0.000863, Max_policy=1, Val_loss_pi=0.107, Val_loss_v=0.00138]
+  8%|▊         | 39/500 [00:01<00:17, 26.07it/s]0, 26.19it/s, Loss_pi=0.154, Loss_v=0.000696, Max_policy=1, Val_loss_pi=0.152, Val_loss_v=0.00154]
+ 18%|█▊        | 88/500 [00:03<00:16, 25.58it/s]0, 26.19it/s, Loss_pi=0.154, Loss_v=0.000696, Max_policy=1, Val_loss_pi=0.152, Val_loss_v=0.00154]
+ 28%|██▊       | 139/500 [00:05<00:13, 26.21it/s], 26.19it/s, Loss_pi=0.154, Loss_v=0.000696, Max_policy=1, Val_loss_pi=0.152, Val_loss_v=0.00154]
+ 38%|███▊      | 190/500 [00:07<00:12, 25.49it/s], 26.19it/s, Loss_pi=0.154, Loss_v=0.000696, Max_policy=1, Val_loss_pi=0.152, Val_loss_v=0.00154]
+ 47%|████▋     | 235/500 [00:09<00:11, 22.62it/s], 26.19it/s, Loss_pi=0.154, Loss_v=0.000696, Max_policy=1, Val_loss_pi=0.152, Val_loss_v=0.00154]
+ 57%|█████▋    | 283/500 [00:11<00:08, 25.66it/s], 26.19it/s, Loss_pi=0.154, Loss_v=0.000696, Max_policy=1, Val_loss_pi=0.152, Val_loss_v=0.00154]
+ 67%|██████▋   | 334/500 [00:13<00:07, 23.22it/s], 26.19it/s, Loss_pi=0.154, Loss_v=0.000696, Max_policy=1, Val_loss_pi=0.152, Val_loss_v=0.00154]
+ 77%|███████▋  | 386/500 [00:15<00:04, 25.73it/s], 26.19it/s, Loss_pi=0.154, Loss_v=0.000696, Max_policy=1, Val_loss_pi=0.152, Val_loss_v=0.00154]
+ 87%|████████▋ | 434/500 [00:17<00:02, 24.65it/s], 26.19it/s, Loss_pi=0.154, Loss_v=0.000696, Max_policy=1, Val_loss_pi=0.152, Val_loss_v=0.00154]
+ 97%|█████████▋| 486/500 [00:19<00:00, 25.48it/s], 26.19it/s, Loss_pi=0.154, Loss_v=0.000696, Max_policy=1, Val_loss_pi=0.152, Val_loss_v=0.00154]
+  2%|▏         | 12/500 [00:00<00:20, 24.14it/s]0, 27.08it/s, Loss_pi=0.0552, Loss_v=0.000527, Max_policy=1, Val_loss_pi=0.0455, Val_loss_v=0.000683]
+ 12%|█▏        | 61/500 [00:02<00:17, 25.28it/s]0, 27.08it/s, Loss_pi=0.0552, Loss_v=0.000527, Max_policy=1, Val_loss_pi=0.0455, Val_loss_v=0.000683]
+ 22%|██▏       | 109/500 [00:04<00:15, 24.62it/s], 27.08it/s, Loss_pi=0.0552, Loss_v=0.000527, Max_policy=1, Val_loss_pi=0.0455, Val_loss_v=0.000683]
+ 32%|███▏      | 160/500 [00:06<00:12, 26.77it/s], 27.08it/s, Loss_pi=0.0552, Loss_v=0.000527, Max_policy=1, Val_loss_pi=0.0455, Val_loss_v=0.000683]
+ 42%|████▏     | 209/500 [00:08<00:11, 26.34it/s], 27.08it/s, Loss_pi=0.0552, Loss_v=0.000527, Max_policy=1, Val_loss_pi=0.0455, Val_loss_v=0.000683]
+ 51%|█████▏    | 257/500 [00:10<00:09, 25.00it/s], 27.08it/s, Loss_pi=0.0552, Loss_v=0.000527, Max_policy=1, Val_loss_pi=0.0455, Val_loss_v=0.000683]
+ 62%|██████▏   | 308/500 [00:12<00:07, 26.19it/s], 27.08it/s, Loss_pi=0.0552, Loss_v=0.000527, Max_policy=1, Val_loss_pi=0.0455, Val_loss_v=0.000683]
+ 72%|███████▏  | 359/500 [00:14<00:05, 26.34it/s], 27.08it/s, Loss_pi=0.0552, Loss_v=0.000527, Max_policy=1, Val_loss_pi=0.0455, Val_loss_v=0.000683]
+ 82%|████████▏ | 408/500 [00:16<00:03, 25.75it/s], 27.08it/s, Loss_pi=0.0552, Loss_v=0.000527, Max_policy=1, Val_loss_pi=0.0455, Val_loss_v=0.000683]
+ 92%|█████████▏| 460/500 [00:18<00:01, 24.51it/s], 27.08it/s, Loss_pi=0.0552, Loss_v=0.000527, Max_policy=1, Val_loss_pi=0.0455, Val_loss_v=0.000683]
+Training Net:  20%|██        | 3/15 [00:00<00:00, 22.75it/s, Loss_pi=0.124, Loss_v=0.000843, Max_policy=1, Val_loss_pi=0.211, Val_loss_v=0.0012] 683]
+  7%|▋         | 33/500 [00:01<00:18, 25.86it/s]0, 28.33it/s, Loss_pi=0.0729, Loss_v=0.000443, Max_policy=1, Val_loss_pi=0.152, Val_loss_v=0.000874]]
+ 17%|█▋        | 84/500 [00:03<00:16, 25.46it/s]0, 28.33it/s, Loss_pi=0.0729, Loss_v=0.000443, Max_policy=1, Val_loss_pi=0.152, Val_loss_v=0.000874]]
+ 27%|██▋       | 133/500 [00:05<00:14, 24.62it/s], 28.33it/s, Loss_pi=0.0729, Loss_v=0.000443, Max_policy=1, Val_loss_pi=0.152, Val_loss_v=0.000874]]
+ 37%|███▋      | 185/500 [00:07<00:11, 27.09it/s], 28.33it/s, Loss_pi=0.0729, Loss_v=0.000443, Max_policy=1, Val_loss_pi=0.152, Val_loss_v=0.000874]]
+ 47%|████▋     | 233/500 [00:09<00:10, 25.26it/s], 28.33it/s, Loss_pi=0.0729, Loss_v=0.000443, Max_policy=1, Val_loss_pi=0.152, Val_loss_v=0.000874]]
+ 56%|█████▌    | 278/500 [00:11<00:09, 23.79it/s], 28.33it/s, Loss_pi=0.0729, Loss_v=0.000443, Max_policy=1, Val_loss_pi=0.152, Val_loss_v=0.000874]]
+ 66%|██████▋   | 332/500 [00:13<00:06, 27.18it/s], 28.33it/s, Loss_pi=0.0729, Loss_v=0.000443, Max_policy=1, Val_loss_pi=0.152, Val_loss_v=0.000874]]
+ 76%|███████▌  | 380/500 [00:15<00:04, 25.19it/s], 28.33it/s, Loss_pi=0.0729, Loss_v=0.000443, Max_policy=1, Val_loss_pi=0.152, Val_loss_v=0.000874]]
+ 86%|████████▌ | 431/500 [00:17<00:02, 25.39it/s], 28.33it/s, Loss_pi=0.0729, Loss_v=0.000443, Max_policy=1, Val_loss_pi=0.152, Val_loss_v=0.000874]]
+ 96%|█████████▌| 479/500 [00:19<00:00, 24.29it/s], 28.33it/s, Loss_pi=0.0729, Loss_v=0.000443, Max_policy=1, Val_loss_pi=0.152, Val_loss_v=0.000874]]
+  2%|▏         | 9/500 [00:00<00:22, 21.67it/s]00, 27.52it/s, Loss_pi=0.12, Loss_v=0.00074, Max_policy=1, Val_loss_pi=0.0968, Val_loss_v=0.001]     ]
+ 12%|█▏        | 60/500 [00:02<00:16, 27.11it/s]0, 27.52it/s, Loss_pi=0.12, Loss_v=0.00074, Max_policy=1, Val_loss_pi=0.0968, Val_loss_v=0.001]     ]
+ 22%|██▏       | 112/500 [00:04<00:15, 24.57it/s], 27.52it/s, Loss_pi=0.12, Loss_v=0.00074, Max_policy=1, Val_loss_pi=0.0968, Val_loss_v=0.001]     ]
+ 33%|███▎      | 164/500 [00:06<00:13, 24.40it/s], 27.52it/s, Loss_pi=0.12, Loss_v=0.00074, Max_policy=1, Val_loss_pi=0.0968, Val_loss_v=0.001]     ]
+ 43%|████▎     | 213/500 [00:08<00:12, 22.59it/s], 27.52it/s, Loss_pi=0.12, Loss_v=0.00074, Max_policy=1, Val_loss_pi=0.0968, Val_loss_v=0.001]     ]
+ 52%|█████▏    | 260/500 [00:10<00:10, 22.66it/s], 27.52it/s, Loss_pi=0.12, Loss_v=0.00074, Max_policy=1, Val_loss_pi=0.0968, Val_loss_v=0.001]     ]
+ 63%|██████▎   | 313/500 [00:12<00:07, 23.53it/s], 27.52it/s, Loss_pi=0.12, Loss_v=0.00074, Max_policy=1, Val_loss_pi=0.0968, Val_loss_v=0.001]     ]
+ 72%|███████▏  | 361/500 [00:14<00:05, 23.23it/s], 27.52it/s, Loss_pi=0.12, Loss_v=0.00074, Max_policy=1, Val_loss_pi=0.0968, Val_loss_v=0.001]     ]
+ 82%|████████▏ | 412/500 [00:16<00:03, 24.52it/s], 27.52it/s, Loss_pi=0.12, Loss_v=0.00074, Max_policy=1, Val_loss_pi=0.0968, Val_loss_v=0.001]     ]
+ 92%|█████████▏| 461/500 [00:18<00:01, 23.90it/s], 27.52it/s, Loss_pi=0.12, Loss_v=0.00074, Max_policy=1, Val_loss_pi=0.0968, Val_loss_v=0.001]     ]
+Training Net:  60%|██████    | 9/15 [00:00<00:00, 22.43it/s, Loss_pi=0.119, Loss_v=0.000702, Max_policy=1, Val_loss_pi=0.187, Val_loss_v=0.0011]    ]
+  6%|▌         | 28/500 [00:01<00:17, 26.40it/s]0, 23.56it/s, Loss_pi=0.169, Loss_v=0.000701, Max_policy=1, Val_loss_pi=0.162, Val_loss_v=0.00121]  ]
+ 15%|█▌        | 76/500 [00:03<00:17, 23.63it/s]0, 23.56it/s, Loss_pi=0.169, Loss_v=0.000701, Max_policy=1, Val_loss_pi=0.162, Val_loss_v=0.00121]  ]
+ 25%|██▌       | 125/500 [00:04<00:13, 28.09it/s], 23.56it/s, Loss_pi=0.169, Loss_v=0.000701, Max_policy=1, Val_loss_pi=0.162, Val_loss_v=0.00121]  ]
+ 35%|███▌      | 176/500 [00:06<00:11, 27.11it/s], 23.56it/s, Loss_pi=0.169, Loss_v=0.000701, Max_policy=1, Val_loss_pi=0.162, Val_loss_v=0.00121]  ]
+ 45%|████▌     | 227/500 [00:09<00:10, 26.70it/s], 23.56it/s, Loss_pi=0.169, Loss_v=0.000701, Max_policy=1, Val_loss_pi=0.162, Val_loss_v=0.00121]  ]
+ 55%|█████▌    | 276/500 [00:10<00:08, 27.66it/s], 23.56it/s, Loss_pi=0.169, Loss_v=0.000701, Max_policy=1, Val_loss_pi=0.162, Val_loss_v=0.00121]  ]
+ 65%|██████▌   | 325/500 [00:12<00:06, 26.14it/s], 23.56it/s, Loss_pi=0.169, Loss_v=0.000701, Max_policy=1, Val_loss_pi=0.162, Val_loss_v=0.00121]  ]
+ 76%|███████▌  | 380/500 [00:15<00:04, 27.23it/s], 23.56it/s, Loss_pi=0.169, Loss_v=0.000701, Max_policy=1, Val_loss_pi=0.162, Val_loss_v=0.00121]  ]
+ 86%|████████▌ | 428/500 [00:17<00:03, 23.79it/s], 23.56it/s, Loss_pi=0.169, Loss_v=0.000701, Max_policy=1, Val_loss_pi=0.162, Val_loss_v=0.00121]  ]
+ 95%|█████████▌| 476/500 [00:19<00:00, 25.12it/s], 23.56it/s, Loss_pi=0.169, Loss_v=0.000701, Max_policy=1, Val_loss_pi=0.162, Val_loss_v=0.00121]  ]
+  1%|▏         | 7/500 [00:00<00:17, 28.70it/s]00, 26.78it/s, Loss_pi=0.116, Loss_v=0.001, Max_policy=1, Val_loss_pi=0.417, Val_loss_v=0.00312]  ]  ]
+ 11%|█         | 56/500 [00:02<00:17, 25.77it/s]0, 26.78it/s, Loss_pi=0.116, Loss_v=0.001, Max_policy=1, Val_loss_pi=0.417, Val_loss_v=0.00312]  ]  ]
+ 21%|██        | 105/500 [00:04<00:16, 24.37it/s], 26.78it/s, Loss_pi=0.116, Loss_v=0.001, Max_policy=1, Val_loss_pi=0.417, Val_loss_v=0.00312]  ]  ]
+ 31%|███       | 156/500 [00:06<00:14, 24.53it/s], 26.78it/s, Loss_pi=0.116, Loss_v=0.001, Max_policy=1, Val_loss_pi=0.417, Val_loss_v=0.00312]  ]  ]
+ 41%|████      | 204/500 [00:08<00:11, 26.42it/s], 26.78it/s, Loss_pi=0.116, Loss_v=0.001, Max_policy=1, Val_loss_pi=0.417, Val_loss_v=0.00312]  ]  ]
+ 51%|█████     | 256/500 [00:10<00:09, 25.91it/s], 26.78it/s, Loss_pi=0.116, Loss_v=0.001, Max_policy=1, Val_loss_pi=0.417, Val_loss_v=0.00312]  ]  ]
+ 61%|██████▏   | 307/500 [00:12<00:07, 25.76it/s], 26.78it/s, Loss_pi=0.116, Loss_v=0.001, Max_policy=1, Val_loss_pi=0.417, Val_loss_v=0.00312]  ]  ]
+ 71%|███████   | 356/500 [00:14<00:05, 26.97it/s], 26.78it/s, Loss_pi=0.116, Loss_v=0.001, Max_policy=1, Val_loss_pi=0.417, Val_loss_v=0.00312]  ]  ]
+ 81%|████████  | 405/500 [00:16<00:03, 26.38it/s], 26.78it/s, Loss_pi=0.116, Loss_v=0.001, Max_policy=1, Val_loss_pi=0.417, Val_loss_v=0.00312]  ]  ]
+ 91%|█████████ | 453/500 [00:18<00:02, 23.48it/s], 26.78it/s, Loss_pi=0.116, Loss_v=0.001, Max_policy=1, Val_loss_pi=0.417, Val_loss_v=0.00312]  ]  ]
+Training Net:   0%|          | 0/15 [00:00<?, ?it/s, Loss_pi=0.561, Loss_v=0.004, Max_policy=1, Val_loss_pi=0.485, Val_loss_v=0.00418]=0.00312]  ]  ]
+  6%|▌         | 30/500 [00:01<00:17, 26.40it/s]0, 26.78it/s, Loss_pi=0.083, Loss_v=0.000755, Max_policy=1, Val_loss_pi=0.187, Val_loss_v=0.00421]  ]
+ 16%|█▌        | 80/500 [00:03<00:15, 27.35it/s]0, 26.78it/s, Loss_pi=0.083, Loss_v=0.000755, Max_policy=1, Val_loss_pi=0.187, Val_loss_v=0.00421]  ]
+ 27%|██▋       | 133/500 [00:05<00:16, 22.91it/s], 26.78it/s, Loss_pi=0.083, Loss_v=0.000755, Max_policy=1, Val_loss_pi=0.187, Val_loss_v=0.00421]  ]
+ 36%|███▋      | 182/500 [00:07<00:14, 21.96it/s], 26.78it/s, Loss_pi=0.083, Loss_v=0.000755, Max_policy=1, Val_loss_pi=0.187, Val_loss_v=0.00421]  ]
+ 46%|████▌     | 230/500 [00:09<00:11, 24.27it/s], 26.78it/s, Loss_pi=0.083, Loss_v=0.000755, Max_policy=1, Val_loss_pi=0.187, Val_loss_v=0.00421]  ]
+ 56%|█████▋    | 282/500 [00:11<00:08, 25.03it/s], 26.78it/s, Loss_pi=0.083, Loss_v=0.000755, Max_policy=1, Val_loss_pi=0.187, Val_loss_v=0.00421]  ]
+ 67%|██████▋   | 336/500 [00:13<00:06, 23.60it/s], 26.78it/s, Loss_pi=0.083, Loss_v=0.000755, Max_policy=1, Val_loss_pi=0.187, Val_loss_v=0.00421]  ]
+ 77%|███████▋  | 387/500 [00:15<00:04, 27.03it/s], 26.78it/s, Loss_pi=0.083, Loss_v=0.000755, Max_policy=1, Val_loss_pi=0.187, Val_loss_v=0.00421]  ]
+ 87%|████████▋ | 436/500 [00:17<00:02, 24.44it/s], 26.78it/s, Loss_pi=0.083, Loss_v=0.000755, Max_policy=1, Val_loss_pi=0.187, Val_loss_v=0.00421]  ]
+ 98%|█████████▊| 488/500 [00:19<00:00, 21.15it/s], 26.78it/s, Loss_pi=0.083, Loss_v=0.000755, Max_policy=1, Val_loss_pi=0.187, Val_loss_v=0.00421]  ]
+  4%|▎         | 18/500 [00:00<00:18, 25.99it/s]0, 29.36it/s, Loss_pi=0.118, Loss_v=0.000872, Max_policy=1, Val_loss_pi=0.301, Val_loss_v=0.00101]  ]
+ 13%|█▎        | 64/500 [00:02<00:19, 22.37it/s]0, 29.36it/s, Loss_pi=0.118, Loss_v=0.000872, Max_policy=1, Val_loss_pi=0.301, Val_loss_v=0.00101]  ]
+ 22%|██▏       | 112/500 [00:04<00:18, 20.46it/s], 29.36it/s, Loss_pi=0.118, Loss_v=0.000872, Max_policy=1, Val_loss_pi=0.301, Val_loss_v=0.00101]  ]
+ 33%|███▎      | 163/500 [00:06<00:13, 24.35it/s], 29.36it/s, Loss_pi=0.118, Loss_v=0.000872, Max_policy=1, Val_loss_pi=0.301, Val_loss_v=0.00101]  ]
+ 42%|████▏     | 211/500 [00:08<00:12, 23.53it/s], 29.36it/s, Loss_pi=0.118, Loss_v=0.000872, Max_policy=1, Val_loss_pi=0.301, Val_loss_v=0.00101]  ]
+ 52%|█████▏    | 259/500 [00:10<00:10, 23.02it/s], 29.36it/s, Loss_pi=0.118, Loss_v=0.000872, Max_policy=1, Val_loss_pi=0.301, Val_loss_v=0.00101]  ]
+ 62%|██████▏   | 310/500 [00:12<00:07, 24.88it/s], 29.36it/s, Loss_pi=0.118, Loss_v=0.000872, Max_policy=1, Val_loss_pi=0.301, Val_loss_v=0.00101]  ]
+ 73%|███████▎  | 365/500 [00:14<00:04, 27.07it/s], 29.36it/s, Loss_pi=0.118, Loss_v=0.000872, Max_policy=1, Val_loss_pi=0.301, Val_loss_v=0.00101]  ]
+ 83%|████████▎ | 417/500 [00:16<00:03, 26.41it/s], 29.36it/s, Loss_pi=0.118, Loss_v=0.000872, Max_policy=1, Val_loss_pi=0.301, Val_loss_v=0.00101]  ]
+ 93%|█████████▎| 466/500 [00:18<00:01, 25.50it/s], 29.36it/s, Loss_pi=0.118, Loss_v=0.000872, Max_policy=1, Val_loss_pi=0.301, Val_loss_v=0.00101]  ]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 26.54it/s, Loss_pi=0.0726, Loss_v=0.00062, Max_policy=1, Val_loss_pi=0.363, Val_loss_v=0.00174]  ]
+ 10%|▉         | 49/500 [00:01<00:17, 26.47it/s]0, 26.54it/s, Loss_pi=0.0726, Loss_v=0.00062, Max_policy=1, Val_loss_pi=0.363, Val_loss_v=0.00174]  ]
+ 20%|██        | 100/500 [00:03<00:15, 25.21it/s], 26.54it/s, Loss_pi=0.0726, Loss_v=0.00062, Max_policy=1, Val_loss_pi=0.363, Val_loss_v=0.00174]  ]
+ 30%|██▉       | 148/500 [00:05<00:14, 24.29it/s], 26.54it/s, Loss_pi=0.0726, Loss_v=0.00062, Max_policy=1, Val_loss_pi=0.363, Val_loss_v=0.00174]  ]
+ 40%|████      | 200/500 [00:07<00:11, 27.21it/s], 26.54it/s, Loss_pi=0.0726, Loss_v=0.00062, Max_policy=1, Val_loss_pi=0.363, Val_loss_v=0.00174]  ]
+ 50%|█████     | 251/500 [00:09<00:09, 26.60it/s], 26.54it/s, Loss_pi=0.0726, Loss_v=0.00062, Max_policy=1, Val_loss_pi=0.363, Val_loss_v=0.00174]  ]
+ 60%|██████    | 301/500 [00:11<00:07, 26.14it/s], 26.54it/s, Loss_pi=0.0726, Loss_v=0.00062, Max_policy=1, Val_loss_pi=0.363, Val_loss_v=0.00174]  ]
+ 71%|███████   | 353/500 [00:13<00:05, 27.09it/s], 26.54it/s, Loss_pi=0.0726, Loss_v=0.00062, Max_policy=1, Val_loss_pi=0.363, Val_loss_v=0.00174]  ]
+ 80%|███████▉  | 399/500 [00:15<00:03, 26.08it/s], 26.54it/s, Loss_pi=0.0726, Loss_v=0.00062, Max_policy=1, Val_loss_pi=0.363, Val_loss_v=0.00174]  ]
+ 90%|█████████ | 451/500 [00:17<00:01, 26.50it/s], 26.54it/s, Loss_pi=0.0726, Loss_v=0.00062, Max_policy=1, Val_loss_pi=0.363, Val_loss_v=0.00174]  ]
+ 99%|█████████▉| 496/500 [00:19<00:00, 24.49it/s], 26.54it/s, Loss_pi=0.0726, Loss_v=0.00062, Max_policy=1, Val_loss_pi=0.363, Val_loss_v=0.00174]  ]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 25.29it/s, Loss_pi=0.231, Loss_v=0.000665, Max_policy=1, Val_loss_pi=0.161, Val_loss_v=0.00256]  ]
+Training Net: 100%|██████████| 15/15 [00:00<00:00, 25.29it/s, Loss_pi=0.231, Loss_v=0.000665, Max_policy=1, Val_loss_pi=0.161, Val_loss_v=0.00256]  ]

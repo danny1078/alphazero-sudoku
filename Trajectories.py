@@ -4,7 +4,7 @@ import pandas as pd
 from SudokuGame import SudokuGame
 from Play import Play
 from tqdm import tqdm
-
+from torch.multiprocessing import Pool
 def generatePuzzle(solution, num_blanks):
     # randomly mask num_blanks squares in solution with zeros
     # return solution and masked solution
@@ -44,7 +44,7 @@ def get_trajectories_test(net, args):
         data.append([puzzles[i], target[i], 1])
     return data
 
-def get_trajectories(net, args, logger):
+def get_trajectories(net, args, logger, num_blanks):
     data = []
     df = pd.read_csv('sudoku-4.csv')
     # hold out 100 samples for validation
@@ -52,7 +52,7 @@ def get_trajectories(net, args, logger):
 
     for _ in tqdm(range(args['numGames'])):
         solution = string_2_array(df_train.sample(1)['solution'].values[0])
-        board = generatePuzzle(solution, 2)
+        board = generatePuzzle(solution, 3)
         p = Play(net, board, args)
         data += p.playGame()
 

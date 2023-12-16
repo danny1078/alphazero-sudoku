@@ -20,9 +20,10 @@ def train_net(net, data, args, logger):
         v_losses = []
         for boards, target_pis, target_vs in train_loader:
             out_pi, out_v = net(boards)
-            l_pi = loss_pi_with_entropy(target_pis, out_pi, 0.5)
+            lambda_entropy = 0.3
+            l_pi = loss_pi_with_entropy(target_pis, out_pi, lambda_entropy)
             l_v = loss_v(target_vs, out_v)
-            total_loss = l_pi + l_v
+            total_loss = l_pi + 1e2 * l_v
             pi_losses.append(l_pi.item())
             v_losses.append(l_v.item())
             optimizer.zero_grad()
@@ -81,7 +82,7 @@ def loss_pi_with_entropy(targets, log_outputs, lambda_entropy):
     # Cap the entropy penalty at 1 and ensure it's not negative
     entropy_penalty = torch.clamp(entropy_penalty, min=0, max=1.0)
 
-    return cross_entropy_loss
+    return cross_entropy_loss + entropy_penalty
 
 
 def loss_v(targets, outputs):
