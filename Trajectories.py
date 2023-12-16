@@ -52,7 +52,7 @@ def get_trajectories(net, args, logger, num_blanks):
 
     for _ in tqdm(range(args['numGames'])):
         solution = string_2_array(df_train.sample(1)['solution'].values[0])
-        board = generatePuzzle(solution, 3)
+        board = generatePuzzle(solution, num_blanks)
         p = Play(net, board, args)
         data += p.playGame()
 
@@ -60,4 +60,4 @@ def get_trajectories(net, args, logger, num_blanks):
     avg_score = np.mean([x[2] for x in data])
     logger.log({"Average score": avg_score,
                 "Percentage of perfect games": percent_perfect_games})
-    return data
+    return data, percent_perfect_games, avg_score

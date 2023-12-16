@@ -56,6 +56,8 @@ def train_net(net, data, args, logger):
                       Val_loss_v=np.array(val_v_losses).mean(),
                       Max_policy=max_policy)
 
+
+
 def loss_pi(targets, outputs):
     return -torch.sum(targets * outputs) / targets.size()[0]
 
