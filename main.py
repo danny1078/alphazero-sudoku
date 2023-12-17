@@ -8,12 +8,12 @@ import torch.multiprocessing
 import numpy as np
 
 args = {
-    'numIters': 50,
+    'maxNumIters': 10,
     'numMCTSSims': 200,  # Number of games moves for MCTS to simulate.
     'cpuct': 1,  # UCB hyperparameter
     'numGames': 500,  # number of games to play in one iteration
-    'lr': 0.1,
-    'epochs': 50,
+    'lr': 0.2,
+    'epochs': 30,
     'batch_size': 128,
     'cuda': torch.cuda.is_available(),
     'wandb': True,
@@ -39,12 +39,12 @@ def main(filename=None):
     net.to(args['device'])
     iters_so_far = 0
     num_blanks = args['start_blanks']
-    for i in range(args['numIters']):
+    while True:
         data, percent_perfect_games, avg_score = get_trajectories(net, args, logger, num_blanks)
         logger.log({"num_blanks": num_blanks})
         train_net(net, data, args, logger)
         iters_so_far += 1
-        if (percent_perfect_games > 0.985 and iters_so_far >= 5) or (iters_so_far >= 20):
+        if (percent_perfect_games > 0.97 and iters_so_far >= 5) or (iters_so_far >= args['maxNumIters']):
             torch.save(net.state_dict(), 'checkpoints/post_' + str(num_blanks) + '.pth')
             num_blanks += 1
             iters_so_far = 0

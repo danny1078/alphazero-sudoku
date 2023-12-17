@@ -5,11 +5,14 @@ from tqdm import tqdm
 import torch.optim as optim
 from sklearn.model_selection import train_test_split
 import numpy as np
+from torch.optim.lr_scheduler import ReduceLROnPlateau
 
 
 def train_net(net, data, args, logger):
     train_loader, val_loader = makeDataLoader(data, args)
     optimizer = optim.Adam(net.parameters(), lr=args['lr'])
+    scheduler = ReduceLROnPlateau(optimizer, 'min', patience=5)
+
     t = tqdm(range(args['epochs']), desc='Training Net', position=0, leave=True)
 
     for epoch in t:
@@ -29,6 +32,7 @@ def train_net(net, data, args, logger):
             optimizer.zero_grad()
             total_loss.backward()
             optimizer.step()
+
             if logger is not None:
                 logger.log({"Loss_pi": pi_losses[-1], "Loss_v": v_losses[-1]})
 
@@ -48,6 +52,9 @@ def train_net(net, data, args, logger):
                 val_v_losses.append(l_v.item())
                 max_policy_elements.append(torch.max(torch.exp(out_pi)).item())
 
+            if logger is not None:
+                logger.log({"Val_loss_pi": np.array(val_pi_losses).mean(), "Val_loss_v": np.array(val_v_losses).mean()})
+
         # Update tqdm with validation losses
         max_policy = np.max(max_policy_elements)
         t.set_postfix(Loss_pi=np.array(pi_losses).mean(),
@@ -55,6 +62,8 @@ def train_net(net, data, args, logger):
                       Val_loss_pi=np.array(val_pi_losses).mean(),
                       Val_loss_v=np.array(val_v_losses).mean(),
                       Max_policy=max_policy)
+
+        scheduler.step(np.array(val_pi_losses).mean() + np.array(val_v_losses).mean())
 
 
 
