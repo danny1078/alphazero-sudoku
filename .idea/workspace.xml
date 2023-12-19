@@ -5,23 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6411297c-152c-4c5e-aa7b-95f2fa1ccfd5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Net.py" beforeDir="false" afterPath="$PROJECT_DIR$/Net.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trajectories.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trajectories.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/run-20231213_182414-2f4zt348/logs/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231213_182414-2f4zt348/logs/debug-internal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wandb/run-20231213_182414-2f4zt348/run-2f4zt348.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231213_182414-2f4zt348/run-2f4zt348.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/run-20231213_183554-jaj7znhi/logs/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231213_183554-jaj7znhi/logs/debug-internal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wandb/run-20231213_183554-jaj7znhi/run-jaj7znhi.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231213_183554-jaj7znhi/run-jaj7znhi.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/run-20231213_184004-4eyp5jh6/logs/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231213_184004-4eyp5jh6/logs/debug-internal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wandb/run-20231213_184004-4eyp5jh6/run-4eyp5jh6.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231213_184004-4eyp5jh6/run-4eyp5jh6.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/run-20231213_190031-r47n46mv/logs/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231213_190031-r47n46mv/logs/debug-internal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wandb/run-20231213_190031-r47n46mv/run-r47n46mv.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231213_190031-r47n46mv/run-r47n46mv.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/run-20231213_192627-z115yxth/logs/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231213_192627-z115yxth/logs/debug-internal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wandb/run-20231213_192627-z115yxth/run-z115yxth.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231213_192627-z115yxth/run-z115yxth.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/run-20231213_194643-al4nlq4u/logs/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231213_194643-al4nlq4u/logs/debug-internal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wandb/run-20231213_194643-al4nlq4u/run-al4nlq4u.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231213_194643-al4nlq4u/run-al4nlq4u.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/run-20231213_194813-hhvocy48/logs/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231213_194813-hhvocy48/logs/debug-internal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wandb/run-20231213_194813-hhvocy48/run-hhvocy48.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231213_194813-hhvocy48/run-hhvocy48.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/run-20231213_212051-9cuya0rb/logs/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231213_212051-9cuya0rb/logs/debug-internal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wandb/run-20231213_212051-9cuya0rb/run-9cuya0rb.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231213_212051-9cuya0rb/run-9cuya0rb.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/run-20231213_212142-kxhpp8co/logs/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231213_212142-kxhpp8co/logs/debug-internal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wandb/run-20231213_212142-kxhpp8co/run-kxhpp8co.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231213_212142-kxhpp8co/run-kxhpp8co.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/run-20231213_213157-dlwz5vyt/logs/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231213_213157-dlwz5vyt/logs/debug-internal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wandb/run-20231213_213157-dlwz5vyt/run-dlwz5vyt.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231213_213157-dlwz5vyt/run-dlwz5vyt.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/run-20231214_193936-fvklnbqa/logs/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231214_193936-fvklnbqa/logs/debug-internal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wandb/run-20231214_193936-fvklnbqa/run-fvklnbqa.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231214_193936-fvklnbqa/run-fvklnbqa.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/run-20231214_195255-s48y6keu/logs/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231214_195255-s48y6keu/logs/debug-internal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wandb/run-20231214_195255-s48y6keu/run-s48y6keu.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231214_195255-s48y6keu/run-s48y6keu.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/run-20231215_133936-1wlh4d7w/logs/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231215_133936-1wlh4d7w/logs/debug-internal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wandb/run-20231215_133936-1wlh4d7w/run-1wlh4d7w.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231215_133936-1wlh4d7w/run-1wlh4d7w.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/run-20231215_135530-3cgts111/logs/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231215_135530-3cgts111/logs/debug-internal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wandb/run-20231215_135530-3cgts111/run-3cgts111.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231215_135530-3cgts111/run-3cgts111.wandb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wandb/run-20231215_152257-plgu0l44/run-plgu0l44.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231215_152257-plgu0l44/run-plgu0l44.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/run-20231215_161437-zohw6k0m/logs/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231215_161437-zohw6k0m/logs/debug-internal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wandb/run-20231215_161437-zohw6k0m/run-zohw6k0m.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231215_161437-zohw6k0m/run-zohw6k0m.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/run-20231216_011338-c0shex4v/logs/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231216_011338-c0shex4v/logs/debug-internal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wandb/run-20231216_011338-c0shex4v/run-c0shex4v.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231216_011338-c0shex4v/run-c0shex4v.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/run-20231216_012744-petcxen4/logs/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231216_012744-petcxen4/logs/debug-internal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wandb/run-20231216_012744-petcxen4/run-petcxen4.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231216_012744-petcxen4/run-petcxen4.wandb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wandb/run-20231216_013035-kjif9yz5/logs/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231216_013035-kjif9yz5/logs/debug-internal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wandb/run-20231216_013035-kjif9yz5/run-kjif9yz5.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231216_013035-kjif9yz5/run-kjif9yz5.wandb" afterDir="false" />
@@ -29,8 +50,8 @@
       <change beforePath="$PROJECT_DIR$/wandb/run-20231216_013308-rgrb1c73/run-rgrb1c73.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231216_013308-rgrb1c73/run-rgrb1c73.wandb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wandb/run-20231216_033255-b5jyove3/logs/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231216_033255-b5jyove3/logs/debug-internal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wandb/run-20231216_033255-b5jyove3/run-b5jyove3.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231216_033255-b5jyove3/run-b5jyove3.wandb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wandb/run-20231216_033908-ul9q89qe/logs/debug-internal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231216_033908-ul9q89qe/logs/debug-internal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wandb/run-20231216_033908-ul9q89qe/run-ul9q89qe.wandb" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231216_033908-ul9q89qe/run-ul9q89qe.wandb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wandb/run-20231216_222121-rjis67hu/files/wandb-summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/wandb/run-20231216_222121-rjis67hu/files/wandb-summary.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +83,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "new__reward",
-    "last_opened_file_path": "C:/Users/Danny Han/Desktop/alphazero-sudoku/refactored",
+    "last_opened_file_path": "C:/Users/Danny Han/Desktop/alphazero-sudoku",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,6 +93,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Danny Han\Desktop\alphazero-sudoku" />
       <recent name="C:\Users\Danny Han\Desktop\alphazero-sudoku\refactored" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -166,7 +188,7 @@
       <workItem from="1702150953247" duration="8929000" />
       <workItem from="1702444079240" duration="8980000" />
       <workItem from="1702505898295" duration="4496000" />
-      <workItem from="1702510438533" duration="73088000" />
+      <workItem from="1702510438533" duration="94975000" />
     </task>
     <servers />
   </component>
@@ -197,7 +219,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/alphazero_sudoku$PureMLP.coverage" NAME="PureMLP Coverage Results" MODIFIED="1702589663710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/alphazero_sudoku$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1702783277271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/alphazero_sudoku$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1702966096700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/alphazero_sudoku$main.coverage" NAME="main Coverage Results" MODIFIED="1702589986118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
