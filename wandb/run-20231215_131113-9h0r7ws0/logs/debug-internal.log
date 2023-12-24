@@ -1,9 +1,0 @@
-2023-12-15 13:11:13,293 INFO    StreamThr :118152 [internal.py:wandb_internal():86] W&B internal server running at pid: 118152, started at: 2023-12-15 13:11:13.293677
-2023-12-15 13:11:13,294 DEBUG   HandlerThread:118152 [handler.py:handle_request():146] handle_request: status
-2023-12-15 13:11:13,295 INFO    WriterThread:118152 [datastore.py:open_for_write():85] open: C:\Users\Danny Han\Desktop\alphazero-sudoku\wandb\run-20231215_131113-9h0r7ws0\run-9h0r7ws0.wandb
-2023-12-15 13:11:13,296 DEBUG   SenderThread:118152 [sender.py:send():382] send: header
-2023-12-15 13:11:13,319 DEBUG   SenderThread:118152 [sender.py:send():382] send: run
-2023-12-15 13:11:13,708 INFO    SenderThread:118152 [dir_watcher.py:__init__():211] watching files in: C:\Users\Danny Han\Desktop\alphazero-sudoku\wandb\run-20231215_131113-9h0r7ws0\files
-2023-12-15 13:11:13,708 INFO    SenderThread:118152 [sender.py:_start_run_threads():1136] run started: 9h0r7ws0 with start time 1702663873.293677
-2023-12-15 13:11:13,713 DEBUG   HandlerThread:118152 [handler.py:handle_request():146] handle_request: check_version
-2023-12-15 13:11:13,713 DEBUG   SenderThread:118152 [sender.py:send_request():409] send_request: check_version

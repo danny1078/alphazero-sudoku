@@ -1,9 +1,0 @@
-
-Training (Loss: 4.2778, output_max: 17):   0%|          | 1/1000 [00:05<1:23:26,  5.01s/it]
-Traceback (most recent call last):
-  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\PureMLP.py", line 148, in <module>
-    main(model)
-  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\PureMLP.py", line 118, in main
-    print(torch.exp(output).numpy()[0])
-          ^^^^^^^^^^^^^^^^^^^^^^^^^
-TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.

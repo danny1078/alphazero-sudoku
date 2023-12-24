@@ -1,4 +1,0 @@
-
-
-
-Training Net:   2%|▏         | 2/100 [00:53<43:53, 26.87s/it, Loss_pi=nan, Loss_v=nan, Max_policy=nan, Val_loss_pi=nan, Val_loss_v=nan]

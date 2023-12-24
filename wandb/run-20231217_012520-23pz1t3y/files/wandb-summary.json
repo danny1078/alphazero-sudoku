@@ -1,1 +1,0 @@
-{"Average score": 0.9956666666666667, "Percentage of perfect games": 0.982, "_timestamp": 1702830074.8582177, "_runtime": 35754.231051683426, "_step": 1572379, "num_blanks": 12, "Loss_pi": 0.13252457976341248, "Loss_v": 0.00015335759962908924, "Val_loss_pi": 0.1102857465390116, "Val_loss_v": 0.00026215599804402245, "_wandb": {"runtime": 35753}}
