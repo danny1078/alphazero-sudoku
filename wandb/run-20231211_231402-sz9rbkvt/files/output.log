@@ -1,0 +1,219 @@
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+
+
+Training Net:   7%|▋         | 19/265 [00:02<00:16, 14.77it/s, Loss_pi=4.16e+00, Loss_v=2.08e-01]
+Average Score: -0.02032975720880986
+percentage of perfect games: 0.745
+
+Training Net: 100%|██████████| 265/265 [00:04<00:00, 53.38it/s, Loss_pi=4.16e+00, Loss_v=1.78e-01]
+Training Net:  34%|███▍      | 90/265 [00:01<00:02, 84.35it/s, Loss_pi=4.15e+00, Loss_v=1.45e-01]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 85.02it/s, Loss_pi=4.15e+00, Loss_v=1.33e-01]
+
+Training Net:  65%|██████▍   | 171/265 [00:02<00:01, 83.94it/s, Loss_pi=4.15e+00, Loss_v=1.02e-01]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 84.15it/s, Loss_pi=4.15e+00, Loss_v=9.84e-02]
+Training Net:  27%|██▋       | 72/265 [00:00<00:02, 84.85it/s, Loss_pi=4.15e+00, Loss_v=8.13e-02]
+
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 83.85it/s, Loss_pi=4.15e+00, Loss_v=7.46e-02]
+Training Net:  41%|████      | 108/265 [00:01<00:01, 83.13it/s, Loss_pi=4.15e+00, Loss_v=6.21e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 84.47it/s, Loss_pi=4.15e+00, Loss_v=5.75e-02]
+Training Net:   3%|▎         | 9/265 [00:00<00:03, 83.98it/s, Loss_pi=4.15e+00, Loss_v=5.13e-02]
+
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 84.95it/s, Loss_pi=4.15e+00, Loss_v=4.54e-02]
+Training Net:  34%|███▍      | 90/265 [00:01<00:02, 84.86it/s, Loss_pi=4.15e+00, Loss_v=3.91e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 85.12it/s, Loss_pi=4.15e+00, Loss_v=3.70e-02]
+Training Net:   0%|          | 0/265 [00:00<?, ?it/s, Loss_pi=4.15e+00, Loss_v=3.32e-02]
+
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 83.67it/s, Loss_pi=4.15e+00, Loss_v=3.02e-02]
+Training Net:  27%|██▋       | 72/265 [00:00<00:02, 85.29it/s, Loss_pi=4.15e+00, Loss_v=2.69e-02]
+
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 81.07it/s, Loss_pi=4.15e+00, Loss_v=2.55e-02]
+Training Net:  49%|████▉     | 130/265 [00:01<00:01, 77.76it/s, Loss_pi=4.14e+00, Loss_v=2.25e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 77.73it/s, Loss_pi=4.14e+00, Loss_v=2.18e-02]
+Training Net:   7%|▋         | 18/265 [00:00<00:02, 83.68it/s, Loss_pi=4.15e+00, Loss_v=2.01e-02]
+
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 79.13it/s, Loss_pi=4.15e+00, Loss_v=1.93e-02]
+Training Net:  28%|██▊       | 74/265 [00:01<00:02, 79.08it/s, Loss_pi=4.14e+00, Loss_v=1.76e-02]
+
+Training Net:  88%|████████▊ | 234/265 [00:03<00:00, 78.19it/s, Loss_pi=4.15e+00, Loss_v=1.73e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 78.49it/s, Loss_pi=4.15e+00, Loss_v=1.73e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 74.09it/s, Loss_pi=4.15e+00, Loss_v=1.57e-02]
+Training Net:   3%|▎         | 8/265 [00:00<00:03, 74.00it/s, Loss_pi=4.14e+00, Loss_v=1.53e-02]
+
+Training Net:  58%|█████▊    | 154/265 [00:02<00:01, 73.95it/s, Loss_pi=4.15e+00, Loss_v=1.47e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 72.10it/s, Loss_pi=4.14e+00, Loss_v=1.45e-02]
+
+Training Net:  70%|███████   | 186/265 [00:02<00:01, 75.84it/s, Loss_pi=4.14e+00, Loss_v=1.38e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 78.48it/s, Loss_pi=4.14e+00, Loss_v=1.36e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 84.73it/s, Loss_pi=4.15e+00, Loss_v=1.28e-02]
+Training Net:   0%|          | 0/265 [00:00<?, ?it/s, Loss_pi=4.14e+00, Loss_v=1.20e-02]
+
+Training Net:  65%|██████▍   | 171/265 [00:02<00:01, 83.10it/s, Loss_pi=4.14e+00, Loss_v=1.24e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 84.24it/s, Loss_pi=4.14e+00, Loss_v=1.24e-02]
+
+Training Net:  74%|███████▍  | 197/265 [00:02<00:00, 83.58it/s, Loss_pi=4.14e+00, Loss_v=1.20e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 80.64it/s, Loss_pi=4.14e+00, Loss_v=1.19e-02]
+Training Net:  37%|███▋      | 99/265 [00:01<00:01, 85.16it/s, Loss_pi=4.15e+00, Loss_v=1.17e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 84.91it/s, Loss_pi=4.15e+00, Loss_v=1.16e-02]
+
+Training Net:  68%|██████▊   | 180/265 [00:02<00:00, 85.81it/s, Loss_pi=4.15e+00, Loss_v=1.14e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 85.02it/s, Loss_pi=4.15e+00, Loss_v=1.14e-02]
+
+Training Net:  98%|█████████▊| 261/265 [00:03<00:00, 86.68it/s, Loss_pi=4.15e+00, Loss_v=1.11e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 85.14it/s, Loss_pi=4.15e+00, Loss_v=1.11e-02]
+Training Net:  61%|██████    | 161/265 [00:02<00:01, 85.19it/s, Loss_pi=4.15e+00, Loss_v=1.09e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 81.45it/s, Loss_pi=4.15e+00, Loss_v=1.08e-02]
+
+Training Net:  88%|████████▊ | 234/265 [00:02<00:00, 84.85it/s, Loss_pi=4.15e+00, Loss_v=1.08e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 85.04it/s, Loss_pi=4.15e+00, Loss_v=1.08e-02]
+Training Net:  46%|████▌     | 122/265 [00:01<00:01, 75.00it/s, Loss_pi=4.14e+00, Loss_v=1.08e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 80.53it/s, Loss_pi=4.14e+00, Loss_v=1.06e-02]
+
+Training Net:  78%|███████▊  | 207/265 [00:02<00:00, 84.84it/s, Loss_pi=4.15e+00, Loss_v=1.07e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 84.93it/s, Loss_pi=4.15e+00, Loss_v=1.07e-02]
+Training Net:  41%|████      | 108/265 [00:01<00:01, 85.17it/s, Loss_pi=4.15e+00, Loss_v=1.06e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 84.96it/s, Loss_pi=4.15e+00, Loss_v=1.07e-02]
+
+Training Net:  71%|███████▏  | 189/265 [00:02<00:00, 85.29it/s, Loss_pi=4.15e+00, Loss_v=1.05e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 83.76it/s, Loss_pi=4.15e+00, Loss_v=1.05e-02]
+
+Training Net:  98%|█████████▊| 260/265 [00:03<00:00, 85.34it/s, Loss_pi=4.15e+00, Loss_v=1.04e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 81.94it/s, Loss_pi=4.15e+00, Loss_v=1.04e-02]
+Training Net:  55%|█████▌    | 146/265 [00:01<00:01, 68.33it/s, Loss_pi=4.15e+00, Loss_v=1.06e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 75.97it/s, Loss_pi=4.15e+00, Loss_v=1.05e-02]
+
+Training Net:  78%|███████▊  | 207/265 [00:02<00:00, 85.21it/s, Loss_pi=4.14e+00, Loss_v=1.05e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 84.71it/s, Loss_pi=4.14e+00, Loss_v=1.05e-02]
+
+Training Net:  91%|█████████ | 241/265 [00:02<00:00, 84.71it/s, Loss_pi=4.14e+00, Loss_v=1.07e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 83.66it/s, Loss_pi=4.14e+00, Loss_v=1.06e-02]
+Training Net:  50%|█████     | 133/265 [00:01<00:01, 74.96it/s, Loss_pi=4.14e+00, Loss_v=1.06e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 78.52it/s, Loss_pi=4.15e+00, Loss_v=1.05e-02]
+
+Training Net:  78%|███████▊  | 207/265 [00:02<00:00, 83.55it/s, Loss_pi=4.14e+00, Loss_v=1.05e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 85.51it/s, Loss_pi=4.14e+00, Loss_v=1.05e-02]
+Training Net:  40%|████      | 106/265 [00:01<00:02, 74.77it/s, Loss_pi=4.14e+00, Loss_v=1.03e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 78.83it/s, Loss_pi=4.14e+00, Loss_v=1.06e-02]
+
+Training Net:  64%|██████▍   | 169/265 [00:02<00:01, 85.30it/s, Loss_pi=4.15e+00, Loss_v=1.07e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 84.86it/s, Loss_pi=4.15e+00, Loss_v=1.06e-02]
+
+Training Net:  95%|█████████▌| 252/265 [00:02<00:00, 83.44it/s, Loss_pi=4.15e+00, Loss_v=1.06e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 84.15it/s, Loss_pi=4.15e+00, Loss_v=1.05e-02]
+Training Net:  58%|█████▊    | 153/265 [00:01<00:01, 83.41it/s, Loss_pi=4.15e+00, Loss_v=1.06e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 84.87it/s, Loss_pi=4.15e+00, Loss_v=1.06e-02]
+
+Training Net:  88%|████████▊ | 234/265 [00:02<00:00, 86.45it/s, Loss_pi=4.15e+00, Loss_v=1.04e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 85.71it/s, Loss_pi=4.15e+00, Loss_v=1.03e-02]
+Training Net:  54%|█████▍    | 144/265 [00:01<00:01, 86.20it/s, Loss_pi=4.15e+00, Loss_v=1.04e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 85.89it/s, Loss_pi=4.15e+00, Loss_v=1.03e-02]
+
+Training Net:  85%|████████▍ | 225/265 [00:02<00:00, 83.29it/s, Loss_pi=4.14e+00, Loss_v=1.06e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 84.67it/s, Loss_pi=4.14e+00, Loss_v=1.06e-02]
+Training Net:  51%|█████     | 135/265 [00:01<00:01, 84.97it/s, Loss_pi=4.15e+00, Loss_v=1.05e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 85.61it/s, Loss_pi=4.15e+00, Loss_v=1.06e-02]
+
+Training Net:  82%|████████▏ | 216/265 [00:02<00:00, 86.05it/s, Loss_pi=4.15e+00, Loss_v=1.05e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 85.67it/s, Loss_pi=4.15e+00, Loss_v=1.04e-02]
+Training Net:  48%|████▊     | 126/265 [00:01<00:01, 86.41it/s, Loss_pi=4.15e+00, Loss_v=1.05e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 85.74it/s, Loss_pi=4.15e+00, Loss_v=1.05e-02]
+
+Training Net:  75%|███████▍  | 198/265 [00:02<00:00, 83.87it/s, Loss_pi=4.15e+00, Loss_v=1.05e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 84.93it/s, Loss_pi=4.15e+00, Loss_v=1.05e-02]
+
+Training Net:  88%|████████▊ | 234/265 [00:02<00:00, 82.98it/s, Loss_pi=4.15e+00, Loss_v=1.05e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 85.46it/s, Loss_pi=4.15e+00, Loss_v=1.05e-02]
+Training Net:  54%|█████▍    | 144/265 [00:01<00:01, 86.39it/s, Loss_pi=4.14e+00, Loss_v=1.06e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 85.73it/s, Loss_pi=4.15e+00, Loss_v=1.06e-02]
+
+Training Net:  85%|████████▍ | 225/265 [00:02<00:00, 85.55it/s, Loss_pi=4.14e+00, Loss_v=1.05e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 85.13it/s, Loss_pi=4.14e+00, Loss_v=1.05e-02]
+Training Net:  51%|█████     | 135/265 [00:01<00:01, 84.49it/s, Loss_pi=4.15e+00, Loss_v=1.05e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 85.62it/s, Loss_pi=4.15e+00, Loss_v=1.04e-02]
+
+Training Net:  82%|████████▏ | 216/265 [00:02<00:00, 85.65it/s, Loss_pi=4.15e+00, Loss_v=1.07e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 85.84it/s, Loss_pi=4.15e+00, Loss_v=1.07e-02]
+Training Net:  48%|████▊     | 126/265 [00:01<00:01, 84.61it/s, Loss_pi=4.15e+00, Loss_v=1.07e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 84.56it/s, Loss_pi=4.15e+00, Loss_v=1.07e-02]
+
+Training Net:  41%|████      | 108/265 [00:01<00:01, 84.95it/s, Loss_pi=4.09e+00, Loss_v=2.62e-02]
+Average Score: -0.06972633698794571
+percentage of perfect games: 0.21
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 83.28it/s, Loss_pi=4.08e+00, Loss_v=2.50e-02]
+Training Net:   7%|▋         | 18/265 [00:00<00:02, 83.26it/s, Loss_pi=4.06e+00, Loss_v=2.17e-02]
+
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 79.81it/s, Loss_pi=4.06e+00, Loss_v=2.07e-02]
+Training Net:  27%|██▋       | 72/265 [00:00<00:02, 85.43it/s, Loss_pi=4.05e+00, Loss_v=1.82e-02]
+
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 85.11it/s, Loss_pi=4.04e+00, Loss_v=1.66e-02]
+Training Net:  61%|██████    | 162/265 [00:01<00:01, 86.38it/s, Loss_pi=4.04e+00, Loss_v=1.38e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 86.07it/s, Loss_pi=4.04e+00, Loss_v=1.32e-02]
+Training Net:  27%|██▋       | 72/265 [00:00<00:02, 86.83it/s, Loss_pi=4.02e+00, Loss_v=1.18e-02]
+
+Training Net:  92%|█████████▏| 243/265 [00:02<00:00, 87.01it/s, Loss_pi=4.03e+00, Loss_v=1.12e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 85.36it/s, Loss_pi=4.03e+00, Loss_v=1.12e-02]
+Training Net:  54%|█████▍    | 144/265 [00:01<00:01, 80.46it/s, Loss_pi=4.03e+00, Loss_v=1.09e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 83.77it/s, Loss_pi=4.03e+00, Loss_v=1.08e-02]
+
+Training Net:  81%|████████  | 214/265 [00:02<00:00, 81.50it/s, Loss_pi=4.02e+00, Loss_v=1.03e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 82.26it/s, Loss_pi=4.02e+00, Loss_v=1.04e-02]
+Training Net:  47%|████▋     | 125/265 [00:01<00:01, 85.89it/s, Loss_pi=4.02e+00, Loss_v=1.05e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 83.09it/s, Loss_pi=4.02e+00, Loss_v=1.05e-02]
+
+Training Net:  71%|███████   | 187/265 [00:02<00:00, 79.83it/s, Loss_pi=4.02e+00, Loss_v=1.03e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 82.09it/s, Loss_pi=4.02e+00, Loss_v=1.05e-02]
+
+Training Net:  94%|█████████▍| 249/265 [00:03<00:00, 72.17it/s, Loss_pi=4.03e+00, Loss_v=1.04e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 80.14it/s, Loss_pi=4.03e+00, Loss_v=1.04e-02]
+Training Net:  55%|█████▌    | 146/265 [00:01<00:01, 82.75it/s, Loss_pi=4.02e+00, Loss_v=1.06e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 81.99it/s, Loss_pi=4.02e+00, Loss_v=1.05e-02]
+
+Training Net:  67%|██████▋   | 178/265 [00:02<00:01, 80.14it/s, Loss_pi=4.02e+00, Loss_v=1.04e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 82.73it/s, Loss_pi=4.02e+00, Loss_v=1.05e-02]
+
+Training Net:  95%|█████████▍| 251/265 [00:03<00:00, 84.47it/s, Loss_pi=4.02e+00, Loss_v=1.05e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 83.65it/s, Loss_pi=4.02e+00, Loss_v=1.05e-02]
+Training Net:  58%|█████▊    | 153/265 [00:01<00:01, 83.41it/s, Loss_pi=4.02e+00, Loss_v=1.03e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 84.37it/s, Loss_pi=4.01e+00, Loss_v=1.04e-02]
+
+Training Net:  88%|████████▊ | 232/265 [00:02<00:00, 82.79it/s, Loss_pi=4.02e+00, Loss_v=1.04e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 82.67it/s, Loss_pi=4.02e+00, Loss_v=1.04e-02]
+Training Net:  48%|████▊     | 126/265 [00:01<00:01, 78.26it/s, Loss_pi=4.02e+00, Loss_v=1.04e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 82.72it/s, Loss_pi=4.02e+00, Loss_v=1.04e-02]
+
+Training Net:  78%|███████▊  | 207/265 [00:02<00:00, 86.19it/s, Loss_pi=4.01e+00, Loss_v=1.04e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 84.89it/s, Loss_pi=4.01e+00, Loss_v=1.04e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 79.46it/s, Loss_pi=4.01e+00, Loss_v=1.04e-02]
+Training Net:   0%|          | 0/265 [00:00<?, ?it/s, Loss_pi=4.02e+00, Loss_v=1.06e-02]
+
+Training Net:  64%|██████▍   | 169/265 [00:02<00:01, 84.70it/s, Loss_pi=4.01e+00, Loss_v=1.07e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 82.15it/s, Loss_pi=4.01e+00, Loss_v=1.06e-02]
+
+Training Net:  92%|█████████▏| 243/265 [00:02<00:00, 85.54it/s, Loss_pi=4.02e+00, Loss_v=1.04e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 84.93it/s, Loss_pi=4.02e+00, Loss_v=1.04e-02]
+Training Net:  53%|█████▎    | 141/265 [00:01<00:01, 76.70it/s, Loss_pi=4.02e+00, Loss_v=1.05e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 79.66it/s, Loss_pi=4.02e+00, Loss_v=1.05e-02]
+
+Training Net:  78%|███████▊  | 207/265 [00:02<00:00, 83.31it/s, Loss_pi=4.01e+00, Loss_v=1.06e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 83.30it/s, Loss_pi=4.01e+00, Loss_v=1.06e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 82.30it/s, Loss_pi=4.01e+00, Loss_v=1.04e-02]
+Training Net:   3%|▎         | 8/265 [00:00<00:03, 78.02it/s, Loss_pi=4.02e+00, Loss_v=9.91e-03]
+
+Training Net:  65%|██████▌   | 173/265 [00:02<00:01, 75.67it/s, Loss_pi=4.01e+00, Loss_v=1.01e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 76.73it/s, Loss_pi=4.01e+00, Loss_v=1.03e-02]
+
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 76.37it/s, Loss_pi=4.02e+00, Loss_v=1.06e-02]
+Training Net:  24%|██▍       | 63/265 [00:00<00:02, 82.43it/s, Loss_pi=4.01e+00, Loss_v=1.06e-02]
+
+Training Net:  88%|████████▊ | 234/265 [00:02<00:00, 83.40it/s, Loss_pi=4.01e+00, Loss_v=1.04e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 82.29it/s, Loss_pi=4.01e+00, Loss_v=1.04e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 82.73it/s, Loss_pi=4.02e+00, Loss_v=1.04e-02]
+Training Net:  13%|█▎        | 35/265 [00:00<00:02, 79.20it/s, Loss_pi=4.01e+00, Loss_v=1.02e-02]
+
+Training Net:  77%|███████▋  | 204/265 [00:02<00:00, 82.11it/s, Loss_pi=4.01e+00, Loss_v=1.04e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 81.58it/s, Loss_pi=4.01e+00, Loss_v=1.05e-02]
+Training Net:  41%|████      | 108/265 [00:01<00:01, 83.85it/s, Loss_pi=4.01e+00, Loss_v=1.03e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 82.50it/s, Loss_pi=4.02e+00, Loss_v=1.04e-02]
+
+Training Net:  68%|██████▊   | 179/265 [00:02<00:01, 82.84it/s, Loss_pi=4.01e+00, Loss_v=1.04e-02]
+Training Net: 100%|██████████| 265/265 [00:03<00:00, 79.41it/s, Loss_pi=4.01e+00, Loss_v=1.04e-02]

@@ -1,0 +1,61 @@
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+  0%|          | 0/50 [00:11<?, ?it/s]
+multiprocessing.pool.RemoteTraceback:
+"""
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\multiprocessing\pool.py", line 48, in mapstar
+    return list(map(*args))
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Train.py", line 72, in playGame
+    data = p.playGame()
+           ^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Play.py", line 29, in playGame
+    pi = self.mcts.getActionProb(board, temp=temp)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\MCTS.py", line 39, in getActionProb
+    self.search(board)
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\MCTS.py", line 83, in search
+    self.Ps[s], v = self.nnet.predict(SudokuGame.two_dim_to_three_dim(board))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\NNet.py", line 95, in predict
+    pi, v = self.nnet(board)
+            ^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\SudokuNNet.py", line 126, in forward
+    value = self.value_head(value)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\torch\nn\modules\linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (1x128 and 512x128)
+"""
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 40, in <module>
+    main()
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 36, in main
+    t.learn()
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Train.py", line 58, in learn
+    data = p.map(playGame, plays)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\multiprocessing\pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\multiprocessing\pool.py", line 774, in get
+    raise self._value
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (1x128 and 512x128)

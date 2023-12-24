@@ -1,0 +1,53 @@
+
+
+
+
+
+
+
+ 26%|██▌       | 130/500 [00:19<00:56,  6.51it/s]
+multiprocessing.pool.RemoteTraceback:
+"""
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Trajectories.py", line 90, in play_game
+    return play.playGame()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Play.py", line 17, in playGame
+    pi = self.mcts.getActionProb(board, temp=self.args['temp'])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\MCTS.py", line 39, in getActionProb
+    self.search(board)
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\MCTS.py", line 125, in search
+    v = self.search(next_s)
+        ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\MCTS.py", line 83, in search
+    self.Ps[s], v = self.net.predict(SudokuGame.two_dim_to_three_dim(board))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Net.py", line 62, in predict
+    return torch.exp(pi).data.cpu().numpy()[0], v.data.cpu().numpy()[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+"""
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 45, in <module>
+    main()
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 40, in main
+    data = get_trajectories_multiprocessing(net, args, logger)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Trajectories.py", line 80, in get_trajectories_multiprocessing
+    for result in tqdm(pool.imap(play_game, plays), total=len(plays)):
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\tqdm\std.py", line 1178, in __iter__
+    for obj in iterable:
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\multiprocessing\pool.py", line 873, in next
+    raise value
+RuntimeError: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.

@@ -20,6 +20,10 @@ class Board():
             self.board = np.zeros((n, n), dtype=int)
         else:
             assert isinstance(initial_board, np.ndarray), "initial_board must be a numpy ndarray"
+            if initial_board.shape != (n, n):
+                print("Warning: initial_board does not have the shape (n, n)")
+                print("initial_board's shape is: ", initial_board.shape)
+                print("n is: ", n)
             assert initial_board.shape == (n, n), "initial_board must have the shape (n, n)"
             self.board = initial_board
 
@@ -74,10 +78,11 @@ class Board():
         # return True
         
         # for ValidMoves
-        if self.is_move_legal(x, y, num):
-            self.board[x, y] = num
-            return True
-        return False
+        temp = self.board.copy()
+        self.board[x, y] = num
+        assert not np.all(self.board == temp), "Board did not change"
+
+
     
     def is_comn(self):
         # if there are no 0's, then the board is won

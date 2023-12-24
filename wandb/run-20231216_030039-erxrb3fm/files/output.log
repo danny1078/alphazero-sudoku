@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 43, in <module>
+    main()
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 38, in main
+    data = get_trajectories_multiprocessing(net, args, logger)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Trajectories.py", line 86, in get_trajectories_multiprocessing
+    set_start_method('spawn')
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\multiprocessing\context.py", line 247, in set_start_method
+    raise RuntimeError('context has already been set')
+RuntimeError: context has already been set

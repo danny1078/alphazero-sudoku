@@ -14,9 +14,9 @@ class MCTS():
     This class handles the MCTS tree.
     """
 
-    def __init__(self, game, nnet, args):
+    def __init__(self, game, net, args):
         self.game = game
-        self.nnet = nnet
+        self.net = net
         self.args = args
         self.Qsa = {}  # stores Q values for s,a (as defined in the paper)
         self.Nsa = {}  # stores #times edge s,a was visited
@@ -35,7 +35,7 @@ class MCTS():
             probs: a policy vector where the probability of the ith action is
                    proportional to Nsa[(s,a)]**(1./temp)
         """
-        for i in range(self.args.numMCTSSims):
+        for i in range(self.args['numMCTSSims']):
             self.search(board)
         s = self.game.stringRepresentation(board)
         counts = [self.Nsa[(s, a)] if (s, a) in self.Nsa else 0 for a in range(self.game.getActionSize())]
@@ -80,17 +80,15 @@ class MCTS():
 
         if s not in self.Ps:
             # leaf node
-            self.Ps[s], v = self.nnet.predict(board)
-            # valids = self.game.getAllMoves(board) 
-            valids = self.game.getValidMoves(board)
+            self.Ps[s], v = self.net.predict(SudokuGame.two_dim_to_three_dim(board))
+            valids = self.game.getAllMoves(board)
+            # valids = self.game.getValidMoves(board)
             self.Ps[s] = self.Ps[s] * valids  # masking invalid moves
+            # print(self.Ps[s], v)
             sum_Ps_s = np.sum(self.Ps[s])
             if sum_Ps_s > 0:
                 self.Ps[s] /= sum_Ps_s  # renormalize
             else:
-                # if all valid moves were masked make all valid moves equally probable
-                # NB! All valid moves may be masked if either your NNet architecture is insufficient or you've get overfitting or something else.
-                # If you have got dozens or hundreds of these messages you should pay attention to your NNet and/or training process.   
                 log.error("All valid moves were masked, doing a workaround.")
                 self.Ps[s] = self.Ps[s] + valids
                 self.Ps[s] /= np.sum(self.Ps[s])
@@ -107,10 +105,10 @@ class MCTS():
         for a in range(self.game.getActionSize()):
             if valids[a]:
                 if (s, a) in self.Qsa:
-                    u = self.Qsa[(s, a)] + self.args.cpuct * self.Ps[s][a] * math.sqrt(self.Ns[s]) / (
+                    u = self.Qsa[(s, a)] + self.args['cpuct'] * self.Ps[s][a] * math.sqrt(self.Ns[s]) / (
                             1 + self.Nsa[(s, a)])
                 else:
-                    u = self.args.cpuct * self.Ps[s][a] * math.sqrt(self.Ns[s] + EPS)  # Q = 0 ?
+                    u = self.args["conf_offset"] + self.args['cpuct'] * self.Ps[s][a] * math.sqrt(self.Ns[s] + EPS)
 
                 if u > cur_best:
                     cur_best = u
@@ -118,7 +116,9 @@ class MCTS():
 
         a = best_act
         temp = board.copy()
+
         next_s = self.game.getNextState(board, a)
+
 
         assert not np.all(temp == next_s)
 

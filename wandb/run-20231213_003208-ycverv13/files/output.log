@@ -1,0 +1,13 @@
+
+
+Training (Loss: 4.2525, output_max: 13):   0%|          | 1/1000 [00:05<1:39:16,  5.96s/it]
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\PureMLP.py", line 146, in <module>
+    main(model)
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\PureMLP.py", line 94, in main
+    solutions.append(string_2_array(df_train.sample(1)['solution'].values[0]))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Play.py", line 12, in string_2_array
+    return np.array([int(char) for char in str(s)]).reshape(n, n)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: cannot reshape array of size 7 into shape (2,2)

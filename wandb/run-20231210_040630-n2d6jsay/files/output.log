@@ -1,0 +1,137 @@
+
+  0%|          | 0/50 [00:00<?, ?it/s]
+
+Training Net:   0%|          | 0/38 [00:00<?, ?it/s]
+Average Score: 0.8614814814814814
+Training Net: 100%|██████████| 38/38 [00:01<00:00, 19.36it/s, Loss_pi=6.58e+00, Loss_v=1.37e-01]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 214.37it/s, Loss_pi=6.57e+00, Loss_v=1.31e-01]
+Training Net:   0%|          | 0/38 [00:00<?, ?it/s, Loss_pi=6.56e+00, Loss_v=1.29e-01]
+EPOCH ::: 2
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 212.18it/s, Loss_pi=6.56e+00, Loss_v=1.24e-01]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 217.98it/s, Loss_pi=6.54e+00, Loss_v=1.19e-01]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 205.17it/s, Loss_pi=6.53e+00, Loss_v=1.10e-01]
+  2%|▏         | 1/50 [00:20<16:23, 20.08s/it]
+EPOCH ::: 4
+EPOCH ::: 5
+------ITER 2------
+Average Score: 0.8824691358024691
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 208.04it/s, Loss_pi=6.57e+00, Loss_v=1.21e-01]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 215.62it/s, Loss_pi=6.55e+00, Loss_v=1.15e-01]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 195.43it/s, Loss_pi=6.54e+00, Loss_v=1.10e-01]
+Training Net:   0%|          | 0/38 [00:00<?, ?it/s, Loss_pi=6.53e+00, Loss_v=1.03e-01]
+EPOCH ::: 5
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 212.32it/s, Loss_pi=6.53e+00, Loss_v=1.04e-01]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 201.55it/s, Loss_pi=6.51e+00, Loss_v=9.72e-02]
+  4%|▍         | 2/50 [00:36<14:07, 17.66s/it]
+Average Score: 0.8614814814814814
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 209.95it/s, Loss_pi=6.56e+00, Loss_v=7.95e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 219.99it/s, Loss_pi=6.55e+00, Loss_v=7.50e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 210.98it/s, Loss_pi=6.53e+00, Loss_v=7.15e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 187.14it/s, Loss_pi=6.52e+00, Loss_v=6.96e-02]
+Training Net:   0%|          | 0/38 [00:00<?, ?it/s, Loss_pi=6.51e+00, Loss_v=6.66e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 202.22it/s, Loss_pi=6.51e+00, Loss_v=6.31e-02]
+  6%|▌         | 3/50 [00:51<13:11, 16.85s/it]
+Average Score: 0.8572839506172839
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 200.72it/s, Loss_pi=6.53e+00, Loss_v=5.71e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 213.45it/s, Loss_pi=6.52e+00, Loss_v=5.47e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 192.46it/s, Loss_pi=6.50e+00, Loss_v=5.18e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 205.26it/s, Loss_pi=6.50e+00, Loss_v=4.66e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 206.26it/s, Loss_pi=6.48e+00, Loss_v=4.59e-02]
+
+Training Net:   0%|          | 0/38 [00:00<?, ?it/s, Loss_pi=6.54e+00, Loss_v=5.18e-02]
+Average Score: 0.8866666666666665
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 204.44it/s, Loss_pi=6.53e+00, Loss_v=5.43e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 207.99it/s, Loss_pi=6.51e+00, Loss_v=5.06e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 206.10it/s, Loss_pi=6.50e+00, Loss_v=4.80e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 197.59it/s, Loss_pi=6.49e+00, Loss_v=4.62e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 210.58it/s, Loss_pi=6.48e+00, Loss_v=4.30e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 208.03it/s, Loss_pi=6.53e+00, Loss_v=2.51e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 177.91it/s, Loss_pi=6.52e+00, Loss_v=2.25e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 197.47it/s, Loss_pi=6.50e+00, Loss_v=2.07e-02]
+Training Net:  53%|█████▎    | 20/38 [00:00<00:00, 194.01it/s, Loss_pi=6.49e+00, Loss_v=1.90e-02]
+Average Score: 0.8446913580246913
+EPOCH ::: 1
+EPOCH ::: 2
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 191.67it/s, Loss_pi=6.49e+00, Loss_v=1.90e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 194.09it/s, Loss_pi=6.48e+00, Loss_v=1.86e-02]
+ 12%|█▏        | 6/50 [01:38<11:35, 15.80s/it]
+EPOCH ::: 4
+EPOCH ::: 5
+------ITER 7------
+Average Score: 0.8614814814814814
+EPOCH ::: 1
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 196.38it/s, Loss_pi=6.49e+00, Loss_v=2.23e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 205.23it/s, Loss_pi=6.48e+00, Loss_v=2.08e-02]
+Training Net:   0%|          | 0/38 [00:00<?, ?it/s, Loss_pi=6.48e+00, Loss_v=2.25e-02]
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 207.88it/s, Loss_pi=6.47e+00, Loss_v=2.04e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 194.81it/s, Loss_pi=6.46e+00, Loss_v=1.83e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 200.34it/s, Loss_pi=6.45e+00, Loss_v=1.64e-02]
+ 14%|█▍        | 7/50 [01:54<11:27, 15.98s/it]
+Average Score: 0.8614814814814814
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 197.44it/s, Loss_pi=6.48e+00, Loss_v=1.66e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 170.35it/s, Loss_pi=6.48e+00, Loss_v=1.46e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 184.33it/s, Loss_pi=6.46e+00, Loss_v=1.39e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 201.00it/s, Loss_pi=6.45e+00, Loss_v=1.40e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 204.31it/s, Loss_pi=6.43e+00, Loss_v=1.35e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 211.10it/s, Loss_pi=6.50e+00, Loss_v=1.07e-02]
+Training Net:  58%|█████▊    | 22/38 [00:00<00:00, 212.97it/s, Loss_pi=6.49e+00, Loss_v=9.21e-03]
+Average Score: 0.8488888888888887
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 213.97it/s, Loss_pi=6.49e+00, Loss_v=9.15e-03]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 214.30it/s, Loss_pi=6.47e+00, Loss_v=9.58e-03]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 204.74it/s, Loss_pi=6.47e+00, Loss_v=9.88e-03]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 204.78it/s, Loss_pi=6.46e+00, Loss_v=9.59e-03]
+ 18%|█▊        | 9/50 [02:28<11:16, 16.50s/it]
+Average Score: 0.8614814814814814
+EPOCH ::: 1
+
+Training Net:  53%|█████▎    | 20/38 [00:00<00:00, 192.13it/s, Loss_pi=6.47e+00, Loss_v=1.10e-02]
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 197.34it/s, Loss_pi=6.47e+00, Loss_v=1.10e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 201.50it/s, Loss_pi=6.46e+00, Loss_v=1.07e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 199.97it/s, Loss_pi=6.45e+00, Loss_v=1.03e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 203.73it/s, Loss_pi=6.44e+00, Loss_v=1.01e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 200.96it/s, Loss_pi=6.43e+00, Loss_v=9.95e-03]
+ 20%|██        | 10/50 [02:44<10:57, 16.43s/it]
+Average Score: 0.8740740740740742
+EPOCH ::: 1
+EPOCH ::: 2
+EPOCH ::: 3
+EPOCH ::: 4
+EPOCH ::: 5
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 192.64it/s, Loss_pi=6.47e+00, Loss_v=1.12e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 163.52it/s, Loss_pi=6.46e+00, Loss_v=1.11e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 192.47it/s, Loss_pi=6.44e+00, Loss_v=1.10e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 196.85it/s, Loss_pi=6.44e+00, Loss_v=1.09e-02]
+Training Net: 100%|██████████| 38/38 [00:00<00:00, 197.06it/s, Loss_pi=6.42e+00, Loss_v=1.08e-02]

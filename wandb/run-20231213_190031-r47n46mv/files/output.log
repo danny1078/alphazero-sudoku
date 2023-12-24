@@ -1,0 +1,426 @@
+
+  0%|          | 0/100 [00:00<?, ?it/s]
+
+Training Net:   0%|          | 0/100 [00:00<?, ?it/s]
+Average Score: 0.9804787499999998
+percentage of perfect games: 0.9609375
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Net:  99%|█████████▉| 99/100 [01:17<00:00,  1.30it/s, Loss_pi=4.14, Loss_v=0.969, Max_policy=0.0251, Val_loss_pi=4.16, Val_loss_v=0.978]
+Training Net: 100%|██████████| 100/100 [01:18<00:00,  1.27it/s, Loss_pi=4.14, Loss_v=0.969, Max_policy=0.0251, Val_loss_pi=4.16, Val_loss_v=0.978]
+  1%|          | 1/100 [01:32<2:32:03, 92.16s/it]
+Average Score: 0.9824318749999998
+percentage of perfect games: 0.96484375
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Net:  97%|█████████▋| 97/100 [01:17<00:02,  1.29it/s, Loss_pi=4.15, Loss_v=0.973, Max_policy=0.0219, Val_loss_pi=4.16, Val_loss_v=0.977]
+Training Net: 100%|██████████| 100/100 [01:19<00:00,  1.25it/s, Loss_pi=4.15, Loss_v=0.973, Max_policy=0.0219, Val_loss_pi=4.16, Val_loss_v=0.977]
+  2%|▏         | 2/100 [03:05<2:31:51, 92.97s/it]
+Average Score: 0.9804787499999998
+percentage of perfect games: 0.9609375
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Net:  97%|█████████▋| 97/100 [01:16<00:02,  1.22it/s, Loss_pi=4.15, Loss_v=0.97, Max_policy=0.0228, Val_loss_pi=4.17, Val_loss_v=0.972]
+Training Net: 100%|██████████| 100/100 [01:19<00:00,  1.27it/s, Loss_pi=4.15, Loss_v=0.97, Max_policy=0.0228, Val_loss_pi=4.17, Val_loss_v=0.972]
+  3%|▎         | 3/100 [04:37<2:29:38, 92.56s/it]
+Average Score: 0.9726662499999998
+percentage of perfect games: 0.9453125
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Net:  98%|█████████▊| 98/100 [01:16<00:01,  1.28it/s, Loss_pi=4.15, Loss_v=0.959, Max_policy=0.0212, Val_loss_pi=4.17, Val_loss_v=0.959]
+Training Net: 100%|██████████| 100/100 [01:18<00:00,  1.28it/s, Loss_pi=4.15, Loss_v=0.959, Max_policy=0.0212, Val_loss_pi=4.17, Val_loss_v=0.959]
+
+Training Net:   0%|          | 0/100 [00:00<?, ?it/s]
+Average Score: 0.9941506249999998
+percentage of perfect games: 0.98828125
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Net: 100%|██████████| 100/100 [01:20<00:00,  1.25it/s, Loss_pi=4.15, Loss_v=0.991, Max_policy=0.023, Val_loss_pi=4.16, Val_loss_v=0.992]
+  5%|▌         | 5/100 [07:42<2:26:22, 92.45s/it]
+------ITER 6------
+Average Score: 0.9687599999999998
+percentage of perfect games: 0.9375
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Net:  99%|█████████▉| 99/100 [01:18<00:00,  1.22it/s, Loss_pi=4.11, Loss_v=0.954, Max_policy=0.0288, Val_loss_pi=4.12, Val_loss_v=0.952]
+Training Net: 100%|██████████| 100/100 [01:18<00:00,  1.27it/s, Loss_pi=4.11, Loss_v=0.954, Max_policy=0.0288, Val_loss_pi=4.12, Val_loss_v=0.952]
+  6%|▌         | 6/100 [09:16<2:26:02, 93.22s/it]
+Average Score: 0.9785256249999998
+percentage of perfect games: 0.95703125
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Net:  99%|█████████▉| 99/100 [01:18<00:00,  1.26it/s, Loss_pi=4.17, Loss_v=0.969, Max_policy=0.0197, Val_loss_pi=4.17, Val_loss_v=0.963]
+Training Net: 100%|██████████| 100/100 [01:19<00:00,  1.27it/s, Loss_pi=4.17, Loss_v=0.969, Max_policy=0.0197, Val_loss_pi=4.17, Val_loss_v=0.963]
+  7%|▋         | 7/100 [10:49<2:23:58, 92.89s/it]
+Average Score: 0.9921974999999998
+percentage of perfect games: 0.984375
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Net:  98%|█████████▊| 98/100 [01:17<00:01,  1.24it/s, Loss_pi=4.15, Loss_v=0.989, Max_policy=0.0259, Val_loss_pi=4.17, Val_loss_v=0.988]
+Training Net: 100%|██████████| 100/100 [01:19<00:00,  1.26it/s, Loss_pi=4.15, Loss_v=0.989, Max_policy=0.0259, Val_loss_pi=4.17, Val_loss_v=0.988]
+
+Training Net:   0%|          | 0/100 [00:00<?, ?it/s]
+Average Score: 0.9843849999999998
+percentage of perfect games: 0.96875
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Training Net:  99%|█████████▉| 99/100 [01:19<00:00,  1.29it/s, Loss_pi=4.14, Loss_v=0.977, Max_policy=0.0242, Val_loss_pi=4.14, Val_loss_v=0.974]
+Training Net: 100%|██████████| 100/100 [01:20<00:00,  1.24it/s, Loss_pi=4.14, Loss_v=0.977, Max_policy=0.0242, Val_loss_pi=4.14, Val_loss_v=0.974]
+  9%|▉         | 9/100 [13:54<2:20:49, 92.85s/it]
+Average Score: 0.9765724999999998
+percentage of perfect games: 0.953125
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

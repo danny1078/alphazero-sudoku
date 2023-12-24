@@ -1,12 +1,11 @@
 from __future__ import print_function
 import sys
-sys.path.append('..')
-from Game import Game
+sys.path.append('')
 from SudokuLogic import Board
 import numpy as np
 from itertools import permutations
 
-class SudokuGame(Game):
+class SudokuGame():
     # square_content = {
     #     0: '-',
     #     1: 'x',
@@ -18,6 +17,10 @@ class SudokuGame(Game):
 
     def __init__(self, n=9):
         self.n = n
+        self.subgrid_size = int(n ** 0.5)
+
+    def getN(self):
+        return self.n
 
     def getInitBoard(self, board):
         return board
@@ -36,8 +39,8 @@ class SudokuGame(Game):
         # print("Action: ", action // (self.n ** 2), (action % (self.n ** 2)) // self.n, (action % (self.n ** 2)) % self.n + 1)
         # new_board = np.copy(board)
         # new_board[action // (self.n ** 2), (action % (self.n ** 2)) // self.n] = (action % (self.n ** 2)) % self.n + 1
-        b = Board(self.n)
-        b.board = np.copy(board)
+        b = Board(self.n, board.copy())
+        # b.board = np.copy(board)
         b.place_number(action // (self.n ** 2), (action % (self.n ** 2)) // self.n, (action % (self.n ** 2)) % self.n + 1)
         return b.board
 
@@ -61,20 +64,33 @@ class SudokuGame(Game):
             all_moves[x * self.n ** 2 + y * self.n + num - 1] = 1
         return all_moves
 
-    def getGameEnded2(self, board): # based on number of vacancies, does not use a prescribed solution
-        #self.display(board)
-        b = Board(self.n)
-        b.board = np.copy(board)
-        has_legal_moves = b.has_legal_moves()
-        if has_legal_moves:
-            return 0
-        else:
-            zeros_count = np.sum(board == 0)
-            if zeros_count == 0:
-                return 1
-            else:
-                return -1
+    def getGameEnded2(self, board):
+        # Check for ongoing game
+        zeros_count = np.sum(board == 0)
+        if zeros_count != 0:
+            return 0  # Indicates the game is still ongoing
 
+        sum_satisfied = 0
+
+        def check_unique(arr):
+            return len(set(arr)) == self.n
+
+        # Check satisfaction of constraints for rows and columns
+        for i in range(self.n):
+            if check_unique(board[i, :]):
+                sum_satisfied += 1
+            if check_unique(board[:, i]):
+                sum_satisfied += 1
+
+        # Check subgrids
+        for i in range(0, self.n, self.subgrid_size):
+            for j in range(0, self.n, self.subgrid_size):
+                subgrid = board[i:i + self.subgrid_size, j:j + self.subgrid_size].flatten()
+                if check_unique(subgrid):
+                    sum_satisfied += 1
+        if sum_satisfied == 0:
+            return -1e-5
+        return sum_satisfied / (3 * self.n)
 
     # def getCanonicalForm(self, board):
     #     return self.b.board
@@ -123,26 +139,30 @@ class SudokuGame(Game):
     @staticmethod
     def two_dim_to_three_dim(board):
         n = board.shape[0]
-        three_dim_board = np.zeros((n, n, n))
+        three_dim_board = np.zeros((n + 1, n, n))
 
         # Get the coordinates of non-zero elements
         x, y = np.nonzero(board)
-        
         # One-hot encode
-        three_dim_board[x, y, board[x, y] - 1] = 1
+        three_dim_board[board[x, y], x, y] = 1
+
+        # get the coordinates of the zero elements
+        x, y = np.nonzero(board == 0)
+        # One-hot encode
+        three_dim_board[0, x, y] = 1
 
         return three_dim_board
     
     @staticmethod
     def three_dim_to_two_dim(board):
-        n = board.shape[0]
+        n = board.shape[1]
         two_dim_board = np.zeros((n, n))
 
         # Get the coordinates of non-zero elements
-        x, y, z = np.nonzero(board)
+        z, x, y = np.nonzero(board)
         
         # One-hot encode
-        two_dim_board[x, y] = z + 1
+        two_dim_board[x, y] = z
 
         return two_dim_board
     

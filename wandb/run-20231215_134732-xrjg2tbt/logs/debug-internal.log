@@ -1,0 +1,116 @@
+2023-12-15 13:47:32,201 INFO    StreamThr :115636 [internal.py:wandb_internal():86] W&B internal server running at pid: 115636, started at: 2023-12-15 13:47:32.199588
+2023-12-15 13:47:32,201 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: status
+2023-12-15 13:47:32,203 INFO    WriterThread:115636 [datastore.py:open_for_write():85] open: C:\Users\Danny Han\Desktop\alphazero-sudoku\wandb\run-20231215_134732-xrjg2tbt\run-xrjg2tbt.wandb
+2023-12-15 13:47:32,203 DEBUG   SenderThread:115636 [sender.py:send():382] send: header
+2023-12-15 13:47:32,229 DEBUG   SenderThread:115636 [sender.py:send():382] send: run
+2023-12-15 13:47:32,627 INFO    SenderThread:115636 [dir_watcher.py:__init__():211] watching files in: C:\Users\Danny Han\Desktop\alphazero-sudoku\wandb\run-20231215_134732-xrjg2tbt\files
+2023-12-15 13:47:32,627 INFO    SenderThread:115636 [sender.py:_start_run_threads():1136] run started: xrjg2tbt with start time 1702666052.201092
+2023-12-15 13:47:32,634 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: check_version
+2023-12-15 13:47:32,634 DEBUG   SenderThread:115636 [sender.py:send_request():409] send_request: check_version
+2023-12-15 13:47:32,931 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: run_start
+2023-12-15 13:47:32,948 DEBUG   HandlerThread:115636 [system_info.py:__init__():32] System info init
+2023-12-15 13:47:32,948 DEBUG   HandlerThread:115636 [system_info.py:__init__():47] System info init done
+2023-12-15 13:47:32,948 INFO    HandlerThread:115636 [system_monitor.py:start():194] Starting system monitor
+2023-12-15 13:47:32,948 INFO    SystemMonitor:115636 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-12-15 13:47:32,948 INFO    HandlerThread:115636 [system_monitor.py:probe():214] Collecting system info
+2023-12-15 13:47:32,964 INFO    SystemMonitor:115636 [interfaces.py:start():190] Started cpu monitoring
+2023-12-15 13:47:32,965 INFO    SystemMonitor:115636 [interfaces.py:start():190] Started disk monitoring
+2023-12-15 13:47:32,965 INFO    SystemMonitor:115636 [interfaces.py:start():190] Started gpu monitoring
+2023-12-15 13:47:32,966 INFO    SystemMonitor:115636 [interfaces.py:start():190] Started memory monitoring
+2023-12-15 13:47:32,973 INFO    SystemMonitor:115636 [interfaces.py:start():190] Started network monitoring
+2023-12-15 13:47:32,975 DEBUG   HandlerThread:115636 [system_info.py:probe():196] Probing system
+2023-12-15 13:47:32,975 DEBUG   HandlerThread:115636 [system_info.py:_probe_git():181] Probing git
+2023-12-15 13:47:33,023 DEBUG   HandlerThread:115636 [system_info.py:_probe_git():189] Probing git done
+2023-12-15 13:47:33,023 DEBUG   HandlerThread:115636 [system_info.py:probe():244] Probing system done
+2023-12-15 13:47:33,023 DEBUG   HandlerThread:115636 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.11.5', 'heartbeatAt': '2023-12-15T18:47:32.975682', 'startedAt': '2023-12-15T18:47:32.196529', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:\\Users\\Danny Han\\Desktop\\alphazero-sudoku\\main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'git': {'remote': 'https://github.com/danny1078/alphazero-sudoku.git', 'commit': 'c51983be6f5e899d5b4938607b113e9f5df636be'}, 'email': 'handanny2014@gmail.com', 'root': 'C:/Users/Danny Han/Desktop/alphazero-sudoku', 'host': 'danny', 'username': 'Danny Han', 'executable': 'C:\\Users\\Danny Han\\anaconda3\\envs\\ESE-5460_23\\python.exe', 'cpu_count': 16, 'cpu_count_logical': 32, 'cpu_freq': {'current': 4501.0, 'min': 0.0, 'max': 4501.0}, 'cpu_freq_per_core': [{'current': 4501.0, 'min': 0.0, 'max': 4501.0}], 'disk': {'/': {'total': 1862.9023399353027, 'used': 451.21276092529297}}, 'gpu': 'NVIDIA GeForce RTX 4080', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4080', 'memory_total': 17171480576}], 'memory': {'total': 63.13631820678711}}
+2023-12-15 13:47:33,023 INFO    HandlerThread:115636 [system_monitor.py:probe():224] Finished collecting system info
+2023-12-15 13:47:33,023 INFO    HandlerThread:115636 [system_monitor.py:probe():227] Publishing system info
+2023-12-15 13:47:33,023 DEBUG   HandlerThread:115636 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-12-15 13:47:33,024 DEBUG   HandlerThread:115636 [system_info.py:_save_pip():68] Saving pip packages done
+2023-12-15 13:47:33,024 DEBUG   HandlerThread:115636 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-12-15 13:47:33,026 ERROR   HandlerThread:115636 [system_info.py:_save_conda():86] Error saving conda packages: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\wandb\sdk\internal\system\system_info.py", line 82, in _save_conda
+    subprocess.call(
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\subprocess.py", line 389, in call
+    with Popen(*popenargs, **kwargs) as p:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\subprocess.py", line 1538, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2023-12-15 13:47:33,028 DEBUG   HandlerThread:115636 [system_info.py:_save_conda():87] Saving conda packages done
+2023-12-15 13:47:33,028 INFO    HandlerThread:115636 [system_monitor.py:probe():229] Finished publishing system info
+2023-12-15 13:47:33,031 DEBUG   SenderThread:115636 [sender.py:send():382] send: files
+2023-12-15 13:47:33,031 INFO    SenderThread:115636 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2023-12-15 13:47:33,035 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-15 13:47:33,035 DEBUG   SenderThread:115636 [sender.py:send_request():409] send_request: stop_status
+2023-12-15 13:47:33,035 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-15 13:47:33,154 DEBUG   SenderThread:115636 [sender.py:send():382] send: telemetry
+2023-12-15 13:47:33,639 INFO    Thread-16 :115636 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Danny Han\Desktop\alphazero-sudoku\wandb\run-20231215_134732-xrjg2tbt\files\wandb-metadata.json
+2023-12-15 13:47:33,639 INFO    Thread-16 :115636 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Danny Han\Desktop\alphazero-sudoku\wandb\run-20231215_134732-xrjg2tbt\files\output.log
+2023-12-15 13:47:33,639 INFO    Thread-16 :115636 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Danny Han\Desktop\alphazero-sudoku\wandb\run-20231215_134732-xrjg2tbt\files\requirements.txt
+2023-12-15 13:47:33,639 INFO    Thread-16 :115636 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Danny Han\Desktop\alphazero-sudoku\wandb\run-20231215_134732-xrjg2tbt\files\conda-environment.yaml
+2023-12-15 13:47:33,763 INFO    wandb-upload_0:115636 [upload_job.py:push():131] Uploaded file C:\Users\DANNYH~1\AppData\Local\Temp\tmpx9qm5yg9wandb\keexp3tb-wandb-metadata.json
+2023-12-15 13:47:35,654 INFO    Thread-16 :115636 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Danny Han\Desktop\alphazero-sudoku\wandb\run-20231215_134732-xrjg2tbt\files\output.log
+2023-12-15 13:47:36,661 INFO    Thread-16 :115636 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Danny Han\Desktop\alphazero-sudoku\wandb\run-20231215_134732-xrjg2tbt\files\output.log
+2023-12-15 13:47:37,283 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: status_report
+2023-12-15 13:47:38,681 INFO    Thread-16 :115636 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Danny Han\Desktop\alphazero-sudoku\wandb\run-20231215_134732-xrjg2tbt\files\output.log
+2023-12-15 13:47:40,707 INFO    Thread-16 :115636 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Danny Han\Desktop\alphazero-sudoku\wandb\run-20231215_134732-xrjg2tbt\files\output.log
+2023-12-15 13:47:42,298 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: status_report
+2023-12-15 13:47:42,728 INFO    Thread-16 :115636 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Danny Han\Desktop\alphazero-sudoku\wandb\run-20231215_134732-xrjg2tbt\files\output.log
+2023-12-15 13:47:44,737 INFO    Thread-16 :115636 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Danny Han\Desktop\alphazero-sudoku\wandb\run-20231215_134732-xrjg2tbt\files\output.log
+2023-12-15 13:47:45,356 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-15 13:47:45,356 DEBUG   SenderThread:115636 [sender.py:send():382] send: history
+2023-12-15 13:47:45,356 DEBUG   SenderThread:115636 [sender.py:send_request():409] send_request: summary_record
+2023-12-15 13:47:45,357 INFO    SenderThread:115636 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-15 13:47:45,749 INFO    Thread-16 :115636 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\Danny Han\Desktop\alphazero-sudoku\wandb\run-20231215_134732-xrjg2tbt\files\wandb-summary.json
+2023-12-15 13:47:46,763 INFO    Thread-16 :115636 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Danny Han\Desktop\alphazero-sudoku\wandb\run-20231215_134732-xrjg2tbt\files\output.log
+2023-12-15 13:47:47,577 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: status_report
+2023-12-15 13:47:48,041 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-15 13:47:48,056 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-15 13:47:48,056 DEBUG   SenderThread:115636 [sender.py:send_request():409] send_request: stop_status
+2023-12-15 13:47:51,775 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-15 13:47:51,775 DEBUG   SenderThread:115636 [sender.py:send():382] send: history
+2023-12-15 13:47:51,775 DEBUG   SenderThread:115636 [sender.py:send_request():409] send_request: summary_record
+2023-12-15 13:47:51,777 INFO    SenderThread:115636 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-15 13:47:51,831 INFO    Thread-16 :115636 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Danny Han\Desktop\alphazero-sudoku\wandb\run-20231215_134732-xrjg2tbt\files\wandb-summary.json
+2023-12-15 13:47:52,782 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: status_report
+2023-12-15 13:47:53,099 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-15 13:47:53,099 DEBUG   SenderThread:115636 [sender.py:send():382] send: history
+2023-12-15 13:47:53,099 DEBUG   SenderThread:115636 [sender.py:send_request():409] send_request: summary_record
+2023-12-15 13:47:53,100 INFO    SenderThread:115636 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-15 13:47:53,107 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-15 13:47:53,107 DEBUG   SenderThread:115636 [sender.py:send():382] send: history
+2023-12-15 13:47:53,108 DEBUG   SenderThread:115636 [sender.py:send_request():409] send_request: summary_record
+2023-12-15 13:47:53,108 INFO    SenderThread:115636 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-15 13:47:53,859 INFO    Thread-16 :115636 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Danny Han\Desktop\alphazero-sudoku\wandb\run-20231215_134732-xrjg2tbt\files\wandb-summary.json
+2023-12-15 13:47:58,164 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: status_report
+2023-12-15 13:48:03,069 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-15 13:48:03,069 DEBUG   SenderThread:115636 [sender.py:send_request():409] send_request: stop_status
+2023-12-15 13:48:03,074 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-15 13:48:03,184 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: status_report
+2023-12-15 13:48:04,014 INFO    Thread-16 :115636 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Danny Han\Desktop\alphazero-sudoku\wandb\run-20231215_134732-xrjg2tbt\files\config.yaml
+2023-12-15 13:48:08,618 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: status_report
+2023-12-15 13:48:11,099 INFO    Thread-16 :115636 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Danny Han\Desktop\alphazero-sudoku\wandb\run-20231215_134732-xrjg2tbt\files\output.log
+2023-12-15 13:48:14,437 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: status_report
+2023-12-15 13:48:18,010 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-15 13:48:18,010 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-15 13:48:18,010 DEBUG   SenderThread:115636 [sender.py:send():382] send: history
+2023-12-15 13:48:18,010 DEBUG   SenderThread:115636 [sender.py:send_request():409] send_request: summary_record
+2023-12-15 13:48:18,012 INFO    SenderThread:115636 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-15 13:48:18,012 DEBUG   SenderThread:115636 [sender.py:send():382] send: history
+2023-12-15 13:48:18,012 DEBUG   SenderThread:115636 [sender.py:send_request():409] send_request: summary_record
+2023-12-15 13:48:18,012 INFO    SenderThread:115636 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-15 13:48:18,079 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: internal_messages
+2023-12-15 13:48:18,080 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: stop_status
+2023-12-15 13:48:18,080 DEBUG   SenderThread:115636 [sender.py:send_request():409] send_request: stop_status
+2023-12-15 13:48:18,188 INFO    Thread-16 :115636 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Danny Han\Desktop\alphazero-sudoku\wandb\run-20231215_134732-xrjg2tbt\files\wandb-summary.json
+2023-12-15 13:48:18,672 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: partial_history
+2023-12-15 13:48:18,672 DEBUG   SenderThread:115636 [sender.py:send():382] send: history
+2023-12-15 13:48:18,672 DEBUG   SenderThread:115636 [sender.py:send_request():409] send_request: summary_record
+2023-12-15 13:48:18,673 INFO    SenderThread:115636 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2023-12-15 13:48:19,230 INFO    Thread-16 :115636 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\Danny Han\Desktop\alphazero-sudoku\wandb\run-20231215_134732-xrjg2tbt\files\wandb-summary.json
+2023-12-15 13:48:19,688 DEBUG   HandlerThread:115636 [handler.py:handle_request():146] handle_request: status_report

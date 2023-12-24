@@ -1,0 +1,39 @@
+
+
+Training (Loss: 4.1764):   0%|          | 1/1000 [00:08<2:16:40,  8.21s/it]
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\PureMLP.py", line 147, in <module>
+    main(model)
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\PureMLP.py", line 94, in main
+    solutions.append(string_2_array(df_train.sample(1)['solution'].values[0]))
+                                    ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\pandas\core\generic.py", line 5859, in sample
+    result = self.take(sampled_indices, axis=axis)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\pandas\core\generic.py", line 3909, in take
+    return self._take(indices, axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\pandas\core\generic.py", line 3932, in _take
+    new_data = self._mgr.take(
+               ^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\pandas\core\internals\managers.py", line 963, in take
+    return self.reindex_indexer(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\pandas\core\internals\managers.py", line 747, in reindex_indexer
+    new_blocks = [
+                 ^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\pandas\core\internals\managers.py", line 748, in <listcomp>
+    blk.take_nd(
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\pandas\core\internals\blocks.py", line 945, in take_nd
+    new_values = algos.take_nd(
+                 ^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\pandas\core\array_algos\take.py", line 117, in take_nd
+    return _take_nd_ndarray(arr, indexer, axis, fill_value, allow_fill)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\pandas\core\array_algos\take.py", line 133, in _take_nd_ndarray
+    dtype, fill_value, mask_info = _take_preprocess_indexer_and_fill_value(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\anaconda3\envs\ESE-5460_23\Lib\site-packages\pandas\core\array_algos\take.py", line 592, in _take_preprocess_indexer_and_fill_value
+    dtype, fill_value = arr.dtype, arr.dtype.type()
+                                   ^^^^^^^^^^^^^^^^
+KeyboardInterrupt

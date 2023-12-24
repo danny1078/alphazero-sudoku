@@ -1,0 +1,18 @@
+
+  0%|          | 0/100 [00:00<?, ?it/s]
+Training:   0%|          | 0/1000 [00:00<?, ?it/s]
+  0%|          | 0/100 [00:13<?, ?it/s]0<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 40, in <module>
+    main()
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 36, in main
+    t.learn()
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\Train.py", line 71, in learn
+    self.nnet.train(self.data, wandb_logger=logger)
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\NNet.py", line 154, in train
+    assert False
+AssertionError
+Average Score: 0.9921974999999998
+percentage of perfect games: 0.984375
+mean and std of values:  0.9921974999999998 0.06200979635307636
+(256, 5, 4, 4)

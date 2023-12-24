@@ -1,0 +1,9 @@
+
+Training (Loss: 4.2694, output_max: 29):   0%|          | 1/1000 [00:05<1:24:26,  5.07s/it]
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\PureMLP.py", line 148, in <module>
+    main(model)
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\PureMLP.py", line 118, in main
+    print(torch.exp(output).cpu().numpy()[0])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Can't call numpy() on Tensor that requires grad. Use tensor.detach().numpy() instead.

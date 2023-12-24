@@ -1,0 +1,80 @@
+
+------ITER 1------
+  0%|          | 0/20 [00:00<?, ?it/s]
+Average Score: 0.9396766066666665
+percentage of perfect games: 0.853
+mean and std of values:  0.9396766066666664 0.1521110759539327
+(5, 4, 4)
+[[3. 1. 2. 4.]
+ [0. 4. 3. 1.]
+ [1. 2. 4. 3.]
+ [4. 3. 1. 0.]]
+17
+[[3. 1. 2. 4.]
+ [2. 4. 3. 1.]
+ [1. 2. 4. 3.]
+ [4. 3. 1. 0.]]
+Training Net: 100%|██████████| 50/50 [00:01<00:00, 46.85it/s, Loss_pi=nan, Loss_v=0.867]
+Training Net: 100%|██████████| 50/50 [00:00<00:00, 167.34it/s, Loss_pi=nan, Loss_v=0.779]
+Validation - Mean of max policy element: nan, Std Dev: nan
+EPOCH ::: 2
+Training Net: 100%|██████████| 50/50 [00:00<00:00, 164.67it/s, Loss_pi=nan, Loss_v=0.699]
+Training Net: 100%|██████████| 50/50 [00:00<00:00, 168.15it/s, Loss_pi=nan, Loss_v=0.627]
+Validation - Mean of max policy element: nan, Std Dev: nan
+EPOCH ::: 3
+Validation - Mean of max policy element: nan, Std Dev: nan
+EPOCH ::: 4
+Training Net: 100%|██████████| 50/50 [00:00<00:00, 190.33it/s, Loss_pi=nan, Loss_v=0.563]
+Training Net: 100%|██████████| 50/50 [00:00<00:00, 188.82it/s, Loss_pi=nan, Loss_v=0.505]
+Training Net: 100%|██████████| 50/50 [00:00<00:00, 185.05it/s, Loss_pi=nan, Loss_v=0.454]
+Validation - Mean of max policy element: nan, Std Dev: nan
+EPOCH ::: 5
+Validation - Mean of max policy element: nan, Std Dev: nan
+EPOCH ::: 6
+Validation - Mean of max policy element: nan, Std Dev: nan
+EPOCH ::: 7
+Training Net: 100%|██████████| 50/50 [00:00<00:00, 186.83it/s, Loss_pi=nan, Loss_v=0.409]
+Training Net: 100%|██████████| 50/50 [00:00<00:00, 190.51it/s, Loss_pi=nan, Loss_v=0.369]
+Validation - Mean of max policy element: nan, Std Dev: nan
+EPOCH ::: 8
+Validation - Mean of max policy element: nan, Std Dev: nan
+EPOCH ::: 9
+Training Net: 100%|██████████| 50/50 [00:00<00:00, 178.01it/s, Loss_pi=nan, Loss_v=0.334]
+Training Net: 100%|██████████| 50/50 [00:00<00:00, 189.80it/s, Loss_pi=nan, Loss_v=0.302]
+Training Net: 100%|██████████| 50/50 [00:00<00:00, 189.35it/s, Loss_pi=nan, Loss_v=0.275]
+Validation - Mean of max policy element: nan, Std Dev: nan
+EPOCH ::: 10
+Validation - Mean of max policy element: nan, Std Dev: nan
+EPOCH ::: 11
+Validation - Mean of max policy element: nan, Std Dev: nan
+EPOCH ::: 12
+Validation - Mean of max policy element: nan, Std Dev: nan
+EPOCH ::: 13
+Validation - Mean of max policy element: nan, Std Dev: nan
+EPOCH ::: 14
+Training Net: 100%|██████████| 50/50 [00:00<00:00, 191.18it/s, Loss_pi=nan, Loss_v=0.251]
+Training Net: 100%|██████████| 50/50 [00:00<00:00, 173.41it/s, Loss_pi=nan, Loss_v=0.229]
+Validation - Mean of max policy element: nan, Std Dev: nan
+EPOCH ::: 15
+Validation - Mean of max policy element: nan, Std Dev: nan
+EPOCH ::: 16
+Validation - Mean of max policy element: nan, Std Dev: nan
+EPOCH ::: 17
+Training Net: 100%|██████████| 50/50 [00:00<00:00, 163.63it/s, Loss_pi=nan, Loss_v=0.21]
+Training Net: 100%|██████████| 50/50 [00:00<00:00, 169.51it/s, Loss_pi=nan, Loss_v=0.193]
+Training Net:  74%|███████▍  | 37/50 [00:00<00:00, 184.16it/s, Loss_pi=nan, Loss_v=0.179]
+Validation - Mean of max policy element: nan, Std Dev: nan
+EPOCH ::: 18
+Validation - Mean of max policy element: nan, Std Dev: nan
+Training Net: 100%|██████████| 50/50 [00:00<00:00, 184.54it/s, Loss_pi=nan, Loss_v=0.178]
+Training Net: 100%|██████████| 50/50 [00:00<00:00, 167.07it/s, Loss_pi=nan, Loss_v=0.165]
+Training Net: 100%|██████████| 50/50 [00:00<00:00, 171.52it/s, Loss_pi=nan, Loss_v=0.153]
+Validation - Mean of max policy element: nan, Std Dev: nan
+EPOCH ::: 20
+Validation - Mean of max policy element: nan, Std Dev: nan
+EPOCH ::: 21
+Validation - Mean of max policy element: nan, Std Dev: nan
+EPOCH ::: 22
+Training Net: 100%|██████████| 50/50 [00:00<00:00, 168.21it/s, Loss_pi=nan, Loss_v=0.142]
+Training Net: 100%|██████████| 50/50 [00:00<00:00, 185.53it/s, Loss_pi=nan, Loss_v=0.132]
+

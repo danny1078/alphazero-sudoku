@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 36, in <module>
+    main()
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\main.py", line 32, in main
+    train_net(net, data, args, logger)
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\NetTrainer.py", line 11, in train_net
+    train_loader, val_loader = makeDataLoader(data, args)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Danny Han\Desktop\alphazero-sudoku\NetTrainer.py", line 103, in makeDataLoader
+    train_dataset = BoardDataset(train_boards, train_pis, train_vs, cuda=args.cuda)
+                                                                         ^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'cuda'
