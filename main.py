@@ -33,8 +33,8 @@ def main(filename=None):
         logger = wandb.init(project="alphazero_sudoku")
     else:
         logger = None
-    g = SudokuGame(4)
-    net = Net(game=g)
+    g = SudokuGame(args['board_size'])
+    net = AttentionNet(game=g)
     if filename is not None:
         net.load_state_dict(torch.load(filename))
     net.to(args['device'])
@@ -57,7 +57,7 @@ def main(filename=None):
 
 
 def evaluate_main(filename):
-    g = SudokuGame(4)
+    g = SudokuGame(args['board_size'])
     net = Net(game=g)
     net.load_state_dict(torch.load(filename))
     net.to(args['device'])
@@ -74,4 +74,4 @@ def evaluate_main(filename):
 
 
 if __name__ == "__main__":
-    evaluate_main(r'C:\Users\Danny Han\Desktop\alphazero-sudoku\checkpoints\attention_256.pth')
+    main()

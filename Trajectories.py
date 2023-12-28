@@ -30,7 +30,8 @@ def string_2_array(s):
 
 def get_trajectories_test(net, args):
     solutions = []
-    df = pd.read_csv('sudoku-4.csv')
+    data_csv_name = 'sudoku-4.csv' if args['board_size'] == 4 else 'sudoku.csv'
+    df = pd.read_csv(data_csv_name)
     # hold out 100 samples for validation
     df_train = df.sample(frac=1)
     for _ in range(args['numGames']):
@@ -53,7 +54,8 @@ def get_trajectories_test(net, args):
 
 def get_trajectories(net, args, logger, num_blanks):
     data = []
-    df = pd.read_csv('sudoku-4.csv')
+    data_csv_name = 'sudoku-4.csv' if args['board_size'] == 4 else 'sudoku.csv'
+    df = pd.read_csv(data_csv_name)
     # hold out 100 samples for validation
     df_train = df.sample(frac=1)
 
@@ -72,7 +74,8 @@ def get_trajectories(net, args, logger, num_blanks):
 
 def eval_trajectories(net, args, num_blanks=12, seed=42):
     data = []
-    df = pd.read_csv('sudoku-4.csv')
+    data_csv_name = 'sudoku-4.csv' if args['board_size'] == 4 else 'sudoku.csv'
+    df = pd.read_csv(data_csv_name)
     random_state = np.random.RandomState(seed)
     df_train = df.sample(frac=1)
     plays = []

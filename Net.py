@@ -76,7 +76,7 @@ class AttentionNet(nn.Module):
         self.bn1 = nn.BatchNorm1d(512)
 
         # Positional encoding
-        self.positional_encoding = nn.Parameter(torch.randn(1, 512, 512))
+        self.positional_encoding = nn.Parameter(torch.randn(1, 512))
 
         # Self-attention layer
         self.self_attention = nn.MultiheadAttention(embed_dim=512, num_heads=8)
