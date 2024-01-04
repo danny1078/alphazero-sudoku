@@ -6,4 +6,8 @@ We examine the effect of curriculum scheduling in an AlphaZero-like training pro
 
 Some of the code structure is based on the [alpha-zero-general](https://github.com/suragnair/alpha-zero-general) repository, and much of the implementation was changed to fit the single-player, curriculum-scheduled setting and adapt it to Sudoku.
 
-![Alt Text](report/images/Curriculum Scheduled MLP Score.png)
+<div style="display:flex;">
+  <img src="images/mlp.png" alt="MLP Loss" style="width:50%;" />
+  <img src="images/score.png" alt="MLP Score" style="width:50%;" />
+
+</div>
